@@ -1,0 +1,275 @@
+{
+  "rev": 1,
+  "projects": [
+    {
+      "title": "راهنمای گام‌به‌گام اتصال",
+      "tags": [
+        "آموزش"
+      ],
+      "sample": true,
+      "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.",
+      "links": [],
+      "id": "p1"
+    },
+    {
+      "title": "مخزن کانفیگ‌های آزمایش‌شده",
+      "tags": [
+        "ابزار",
+        "کانفیگ"
+      ],
+      "sample": true,
+      "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.",
+      "links": [],
+      "id": "p2"
+    },
+    {
+      "title": "ابزار بررسی سلامت اتصال",
+      "tags": [
+        "ابزار"
+      ],
+      "sample": true,
+      "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.",
+      "links": [],
+      "id": "p3"
+    }
+  ],
+  "apps": [
+    {
+      "id": "hiddify",
+      "name": "Hiddify",
+      "kind": "کلاینت چندپروتکلی",
+      "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria، TUIC، WireGuard",
+      "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
+      "steps": [
+        "برنامه را باز کنید و دسترسی VPN را بپذیرید.",
+        "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.",
+        "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.",
+        "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
+      ],
+      "builds": {
+        "android": {
+          "url": "https://github.com/hiddify/hiddify-app/releases"
+        },
+        "ios": {
+          "url": "https://hiddify.com"
+        },
+        "windows": {
+          "url": "https://github.com/hiddify/hiddify-app/releases"
+        },
+        "macos": {
+          "url": "https://github.com/hiddify/hiddify-app/releases"
+        },
+        "linux": {
+          "url": "https://github.com/hiddify/hiddify-app/releases"
+        }
+      }
+    },
+    {
+      "id": "v2rayng",
+      "name": "v2rayNG",
+      "kind": "کلاینت Xray/V2Ray",
+      "proto": "VLESS، VMess، Trojan، Shadowsocks",
+      "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
+      "steps": [
+        "دکمهٔ + بالای صفحه را بزنید.",
+        "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.",
+        "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.",
+        "با گزینهٔ تست تأخیر اتصال را بسنجید."
+      ],
+      "builds": {
+        "android": {
+          "url": "https://github.com/2dust/v2rayNG/releases"
+        }
+      }
+    },
+    {
+      "id": "v2rayn",
+      "name": "v2rayN",
+      "kind": "کلاینت Xray/sing-box",
+      "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria",
+      "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
+      "steps": [
+        "از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.",
+        "سرور را انتخاب و فعال کنید.",
+        "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.",
+        "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."
+      ],
+      "builds": {
+        "windows": {
+          "url": "https://github.com/2dust/v2rayN/releases"
+        }
+      }
+    },
+    {
+      "id": "clashverge",
+      "name": "Clash Verge Rev",
+      "kind": "کلاینت Clash/Mihomo",
+      "proto": "Shadowsocks، VMess، VLESS، Trojan، Hysteria2",
+      "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.",
+      "steps": [
+        "به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.",
+        "پروفایل را فعال کنید.",
+        "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).",
+        "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."
+      ],
+      "builds": {
+        "windows": {
+          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+        },
+        "macos": {
+          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+        },
+        "linux": {
+          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+        }
+      }
+    },
+    {
+      "id": "singbox",
+      "name": "sing-box",
+      "kind": "هستهٔ جهانی و کلاینت رسمی",
+      "proto": "بیشتر پروتکل‌های رایج",
+      "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.",
+      "steps": [
+        "برنامه را نصب کنید.",
+        "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.",
+        "پروفایل را فعال و سرویس را روشن کنید."
+      ],
+      "builds": {
+        "android": {
+          "url": "https://sing-box.sagernet.org/clients/"
+        },
+        "ios": {
+          "url": "https://sing-box.sagernet.org/clients/"
+        },
+        "macos": {
+          "url": "https://sing-box.sagernet.org/clients/"
+        }
+      }
+    },
+    {
+      "id": "v2raya",
+      "name": "v2rayA",
+      "kind": "کلاینت وب برای Linux",
+      "proto": "VMess، VLESS، Trojan، Shadowsocks",
+      "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.",
+      "steps": [
+        "پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`",
+        "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.",
+        "اشتراک یا کانفیگ را Import و سرور را Connect کنید.",
+        "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."
+      ],
+      "builds": {
+        "linux": {
+          "url": "https://github.com/v2rayA/v2rayA/releases"
+        }
+      }
+    },
+    {
+      "id": "outline",
+      "name": "Outline",
+      "kind": "اتصال با کلید دسترسی",
+      "proto": "Shadowsocks",
+      "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.",
+      "steps": [
+        "کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.",
+        "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.",
+        "روی Connect بزنید."
+      ],
+      "builds": {
+        "android": {
+          "url": "https://getoutline.org/get-started/"
+        },
+        "ios": {
+          "url": "https://getoutline.org/get-started/"
+        },
+        "windows": {
+          "url": "https://getoutline.org/get-started/"
+        },
+        "macos": {
+          "url": "https://getoutline.org/get-started/"
+        },
+        "linux": {
+          "url": "https://getoutline.org/get-started/"
+        }
+      }
+    },
+    {
+      "id": "psiphon",
+      "name": "Psiphon",
+      "kind": "ابزار آمادهٔ اتصال",
+      "proto": "چندپروتکلی، بدون نیاز به کانفیگ",
+      "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.",
+      "steps": [
+        "برنامه را باز کنید.",
+        "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.",
+        "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."
+      ],
+      "builds": {
+        "android": {
+          "url": "https://psiphon.ca/en/download.html"
+        },
+        "ios": {
+          "url": "https://psiphon.ca/en/download.html"
+        },
+        "windows": {
+          "url": "https://psiphon.ca/en/download.html"
+        }
+      }
+    },
+    {
+      "id": "tor",
+      "name": "Tor Browser",
+      "kind": "مرورگر ناشناس‌ساز",
+      "proto": "شبکهٔ Tor، پل‌های Snowflake و obfs4",
+      "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.",
+      "steps": [
+        "نصب و اجرا کنید و Connect بزنید.",
+        "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.",
+        "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."
+      ],
+      "builds": {
+        "android": {
+          "url": "https://www.torproject.org/download/"
+        },
+        "windows": {
+          "url": "https://www.torproject.org/download/"
+        },
+        "macos": {
+          "url": "https://www.torproject.org/download/"
+        },
+        "linux": {
+          "url": "https://www.torproject.org/download/"
+        }
+      }
+    },
+    {
+      "id": "wireguard",
+      "name": "WireGuard",
+      "kind": "تونل VPN",
+      "proto": "WireGuard",
+      "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.",
+      "steps": [
+        "فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.",
+        "تونل را فعال کنید."
+      ],
+      "builds": {
+        "android": {
+          "url": "https://www.wireguard.com/install/"
+        },
+        "ios": {
+          "url": "https://www.wireguard.com/install/"
+        },
+        "windows": {
+          "url": "https://www.wireguard.com/install/"
+        },
+        "macos": {
+          "url": "https://www.wireguard.com/install/"
+        },
+        "linux": {
+          "url": "https://www.wireguard.com/install/"
+        }
+      }
+    }
+  ]
+}
