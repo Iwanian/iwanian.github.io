@@ -1,15 +1,33 @@
 {
-  "rev": 1,
+  "rev": 2,
   "projects": [
     {
-      "title": "راهنمای گام‌به‌گام اتصال",
+      "id": "p1",
+      "title": "Iwana Proxy",
+      "desc": "پروکسی یاب تلگرام!",
       "tags": [
-        "آموزش"
+        "کلاینت",
+        "پروکسی"
       ],
-      "sample": true,
-      "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.",
-      "links": [],
-      "id": "p1"
+      "links": [
+        {
+          "label": "اندروید",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
+        },
+        {
+          "label": "ویندوز",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases#release-v1.0.0"
+        },
+        {
+          "label": "لینوکس",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Linux.AppImage"
+        },
+        {
+          "label": "مک",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-MacOS-app.zip"
+        }
+      ],
+      "sample": true
     },
     {
       "title": "مخزن کانفیگ‌های آزمایش‌شده",
