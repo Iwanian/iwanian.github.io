@@ -1,5 +1,5 @@
 {
-  "rev": 2,
+  "rev": 3,
   "projects": [
     {
       "id": "p1",
@@ -27,7 +27,7 @@
           "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-MacOS-app.zip"
         }
       ],
-      "sample": true
+      "sample": false
     },
     {
       "title": "مخزن کانفیگ‌های آزمایش‌شده",
