@@ -1,33 +1,48 @@
 {
-  "rev": 6,
+  "rev": 1,
+  "sections": [
+    {
+      "id": "vpn",
+      "title": "فیلترشکن‌ها",
+      "desc": "آماده و ساده؛ نصب می‌کنید و وصل می‌شوید."
+    },
+    {
+      "id": "client",
+      "title": "کلاینت‌ها",
+      "desc": "برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر."
+    }
+  ],
   "projects": [
     {
-      "id": "p1",
-      "title": "Iwana Proxy",
-      "desc": "پروکسی یاب تلگرام بر حسب کیفیت اینترنت شما!\nسیستم عامل خود را برای دانلود انتخاب کنید.",
+      "title": "راهنمای گام‌به‌گام اتصال",
       "tags": [
-        "کلاینت",
-        "پروکسی"
+        "آموزش"
       ],
-      "links": [
-        {
-          "label": "اندروید",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
-        },
-        {
-          "label": "ویندوز",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases#release-v1.0.0"
-        },
-        {
-          "label": "لینوکس",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Linux.AppImage"
-        },
-        {
-          "label": "مک",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-MacOS-app.zip"
-        }
+      "sample": true,
+      "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.",
+      "links": [],
+      "id": "p1"
+    },
+    {
+      "title": "مخزن کانفیگ‌های آزمایش‌شده",
+      "tags": [
+        "ابزار",
+        "کانفیگ"
       ],
-      "sample": false
+      "sample": true,
+      "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.",
+      "links": [],
+      "id": "p2"
+    },
+    {
+      "title": "ابزار بررسی سلامت اتصال",
+      "tags": [
+        "ابزار"
+      ],
+      "sample": true,
+      "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.",
+      "links": [],
+      "id": "p3"
     }
   ],
   "apps": [
@@ -45,21 +60,77 @@
       ],
       "builds": {
         "android": {
-          "url": "https://github.com/hiddify/hiddify-app/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/hiddify/hiddify-app/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "ios": {
-          "url": "https://hiddify.com"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://hiddify.com",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "windows": {
-          "url": "https://github.com/hiddify/hiddify-app/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/hiddify/hiddify-app/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "macos": {
-          "url": "https://github.com/hiddify/hiddify-app/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/hiddify/hiddify-app/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "linux": {
-          "url": "https://github.com/hiddify/hiddify-app/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/hiddify/hiddify-app/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "client"
     },
     {
       "id": "v2rayng",
@@ -75,9 +146,21 @@
       ],
       "builds": {
         "android": {
-          "url": "https://github.com/2dust/v2rayNG/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/2dust/v2rayNG/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "client"
     },
     {
       "id": "v2rayn",
@@ -93,9 +176,21 @@
       ],
       "builds": {
         "windows": {
-          "url": "https://github.com/2dust/v2rayN/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/2dust/v2rayN/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "client"
     },
     {
       "id": "clashverge",
@@ -111,15 +206,49 @@
       ],
       "builds": {
         "windows": {
-          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "macos": {
-          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "linux": {
-          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "client"
     },
     {
       "id": "singbox",
@@ -134,15 +263,49 @@
       ],
       "builds": {
         "android": {
-          "url": "https://sing-box.sagernet.org/clients/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://sing-box.sagernet.org/clients/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "ios": {
-          "url": "https://sing-box.sagernet.org/clients/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://sing-box.sagernet.org/clients/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "macos": {
-          "url": "https://sing-box.sagernet.org/clients/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://sing-box.sagernet.org/clients/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "client"
     },
     {
       "id": "v2raya",
@@ -158,9 +321,21 @@
       ],
       "builds": {
         "linux": {
-          "url": "https://github.com/v2rayA/v2rayA/releases"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://github.com/v2rayA/v2rayA/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "client"
     },
     {
       "id": "outline",
@@ -175,21 +350,77 @@
       ],
       "builds": {
         "android": {
-          "url": "https://getoutline.org/get-started/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://getoutline.org/get-started/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "ios": {
-          "url": "https://getoutline.org/get-started/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://getoutline.org/get-started/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "windows": {
-          "url": "https://getoutline.org/get-started/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://getoutline.org/get-started/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "macos": {
-          "url": "https://getoutline.org/get-started/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://getoutline.org/get-started/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "linux": {
-          "url": "https://getoutline.org/get-started/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://getoutline.org/get-started/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "client"
     },
     {
       "id": "psiphon",
@@ -204,15 +435,49 @@
       ],
       "builds": {
         "android": {
-          "url": "https://psiphon.ca/en/download.html"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://psiphon.ca/en/download.html",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "ios": {
-          "url": "https://psiphon.ca/en/download.html"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://psiphon.ca/en/download.html",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "windows": {
-          "url": "https://psiphon.ca/en/download.html"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://psiphon.ca/en/download.html",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "vpn"
     },
     {
       "id": "tor",
@@ -227,18 +492,63 @@
       ],
       "builds": {
         "android": {
-          "url": "https://www.torproject.org/download/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.torproject.org/download/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "windows": {
-          "url": "https://www.torproject.org/download/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.torproject.org/download/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "macos": {
-          "url": "https://www.torproject.org/download/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.torproject.org/download/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "linux": {
-          "url": "https://www.torproject.org/download/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.torproject.org/download/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "vpn"
     },
     {
       "id": "wireguard",
@@ -252,21 +562,77 @@
       ],
       "builds": {
         "android": {
-          "url": "https://www.wireguard.com/install/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.wireguard.com/install/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "ios": {
-          "url": "https://www.wireguard.com/install/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.wireguard.com/install/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "windows": {
-          "url": "https://www.wireguard.com/install/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.wireguard.com/install/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "macos": {
-          "url": "https://www.wireguard.com/install/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.wireguard.com/install/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         },
         "linux": {
-          "url": "https://www.wireguard.com/install/"
+          "buttons": [
+            {
+              "label": "دانلود",
+              "url": "https://www.wireguard.com/install/",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
         }
-      }
+      },
+      "category": "client"
     }
   ]
 }

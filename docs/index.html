@@ -123,6 +123,23 @@ main{position:relative;z-index:1}
 .steps{margin:0;padding-inline-start:1.5rem;list-style:persian;display:grid;gap:.55rem;color:#dedbff;font-size:.94rem}
 .steps li::marker{color:var(--ember);font-weight:700}
 .note{margin:.9rem 0 0;padding:.65rem .8rem;border-radius:10px;background:rgba(127,178,255,.1);border:1px solid rgba(127,178,255,.28);font-size:.86rem;color:#cfe0ff}
+[hidden]{display:none!important}
+.picks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;scroll-margin-top:84px}
+.pick{display:flex;flex-direction:column;align-items:flex-start;gap:.55rem;text-align:start;min-width:0;padding:26px 26px 22px;border-radius:20px;border:1px solid var(--line);color:var(--text);font:inherit;cursor:pointer;
+  background:linear-gradient(160deg,rgba(255,166,61,.12) 0,rgba(15,11,58,.94) 48%),var(--panel);transition:border-color .2s,box-shadow .2s,background .2s}
+.pick:hover{border-color:var(--gold)}
+.pick[aria-pressed="true"]{border-color:var(--ember);box-shadow:0 0 0 1px var(--ember),0 18px 50px rgba(255,166,61,.2);background:linear-gradient(160deg,rgba(255,166,61,.26) 0,var(--panel-2) 58%)}
+.pick-ic{width:50px;height:50px;display:grid;place-items:center;border-radius:15px;background:rgba(255,166,61,.15);color:var(--gold)}
+.pick-ic svg{width:27px;height:27px}
+.pick-t{font-size:clamp(1.45rem,3.4vw,2rem);font-weight:800;line-height:1.3}
+.pick-d{color:var(--muted);font-size:.95rem;line-height:1.8}
+.pick-n{margin-top:auto;padding-top:.5rem;font-size:.84rem;color:var(--gold);font-weight:500}
+.pick-hint{margin:14px 0 0;color:var(--muted);font-size:.9rem}
+.apps-panel{margin-top:26px}
+.btns{display:grid;gap:8px}
+.btns .btn{min-width:0;min-height:44px;padding:.5rem .8rem;font-size:.92rem;text-align:center;overflow-wrap:anywhere}
+.btns .btn-line{font-weight:700}
+@media (max-width:820px){.picks{grid-template-columns:minmax(0,1fr)}.pick{padding:20px}}
 .apps{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr))}
 .app h3{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
 .app h3 .name{font:500 1.15rem/1.3 var(--f-mark);letter-spacing:.02em;direction:ltr}
@@ -228,11 +245,15 @@ footer .brand b{font-size:1rem}
         <h2 id="t-apps">فیلترشکن ها و کلاینت‌ها</h2>
         <p>سیستم‌عامل خود را انتخاب کنید. هر برنامه لینک نصب و آموزش اتصال دارد.</p>
       </div>
-      <div class="tabs" role="tablist" aria-label="سیستم‌عامل" id="osTabs"></div>
-      <p class="detect" id="detect" hidden></p>
-      <div class="os-layout">
-        <aside class="guide" id="osGuide" aria-live="polite"></aside>
-        <div class="apps" id="appGrid" role="tabpanel" aria-live="polite"></div>
+      <div class="picks" id="picks" role="group" aria-label="دسته"></div>
+      <p class="pick-hint" id="pickHint">برای دیدن برنامه‌ها، یکی از این دو کادر را بزنید.</p>
+      <div class="apps-panel" id="appsPanel" hidden>
+        <div class="tabs" role="tablist" aria-label="سیستم‌عامل" id="osTabs"></div>
+        <p class="detect" id="detect" hidden></p>
+        <div class="os-layout">
+          <aside class="guide" id="osGuide" aria-live="polite"></aside>
+          <div class="apps" id="appGrid" role="tabpanel" aria-live="polite"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -268,13 +289,12 @@ footer .brand b{font-size:1rem}
     </div>
   </section>
 </main>
-
 <script src="assets/three.min.js"></script>
 <script>
 /* Content (projects and apps) lives in data/content.json.
    DEFAULT_CONTENT below is a copy used only when that file cannot be fetched. */
 /*CONTENT:START*/
-var DEFAULT_CONTENT = {"rev": 1, "projects": [{"title": "راهنمای گام‌به‌گام اتصال", "tags": ["آموزش"], "sample": true, "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.", "links": [], "id": "p1"}, {"title": "مخزن کانفیگ‌های آزمایش‌شده", "tags": ["ابزار", "کانفیگ"], "sample": true, "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.", "links": [], "id": "p2"}, {"title": "ابزار بررسی سلامت اتصال", "tags": ["ابزار"], "sample": true, "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.", "links": [], "id": "p3"}], "apps": [{"id": "hiddify", "name": "Hiddify", "kind": "کلاینت چندپروتکلی", "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria، TUIC، WireGuard", "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.", "steps": ["برنامه را باز کنید و دسترسی VPN را بپذیرید.", "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.", "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.", "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."], "builds": {"android": {"url": "https://github.com/hiddify/hiddify-app/releases"}, "ios": {"url": "https://hiddify.com"}, "windows": {"url": "https://github.com/hiddify/hiddify-app/releases"}, "macos": {"url": "https://github.com/hiddify/hiddify-app/releases"}, "linux": {"url": "https://github.com/hiddify/hiddify-app/releases"}}}, {"id": "v2rayng", "name": "v2rayNG", "kind": "کلاینت Xray/V2Ray", "proto": "VLESS، VMess، Trojan، Shadowsocks", "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.", "steps": ["دکمهٔ + بالای صفحه را بزنید.", "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.", "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.", "با گزینهٔ تست تأخیر اتصال را بسنجید."], "builds": {"android": {"url": "https://github.com/2dust/v2rayNG/releases"}}}, {"id": "v2rayn", "name": "v2rayN", "kind": "کلاینت Xray/sing-box", "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria", "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.", "steps": ["از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.", "سرور را انتخاب و فعال کنید.", "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.", "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."], "builds": {"windows": {"url": "https://github.com/2dust/v2rayN/releases"}}}, {"id": "clashverge", "name": "Clash Verge Rev", "kind": "کلاینت Clash/Mihomo", "proto": "Shadowsocks، VMess، VLESS، Trojan، Hysteria2", "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.", "steps": ["به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.", "پروفایل را فعال کنید.", "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).", "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."], "builds": {"windows": {"url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"}, "macos": {"url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"}, "linux": {"url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"}}}, {"id": "singbox", "name": "sing-box", "kind": "هستهٔ جهانی و کلاینت رسمی", "proto": "بیشتر پروتکل‌های رایج", "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.", "steps": ["برنامه را نصب کنید.", "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.", "پروفایل را فعال و سرویس را روشن کنید."], "builds": {"android": {"url": "https://sing-box.sagernet.org/clients/"}, "ios": {"url": "https://sing-box.sagernet.org/clients/"}, "macos": {"url": "https://sing-box.sagernet.org/clients/"}}}, {"id": "v2raya", "name": "v2rayA", "kind": "کلاینت وب برای Linux", "proto": "VMess، VLESS، Trojan، Shadowsocks", "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.", "steps": ["پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`", "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.", "اشتراک یا کانفیگ را Import و سرور را Connect کنید.", "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."], "builds": {"linux": {"url": "https://github.com/v2rayA/v2rayA/releases"}}}, {"id": "outline", "name": "Outline", "kind": "اتصال با کلید دسترسی", "proto": "Shadowsocks", "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.", "steps": ["کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.", "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.", "روی Connect بزنید."], "builds": {"android": {"url": "https://getoutline.org/get-started/"}, "ios": {"url": "https://getoutline.org/get-started/"}, "windows": {"url": "https://getoutline.org/get-started/"}, "macos": {"url": "https://getoutline.org/get-started/"}, "linux": {"url": "https://getoutline.org/get-started/"}}}, {"id": "psiphon", "name": "Psiphon", "kind": "ابزار آمادهٔ اتصال", "proto": "چندپروتکلی، بدون نیاز به کانفیگ", "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.", "steps": ["برنامه را باز کنید.", "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.", "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."], "builds": {"android": {"url": "https://psiphon.ca/en/download.html"}, "ios": {"url": "https://psiphon.ca/en/download.html"}, "windows": {"url": "https://psiphon.ca/en/download.html"}}}, {"id": "tor", "name": "Tor Browser", "kind": "مرورگر ناشناس‌ساز", "proto": "شبکهٔ Tor، پل‌های Snowflake و obfs4", "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.", "steps": ["نصب و اجرا کنید و Connect بزنید.", "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.", "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."], "builds": {"android": {"url": "https://www.torproject.org/download/"}, "windows": {"url": "https://www.torproject.org/download/"}, "macos": {"url": "https://www.torproject.org/download/"}, "linux": {"url": "https://www.torproject.org/download/"}}}, {"id": "wireguard", "name": "WireGuard", "kind": "تونل VPN", "proto": "WireGuard", "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.", "steps": ["فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.", "تونل را فعال کنید."], "builds": {"android": {"url": "https://www.wireguard.com/install/"}, "ios": {"url": "https://www.wireguard.com/install/"}, "windows": {"url": "https://www.wireguard.com/install/"}, "macos": {"url": "https://www.wireguard.com/install/"}, "linux": {"url": "https://www.wireguard.com/install/"}}}]};
+var DEFAULT_CONTENT = {"rev": 1, "sections": [{"id": "vpn", "title": "فیلترشکن‌ها", "desc": "آماده و ساده؛ نصب می‌کنید و وصل می‌شوید."}, {"id": "client", "title": "کلاینت‌ها", "desc": "برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر."}], "projects": [{"title": "راهنمای گام‌به‌گام اتصال", "tags": ["آموزش"], "sample": true, "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.", "links": [], "id": "p1"}, {"title": "مخزن کانفیگ‌های آزمایش‌شده", "tags": ["ابزار", "کانفیگ"], "sample": true, "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.", "links": [], "id": "p2"}, {"title": "ابزار بررسی سلامت اتصال", "tags": ["ابزار"], "sample": true, "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.", "links": [], "id": "p3"}], "apps": [{"id": "hiddify", "name": "Hiddify", "kind": "کلاینت چندپروتکلی", "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria، TUIC، WireGuard", "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.", "steps": ["برنامه را باز کنید و دسترسی VPN را بپذیرید.", "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.", "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.", "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://hiddify.com", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "v2rayng", "name": "v2rayNG", "kind": "کلاینت Xray/V2Ray", "proto": "VLESS، VMess، Trojan، Shadowsocks", "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.", "steps": ["دکمهٔ + بالای صفحه را بزنید.", "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.", "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.", "با گزینهٔ تست تأخیر اتصال را بسنجید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://github.com/2dust/v2rayNG/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "v2rayn", "name": "v2rayN", "kind": "کلاینت Xray/sing-box", "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria", "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.", "steps": ["از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.", "سرور را انتخاب و فعال کنید.", "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.", "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."], "builds": {"windows": {"buttons": [{"label": "دانلود", "url": "https://github.com/2dust/v2rayN/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "clashverge", "name": "Clash Verge Rev", "kind": "کلاینت Clash/Mihomo", "proto": "Shadowsocks، VMess، VLESS، Trojan، Hysteria2", "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.", "steps": ["به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.", "پروفایل را فعال کنید.", "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).", "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."], "builds": {"windows": {"buttons": [{"label": "دانلود", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "singbox", "name": "sing-box", "kind": "هستهٔ جهانی و کلاینت رسمی", "proto": "بیشتر پروتکل‌های رایج", "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.", "steps": ["برنامه را نصب کنید.", "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.", "پروفایل را فعال و سرویس را روشن کنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://sing-box.sagernet.org/clients/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://sing-box.sagernet.org/clients/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://sing-box.sagernet.org/clients/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "v2raya", "name": "v2rayA", "kind": "کلاینت وب برای Linux", "proto": "VMess، VLESS، Trojan، Shadowsocks", "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.", "steps": ["پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`", "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.", "اشتراک یا کانفیگ را Import و سرور را Connect کنید.", "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."], "builds": {"linux": {"buttons": [{"label": "دانلود", "url": "https://github.com/v2rayA/v2rayA/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "outline", "name": "Outline", "kind": "اتصال با کلید دسترسی", "proto": "Shadowsocks", "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.", "steps": ["کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.", "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.", "روی Connect بزنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "psiphon", "name": "Psiphon", "kind": "ابزار آمادهٔ اتصال", "proto": "چندپروتکلی، بدون نیاز به کانفیگ", "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.", "steps": ["برنامه را باز کنید.", "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.", "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://psiphon.ca/en/download.html", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://psiphon.ca/en/download.html", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://psiphon.ca/en/download.html", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "vpn"}, {"id": "tor", "name": "Tor Browser", "kind": "مرورگر ناشناس‌ساز", "proto": "شبکهٔ Tor، پل‌های Snowflake و obfs4", "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.", "steps": ["نصب و اجرا کنید و Connect بزنید.", "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.", "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://www.torproject.org/download/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://www.torproject.org/download/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://www.torproject.org/download/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://www.torproject.org/download/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "vpn"}, {"id": "wireguard", "name": "WireGuard", "kind": "تونل VPN", "proto": "WireGuard", "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.", "steps": ["فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.", "تونل را فعال کنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}]};
 /*CONTENT:END*/
 
 const OS = [
@@ -292,7 +312,7 @@ const OS = [
    note:null},
   {id:"windows", name:"Windows", title:"نصب روی Windows", steps:[
     "فایل نصبی یا zip را دانلود کنید.",
-    "چک‌سام را با عدد روی کارت برنامه مقایسه کنید.",
+    "اگر کنار دکمه چک‌سام (SHA-256) نوشته شده، آن را با فایل دانلودشده مقایسه کنید.",
     "اگر SmartScreen هشدار داد و فایل را تأیید کرده‌اید، «More info» و بعد «Run anyway» را بزنید.",
     "برای حالت VPN یا TUN، برنامه را با گزینهٔ Run as administrator اجرا کنید.",
     "کانفیگ را وارد کنید و پراکسی سیستم یا TUN را روشن کنید."],
@@ -338,10 +358,80 @@ const OS = [
     return ol;
   }
 
-  var PROJECTS = [], APPS = [];
+  var PROJECTS = [], APPS = [], SECTIONS = [];
+  var DEFAULT_SECTIONS = [
+    {id:'vpn', title:'فیلترشکن‌ها', desc:'آماده و ساده؛ نصب می‌کنید و وصل می‌شوید.'},
+    {id:'client', title:'کلاینت‌ها', desc:'برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر.'}
+  ];
   function arr(x){ return Array.isArray(x) ? x : []; }
   function safeUrl(u){ u = String(u || '').trim(); return /^https?:\/\//i.test(u) ? u : ''; }
   function safeFile(u){ u = String(u || '').trim(); return /^downloads\/[A-Za-z0-9_-]+\/[A-Za-z0-9._() -]+$/.test(u) && u.indexOf('..') < 0 ? encodeURI(u) : ''; }
+  function num(v, lo, hi, d){ v = parseInt(v, 10); return isFinite(v) ? Math.min(hi, Math.max(lo, v)) : d; }
+  function faNum(n){ try { return Number(n).toLocaleString('fa-IR'); } catch (e) { return String(n); } }
+
+  /* sections: always the two boxes (vpn, client); order and texts come from the content file */
+  function normSections(list){
+    var seen = {}, out = [];
+    arr(list).forEach(function(s){
+      if (!s || (s.id !== 'vpn' && s.id !== 'client') || seen[s.id]) return;
+      seen[s.id] = 1;
+      var d = DEFAULT_SECTIONS.filter(function(x){ return x.id === s.id; })[0];
+      out.push({id:s.id, title:String(s.title || '').slice(0, 60) || d.title, desc:String(s.desc == null ? d.desc : s.desc).slice(0, 200)});
+    });
+    DEFAULT_SECTIONS.forEach(function(d){ if (!seen[d.id]) out.push(d); });
+    return out;
+  }
+
+  /* buttons of one app on one OS. Old files ({url, file, sha256, label}) are converted on the fly. */
+  function buttonsOf(b){
+    if (!b || typeof b !== 'object') return [];
+    var raw = Array.isArray(b.buttons) ? b.buttons : null;
+    if (!raw){
+      raw = [];
+      if (b.file) raw.push({label:b.label, file:b.file, sha256:b.sha256, style:'primary', row:1, col:1});
+      if (b.url) raw.push({label:'', url:b.url, style:b.file ? 'line' : 'primary', row:1, col:b.file ? 2 : 1});
+    }
+    var out = [];
+    raw.forEach(function(x, i){
+      if (!x || typeof x !== 'object') return;
+      var file = safeFile(x.file), url = file ? '' : safeUrl(x.url);
+      if (!file && !url) return;
+      var col = num(x.col, 1, 3, 1);
+      out.push({
+        label: String(x.label || '').slice(0, 60) || (file ? 'دانلود مستقیم' : 'دانلود'),
+        href: file || url, isFile: !!file,
+        sha256: /^[0-9a-f]{64}$/i.test(String(x.sha256 || '')) ? String(x.sha256).toLowerCase() : '',
+        style: x.style === 'line' ? 'line' : 'primary',
+        row: num(x.row, 1, 8, i + 1), col: col, span: Math.min(num(x.span, 1, 3, 1), 4 - col)
+      });
+    });
+    return out;
+  }
+
+  /* places buttons on a grid by row/column; a button that would land on a taken cell moves down; empty rows collapse */
+  function layoutButtons(list){
+    var items = list.map(function(b, i){ return {b:b, i:i, row:b.row, col:b.col, span:b.span}; });
+    items.sort(function(x, y){ return x.row - y.row || x.col - y.col || x.i - y.i; });
+    var occ = {}, placed = [], c;
+    items.forEach(function(it){
+      var r = it.row;
+      for (;;){
+        var clash = false;
+        for (c = it.col; c < it.col + it.span; c++) if (occ[r + ':' + c]) clash = true;
+        if (!clash) break;
+        r++;
+      }
+      for (c = it.col; c < it.col + it.span; c++) occ[r + ':' + c] = 1;
+      placed.push({b:it.b, row:r, col:it.col, span:it.span});
+    });
+    var rows = [];
+    placed.forEach(function(p){ if (rows.indexOf(p.row) < 0) rows.push(p.row); });
+    rows.sort(function(a, b){ return a - b; });
+    placed.forEach(function(p){ p.row = rows.indexOf(p.row) + 1; });
+    placed.sort(function(x, y){ return x.row - y.row || x.col - y.col; });
+    return placed;
+  }
+  function inCat(a, c){ return (a && a.category === 'vpn' ? 'vpn' : 'client') === c; }
 
   /* ---------- projects ---------- */
   var pg = $('#projectGrid');
@@ -352,35 +442,78 @@ const OS = [
       var tags = el('div', {class:'tags'}, arr(p.tags).map(function(t){ return el('span', {class:'tag', text:t}); }));
       if (p.sample) tags.appendChild(el('span', {class:'tag sample', text:'نمونه'}));
       var actions = el('div', {class:'actions'});
-      arr(p.links).forEach(function(l){ var u = safeUrl(l.url); if (u) actions.appendChild(el('a', {class:'btn btn-line', href:u, target:'_blank', rel:'noopener', text:l.label || u})); });
+      arr(p.links).forEach(function(l){ var u = safeUrl(l.url); if (u) actions.appendChild(el('a', {class:'btn btn-primary', href:u, target:'_blank', rel:'noopener', text:l.label || u})); });
       pg.appendChild(el('article', {class:'card'}, [tags, el('h3', {text:p.title}), el('p', {text:p.desc}), actions.children.length ? actions : null]));
     });
   }
 
-  /* ---------- apps ---------- */
+  /* ---------- apps: two big boxes, then OS tabs ---------- */
+  var picks = $('#picks'), hintEl = $('#pickHint'), panel = $('#appsPanel');
   var tabs = $('#osTabs'), grid = $('#appGrid'), guide = $('#osGuide'), detectEl = $('#detect');
-  var current = null;
+  var current = null, cat = null, opened = false, applied = false;
+  var ICONS = {
+    vpn: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.4-2.9 8.1-7 10-4.1-1.9-7-5.6-7-10V6l7-3z"/><path d="M9.2 12.2l2 2 3.6-4"/></svg>',
+    client: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="2.4"/><circle cx="5" cy="6" r="1.8"/><circle cx="19" cy="7" r="1.8"/><circle cx="6" cy="18" r="1.8"/><circle cx="18.5" cy="17.5" r="1.8"/><path d="M10.2 10.6L6.4 7.3M13.9 10.9l3.8-2.7M10.4 13.6l-3 2.9M13.8 13.5l3.3 2.6"/></svg>'
+  };
+  function appsOf(c, os){ return APPS.filter(function(a){ return inCat(a, c) && (!os || buttonsOf(a.builds && a.builds[os]).length); }); }
 
-  function count(os){ return APPS.filter(function(a){ return a.builds && a.builds[os]; }).length; }
-  function updateCounts(){ Array.prototype.forEach.call(tabs.children, function(t){ t.lastChild.textContent = String(count(t.dataset.os)); }); }
+  function renderPicks(){
+    picks.textContent = '';
+    (SECTIONS.length ? SECTIONS : DEFAULT_SECTIONS).forEach(function(s){
+      var b = el('button', {type:'button', class:'pick', 'data-cat':s.id, 'aria-pressed':String(cat === s.id), 'aria-controls':'appsPanel'});
+      var ic = el('span', {class:'pick-ic'}); ic.innerHTML = ICONS[s.id];
+      b.appendChild(ic);
+      b.appendChild(el('span', {class:'pick-t', text:s.title}));
+      if (s.desc) b.appendChild(el('span', {class:'pick-d', text:s.desc}));
+      if (applied) b.appendChild(el('span', {class:'pick-n', text:faNum(appsOf(s.id).length) + ' برنامه'}));
+      b.addEventListener('click', function(){ chooseCat(s.id); });
+      picks.appendChild(b);
+    });
+  }
+  function chooseCat(c){
+    var first = !opened;
+    cat = c; opened = true;
+    Array.prototype.forEach.call(picks.children, function(b){ b.setAttribute('aria-pressed', String(b.dataset.cat === c)); });
+    panel.hidden = false; hintEl.hidden = true;
+    updateCounts(); show(current);
+    if (first){
+      var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      try { picks.scrollIntoView({behavior: calm ? 'auto' : 'smooth', block:'start'}); } catch (e) {}
+    }
+  }
 
+  function updateCounts(){
+    Array.prototype.forEach.call(tabs.children, function(t){ t.lastChild.textContent = cat ? faNum(appsOf(cat, t.dataset.os).length) : ''; });
+  }
   function copyText(text, btn){
     var done = function(){ var old = btn.textContent; btn.textContent = 'کپی شد'; setTimeout(function(){ btn.textContent = old; }, 1400); };
     try { navigator.clipboard.writeText(text).then(done, function(){ fallback(); }); } catch(e){ fallback(); }
     function fallback(){ var r = document.createRange(); r.selectNodeContents(btn.previousElementSibling); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
   }
-
+  function btnGrid(list){
+    var placed = layoutButtons(list), cols = 1;
+    placed.forEach(function(p){ cols = Math.max(cols, p.col + p.span - 1); });
+    var g = el('div', {class:'btns'});
+    g.style.gridTemplateColumns = 'repeat(' + cols + ', minmax(0, 1fr))';
+    placed.forEach(function(p){
+      var b = p.b, a = el('a', {class:'btn ' + (b.style === 'line' ? 'btn-line' : 'btn-primary'), href:b.href, text:b.label});
+      if (b.isFile) a.setAttribute('download', ''); else { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); }
+      a.style.gridRow = String(p.row); a.style.gridColumn = p.col + ' / span ' + p.span;
+      g.appendChild(a);
+    });
+    return g;
+  }
+  function hashRow(b){
+    var btn = el('button', {type:'button', text:'کپی'});
+    btn.addEventListener('click', function(){ copyText(b.sha256, btn); });
+    return el('div', {class:'hash', title:b.label}, [el('span', {text:'SHA-256'}), el('code', {text:b.sha256}), btn]);
+  }
   function appCard(a, os){
-    var b = a.builds[os];
-    var head = el('h3', {}, [el('span', {class:'name', text:a.name}), el('span', {class:'kind', text:a.kind})]);
-    var actions = el('div', {class:'actions'});
-    var file = safeFile(b.file), url = safeUrl(b.url);
-    if (file) actions.appendChild(el('a', {class:'btn btn-primary', href:file, download:'', text: b.label || 'دانلود مستقیم'}));
-    if (url) actions.appendChild(el('a', {class:'btn ' + (file ? 'btn-line' : 'btn-primary'), href:url, target:'_blank', rel:'noopener', text:'صفحهٔ رسمی'}));
-    var kids = [head, el('p', {text:a.desc}), a.proto ? el('div', {class:'meta'}, [el('bdi', {text:'پروتکل‌ها: '}), document.createTextNode(a.proto)]) : null, actions];
-    if (b.sha256){
-      kids.push(el('div', {class:'hash'}, [el('span', {text:'SHA-256'}), el('code', {text:b.sha256}), (function(){ var btn = el('button', {type:'button', text:'کپی'}); btn.addEventListener('click', function(){ copyText(b.sha256, btn); }); return btn; })()]));
-    }
+    var list = buttonsOf(a.builds && a.builds[os]);
+    var head = el('h3', {}, [el('span', {class:'name', text:a.name}), el('span', {class:'kind', text:a.kind || ''})]);
+    var kids = [head, a.desc ? el('p', {text:a.desc}) : null,
+      a.proto ? el('div', {class:'meta'}, [el('bdi', {text:'پروتکل‌ها: '}), document.createTextNode(a.proto)]) : null, btnGrid(list)];
+    list.forEach(function(b){ if (b.sha256) kids.push(hashRow(b)); });
     if (arr(a.steps).length) kids.push(el('details', {class:'how'}, [el('summary', {text:'آموزش اتصال'}), steps(arr(a.steps))]));
     return el('article', {class:'card app'}, kids);
   }
@@ -394,13 +527,14 @@ const OS = [
     guide.appendChild(steps(o.steps));
     if (o.note) guide.appendChild(el('p', {class:'note', text:o.note}));
     grid.textContent = '';
-    var list = APPS.filter(function(a){ return a.builds && a.builds[os]; });
-    if (!list.length) grid.appendChild(el('p', {class:'empty', text:'برای این سیستم‌عامل هنوز برنامه‌ای اضافه نشده است.'}));
+    if (!cat) return;
+    var list = appsOf(cat, os);
+    if (!list.length) grid.appendChild(el('p', {class:'empty', text:'در این دسته برای این سیستم‌عامل هنوز برنامه‌ای اضافه نشده است.'}));
     list.forEach(function(a){ grid.appendChild(appCard(a, os)); });
   }
 
   OS.forEach(function(o){
-    var t = el('button', {class:'tab', role:'tab', type:'button', 'data-os':o.id}, [el('span', {class:'ltr', text:o.name}), el('small', {text:'0'})]);
+    var t = el('button', {class:'tab', role:'tab', type:'button', 'data-os':o.id}, [el('span', {class:'ltr', text:o.name}), el('small', {text:''})]);
     t.addEventListener('click', function(){ show(o.id); });
     t.addEventListener('keydown', function(e){
       var i = OS.findIndex(function(x){ return x.id === current; }), n = OS.length;
@@ -428,12 +562,13 @@ const OS = [
     detectEl.textContent = 'سیستم‌عامل شما به‌نظر ' + nm + ' است؛ همان را برایتان باز کردیم.';
     detectEl.hidden = false;
   }
+  show(current);
+  renderPicks();
 
   /* ---------- content: data/content.json ---------- */
-  var applied = false;
   function applyContent(c){
-    PROJECTS = arr(c.projects); APPS = arr(c.apps);
-    renderProjects(); updateCounts(); show(current); applied = true;
+    PROJECTS = arr(c.projects); APPS = arr(c.apps); SECTIONS = normSections(c.sections);
+    applied = true; renderProjects(); renderPicks(); updateCounts(); if (cat) show(current);
   }
   function loadContent(){
     var timer = setTimeout(function(){ if (!applied) applyContent(DEFAULT_CONTENT); }, 2500);
