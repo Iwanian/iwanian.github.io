@@ -1,5 +1,5 @@
 {
-  "rev": 12,
+  "rev": 13,
   "sections": [
     {
       "id": "vpn",
@@ -282,6 +282,20 @@
           ]
         },
         "macos": {
+          "buttons": [
+            {
+              "label": "دانلود نسخه آخر",
+              "url": "https://github.com/SagerNet/sing-box/releases",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
+        },
+        "linux": {
           "buttons": [
             {
               "label": "دانلود نسخه آخر",
