@@ -1,5 +1,5 @@
 {
-  "rev": 7,
+  "rev": 8,
   "sections": [
     {
       "id": "vpn",
@@ -141,6 +141,7 @@
     {
       "id": "v2rayng",
       "name": "v2rayNG",
+      "category": "client",
       "kind": "کلاینت Xray/V2Ray",
       "proto": "VLESS، VMess، Trojan، Shadowsocks",
       "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
@@ -154,8 +155,8 @@
         "android": {
           "buttons": [
             {
-              "label": "دانلود",
-              "url": "https://github.com/2dust/v2rayNG/releases",
+              "label": "دانلود نسخه 2.3.11",
+              "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.11/v2rayNG_2.3.11_universal.apk",
               "file": "",
               "sha256": "",
               "style": "primary",
@@ -165,8 +166,7 @@
             }
           ]
         }
-      },
-      "category": "client"
+      }
     },
     {
       "id": "v2rayn",
