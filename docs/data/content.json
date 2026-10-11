@@ -1,5 +1,5 @@
 {
-  "rev": 2,
+  "rev": 3,
   "sections": [
     {
       "id": "vpn",
@@ -121,8 +121,8 @@
               "sha256": "",
               "style": "primary",
               "row": 1,
-              "col": 3,
-              "span": 1
+              "col": 2,
+              "span": 2
             }
           ]
         },
