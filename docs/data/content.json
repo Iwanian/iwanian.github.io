@@ -1,5 +1,5 @@
 {
-  "rev": 6,
+  "rev": 7,
   "sections": [
     {
       "id": "vpn",
@@ -12,7 +12,35 @@
       "desc": "برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر."
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "id": "ppfvzhy",
+      "title": "Iwana Proxy",
+      "desc": "کلاینت جمع آوری پروکسی های تلگرام متناسب با اینترنت شما!",
+      "tags": [
+        "پروکسی تلگرام"
+      ],
+      "links": [
+        {
+          "label": "نسخه اندروید",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
+        },
+        {
+          "label": "نسخه ویندوز",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases"
+        },
+        {
+          "label": "نسخه لینوکس",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Linux.AppImage"
+        },
+        {
+          "label": "نسخه مک",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-MacOS.dmg"
+        }
+      ],
+      "sample": false
+    }
+  ],
   "apps": [
     {
       "id": "hiddify",
