@@ -1,5 +1,5 @@
 {
-  "rev": 11,
+  "rev": 12,
   "sections": [
     {
       "id": "vpn",
@@ -229,6 +229,7 @@
     {
       "id": "singbox",
       "name": "sing-box",
+      "category": "client",
       "kind": "هستهٔ جهانی و کلاینت رسمی",
       "proto": "بیشتر پروتکل‌های رایج",
       "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.",
@@ -241,8 +242,8 @@
         "android": {
           "buttons": [
             {
-              "label": "دانلود",
-              "url": "https://sing-box.sagernet.org/clients/",
+              "label": "دانلود نسخه 1.15.0",
+              "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.12/SFA-1.15.0-alpha.12-universal.apk",
               "file": "",
               "sha256": "",
               "style": "primary",
@@ -255,8 +256,22 @@
         "ios": {
           "buttons": [
             {
-              "label": "دانلود",
-              "url": "https://sing-box.sagernet.org/clients/",
+              "label": "دانلود نسخه آخر",
+              "url": "https://apps.apple.com/app/sing-box-mt/id6785326793",
+              "file": "",
+              "sha256": "",
+              "style": "primary",
+              "row": 1,
+              "col": 1,
+              "span": 1
+            }
+          ]
+        },
+        "windows": {
+          "buttons": [
+            {
+              "label": "دانلود نسخه آخر",
+              "url": "https://github.com/SagerNet/sing-box/releases",
               "file": "",
               "sha256": "",
               "style": "primary",
@@ -269,8 +284,8 @@
         "macos": {
           "buttons": [
             {
-              "label": "دانلود",
-              "url": "https://sing-box.sagernet.org/clients/",
+              "label": "دانلود نسخه آخر",
+              "url": "https://github.com/SagerNet/sing-box/releases",
               "file": "",
               "sha256": "",
               "style": "primary",
@@ -280,8 +295,7 @@
             }
           ]
         }
-      },
-      "category": "client"
+      }
     },
     {
       "id": "v2raya",
