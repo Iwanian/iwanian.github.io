@@ -1,5 +1,5 @@
 {
-  "rev": 14,
+  "rev": 15,
   "sections": [
     {
       "id": "vpn",
@@ -395,63 +395,6 @@
         }
       },
       "category": "client"
-    },
-    {
-      "id": "psiphon",
-      "name": "Psiphon",
-      "kind": "ابزار آمادهٔ اتصال",
-      "proto": "چندپروتکلی، بدون نیاز به کانفیگ",
-      "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.",
-      "steps": [
-        "برنامه را باز کنید.",
-        "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.",
-        "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."
-      ],
-      "builds": {
-        "android": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://psiphon.ca/en/download.html",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "ios": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://psiphon.ca/en/download.html",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "windows": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://psiphon.ca/en/download.html",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        }
-      },
-      "category": "vpn"
     },
     {
       "id": "tor",
