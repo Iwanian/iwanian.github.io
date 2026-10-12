@@ -1,5 +1,5 @@
 {
-  "rev": 5,
+  "rev": 6,
   "sections": [
     {
       "id": "vpn",
@@ -153,28 +153,6 @@
           "file": "",
           "sha256": "",
           "os": ""
-        }
-      ]
-    },
-    {
-      "id": "v2raya",
-      "name": "v2rayA",
-      "kind": "کلاینت وب برای Linux",
-      "proto": "VMess، VLESS، Trojan، Shadowsocks",
-      "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.",
-      "steps": [
-        "پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`",
-        "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.",
-        "اشتراک یا کانفیگ را Import و سرور را Connect کنید.",
-        "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."
-      ],
-      "category": "client",
-      "links": [
-        {
-          "url": "https://github.com/v2rayA/v2rayA/releases",
-          "file": "",
-          "sha256": "",
-          "os": "linux"
         }
       ]
     },
