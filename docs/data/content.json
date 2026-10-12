@@ -1,5 +1,5 @@
 {
-  "rev": 4,
+  "rev": 5,
   "sections": [
     {
       "id": "vpn",
@@ -123,28 +123,6 @@
       "links": [
         {
           "url": "https://github.com/2dust/v2rayN/releases",
-          "file": "",
-          "sha256": "",
-          "os": ""
-        }
-      ]
-    },
-    {
-      "id": "clashverge",
-      "name": "Clash Verge Rev",
-      "kind": "کلاینت Clash/Mihomo",
-      "proto": "Shadowsocks، VMess، VLESS، Trojan، Hysteria2",
-      "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.",
-      "steps": [
-        "به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.",
-        "پروفایل را فعال کنید.",
-        "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).",
-        "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."
-      ],
-      "category": "client",
-      "links": [
-        {
-          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
           "file": "",
           "sha256": "",
           "os": ""
