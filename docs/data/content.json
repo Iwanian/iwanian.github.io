@@ -1,5 +1,5 @@
 {
-  "rev": 2,
+  "rev": 3,
   "sections": [
     {
       "id": "vpn",
@@ -154,18 +154,24 @@
     {
       "id": "singbox",
       "name": "sing-box",
+      "category": "client",
       "kind": "هستهٔ جهانی و کلاینت رسمی",
       "proto": "بیشتر پروتکل‌های رایج",
-      "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.",
+      "desc": "کلاینت رسمی sing-box",
       "steps": [
         "برنامه را نصب کنید.",
         "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.",
         "پروفایل را فعال و سرویس را روشن کنید."
       ],
-      "category": "client",
       "links": [
         {
-          "url": "https://sing-box.sagernet.org/clients/",
+          "url": "https://github.com/SagerNet/sing-box/releases",
+          "file": "",
+          "sha256": "",
+          "os": ""
+        },
+        {
+          "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3",
           "file": "",
           "sha256": "",
           "os": ""
