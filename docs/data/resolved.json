@@ -1,5 +1,5 @@
 {
- "t": "2026-10-12T09:09:47.211Z",
+ "t": "2026-10-12T09:15:44.680Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -44910,7 +44910,74 @@
     "store": "App Store"
    }
   ],
-  "https://www.torproject.org/download/": [],
+  "https://play.google.com/store/apps/details?id=org.torproject.torbrowser": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=org.torproject.torbrowser",
+    "store": "Google Play"
+   }
+  ],
+  "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-i686-portable-16.0a13.exe": [
+   {
+    "kind": "direct",
+    "plat": "windows",
+    "arch": "x86",
+    "fmt": "portable",
+    "href": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-i686-portable-16.0a13.exe",
+    "name": "tor-browser-windows-i686-portable-16.0a13.exe"
+   }
+  ],
+  "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-x86_64-portable-16.0a13.exe": [
+   {
+    "kind": "direct",
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-x86_64-portable-16.0a13.exe",
+    "name": "tor-browser-windows-x86_64-portable-16.0a13.exe"
+   }
+  ],
+  "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-macos-16.0a13.dmg": [
+   {
+    "kind": "direct",
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-macos-16.0a13.dmg",
+    "name": "tor-browser-macos-16.0a13.dmg"
+   }
+  ],
+  "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-x86_64-16.0a13.tar.xz": [
+   {
+    "kind": "direct",
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-x86_64-16.0a13.tar.xz",
+    "name": "tor-browser-linux-x86_64-16.0a13.tar.xz"
+   }
+  ],
+  "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-aarch64-16.0a13.tar.xz": [
+   {
+    "kind": "direct",
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-aarch64-16.0a13.tar.xz",
+    "name": "tor-browser-linux-aarch64-16.0a13.tar.xz"
+   }
+  ],
+  "https://dist.torproject.org/torbrowser/15.0.24/tor-browser-linux-i686-15.0.24.tar.xz": [
+   {
+    "kind": "direct",
+    "plat": "linux",
+    "arch": "x86",
+    "fmt": "archive",
+    "href": "https://dist.torproject.org/torbrowser/15.0.24/tor-browser-linux-i686-15.0.24.tar.xz",
+    "name": "tor-browser-linux-i686-15.0.24.tar.xz"
+   }
+  ],
   "https://www.wireguard.com/install/": [
    {
     "kind": "direct",
