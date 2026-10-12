@@ -1,5 +1,5 @@
 {
-  "rev": 8,
+  "rev": 9,
   "sections": [
     {
       "id": "vpn",
@@ -204,6 +204,7 @@
     {
       "id": "tor",
       "name": "Tor Browser",
+      "category": "client",
       "kind": "مرورگر ناشناس‌ساز",
       "proto": "شبکهٔ Tor، پل‌های Snowflake و obfs4",
       "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.",
@@ -212,13 +213,48 @@
         "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.",
         "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."
       ],
-      "category": "vpn",
       "links": [
         {
-          "url": "https://www.torproject.org/download/",
+          "url": "https://play.google.com/store/apps/details?id=org.torproject.torbrowser",
           "file": "",
           "sha256": "",
-          "os": ""
+          "os": "android"
+        },
+        {
+          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-i686-portable-16.0a13.exe",
+          "file": "",
+          "sha256": "",
+          "os": "windows"
+        },
+        {
+          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-x86_64-portable-16.0a13.exe",
+          "file": "",
+          "sha256": "",
+          "os": "windows"
+        },
+        {
+          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-macos-16.0a13.dmg",
+          "file": "",
+          "sha256": "",
+          "os": "macos"
+        },
+        {
+          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-x86_64-16.0a13.tar.xz",
+          "file": "",
+          "sha256": "",
+          "os": "linux"
+        },
+        {
+          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-aarch64-16.0a13.tar.xz",
+          "file": "",
+          "sha256": "",
+          "os": "linux"
+        },
+        {
+          "url": "https://dist.torproject.org/torbrowser/15.0.24/tor-browser-linux-i686-15.0.24.tar.xz",
+          "file": "",
+          "sha256": "",
+          "os": "linux"
         }
       ]
     },
