@@ -1,5 +1,5 @@
 {
- "t": "2026-10-12T09:15:44.680Z",
+ "t": "2026-10-12T09:19:06.572Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -44978,69 +44978,40 @@
     "name": "tor-browser-linux-i686-15.0.24.tar.xz"
    }
   ],
-  "https://www.wireguard.com/install/": [
+  "https://download.wireguard.com/windows-client/wireguard-installer.exe": [
    {
     "kind": "direct",
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
     "href": "https://download.wireguard.com/windows-client/wireguard-installer.exe",
-    "name": "wireguard-installer.exe",
-    "ver": ""
-   },
+    "name": "wireguard-installer.exe"
+   }
+  ],
+  "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12": [
    {
     "kind": "store",
     "plat": "ios",
     "href": "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12",
     "store": "App Store"
-   },
+   }
+  ],
+  "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk": [
+   {
+    "kind": "direct",
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk",
+    "name": "com.wireguard.android-1.0.20260315.apk"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=com.wireguard.android": [
    {
     "kind": "store",
     "plat": "android",
     "href": "https://play.google.com/store/apps/details?id=com.wireguard.android",
     "store": "Google Play"
-   },
-   {
-    "kind": "store",
-    "plat": "ios",
-    "href": "https://itunes.apple.com/us/app/wireguard/id1441195209?ls=1&mt=8",
-    "store": "App Store"
-   },
-   {
-    "kind": "direct",
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm",
-    "name": "epel-release-latest-8.noarch.rpm",
-    "ver": ""
-   },
-   {
-    "kind": "direct",
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://www.elrepo.org/elrepo-release-8.el8.elrepo.noarch.rpm",
-    "name": "elrepo-release-8.el8.elrepo.noarch.rpm",
-    "ver": ""
-   },
-   {
-    "kind": "direct",
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
-    "name": "epel-release-latest-7.noarch.rpm",
-    "ver": ""
-   },
-   {
-    "kind": "direct",
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://www.elrepo.org/elrepo-release-7.el7.elrepo.noarch.rpm",
-    "name": "elrepo-release-7.el7.elrepo.noarch.rpm",
-    "ver": ""
    }
   ]
  }
