@@ -1,5 +1,5 @@
 {
-  "rev": 9,
+  "rev": 10,
   "sections": [
     {
       "id": "vpn",
@@ -261,6 +261,7 @@
     {
       "id": "wireguard",
       "name": "WireGuard",
+      "category": "client",
       "kind": "تونل VPN",
       "proto": "WireGuard",
       "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.",
@@ -268,13 +269,30 @@
         "فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.",
         "تونل را فعال کنید."
       ],
-      "category": "client",
       "links": [
         {
-          "url": "https://www.wireguard.com/install/",
+          "url": "https://download.wireguard.com/windows-client/wireguard-installer.exe",
           "file": "",
           "sha256": "",
-          "os": ""
+          "os": "windows"
+        },
+        {
+          "url": "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12",
+          "file": "",
+          "sha256": "",
+          "os": "ios"
+        },
+        {
+          "url": "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk",
+          "file": "",
+          "sha256": "",
+          "os": "android"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.wireguard.android",
+          "file": "",
+          "sha256": "",
+          "os": "android"
         }
       ]
     }
