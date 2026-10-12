@@ -1,5 +1,5 @@
 {
-  "rev": 3,
+  "rev": 4,
   "sections": [
     {
       "id": "vpn",
@@ -110,6 +110,7 @@
     {
       "id": "v2rayn",
       "name": "v2rayN",
+      "category": "client",
       "kind": "کلاینت Xray/sing-box",
       "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria",
       "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
@@ -119,13 +120,12 @@
         "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.",
         "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."
       ],
-      "category": "client",
       "links": [
         {
           "url": "https://github.com/2dust/v2rayN/releases",
           "file": "",
           "sha256": "",
-          "os": "windows"
+          "os": ""
         }
       ]
     },
