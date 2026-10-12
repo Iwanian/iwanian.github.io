@@ -1,5 +1,5 @@
 {
-  "rev": 1,
+  "rev": 2,
   "sections": [
     {
       "id": "vpn",
@@ -54,6 +54,7 @@
     {
       "id": "hiddify",
       "name": "Hiddify",
+      "category": "client",
       "kind": "کلاینت چندپروتکلی",
       "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria، TUIC، WireGuard",
       "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
@@ -63,7 +64,6 @@
         "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.",
         "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
       ],
-      "category": "client",
       "links": [
         {
           "url": "https://github.com/hiddify/hiddify-app/releases",
@@ -72,10 +72,16 @@
           "os": ""
         },
         {
-          "url": "https://hiddify.com",
+          "url": "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone",
           "file": "",
           "sha256": "",
           "os": "ios"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=app.hiddify.com",
+          "file": "",
+          "sha256": "",
+          "os": "android"
         }
       ]
     },
