@@ -1,0 +1,43 @@
+name: resolve-downloads
+# Looks at every download page every ~10 minutes and stores the newest direct file links in docs/data/resolved.json
+on:
+  push:
+    paths: ['docs/data/content.json']
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  actions: write
+concurrency:
+  group: resolve-downloads
+  cancel-in-progress: false
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/resolve.mjs docs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit result
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "iwana-bot"
+          git config user.email "iwana-bot@users.noreply.github.com"
+          git add docs/data/resolved.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update resolved downloads"
+            git pull --rebase --autostash
+            git push
+            gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+          fi
+      - name: Keep the schedule alive
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow enable resolve-downloads.yml || true
