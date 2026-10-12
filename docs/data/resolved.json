@@ -1,5 +1,5 @@
 {
- "t": "2026-10-12T16:38:57.555Z",
+ "t": "2026-10-12T16:48:11.045Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -45019,6 +45019,14 @@
     "kind": "store",
     "plat": "android",
     "href": "https://play.google.com/store/apps/details?id=com.otter.vpn",
+    "store": "Google Play"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
     "store": "Google Play"
    }
   ]
