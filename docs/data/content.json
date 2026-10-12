@@ -1,5 +1,5 @@
 {
-  "rev": 15,
+  "rev": 1,
   "sections": [
     {
       "id": "vpn",
@@ -10,138 +10,78 @@
       "id": "client",
       "title": "کلاینت‌ها",
       "desc": "برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر."
+    },
+    {
+      "id": "browser",
+      "title": "مرورگر",
+      "desc": "افزونه‌ها و ابزارهای مرورگر؛ نسخهٔ مرورگر شما خودکار تشخیص داده می‌شود."
     }
   ],
   "projects": [
     {
-      "id": "ppfvzhy",
-      "title": "Iwana Proxy",
-      "desc": "کلاینت جمع آوری پروکسی های تلگرام متناسب با اینترنت شما!",
+      "title": "راهنمای گام‌به‌گام اتصال",
       "tags": [
-        "پروکسی تلگرام"
+        "آموزش"
       ],
-      "links": [
-        {
-          "label": "نسخه اندروید",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
-        },
-        {
-          "label": "نسخه ویندوز",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases"
-        },
-        {
-          "label": "نسخه لینوکس",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Linux.AppImage"
-        },
-        {
-          "label": "نسخه مک",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-MacOS.dmg"
-        }
+      "sample": true,
+      "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.",
+      "links": [],
+      "id": "p1"
+    },
+    {
+      "title": "مخزن کانفیگ‌های آزمایش‌شده",
+      "tags": [
+        "ابزار",
+        "کانفیگ"
       ],
-      "sample": false
+      "sample": true,
+      "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.",
+      "links": [],
+      "id": "p2"
+    },
+    {
+      "title": "ابزار بررسی سلامت اتصال",
+      "tags": [
+        "ابزار"
+      ],
+      "sample": true,
+      "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.",
+      "links": [],
+      "id": "p3"
     }
   ],
   "apps": [
     {
       "id": "hiddify",
       "name": "Hiddify",
-      "category": "client",
       "kind": "کلاینت چندپروتکلی",
       "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria، TUIC، WireGuard",
-      "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛",
+      "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
       "steps": [
         "برنامه را باز کنید و دسترسی VPN را بپذیرید.",
         "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.",
         "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.",
         "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
       ],
-      "builds": {
-        "android": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه 4.1.1",
-              "url": "https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Android-universal.apk",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
+      "category": "client",
+      "links": [
+        {
+          "url": "https://github.com/hiddify/hiddify-app/releases",
+          "file": "",
+          "sha256": "",
+          "os": ""
         },
-        "ios": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه آخر",
-              "url": "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "windows": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه 4.1.1 (64 بیت)",
-              "url": "https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Windows-Setup-x64.exe",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "macos": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه 4.1.1 (DMG)",
-              "url": "https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-MacOS.dmg",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            },
-            {
-              "label": "دانلود نسخه 4.1.1 (PKG)",
-              "url": "https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-MacOS-Installer.pkg",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 2,
-              "span": 1
-            }
-          ]
-        },
-        "linux": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه 4.1.1 (APPIMAGE)",
-              "url": "https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Linux-x64.AppImage",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
+        {
+          "url": "https://hiddify.com",
+          "file": "",
+          "sha256": "",
+          "os": "ios"
         }
-      }
+      ]
     },
     {
       "id": "v2rayng",
       "name": "v2rayNG",
-      "category": "client",
       "kind": "کلاینت Xray/V2Ray",
       "proto": "VLESS، VMess، Trojan، Shadowsocks",
       "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
@@ -151,27 +91,19 @@
         "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.",
         "با گزینهٔ تست تأخیر اتصال را بسنجید."
       ],
-      "builds": {
-        "android": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه 2.3.11",
-              "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.11/v2rayNG_2.3.11_universal.apk",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
+      "category": "client",
+      "links": [
+        {
+          "url": "https://github.com/2dust/v2rayNG/releases",
+          "file": "",
+          "sha256": "",
+          "os": "android"
         }
-      }
+      ]
     },
     {
       "id": "v2rayn",
       "name": "v2rayN",
-      "category": "client",
       "kind": "کلاینت Xray/sing-box",
       "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria",
       "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
@@ -181,55 +113,41 @@
         "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.",
         "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."
       ],
-      "builds": {
-        "windows": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه آخر",
-              "url": "https://github.com/2dust/v2rayN/releases",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "macos": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه آخر",
-              "url": "https://github.com/2dust/v2rayN/releases",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "linux": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه آخر",
-              "url": "https://github.com/2dust/v2rayN/releases",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
+      "category": "client",
+      "links": [
+        {
+          "url": "https://github.com/2dust/v2rayN/releases",
+          "file": "",
+          "sha256": "",
+          "os": "windows"
         }
-      }
+      ]
+    },
+    {
+      "id": "clashverge",
+      "name": "Clash Verge Rev",
+      "kind": "کلاینت Clash/Mihomo",
+      "proto": "Shadowsocks، VMess، VLESS، Trojan، Hysteria2",
+      "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.",
+      "steps": [
+        "به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.",
+        "پروفایل را فعال کنید.",
+        "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).",
+        "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."
+      ],
+      "category": "client",
+      "links": [
+        {
+          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+          "file": "",
+          "sha256": "",
+          "os": ""
+        }
+      ]
     },
     {
       "id": "singbox",
       "name": "sing-box",
-      "category": "client",
       "kind": "هستهٔ جهانی و کلاینت رسمی",
       "proto": "بیشتر پروتکل‌های رایج",
       "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.",
@@ -238,78 +156,37 @@
         "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.",
         "پروفایل را فعال و سرویس را روشن کنید."
       ],
-      "builds": {
-        "android": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه 1.15.0",
-              "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.12/SFA-1.15.0-alpha.12-universal.apk",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "ios": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه آخر",
-              "url": "https://apps.apple.com/app/sing-box-mt/id6785326793",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "windows": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه آخر",
-              "url": "https://github.com/SagerNet/sing-box/releases",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "macos": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه آخر",
-              "url": "https://github.com/SagerNet/sing-box/releases",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "linux": {
-          "buttons": [
-            {
-              "label": "دانلود نسخه آخر",
-              "url": "https://github.com/SagerNet/sing-box/releases",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
+      "category": "client",
+      "links": [
+        {
+          "url": "https://sing-box.sagernet.org/clients/",
+          "file": "",
+          "sha256": "",
+          "os": ""
         }
-      }
+      ]
+    },
+    {
+      "id": "v2raya",
+      "name": "v2rayA",
+      "kind": "کلاینت وب برای Linux",
+      "proto": "VMess، VLESS، Trojan، Shadowsocks",
+      "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.",
+      "steps": [
+        "پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`",
+        "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.",
+        "اشتراک یا کانفیگ را Import و سرور را Connect کنید.",
+        "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."
+      ],
+      "category": "client",
+      "links": [
+        {
+          "url": "https://github.com/v2rayA/v2rayA/releases",
+          "file": "",
+          "sha256": "",
+          "os": "linux"
+        }
+      ]
     },
     {
       "id": "outline",
@@ -322,79 +199,36 @@
         "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.",
         "روی Connect بزنید."
       ],
-      "builds": {
-        "android": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://getoutline.org/get-started/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "ios": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://getoutline.org/get-started/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "windows": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://getoutline.org/get-started/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "macos": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://getoutline.org/get-started/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "linux": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://getoutline.org/get-started/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
+      "category": "client",
+      "links": [
+        {
+          "url": "https://getoutline.org/get-started/",
+          "file": "",
+          "sha256": "",
+          "os": ""
         }
-      },
-      "category": "client"
+      ]
+    },
+    {
+      "id": "psiphon",
+      "name": "Psiphon",
+      "kind": "ابزار آمادهٔ اتصال",
+      "proto": "چندپروتکلی، بدون نیاز به کانفیگ",
+      "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.",
+      "steps": [
+        "برنامه را باز کنید.",
+        "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.",
+        "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."
+      ],
+      "category": "vpn",
+      "links": [
+        {
+          "url": "https://psiphon.ca/en/download.html",
+          "file": "",
+          "sha256": "",
+          "os": ""
+        }
+      ]
     },
     {
       "id": "tor",
@@ -407,65 +241,15 @@
         "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.",
         "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."
       ],
-      "builds": {
-        "android": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.torproject.org/download/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "windows": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.torproject.org/download/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "macos": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.torproject.org/download/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "linux": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.torproject.org/download/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
+      "category": "vpn",
+      "links": [
+        {
+          "url": "https://www.torproject.org/download/",
+          "file": "",
+          "sha256": "",
+          "os": ""
         }
-      },
-      "category": "vpn"
+      ]
     },
     {
       "id": "wireguard",
@@ -477,79 +261,15 @@
         "فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.",
         "تونل را فعال کنید."
       ],
-      "builds": {
-        "android": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.wireguard.com/install/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "ios": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.wireguard.com/install/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "windows": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.wireguard.com/install/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "macos": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.wireguard.com/install/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
-        },
-        "linux": {
-          "buttons": [
-            {
-              "label": "دانلود",
-              "url": "https://www.wireguard.com/install/",
-              "file": "",
-              "sha256": "",
-              "style": "primary",
-              "row": 1,
-              "col": 1,
-              "span": 1
-            }
-          ]
+      "category": "client",
+      "links": [
+        {
+          "url": "https://www.wireguard.com/install/",
+          "file": "",
+          "sha256": "",
+          "os": ""
         }
-      },
-      "category": "client"
+      ]
     }
   ]
 }

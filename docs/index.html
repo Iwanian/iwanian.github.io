@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#07052a">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon.png" type="image/png">
 <meta name="description" content="Iwana? اینترنت آزاد">
 </head>
 <body>
@@ -135,7 +135,37 @@ main{position:relative;z-index:1}
 .pick-d{color:var(--muted);font-size:.95rem;line-height:1.8}
 .pick-n{margin-top:auto;padding-top:.5rem;font-size:.84rem;color:var(--gold);font-weight:500}
 .pick-hint{margin:14px 0 0;color:var(--muted);font-size:.9rem}
-.apps-panel{margin-top:26px}
+/* three boxes: two on top, the third centred below at the same width */
+.picks{grid-template-columns:repeat(2,minmax(0,1fr))}
+.picks .pick:nth-child(3){grid-column:1/-1;justify-self:center;width:calc(50% - 8px)}
+.brand .logo{width:28px;height:28px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1px rgba(255,166,61,.55),0 0 18px rgba(255,166,61,.25);flex:none}
+.dl{display:grid;gap:8px;margin-top:12px}
+.ltr-num{unicode-bidi:plaintext}
+.dl-main{width:100%;min-height:48px;font-weight:700;text-align:center}
+.dl-meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;font-size:.8rem;color:var(--muted)}
+.dl-file{direction:ltr;unicode-bidi:isolate;font-family:var(--f-mono);font-size:.74rem;overflow-wrap:anywhere}
+.dl-load,.dl-none{margin:0;font-size:.88rem;color:var(--muted)}
+.dl-alt,.dl-more{background:none;border:0;padding:.35rem 0;color:var(--arc);font:500 .86rem/1.5 var(--f-body);cursor:pointer;text-align:start;text-decoration:underline;text-underline-offset:3px}
+.dl-alt:hover,.dl-more:hover{color:var(--gold)}
+.how-os h4{margin:.8rem 0 .4rem;font-size:.95rem}
+.dlg{width:min(92vw,520px);max-height:88vh;overflow:auto;padding:0;border:1px solid var(--line);border-radius:18px;background:var(--panel-2);color:var(--text);box-shadow:0 30px 90px rgba(0,0,0,.6)}
+.dlg::backdrop{background:rgba(3,2,20,.72);backdrop-filter:blur(3px)}
+.dlg-in{display:grid;gap:14px;padding:22px}
+.dlg-in h3{margin:0;font-size:1.1rem}
+.fld{display:grid;gap:6px}
+.fld label{font-size:.86rem;color:#d8d5ff}
+.fld select{width:100%;min-height:44px;padding:.5rem .8rem;border-radius:11px;border:1px solid var(--line);background:var(--void);color:var(--text);font:inherit}
+.dlg-hint{margin:-4px 0 0;font-size:.82rem;color:var(--muted)}
+.dlg-res{padding:14px;border:1px dashed var(--line);border-radius:14px;margin-top:0}
+.dlg-act{display:flex;gap:10px;flex-wrap:wrap}
+.detect{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:0 0 18px}
+.detect .alt{min-height:40px;padding:.4rem 1rem;font-size:.9rem}
+.dlg-list{display:grid;gap:10px}
+.dlg-row{padding:12px;border:1px dashed var(--line);border-radius:14px}
+.dlg-row b{font-weight:700}
+.dlg-row .dl{margin-top:8px}
+@media (max-width:820px){.picks .pick:nth-child(3){width:100%}}
+.apps-panel{margin-top:26px;scroll-margin-top:84px}
 .btns{display:grid;gap:8px}
 .btns .btn{min-width:0;min-height:44px;padding:.5rem .8rem;font-size:.92rem;text-align:center;overflow-wrap:anywhere}
 .btns .btn-line{font-weight:700}
@@ -196,19 +226,7 @@ footer .brand b{font-size:1rem}
 
 <header class="top" id="top">
   <a class="brand" href="#" aria-label="Iwana">
-    <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
-      <defs>
-        <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd98a"/><stop offset=".5" stop-color="#ff8a2a"/><stop offset="1" stop-color="#7fb2ff"/></linearGradient>
-      </defs>
-      <g transform="rotate(-16 24 22)" fill="none" stroke="url(#lg)" stroke-linecap="round">
-        <ellipse cx="24" cy="22" rx="22" ry="9.5" stroke-width="1.6"/>
-        <ellipse cx="24" cy="22" rx="15.5" ry="6.4" stroke-width="1.4" opacity=".75"/>
-        <ellipse cx="24" cy="22" rx="9" ry="3.6" stroke-width="1.2" opacity=".55"/>
-      </g>
-      <circle cx="24" cy="22" r="2.6" fill="#ffd98a"/>
-      <circle cx="26" cy="31" r="3.3" fill="#e4e6f7"/>
-      <path d="M17.5 47c0-7 3.2-11.2 8.2-11.2S34 40 34 47z" fill="#e4e6f7"/>
-    </svg>
+    <img class="logo" width="28" height="28" src="data:image/webp;base64,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" alt="">
     <b>Iwana?</b>
   </a>
   <nav class="nav" aria-label="بخش‌ها">
@@ -242,19 +260,16 @@ footer .brand b{font-size:1rem}
   <section class="sheet" id="apps" aria-labelledby="t-apps">
     <div class="wrap">
       <div class="sec-head">
-        <h2 id="t-apps">فیلترشکن ها و کلاینت‌ها</h2>
-        <p>سیستم‌عامل خود را انتخاب کنید. هر برنامه لینک نصب و آموزش اتصال دارد.</p>
+        <h2 id="t-apps">برنامه‌ها</h2>
+        <p>یکی از کادرها را بزنید؛ سیستم و پردازندهٔ شما خودکار تشخیص داده می‌شود و مناسب‌ترین نسخهٔ جدید یک‌کلیکی دانلود می‌شود.</p>
       </div>
       <div class="picks" id="picks" role="group" aria-label="دسته"></div>
-      <p class="pick-hint" id="pickHint">برای دیدن برنامه‌ها، یکی از این دو کادر را بزنید.</p>
+      <p class="pick-hint" id="pickHint">برای دیدن برنامه‌ها، یکی از این سه کادر را بزنید.</p>
       <div class="apps-panel" id="appsPanel" hidden>
-        <div class="tabs" role="tablist" aria-label="سیستم‌عامل" id="osTabs"></div>
-        <p class="detect" id="detect" hidden></p>
-        <div class="os-layout">
-          <aside class="guide" id="osGuide" aria-live="polite"></aside>
-          <div class="apps" id="appGrid" role="tabpanel" aria-live="polite"></div>
-        </div>
+        <div class="detect" id="detect" hidden><span id="detectTxt"></span> <button type="button" class="btn btn-primary alt" id="altBtn">دانلود برای سیستم دیگر</button> <button type="button" class="dl-alt" id="resetBtn" hidden>برگشت به سیستم من</button></div>
+        <div class="apps" id="appGrid" aria-live="polite"></div>
       </div>
+      <dialog class="dlg" id="dlg" aria-labelledby="dlgT"></dialog>
     </div>
   </section>
 
@@ -294,7 +309,7 @@ footer .brand b{font-size:1rem}
 /* Content (projects and apps) lives in data/content.json.
    DEFAULT_CONTENT below is a copy used only when that file cannot be fetched. */
 /*CONTENT:START*/
-var DEFAULT_CONTENT = {"rev": 1, "sections": [{"id": "vpn", "title": "فیلترشکن‌ها", "desc": "آماده و ساده؛ نصب می‌کنید و وصل می‌شوید."}, {"id": "client", "title": "کلاینت‌ها", "desc": "برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر."}], "projects": [{"title": "راهنمای گام‌به‌گام اتصال", "tags": ["آموزش"], "sample": true, "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.", "links": [], "id": "p1"}, {"title": "مخزن کانفیگ‌های آزمایش‌شده", "tags": ["ابزار", "کانفیگ"], "sample": true, "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.", "links": [], "id": "p2"}, {"title": "ابزار بررسی سلامت اتصال", "tags": ["ابزار"], "sample": true, "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.", "links": [], "id": "p3"}], "apps": [{"id": "hiddify", "name": "Hiddify", "kind": "کلاینت چندپروتکلی", "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria، TUIC، WireGuard", "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.", "steps": ["برنامه را باز کنید و دسترسی VPN را بپذیرید.", "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.", "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.", "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://hiddify.com", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "v2rayng", "name": "v2rayNG", "kind": "کلاینت Xray/V2Ray", "proto": "VLESS، VMess، Trojan، Shadowsocks", "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.", "steps": ["دکمهٔ + بالای صفحه را بزنید.", "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.", "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.", "با گزینهٔ تست تأخیر اتصال را بسنجید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://github.com/2dust/v2rayNG/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "v2rayn", "name": "v2rayN", "kind": "کلاینت Xray/sing-box", "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria", "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.", "steps": ["از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.", "سرور را انتخاب و فعال کنید.", "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.", "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."], "builds": {"windows": {"buttons": [{"label": "دانلود", "url": "https://github.com/2dust/v2rayN/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "clashverge", "name": "Clash Verge Rev", "kind": "کلاینت Clash/Mihomo", "proto": "Shadowsocks، VMess، VLESS، Trojan، Hysteria2", "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.", "steps": ["به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.", "پروفایل را فعال کنید.", "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).", "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."], "builds": {"windows": {"buttons": [{"label": "دانلود", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "singbox", "name": "sing-box", "kind": "هستهٔ جهانی و کلاینت رسمی", "proto": "بیشتر پروتکل‌های رایج", "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.", "steps": ["برنامه را نصب کنید.", "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.", "پروفایل را فعال و سرویس را روشن کنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://sing-box.sagernet.org/clients/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://sing-box.sagernet.org/clients/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://sing-box.sagernet.org/clients/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "v2raya", "name": "v2rayA", "kind": "کلاینت وب برای Linux", "proto": "VMess، VLESS، Trojan، Shadowsocks", "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.", "steps": ["پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`", "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.", "اشتراک یا کانفیگ را Import و سرور را Connect کنید.", "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."], "builds": {"linux": {"buttons": [{"label": "دانلود", "url": "https://github.com/v2rayA/v2rayA/releases", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "outline", "name": "Outline", "kind": "اتصال با کلید دسترسی", "proto": "Shadowsocks", "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.", "steps": ["کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.", "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.", "روی Connect بزنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}, {"id": "psiphon", "name": "Psiphon", "kind": "ابزار آمادهٔ اتصال", "proto": "چندپروتکلی، بدون نیاز به کانفیگ", "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.", "steps": ["برنامه را باز کنید.", "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.", "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://psiphon.ca/en/download.html", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://psiphon.ca/en/download.html", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://psiphon.ca/en/download.html", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "vpn"}, {"id": "tor", "name": "Tor Browser", "kind": "مرورگر ناشناس‌ساز", "proto": "شبکهٔ Tor، پل‌های Snowflake و obfs4", "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.", "steps": ["نصب و اجرا کنید و Connect بزنید.", "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.", "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://www.torproject.org/download/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://www.torproject.org/download/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://www.torproject.org/download/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://www.torproject.org/download/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "vpn"}, {"id": "wireguard", "name": "WireGuard", "kind": "تونل VPN", "proto": "WireGuard", "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.", "steps": ["فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.", "تونل را فعال کنید."], "builds": {"android": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "ios": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "windows": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "macos": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}, "linux": {"buttons": [{"label": "دانلود", "url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "style": "primary", "row": 1, "col": 1, "span": 1}]}}, "category": "client"}]};
+var DEFAULT_CONTENT = {"rev": 1, "sections": [{"id": "vpn", "title": "فیلترشکن‌ها", "desc": "آماده و ساده؛ نصب می‌کنید و وصل می‌شوید."}, {"id": "client", "title": "کلاینت‌ها", "desc": "برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر."}, {"id": "browser", "title": "مرورگر", "desc": "افزونه‌ها و ابزارهای مرورگر؛ نسخهٔ مرورگر شما خودکار تشخیص داده می‌شود."}], "projects": [{"title": "راهنمای گام‌به‌گام اتصال", "tags": ["آموزش"], "sample": true, "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.", "links": [], "id": "p1"}, {"title": "مخزن کانفیگ‌های آزمایش‌شده", "tags": ["ابزار", "کانفیگ"], "sample": true, "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.", "links": [], "id": "p2"}, {"title": "ابزار بررسی سلامت اتصال", "tags": ["ابزار"], "sample": true, "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.", "links": [], "id": "p3"}], "apps": [{"id": "hiddify", "name": "Hiddify", "kind": "کلاینت چندپروتکلی", "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria، TUIC، WireGuard", "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.", "steps": ["برنامه را باز کنید و دسترسی VPN را بپذیرید.", "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.", "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.", "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."], "category": "client", "links": [{"url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "sha256": "", "os": ""}, {"url": "https://hiddify.com", "file": "", "sha256": "", "os": "ios"}]}, {"id": "v2rayng", "name": "v2rayNG", "kind": "کلاینت Xray/V2Ray", "proto": "VLESS، VMess، Trojan، Shadowsocks", "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.", "steps": ["دکمهٔ + بالای صفحه را بزنید.", "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.", "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.", "با گزینهٔ تست تأخیر اتصال را بسنجید."], "category": "client", "links": [{"url": "https://github.com/2dust/v2rayNG/releases", "file": "", "sha256": "", "os": "android"}]}, {"id": "v2rayn", "name": "v2rayN", "kind": "کلاینت Xray/sing-box", "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria", "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.", "steps": ["از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.", "سرور را انتخاب و فعال کنید.", "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.", "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."], "category": "client", "links": [{"url": "https://github.com/2dust/v2rayN/releases", "file": "", "sha256": "", "os": "windows"}]}, {"id": "clashverge", "name": "Clash Verge Rev", "kind": "کلاینت Clash/Mihomo", "proto": "Shadowsocks، VMess، VLESS، Trojan، Hysteria2", "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.", "steps": ["به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.", "پروفایل را فعال کنید.", "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).", "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."], "category": "client", "links": [{"url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "sha256": "", "os": ""}]}, {"id": "singbox", "name": "sing-box", "kind": "هستهٔ جهانی و کلاینت رسمی", "proto": "بیشتر پروتکل‌های رایج", "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.", "steps": ["برنامه را نصب کنید.", "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.", "پروفایل را فعال و سرویس را روشن کنید."], "category": "client", "links": [{"url": "https://sing-box.sagernet.org/clients/", "file": "", "sha256": "", "os": ""}]}, {"id": "v2raya", "name": "v2rayA", "kind": "کلاینت وب برای Linux", "proto": "VMess، VLESS، Trojan، Shadowsocks", "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.", "steps": ["پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`", "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.", "اشتراک یا کانفیگ را Import و سرور را Connect کنید.", "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."], "category": "client", "links": [{"url": "https://github.com/v2rayA/v2rayA/releases", "file": "", "sha256": "", "os": "linux"}]}, {"id": "outline", "name": "Outline", "kind": "اتصال با کلید دسترسی", "proto": "Shadowsocks", "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.", "steps": ["کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.", "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.", "روی Connect بزنید."], "category": "client", "links": [{"url": "https://getoutline.org/get-started/", "file": "", "sha256": "", "os": ""}]}, {"id": "psiphon", "name": "Psiphon", "kind": "ابزار آمادهٔ اتصال", "proto": "چندپروتکلی، بدون نیاز به کانفیگ", "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.", "steps": ["برنامه را باز کنید.", "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.", "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."], "category": "vpn", "links": [{"url": "https://psiphon.ca/en/download.html", "file": "", "sha256": "", "os": ""}]}, {"id": "tor", "name": "Tor Browser", "kind": "مرورگر ناشناس‌ساز", "proto": "شبکهٔ Tor، پل‌های Snowflake و obfs4", "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.", "steps": ["نصب و اجرا کنید و Connect بزنید.", "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.", "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."], "category": "vpn", "links": [{"url": "https://www.torproject.org/download/", "file": "", "sha256": "", "os": ""}]}, {"id": "wireguard", "name": "WireGuard", "kind": "تونل VPN", "proto": "WireGuard", "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.", "steps": ["فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.", "تونل را فعال کنید."], "category": "client", "links": [{"url": "https://www.wireguard.com/install/", "file": "", "sha256": "", "os": ""}]}]};
 /*CONTENT:END*/
 
 const OS = [
@@ -359,21 +374,190 @@ const OS = [
   }
 
   var PROJECTS = [], APPS = [], SECTIONS = [];
+  var CATS = ['vpn', 'client', 'browser'];
   var DEFAULT_SECTIONS = [
     {id:'vpn', title:'فیلترشکن‌ها', desc:'آماده و ساده؛ نصب می‌کنید و وصل می‌شوید.'},
-    {id:'client', title:'کلاینت‌ها', desc:'برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر.'}
+    {id:'client', title:'کلاینت‌ها', desc:'برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر.'},
+    {id:'browser', title:'مرورگر', desc:'افزونه‌ها و ابزارهای مرورگر؛ نسخهٔ مرورگر شما خودکار تشخیص داده می‌شود.'}
   ];
   function arr(x){ return Array.isArray(x) ? x : []; }
-  function safeUrl(u){ u = String(u || '').trim(); return /^https?:\/\//i.test(u) ? u : ''; }
-  function safeFile(u){ u = String(u || '').trim(); return /^downloads\/[A-Za-z0-9_-]+\/[A-Za-z0-9._() -]+$/.test(u) && u.indexOf('..') < 0 ? encodeURI(u) : ''; }
-  function num(v, lo, hi, d){ v = parseInt(v, 10); return isFinite(v) ? Math.min(hi, Math.max(lo, v)) : d; }
+  function safeFile(u){ u = String(u || '').trim(); return /^downloads\/[A-Za-z0-9_-]+\/[A-Za-z0-9._() -]+$/.test(u) && u.indexOf('..') < 0 ? u : ''; }
   function faNum(n){ try { return Number(n).toLocaleString('fa-IR'); } catch (e) { return String(n); } }
+  /*DETECT:START*/
+/* Shared by the site and the admin panel (synced by sync_detect.py). DOM-free. */
+var PLATS = {android:'Android', ios:'iOS', windows:'Windows', macos:'macOS', linux:'Linux', chrome:'Chrome', edge:'Edge', firefox:'Firefox', opera:'Opera', safari:'Safari'};
+var OS_IDS = ['android','ios','windows','macos','linux'], BROWSER_IDS = ['chrome','edge','firefox','opera','safari'];
+var FMT_PREF = {windows:['installer','portable'], macos:['dmg','pkg','zip'], linux:['appimage','deb','rpm','archive'], android:['apk'], ios:['ipa'], chrome:['crx','zip'], edge:['crx','zip'], opera:['crx','zip'], firefox:['xpi'], safari:[]};
+var FMT_NAMES = {apk:'APK', ipa:'IPA', installer:'نصب‌کننده (exe/msi)', portable:'قابل‌حمل (zip)', dmg:'DMG', pkg:'PKG', zip:'ZIP', appimage:'AppImage', deb:'deb (Debian/Ubuntu)', rpm:'rpm (Fedora/openSUSE)', archive:'آرشیو (tar/zip)', crx:'CRX', xpi:'XPI'};
+var FALLBACK = {'windows:arm64':['x64','x86'], 'windows:x64':['x86'], 'macos:arm64':['x64'], 'android:arm64':['armv7'], 'android:x64':['x86'], 'linux:x64':['x86']};
 
-  /* sections: always the two boxes (vpn, client); order and texts come from the content file */
+function archOf(n, plat){
+  if (/universal/.test(n)) return 'universal';
+  if (/arm64|aarch64|armv8|apple-?silicon/.test(n)) return 'arm64';
+  if (/armeabi|armv7|armhf|arm32|armv6/.test(n)) return 'armv7';
+  if (/x86[_-]?64|amd64|x64|win64|(^|[^0-9])64-?bit|(^|[^0-9a-z])64([^0-9a-z]|$)/.test(n)) return 'x64';
+  if (/(^|[^a-z0-9])arm([^a-z0-9]|$)/.test(n)) return plat === 'macos' ? 'arm64' : 'armv7';
+  if (/i[3-6]86|x86|ia32|win32|(^|[^0-9])32-?bit/.test(n)) return 'x86';
+  return '';
+}
+/* file name -> {plat, arch, fmt}, or null when it is not something a person should download */
+function classifyAsset(name){
+  var n = String(name || '').toLowerCase(), plat = '', fmt = '';
+  if (!n || /\.(sha\d*|md5|sig|asc|txt|json|ya?ml|blockmap|sbom|pem|minisig|sh|ps1|md|html|pdb|log|aab|apks)$|sha\d*sums?|checksums?|dsym|debug|symbols|(^|[-_.])(src|source)([-_.]|$)/.test(n)) return null;
+  var tk = n.split(/[^a-z0-9]+/);
+  var has = function(list){ return list.some(function(t){ return tk.indexOf(t) >= 0; }); };
+  if (/\.apk$/.test(n)) { plat = 'android'; fmt = 'apk'; }
+  else if (/\.ipa$/.test(n)) { plat = 'ios'; fmt = 'ipa'; }
+  else if (/\.(msi|msix|msixbundle|appx|appxbundle)$/.test(n)) { plat = 'windows'; fmt = 'installer'; }
+  else if (/\.exe$/.test(n)) { plat = 'windows'; fmt = tk.indexOf('portable') >= 0 ? 'portable' : 'installer'; }
+  else if (/\.dmg$/.test(n)) { plat = 'macos'; fmt = 'dmg'; }
+  else if (/\.pkg$/.test(n)) { plat = 'macos'; fmt = 'pkg'; }
+  else if (/\.appimage$/.test(n)) { plat = 'linux'; fmt = 'appimage'; }
+  else if (/\.deb$/.test(n)) { plat = 'linux'; fmt = 'deb'; }
+  else if (/\.rpm$/.test(n)) { plat = 'linux'; fmt = 'rpm'; }
+  else if (/\.xpi$/.test(n)) { plat = 'firefox'; fmt = 'xpi'; }
+  else if (/\.crx$/.test(n)) { plat = 'chrome'; fmt = 'crx'; }
+  else if (/\.(zip|7z|tar\.gz|tgz|tar\.xz|tar\.bz2|gz|xz)$/.test(n)) {
+    if (has(['firefox','gecko'])) { plat = 'firefox'; fmt = 'xpi'; }
+    else if (has(['edge'])) { plat = 'edge'; fmt = 'zip'; }
+    else if (has(['chrome','chromium'])) { plat = 'chrome'; fmt = 'zip'; }
+    else if (has(['win','win32','win64','windows','msvc'])) { plat = 'windows'; fmt = 'portable'; }
+    else if (has(['mac','macos','darwin','osx'])) { plat = 'macos'; fmt = 'zip'; }
+    else if (has(['linux','gnu','musl'])) { plat = 'linux'; fmt = 'archive'; }
+    else return null;
+  } else return null;
+  return {plat:plat, arch:(plat === 'ios' || BROWSER_IDS.indexOf(plat) >= 0) ? '' : archOf(n, plat), fmt:fmt};
+}
+function safeHref(u){ u = String(u || '').trim(); return /^https?:\/\/[^\s]+$/i.test(u) ? u : ''; }
+/* a pasted address -> what kind of source it is */
+function classifyUrl(u){
+  var x, m;
+  try { x = new URL(u); } catch (e) { return {type:'page'}; }
+  var h = x.hostname.toLowerCase().replace(/^www\./, ''), p = x.pathname;
+  if (h === 'github.com'){
+    m = /^\/([^\/]+)\/([^\/]+?)(?:\.git)?(?:\/(.*))?$/.exec(p);
+    if (m && ['orgs','topics','sponsors','settings','marketplace','features','about','login','search','collections','explore'].indexOf(m[1]) < 0){
+      var rest = m[3] || '';
+      if (/^(releases\/(download|latest\/download)|archive|raw)\//.test(rest)){
+        var ai0 = classifyAsset(rest.split('/').pop()); if (ai0) return {type:'direct', plat:ai0.plat, arch:ai0.arch, fmt:ai0.fmt};
+      }
+      return {type:'github', owner:m[1], repo:m[2], page:'https://github.com/' + m[1] + '/' + m[2] + '/releases'};
+    }
+  }
+  if (h === 'play.google.com' || h === 'f-droid.org' || h === 'apt.izzysoft.de') return {type:'store', plat:'android', store:h === 'play.google.com' ? 'Google Play' : 'F-Droid'};
+  if (h === 'apps.apple.com' || h === 'itunes.apple.com' || h === 'testflight.apple.com') return {type:'store', plat:'ios', store:'App Store'};
+  if (h === 'apps.microsoft.com' || (h === 'microsoft.com' && /\/store\//.test(p))) return {type:'store', plat:'windows', store:'Microsoft Store'};
+  if (h === 'flathub.org' || h === 'snapcraft.io') return {type:'store', plat:'linux', store:h};
+  if (h === 'chromewebstore.google.com' || (h === 'chrome.google.com' && /^\/webstore/.test(p))) return {type:'store', plat:'chrome', store:'Chrome Web Store'};
+  if (h === 'addons.mozilla.org') return {type:'store', plat:'firefox', store:'Firefox Add-ons'};
+  if (h === 'microsoftedge.microsoft.com') return {type:'store', plat:'edge', store:'Edge Add-ons'};
+  if (h === 'addons.opera.com') return {type:'store', plat:'opera', store:'Opera Add-ons'};
+  var ai = classifyAsset(decodeURIComponent(p.split('/').pop() || ''));
+  if (ai) return {type:'direct', plat:ai.plat, arch:ai.arch, fmt:ai.fmt};
+  return {type:'page'};
+}
+function platOK(cp, tp){ return cp === tp || (cp === 'chrome' && (tp === 'edge' || tp === 'opera')); }
+/* how well does candidate c fit target T = {plat, arch, fmt}? -1 = does not fit */
+function scoreC(c, T){
+  if (!T.plat) return -1;
+  if (c.plat && !platOK(c.plat, T.plat)) return -1;
+  var pen = (c.plat && c.plat !== T.plat) ? 10 : 0;
+  if (c.kind === 'store') return (BROWSER_IDS.indexOf(T.plat) >= 0 ? 120 : 40) - pen;   /* extensions: the store beats loose files */
+  var a = c.arch, t = T.arch, s;
+  if (!t) s = a ? 55 : 60;
+  else if (a === t) s = 100;
+  else if (a === 'universal') s = 70;
+  else if (!a) s = 60;
+  else if ((FALLBACK[T.plat + ':' + t] || []).indexOf(a) >= 0) s = 30;
+  else return -1;
+  if (T.fmt) s += c.fmt === T.fmt ? 20 : 0;
+  else { var i = (FMT_PREF[T.plat] || []).indexOf(c.fmt); s += i < 0 ? 0 : Math.max(0, 9 - i * 3); }
+  return s - pen;
+}
+/* version shown on the button: release tag, else a number found in the file name */
+function verOf(c){
+  var t = String(c.ver || c.tag || '').replace(/^[vV]\s*/, '');
+  if (!t){ var m = /(\d+\.\d+(?:\.\d+){0,2}(?:[-.]?(?:beta|alpha|rc|nightly|preview|pre)[.-]?\d*)?)/i.exec(String(c.name || '').replace(/(x|amd|arm|i)\d{2,3}/gi, '')); t = m ? m[1] : ''; }
+  return t.length > 24 ? t.slice(0, 24) : t;
+}
+function cmpVer(a, b){
+  var x = (verOf(a).match(/\d+/g) || []).map(Number), y = (verOf(b).match(/\d+/g) || []).map(Number);
+  for (var i = 0; i < Math.max(x.length, y.length); i++){ var d = (x[i] || 0) - (y[i] || 0); if (d) return d; }
+  return 0;
+}
+/* newest release that has a fitting file wins; then the best-fitting source overall */
+function pickBest(cands, T){
+  var groups = {}, rest = [];
+  cands.forEach(function(c){
+    var s = scoreC(c, T); if (s < 0) return;
+    if (c.kind === 'asset') (groups[c.src] = groups[c.src] || []).push({c:c, s:s}); else rest.push({c:c, s:s});
+  });
+  Object.keys(groups).forEach(function(k){
+    var g = groups[k], good = g.filter(function(x){ return x.s >= 50; });
+    if (good.length){ good.sort(function(a, b){ return a.c.ri - b.c.ri || b.s - a.s; }); rest.push(good[0]); }
+    else { g.sort(function(a, b){ return b.s - a.s || a.c.ri - b.c.ri; }); rest.push(g[0]); }
+  });
+  rest.sort(function(a, b){ return b.s - a.s || cmpVer(b.c, a.c); });   /* equal fit: higher version wins */
+  return rest.length ? rest[0].c : null;
+}
+var relCache = {};
+function getReleases(o, r){
+  var key = o + '/' + r;
+  if (relCache[key]) return relCache[key];
+  var ls = 'iw-rel:' + key, stale = null;
+  try { var s = JSON.parse(localStorage.getItem(ls) || 'null'); if (s && s.d){ stale = s.d; if (Date.now() - s.t < 30 * 60000) return (relCache[key] = Promise.resolve(s.d)); } } catch (e) {}
+  return (relCache[key] = fetch('https://api.github.com/repos/' + encodeURIComponent(o) + '/' + encodeURIComponent(r) + '/releases?per_page=12', {headers:{Accept:'application/vnd.github+json'}})
+    .then(function(res){ if (!res.ok) throw new Error('github ' + res.status); return res.json(); })
+    .then(function(list){
+      var d = list.filter(function(x){ return x && !x.draft; }).map(function(x){
+        return {tag:String(x.tag_name || ''), pre:!!x.prerelease, date:x.published_at || x.created_at || '', url:String(x.html_url || ''),
+          assets:(x.assets || []).map(function(a){ return {name:String(a.name || ''), size:a.size || 0, url:String(a.browser_download_url || '')}; }).filter(function(a){ return /^https:\/\/github\.com\//.test(a.url); })};
+      });
+      d.sort(function(a, b){ return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+      try { localStorage.setItem(ls, JSON.stringify({t:Date.now(), d:d})); } catch (e) {}
+      return d;
+    }).catch(function(e){ delete relCache[key]; if (stale) return stale; throw e; }));
+}
+var RESOLVED_LINKS = {};   /* url -> candidates found by the scheduled resolver (data/resolved.json) */
+function forcedOnly(list, forced){ return forced ? list.filter(function(x){ return !x.plat || platOK(x.plat, forced); }) : list; }
+function linkCands(L){
+  var forced = L.os || '', c, name, ai;
+  if (L.file){
+    var m = /^downloads\/([a-z]+)\//.exec(L.file); name = L.file.split('/').pop(); ai = classifyAsset(name) || {};
+    return Promise.resolve([{kind:'file', plat:forced || (m && m[1]) || ai.plat || '', arch:ai.arch || '', fmt:ai.fmt || '', href:L.file, name:name, sha:L.sha256 || ''}]);
+  }
+  var url = safeHref(L.url); if (!url) return Promise.resolve([]);
+  var pre = RESOLVED_LINKS[url];
+  if (pre && pre.length) return Promise.resolve(forcedOnly(pre.filter(function(x){ return /^https?:\/\//.test(x.href || ''); }), forced));
+  c = classifyUrl(url);
+  if (c.type === 'github') return githubCands(c.owner, c.repo).then(function(l){ return forcedOnly(l, forced); }, function(){ return []; });
+  if (c.type === 'store') return Promise.resolve([{kind:'store', plat:forced || c.plat, href:url, store:c.store}]);
+  if (c.type === 'direct') return Promise.resolve([{kind:'direct', plat:forced || c.plat, arch:c.arch, fmt:c.fmt, href:url, name:decodeURIComponent(url.split('?')[0].split('/').pop() || '')}]);
+  return Promise.resolve([]);   /* a plain page: only the resolver can look inside it */
+}
+function githubCands(owner, repo){
+  return getReleases(owner, repo).then(function(rels){
+    var out = [];
+    rels.forEach(function(r, ri){
+      r.assets.forEach(function(a){
+        var x = classifyAsset(a.name); if (!x) return;
+        out.push({kind:'asset', src:owner + '/' + repo, ri:ri, plat:x.plat, arch:x.arch, fmt:x.fmt, href:a.url, name:a.name, size:a.size, tag:r.tag, pre:r.pre});
+      });
+    });
+    return out;
+  });
+}
+function candsOf(links){
+  return Promise.all((links || []).map(linkCands)).then(function(l){ return [].concat.apply([], l); });
+}
+function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1) + ' MB' : n > 0 ? Math.max(1, Math.round(n / 1024)) + ' KB' : ''; }
+/*DETECT:END*/
+
+  /* sections: the boxes (vpn, client, browser); order and texts come from the content file */
   function normSections(list){
     var seen = {}, out = [];
     arr(list).forEach(function(s){
-      if (!s || (s.id !== 'vpn' && s.id !== 'client') || seen[s.id]) return;
+      if (!s || CATS.indexOf(s.id) < 0 || seen[s.id]) return;
       seen[s.id] = 1;
       var d = DEFAULT_SECTIONS.filter(function(x){ return x.id === s.id; })[0];
       out.push({id:s.id, title:String(s.title || '').slice(0, 60) || d.title, desc:String(s.desc == null ? d.desc : s.desc).slice(0, 200)});
@@ -381,57 +565,38 @@ const OS = [
     DEFAULT_SECTIONS.forEach(function(d){ if (!seen[d.id]) out.push(d); });
     return out;
   }
-
-  /* buttons of one app on one OS. Old files ({url, file, sha256, label}) are converted on the fly. */
-  function buttonsOf(b){
-    if (!b || typeof b !== 'object') return [];
-    var raw = Array.isArray(b.buttons) ? b.buttons : null;
-    if (!raw){
-      raw = [];
-      if (b.file) raw.push({label:b.label, file:b.file, sha256:b.sha256, style:'primary', row:1, col:1});
-      if (b.url) raw.push({label:'', url:b.url, style:b.file ? 'line' : 'primary', row:1, col:b.file ? 2 : 1});
-    }
+  /* an app's download sources. Older files (builds per OS) are converted on the fly. */
+  function normLinks(a){
     var out = [];
-    raw.forEach(function(x, i){
-      if (!x || typeof x !== 'object') return;
-      var file = safeFile(x.file), url = file ? '' : safeUrl(x.url);
+    function push(o){
+      var file = safeFile(o.file), url = file ? '' : safeHref(o.url);
       if (!file && !url) return;
-      var col = num(x.col, 1, 3, 1);
-      out.push({
-        label: String(x.label || '').slice(0, 60) || (file ? 'دانلود مستقیم' : 'دانلود'),
-        href: file || url, isFile: !!file,
-        sha256: /^[0-9a-f]{64}$/i.test(String(x.sha256 || '')) ? String(x.sha256).toLowerCase() : '',
-        style: x.style === 'line' ? 'line' : 'primary',
-        row: num(x.row, 1, 8, i + 1), col: col, span: Math.min(num(x.span, 1, 3, 1), 4 - col)
+      out.push({url:url, file:file, os:PLATS[o.os] ? o.os : '', sha256:/^[0-9a-f]{64}$/i.test(String(o.sha256 || '')) ? String(o.sha256).toLowerCase() : ''});
+    }
+    if (Array.isArray(a.links)) a.links.forEach(function(x){ if (x && typeof x === 'object') push(x); });
+    else {
+      var groups = {}, order = [];
+      OS_IDS.forEach(function(id){
+        var b = a.builds && a.builds[id]; if (!b) return;
+        (Array.isArray(b.buttons) ? b.buttons : [{file:b.file, sha256:b.sha256}, {url:b.url}]).forEach(function(x){
+          var k = x && (x.file || x.url); if (!k) return;
+          if (!groups[k]){ groups[k] = {x:x, oss:[]}; order.push(k); }
+          groups[k].oss.push(id);
+        });
       });
+      order.forEach(function(k){ var g = groups[k]; push({url:g.x.url, file:g.x.file, sha256:g.x.sha256, os:g.oss.length === 1 ? g.oss[0] : ''}); });
+    }
+    return out;
+  }
+  function normApps(list){
+    var out = [];
+    arr(list).forEach(function(a){
+      if (!a || typeof a !== 'object' || !a.name) return;
+      out.push({id:String(a.id || ''), name:String(a.name), category:CATS.indexOf(a.category) >= 0 ? a.category : 'client', kind:String(a.kind || ''), proto:String(a.proto || ''),
+        desc:String(a.desc || ''), steps:arr(a.steps).map(String), links:normLinks(a)});
     });
     return out;
   }
-
-  /* places buttons on a grid by row/column; a button that would land on a taken cell moves down; empty rows collapse */
-  function layoutButtons(list){
-    var items = list.map(function(b, i){ return {b:b, i:i, row:b.row, col:b.col, span:b.span}; });
-    items.sort(function(x, y){ return x.row - y.row || x.col - y.col || x.i - y.i; });
-    var occ = {}, placed = [], c;
-    items.forEach(function(it){
-      var r = it.row;
-      for (;;){
-        var clash = false;
-        for (c = it.col; c < it.col + it.span; c++) if (occ[r + ':' + c]) clash = true;
-        if (!clash) break;
-        r++;
-      }
-      for (c = it.col; c < it.col + it.span; c++) occ[r + ':' + c] = 1;
-      placed.push({b:it.b, row:r, col:it.col, span:it.span});
-    });
-    var rows = [];
-    placed.forEach(function(p){ if (rows.indexOf(p.row) < 0) rows.push(p.row); });
-    rows.sort(function(a, b){ return a - b; });
-    placed.forEach(function(p){ p.row = rows.indexOf(p.row) + 1; });
-    placed.sort(function(x, y){ return x.row - y.row || x.col - y.col; });
-    return placed;
-  }
-  function inCat(a, c){ return (a && a.category === 'vpn' ? 'vpn' : 'client') === c; }
 
   /* ---------- projects ---------- */
   var pg = $('#projectGrid');
@@ -440,23 +605,68 @@ const OS = [
     if (!PROJECTS.length) pg.appendChild(el('p', {class:'empty', text:'هنوز پروژه‌ای اضافه نشده است.'}));
     PROJECTS.forEach(function(p){
       var tags = el('div', {class:'tags'}, arr(p.tags).map(function(t){ return el('span', {class:'tag', text:t}); }));
-      if (p.sample) tags.appendChild(el('span', {class:'tag sample', text:'نمونه'}));
+      if (p.sample) tags.appendChild(el('span', {class:'tag sample', text:'ایوانا'}));
       var actions = el('div', {class:'actions'});
-      arr(p.links).forEach(function(l){ var u = safeUrl(l.url); if (u) actions.appendChild(el('a', {class:'btn btn-primary', href:u, target:'_blank', rel:'noopener', text:l.label || u})); });
+      arr(p.links).forEach(function(l){ var u = safeHref(l.url); if (u) actions.appendChild(el('a', {class:'btn btn-primary', href:u, target:'_blank', rel:'noopener', text:l.label || u})); });
       pg.appendChild(el('article', {class:'card'}, [tags, el('h3', {text:p.title}), el('p', {text:p.desc}), actions.children.length ? actions : null]));
     });
   }
 
-  /* ---------- apps: two big boxes, then OS tabs ---------- */
-  var picks = $('#picks'), hintEl = $('#pickHint'), panel = $('#appsPanel');
-  var tabs = $('#osTabs'), grid = $('#appGrid'), guide = $('#osGuide'), detectEl = $('#detect');
-  var current = null, cat = null, opened = false, applied = false;
+  /* ---------- the viewer's system, processor and browser ---------- */
+  var ENV = {plat:'', arch:'', browser:'chrome'};
+  var envP = (function(){
+    var e = {plat:'', arch:'', browser:'chrome'};
+    try {
+      var ua = navigator.userAgent || '', pf = navigator.platform || '';
+      if (/android/i.test(ua)) e.plat = 'android';
+      else if (/iphone|ipad|ipod/i.test(ua) || (pf === 'MacIntel' && navigator.maxTouchPoints > 1)) e.plat = 'ios';
+      else if (/win/i.test(pf) || /windows/i.test(ua)) e.plat = 'windows';
+      else if (/mac/i.test(pf)) e.plat = 'macos';
+      else if (/linux|x11/i.test(pf + ua) && !/cros/i.test(ua)) e.plat = 'linux';
+      if (/edg(e|a|ios)?\//i.test(ua)) e.browser = 'edge';
+      else if (/opr\/|opera/i.test(ua)) e.browser = 'opera';
+      else if (/firefox|fxios/i.test(ua)) e.browser = 'firefox';
+      else if (/chrome|crios|chromium/i.test(ua)) e.browser = 'chrome';
+      else if (/safari/i.test(ua)) e.browser = 'safari';
+      e.arch = {android:'arm64', windows:'x64', macos:'arm64', linux:'x64'}[e.plat] || '';
+      if (/aarch64|arm64|armv8/i.test(ua)) e.arch = 'arm64';
+      else if (e.plat === 'linux' && /armv7|armhf/i.test(ua)) e.arch = 'armv7';
+      else if (e.plat === 'linux' && /i[3-6]86/.test(ua)) e.arch = 'x86';
+    } catch (err) {}
+    var uad = navigator.userAgentData;
+    var p = (uad && uad.getHighEntropyValues) ? uad.getHighEntropyValues(['architecture', 'bitness']).then(function(v){
+      var a = String(v.architecture || '').toLowerCase(), b = String(v.bitness || '');
+      if (e.plat === 'ios' || !e.plat) return;
+      if (a === 'arm') e.arch = b === '32' ? 'armv7' : 'arm64';
+      else if (a === 'x86') e.arch = b === '32' ? 'x86' : 'x64';
+    }).catch(function(){}) : Promise.resolve();
+    return p.then(function(){
+      if (e.plat === 'macos' && (e.browser === 'safari' || e.browser === 'firefox')){
+        try {
+          var gl = document.createElement('canvas').getContext('webgl'), x = gl && gl.getExtension('WEBGL_debug_renderer_info'), r = x ? String(gl.getParameter(x.UNMASKED_RENDERER_WEBGL)) : '';
+          if (/Apple M\d/i.test(r)) e.arch = 'arm64'; else if (/Intel/i.test(r)) e.arch = 'x64';
+        } catch (err) {}
+      }
+      ENV = e; return e;
+    });
+  })();
+  var SEL = {os:null, browser:null};   /* what the visitor picked by hand in "another system" */
+  function targetFor(cat){
+    var k = cat === 'browser' ? 'browser' : 'os';
+    if (SEL[k]) return {plat:SEL[k].plat, arch:SEL[k].arch, fmt:SEL[k].fmt};
+    return cat === 'browser' ? {plat:ENV.browser, arch:'', fmt:''} : {plat:ENV.plat, arch:ENV.arch, fmt:''};
+  }
+  function platLabel(T){ return PLATS[T.plat] + (T.arch ? ' · ' + T.arch : ''); }
+
+  /* ---------- the three boxes ---------- */
+  var picks = $('#picks'), hintEl = $('#pickHint'), panel = $('#appsPanel'), grid = $('#appGrid'), detectEl = $('#detect'), detectTxt = $('#detectTxt'), altBtn = $('#altBtn'), resetBtn = $('#resetBtn'), dlg = $('#dlg');
+  var cat = null, opened = false, applied = false;
   var ICONS = {
     vpn: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.4-2.9 8.1-7 10-4.1-1.9-7-5.6-7-10V6l7-3z"/><path d="M9.2 12.2l2 2 3.6-4"/></svg>',
-    client: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="2.4"/><circle cx="5" cy="6" r="1.8"/><circle cx="19" cy="7" r="1.8"/><circle cx="6" cy="18" r="1.8"/><circle cx="18.5" cy="17.5" r="1.8"/><path d="M10.2 10.6L6.4 7.3M13.9 10.9l3.8-2.7M10.4 13.6l-3 2.9M13.8 13.5l3.3 2.6"/></svg>'
+    client: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="2.4"/><circle cx="5" cy="6" r="1.8"/><circle cx="19" cy="7" r="1.8"/><circle cx="6" cy="18" r="1.8"/><circle cx="18" cy="18" r="1.8"/><path d="M10.2 10.6L6.3 7.3M13.9 10.8l3.8-2.6M10.3 13.5l-3 3M13.8 13.6l3 3"/></svg>',
+    browser: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.300 6.400-3.900 9c-2.600-2.600-3.900-5.600-3.900-9S9.400 5.600 12 3z"/></svg>'
   };
-  function appsOf(c, os){ return APPS.filter(function(a){ return inCat(a, c) && (!os || buttonsOf(a.builds && a.builds[os]).length); }); }
-
+  function appsOf(c){ return APPS.filter(function(a){ return a.category === c; }); }
   function renderPicks(){
     picks.textContent = '';
     (SECTIONS.length ? SECTIONS : DEFAULT_SECTIONS).forEach(function(s){
@@ -465,110 +675,176 @@ const OS = [
       b.appendChild(ic);
       b.appendChild(el('span', {class:'pick-t', text:s.title}));
       if (s.desc) b.appendChild(el('span', {class:'pick-d', text:s.desc}));
-      if (applied) b.appendChild(el('span', {class:'pick-n', text:faNum(appsOf(s.id).length) + ' برنامه'}));
+      if (applied) b.appendChild(el('span', {class:'pick-n', text:faNum(appsOf(s.id).length) + (s.id === 'browser' ? ' افزونه' : ' برنامه')}));
       b.addEventListener('click', function(){ chooseCat(s.id); });
       picks.appendChild(b);
     });
   }
   function chooseCat(c){
-    var first = !opened;
     cat = c; opened = true;
     Array.prototype.forEach.call(picks.children, function(b){ b.setAttribute('aria-pressed', String(b.dataset.cat === c)); });
     panel.hidden = false; hintEl.hidden = true;
-    updateCounts(); show(current);
-    if (first){
-      var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      try { picks.scrollIntoView({behavior: calm ? 'auto' : 'smooth', block:'start'}); } catch (e) {}
-    }
+    renderCat(true);
+    scrollToPanel();
+  }
+  function scrollToPanel(){
+    var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    try { panel.scrollIntoView({behavior: calm ? 'auto' : 'smooth', block:'start'}); } catch (e) {}
   }
 
-  function updateCounts(){
-    Array.prototype.forEach.call(tabs.children, function(t){ t.lastChild.textContent = cat ? faNum(appsOf(cat, t.dataset.os).length) : ''; });
-  }
+  /* ---------- one app: a smart download button ---------- */
   function copyText(text, btn){
     var done = function(){ var old = btn.textContent; btn.textContent = 'کپی شد'; setTimeout(function(){ btn.textContent = old; }, 1400); };
-    try { navigator.clipboard.writeText(text).then(done, function(){ fallback(); }); } catch(e){ fallback(); }
-    function fallback(){ var r = document.createRange(); r.selectNodeContents(btn.previousElementSibling); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+    try { navigator.clipboard.writeText(text).then(done, function(){}); } catch (e) {}
   }
-  function btnGrid(list){
-    var placed = layoutButtons(list), cols = 1;
-    placed.forEach(function(p){ cols = Math.max(cols, p.col + p.span - 1); });
-    var g = el('div', {class:'btns'});
-    g.style.gridTemplateColumns = 'repeat(' + cols + ', minmax(0, 1fr))';
-    placed.forEach(function(p){
-      var b = p.b, a = el('a', {class:'btn ' + (b.style === 'line' ? 'btn-line' : 'btn-primary'), href:b.href, text:b.label});
-      if (b.isFile) a.setAttribute('download', ''); else { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); }
-      a.style.gridRow = String(p.row); a.style.gridColumn = p.col + ' / span ' + p.span;
-      g.appendChild(a);
-    });
-    return g;
-  }
-  function hashRow(b){
+  function hashRow(sha){
     var btn = el('button', {type:'button', text:'کپی'});
-    btn.addEventListener('click', function(){ copyText(b.sha256, btn); });
-    return el('div', {class:'hash', title:b.label}, [el('span', {text:'SHA-256'}), el('code', {text:b.sha256}), btn]);
+    btn.addEventListener('click', function(){ copyText(sha, btn); });
+    return el('div', {class:'hash'}, [el('span', {text:'SHA-256'}), el('code', {text:sha}), btn]);
   }
-  function appCard(a, os){
-    var list = buttonsOf(a.builds && a.builds[os]);
+  function metaOf(c, T){
+    var bits = [];
+    if (T && T.plat && c.kind !== 'store') bits.push(platLabel({plat:T.plat, arch:c.arch && c.arch !== 'universal' ? c.arch : (c.arch || T.arch)}));
+    if (c.pre) bits.push('نسخهٔ آزمایشی');
+    if (c.size) bits.push(fmtBytes(c.size));
+    var line = el('div', {class:'dl-meta'});
+    if (bits.length) line.appendChild(el('span', {text:bits.join(' · ')}));
+    if (c.name) line.appendChild(el('bdi', {class:'dl-file', text:c.name}));
+    return line.children.length ? line : null;
+  }
+  function dlButton(c, T){
+    var label, attrs = {class:'btn btn-primary dl-main', href:c.kind === 'file' ? encodeURI(c.href) : c.href};
+    if (c.kind === 'store'){ label = 'دریافت از ' + (c.store || 'فروشگاه'); attrs.target = '_blank'; attrs.rel = 'noopener'; }
+    else { var v = verOf(c); label = v ? 'دانلود نسخه ' + v : 'دانلود برای ' + platLabel(T); attrs.rel = 'noopener'; if (c.kind === 'file') attrs.download = ''; }
+    return el('a', attrs, [el('span', {class:'ltr-num', text:label})]);
+  }
+  var resolvedP = fetch('data/resolved.json', {cache:'no-cache'}).then(function(r){ return r.ok ? r.json() : null; }).then(function(j){ if (j && j.links) RESOLVED_LINKS = j.links; }).catch(function(){});
+  function candsFor(a){ return a._cp || (a._cp = resolvedP.then(function(){ return candsOf(a.links); })); }
+  function paintResult(host, c, T){
+    host.textContent = '';
+    host.appendChild(dlButton(c, T));
+    var m = metaOf(c, T); if (m) host.appendChild(m);
+    if (c.sha) host.appendChild(hashRow(c.sha));
+  }
+  function osGuide(plat){
+    var o = OS.filter(function(x){ return x.id === plat; })[0];
+    if (!o) return null;
+    var box = el('div', {class:'how-os'}, [el('h4', {text:o.title}), steps(o.steps)]);
+    if (o.note) box.appendChild(el('p', {class:'note', text:o.note}));
+    return box;
+  }
+  function appCard(a, best, T){
+    var resultHost = el('div', {class:'dl'});
+    paintResult(resultHost, best, T);
     var head = el('h3', {}, [el('span', {class:'name', text:a.name}), el('span', {class:'kind', text:a.kind || ''})]);
-    var kids = [head, a.desc ? el('p', {text:a.desc}) : null,
-      a.proto ? el('div', {class:'meta'}, [el('bdi', {text:'پروتکل‌ها: '}), document.createTextNode(a.proto)]) : null, btnGrid(list)];
-    list.forEach(function(b){ if (b.sha256) kids.push(hashRow(b)); });
-    if (arr(a.steps).length) kids.push(el('details', {class:'how'}, [el('summary', {text:'آموزش اتصال'}), steps(arr(a.steps))]));
-    return el('article', {class:'card app'}, kids);
+    var card = el('article', {class:'card app'}, [head, a.desc ? el('p', {text:a.desc}) : null,
+      a.proto ? el('div', {class:'meta'}, [el('bdi', {text:'پروتکل‌ها: '}), document.createTextNode(a.proto)]) : null, resultHost]);
+    if (a.steps.length || a.category !== 'browser'){
+      var inner = el('div', {}, [a.steps.length ? steps(a.steps) : null, a.category !== 'browser' ? osGuide(T.plat) : null]);
+      card.appendChild(el('details', {class:'how'}, [el('summary', {text:'آموزش نصب و اتصال'}), inner]));
+    }
+    return card;
   }
-
-  function show(os){
-    current = os;
-    Array.prototype.forEach.call(tabs.children, function(t){ t.setAttribute('aria-selected', String(t.dataset.os === os)); t.tabIndex = t.dataset.os === os ? 0 : -1; });
-    var o = OS.filter(function(x){ return x.id === os; })[0];
-    guide.textContent = '';
-    guide.appendChild(el('h3', {text:o.title}));
-    guide.appendChild(steps(o.steps));
-    if (o.note) guide.appendChild(el('p', {class:'note', text:o.note}));
-    grid.textContent = '';
-    if (!cat) return;
-    var list = appsOf(cat, os);
-    if (!list.length) grid.appendChild(el('p', {class:'empty', text:'در این دسته برای این سیستم‌عامل هنوز برنامه‌ای اضافه نشده است.'}));
-    list.forEach(function(a){ grid.appendChild(appCard(a, os)); });
+  /* apps of a box that have a real download for the viewer's system (others are not shown) */
+  function available(c, T){
+    return Promise.all(appsOf(c).map(function(a){ return candsFor(a).then(function(cs){ return {a:a, best:T.plat ? pickBest(cs, T) : null}; }); }))
+      .then(function(r){ return r.filter(function(x){ return x.best; }); });
   }
-
-  OS.forEach(function(o){
-    var t = el('button', {class:'tab', role:'tab', type:'button', 'data-os':o.id}, [el('span', {class:'ltr', text:o.name}), el('small', {text:''})]);
-    t.addEventListener('click', function(){ show(o.id); });
-    t.addEventListener('keydown', function(e){
-      var i = OS.findIndex(function(x){ return x.id === current; }), n = OS.length;
-      if (e.key === 'ArrowLeft') i = (i + 1) % n; else if (e.key === 'ArrowRight') i = (i - 1 + n) % n; else return;
-      show(OS[i].id); tabs.children[i].focus(); e.preventDefault();
+  var catToken = 0;
+  function renderCat(scroll){
+    var token = ++catToken, c = cat;
+    grid.textContent = ''; grid.appendChild(el('p', {class:'dl-load', text:'در حال یافتن نسخهٔ مناسب…'}));
+    envP.then(function(){
+      if (token !== catToken) return;
+      var T = targetFor(c);
+      var k = c === 'browser' ? 'browser' : 'os';
+      detectTxt.textContent = SEL[k] ? (c === 'browser' ? 'نمایش برای مرورگر ' : 'نمایش برای ') + platLabel(SEL[k]) + ' (انتخاب شما).'
+        : c === 'browser' ? 'مرورگر شما: ' + PLATS[ENV.browser] + ' (خودکار تشخیص داده شد).'
+        : (ENV.plat ? 'سیستم شما: ' + platLabel(ENV) + ' (خودکار تشخیص داده شد).' : 'سیستم شما تشخیص داده نشد.');
+      resetBtn.hidden = !SEL[k];
+      altBtn.textContent = c === 'browser' ? 'دانلود برای مرورگر دیگر' : 'دانلود برای سیستم دیگر';
+      detectEl.hidden = false;
+      return available(c, T).then(function(list){
+        if (token !== catToken) return;
+        grid.textContent = '';
+        if (!list.length) grid.appendChild(el('p', {class:'empty', text:appsOf(c).length ? 'برای ' + (T.plat ? PLATS[T.plat] : 'سیستم شما') + ' هنوز چیزی در این کادر نیست. با «' + altBtn.textContent + '» سیستم دیگری را امتحان کنید.' : 'هنوز چیزی در این کادر اضافه نشده است.'}));
+        list.forEach(function(x){ grid.appendChild(appCard(x.a, x.best, T)); });
+        if (scroll) scrollToPanel();
+      });
     });
-    tabs.appendChild(t);
-  });
+  }
+  /* counts on the boxes = what the viewer can actually download */
+  function updateCounts(){
+    envP.then(function(){
+      Array.prototype.forEach.call(picks.children, function(b){
+        var id = b.dataset.cat, n = b.querySelector('.pick-n'); if (!n) return;
+        available(id, targetFor(id)).then(function(l){ n.textContent = faNum(l.length) + (id === 'browser' ? ' افزونه' : ' برنامه'); });
+      });
+    });
+  }
 
-  function detectOS(){
-    try {
-      var ua = navigator.userAgent || '', p = navigator.platform || '';
-      if (/android/i.test(ua)) return 'android';
-      if (/iphone|ipad|ipod/i.test(ua) || (p === 'MacIntel' && navigator.maxTouchPoints > 1)) return 'ios';
-      if (/win/i.test(p) || /windows/i.test(ua)) return 'windows';
-      if (/mac/i.test(p)) return 'macos';
-      if (/linux|x11/i.test(p + ua)) return 'linux';
-    } catch(e){}
-    return null;
+  /* ---------- "another system": pick it by hand ---------- */
+  var ARCHS = {android:['arm64', 'armv7', 'x64', 'x86'], windows:['x64', 'arm64', 'x86'], macos:['arm64', 'x64'], linux:['x64', 'arm64', 'armv7', 'x86']};
+  var ARCH_TEXT = {arm64:'ARM ۶۴ بیتی (arm64)', armv7:'ARM ۳۲ بیتی (armv7)', x64:'Intel / AMD ۶۴ بیتی (x64)', x86:'۳۲ بیتی (x86)'};
+  var ARCH_HINT = {
+    android:'اگر نمی‌دانید arm64 را بگذارید؛ تقریباً همهٔ گوشی‌های چند سال اخیر arm64 هستند و فقط گوشی‌های خیلی قدیمی armv7 هستند.',
+    windows:'اگر نمی‌دانید x64 را بگذارید. فقط لپ‌تاپ‌های ARM (مثل Snapdragon) arm64 هستند.',
+    macos:'از منوی سیب، About This Mac را باز کنید: اگر Chip نوشته بود (M1، M2، …) گزینهٔ Apple Silicon؛ اگر Processor و Intel بود گزینهٔ Intel.',
+    linux:'در ترمینال `uname -m` را بزنید: x86_64 یعنی x64 و aarch64 یعنی arm64.'
+  };
+  function defArch(plat){ return plat === ENV.plat && ENV.arch ? ENV.arch : (ARCHS[plat] || [''])[0]; }
+  function field(label, node, id){ var l = el('label', {for:id, text:label}); return el('div', {class:'fld'}, [l, node]); }
+  function openDialog(){
+    var c = cat, isB = c === 'browser', ids = isB ? BROWSER_IDS : OS_IDS, k = isB ? 'browser' : 'os';
+    var T0 = targetFor(c), st = {plat:ids.indexOf(T0.plat) >= 0 ? T0.plat : ids[0], arch:'', fmt:T0.fmt || ''};
+    function arch0(p){ return ARCHS[p] ? (ARCHS[p].indexOf(defArch(p)) >= 0 ? defArch(p) : ARCHS[p][0]) : ''; }
+    st.arch = T0.plat === st.plat && T0.arch ? T0.arch : arch0(st.plat);
+    Promise.all(appsOf(c).map(candsFor)).then(function(all){
+      dlg.textContent = '';
+      var title = el('h3', {id:'dlgT', text:isB ? 'مرورگر دیگر' : 'سیستم دیگر'});
+      var selP = el('select', {id:'dlP'}), selA = el('select', {id:'dlA'}), selF = el('select', {id:'dlF'});
+      var hint = el('p', {class:'dlg-hint'});
+      var archBox = field('پردازنده', selA, 'dlA'), fmtBox = field('نوع فایل', selF, 'dlF');
+      ids.forEach(function(id){ selP.appendChild(el('option', {value:id, text:PLATS[id]})); });
+      selP.value = st.plat;
+      function fillArch(){
+        selA.textContent = '';
+        (ARCHS[st.plat] || []).forEach(function(x){ selA.appendChild(el('option', {value:x, text:st.plat === 'macos' ? (x === 'arm64' ? 'Apple Silicon (M1، M2، M3، …)' : 'Intel') : ARCH_TEXT[x]})); });
+        selA.value = st.arch; archBox.hidden = !(ARCHS[st.plat] && !isB);
+        hint.textContent = '';
+        (ARCH_HINT[st.plat] || '').split('`').forEach(function(p, i){ if (p) hint.appendChild(i % 2 ? el('code', {text:p}) : document.createTextNode(p)); });
+        hint.hidden = !hint.childNodes.length;
+      }
+      function fillFmt(){
+        var fm = [];
+        all.forEach(function(cs){ cs.forEach(function(x){ if (x.fmt && scoreC(x, {plat:st.plat, arch:st.arch, fmt:''}) >= 0 && fm.indexOf(x.fmt) < 0) fm.push(x.fmt); }); });
+        selF.textContent = ''; selF.appendChild(el('option', {value:'', text:'خودکار (پیشنهادی)'}));
+        fm.forEach(function(f){ selF.appendChild(el('option', {value:f, text:FMT_NAMES[f] || f})); });
+        if (fm.indexOf(st.fmt) < 0) st.fmt = '';
+        selF.value = st.fmt; fmtBox.hidden = fm.length < 2;
+      }
+      selP.addEventListener('change', function(){ st.plat = selP.value; st.arch = arch0(st.plat); st.fmt = ''; fillArch(); fillFmt(); });
+      selA.addEventListener('change', function(){ st.arch = selA.value; st.fmt = ''; fillFmt(); });
+      selF.addEventListener('change', function(){ st.fmt = selF.value; });
+      function closeIt(){ if (dlg.close) dlg.close(); else dlg.removeAttribute('open'); }
+      var ok = el('button', {type:'button', class:'btn btn-primary', id:'dlOk', text:'نمایش برنامه‌ها'});
+      ok.addEventListener('click', function(){ SEL[k] = {plat:st.plat, arch:st.arch, fmt:st.fmt}; closeIt(); renderCat(true); updateCounts(); });
+      var close = el('button', {type:'button', class:'btn btn-ghost', text:'بستن'}); close.addEventListener('click', closeIt);
+      dlg.appendChild(el('div', {class:'dlg-in'}, [title, field(isB ? 'مرورگر' : 'سیستم‌عامل', selP, 'dlP'), archBox, hint, fmtBox, el('div', {class:'dlg-act'}, [ok, close])]));
+      fillArch(); fillFmt();
+      if (dlg.showModal) { if (!dlg.open) dlg.showModal(); } else dlg.setAttribute('open', '');
+    });
   }
-  var guess = detectOS();
-  current = guess || 'android';
-  if (guess){
-    var nm = OS.filter(function(o){ return o.id === guess; })[0].name;
-    detectEl.textContent = 'سیستم‌عامل شما به‌نظر ' + nm + ' است؛ همان را برایتان باز کردیم.';
-    detectEl.hidden = false;
-  }
-  show(current);
+  dlg.addEventListener('click', function(e){ if (e.target === dlg && dlg.close) dlg.close(); });
+
+  altBtn.addEventListener('click', openDialog);
+  resetBtn.addEventListener('click', function(){ SEL[cat === 'browser' ? 'browser' : 'os'] = null; renderCat(true); updateCounts(); });
   renderPicks();
 
   /* ---------- content: data/content.json ---------- */
   function applyContent(c){
-    PROJECTS = arr(c.projects); APPS = arr(c.apps); SECTIONS = normSections(c.sections);
-    applied = true; renderProjects(); renderPicks(); updateCounts(); if (cat) show(current);
+    PROJECTS = arr(c.projects); APPS = normApps(c.apps); SECTIONS = normSections(c.sections);
+    applied = true; renderProjects(); renderPicks(); updateCounts(); if (cat) renderCat();
   }
   function loadContent(){
     var timer = setTimeout(function(){ if (!applied) applyContent(DEFAULT_CONTENT); }, 2500);
