@@ -1,5 +1,5 @@
 {
-  "rev": 7,
+  "rev": 8,
   "sections": [
     {
       "id": "vpn",
@@ -159,6 +159,7 @@
     {
       "id": "outline",
       "name": "Outline",
+      "category": "client",
       "kind": "اتصال با کلید دسترسی",
       "proto": "Shadowsocks",
       "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.",
@@ -167,13 +168,36 @@
         "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.",
         "روی Connect بزنید."
       ],
-      "category": "client",
       "links": [
         {
-          "url": "https://getoutline.org/get-started/",
+          "url": "https://s3.amazonaws.com/outline-releases/client/android/stable/Outline-Client.apk",
           "file": "",
           "sha256": "",
-          "os": ""
+          "os": "android"
+        },
+        {
+          "url": "https://s3.amazonaws.com/outline-releases/client/windows/stable/Outline-Client.exe",
+          "file": "",
+          "sha256": "",
+          "os": "windows"
+        },
+        {
+          "url": "https://s3.amazonaws.com/outline-releases/client/windows/stable/Outline-Client-arm64.exe",
+          "file": "",
+          "sha256": "",
+          "os": "windows"
+        },
+        {
+          "url": "https://itunes.apple.com/us/app/outline-app/id1356177741",
+          "file": "",
+          "sha256": "",
+          "os": "ios"
+        },
+        {
+          "url": "https://itunes.apple.com/us/app/outline-app/id1356178125",
+          "file": "",
+          "sha256": "",
+          "os": "macos"
         }
       ]
     },
