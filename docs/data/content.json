@@ -1,5 +1,5 @@
 {
-  "rev": 13,
+  "rev": 14,
   "sections": [
     {
       "id": "vpn",
@@ -360,6 +360,29 @@
       "links": [
         {
           "url": "https://play.google.com/store/apps/details?id=roksa.vpn.android",
+          "file": "",
+          "sha256": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "a4c747a",
+      "name": "AM TUNNUL LITE VPN",
+      "category": "client",
+      "kind": "VPN",
+      "proto": "",
+      "desc": "",
+      "steps": [
+        "برنامه را نصب کنید.",
+        "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
+        "\"FastDNS\" یا \"UDP\" را انتخاب کنید. (همین دو تا متصل می شوند.)",
+        "روی دکمه START ضربه بزنید.(هر چی سریع تر وصل بشه سرعتتون سریع تره!)",
+        "متصل شدید."
+      ],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
           "file": "",
           "sha256": "",
           "os": "android"
