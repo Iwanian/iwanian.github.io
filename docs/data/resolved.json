@@ -1,5 +1,5 @@
 {
- "t": "2026-10-12T16:58:43.037Z",
+ "t": "2026-10-12T17:15:11.397Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -45035,6 +45035,14 @@
     "kind": "store",
     "plat": "android",
     "href": "https://play.google.com/store/apps/details?id=roksa.vpn.android",
+    "store": "Google Play"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
     "store": "Google Play"
    }
   ]
