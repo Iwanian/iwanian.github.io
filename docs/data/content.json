@@ -1,5 +1,5 @@
 {
-  "rev": 10,
+  "rev": 11,
   "sections": [
     {
       "id": "vpn",
@@ -290,6 +290,29 @@
         },
         {
           "url": "https://play.google.com/store/apps/details?id=com.wireguard.android",
+          "file": "",
+          "sha256": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "a3cfhiw",
+      "name": "OTTER VPN",
+      "category": "vpn",
+      "kind": "VPN",
+      "proto": "",
+      "desc": "",
+      "steps": [
+        "برنامه را نصب کنید.",
+        "برنامه را باز و کمی صبر کنید.",
+        "دکمه LET'S GO را بزنید.",
+        "روی یکی از سرور ها ضربه بزنید.",
+        "کمی صبر کنید تا متصل شود."
+      ],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.otter.vpn",
           "file": "",
           "sha256": "",
           "os": "android"
