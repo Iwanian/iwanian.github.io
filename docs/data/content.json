@@ -1,5 +1,5 @@
 {
-  "rev": 21,
+  "rev": 22,
   "sections": [
     {
       "id": "vpn",
@@ -492,6 +492,36 @@
           "url": "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb",
           "file": "",
           "os": "android"
+        },
+        {
+          "url": "https://xvpn.io/download?isAutoDownload=true&os=win",
+          "file": "",
+          "os": "windows"
+        },
+        {
+          "url": "https://xvpn.io/fa/download/vpn-mac?isAutoDownload=true&os=mac",
+          "file": "",
+          "os": "macos"
+        },
+        {
+          "url": "https://z3d9.com/6ays8gw3vw/X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg",
+          "file": "",
+          "os": "macos"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/x-vpn-super-vpn-best-proxy/id1250312807",
+          "file": "",
+          "os": "ios"
+        },
+        {
+          "url": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
+          "file": "",
+          "os": "chrome"
+        },
+        {
+          "url": "",
+          "file": "downloads/linux/X-VPN Linux.txt",
+          "os": "linux"
         }
       ]
     }
