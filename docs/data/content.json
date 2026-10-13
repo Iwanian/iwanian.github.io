@@ -1,5 +1,5 @@
 {
-  "rev": 4,
+  "rev": 5,
   "sections": [
     {
       "id": "vpn",
@@ -59,6 +59,12 @@
       "name": "Hiddify",
       "category": "client",
       "icon": "icons/i-673mfcqa.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
       "kind": "کلاینت چندپروتکلی",
       "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
       "steps": [
