@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T21:44:15.863Z",
+ "t": "2026-10-13T21:46:19.687Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -49491,6 +49491,14 @@
     "plat": "ios",
     "href": "https://apps.apple.com/app/id1487875612",
     "store": "App Store"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+    "store": "Google Play"
    }
   ]
  }
