@@ -1,5 +1,5 @@
 {
-  "rev": 37,
+  "rev": 38,
   "sections": [
     {
       "id": "vpn",
@@ -446,6 +446,28 @@
       ]
     },
     {
+      "id": "aciritu",
+      "name": "SHIROKHORSHID",
+      "category": "client",
+      "icon": "icons/i-ep04q1fq.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "a4c747a",
       "name": "AM TUNNUL LITE VPN",
       "category": "client",
@@ -468,28 +490,6 @@
       "links": [
         {
           "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
-          "file": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
-      "id": "aciritu",
-      "name": "SHIROKHORSHID",
-      "category": "client",
-      "icon": "icons/i-ep04q1fq.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
           "file": "",
           "os": "android"
         }
