@@ -1,5 +1,5 @@
 {
-  "rev": 72,
+  "rev": 73,
   "sections": [
     {
       "id": "vpn",
@@ -709,28 +709,6 @@
       ]
     },
     {
-      "id": "a93y0iy",
-      "name": "BD NET VPN",
-      "category": "vpn",
-      "icon": "icons/i-50l4jk0z.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
-          "file": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
       "id": "ab0nwmg",
       "name": "V2BOX",
       "category": "client",
@@ -754,6 +732,28 @@
           "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
           "file": "",
           "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "a93y0iy",
+      "name": "BD NET VPN",
+      "category": "vpn",
+      "icon": "icons/i-50l4jk0z.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+          "file": "",
+          "os": "android"
         }
       ]
     },
