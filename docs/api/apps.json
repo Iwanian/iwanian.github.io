@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-13T17:43:56.491Z",
- "site": "https://Iwanian.github.io/website/",
+ "generated": "2026-10-13T17:59:28.042Z",
+ "site": "https://iwanian.github.io/website/",
  "count": 11,
  "apps": [
   {
@@ -9,8 +9,8 @@
    "category": "client",
    "kind": "کلاینت چندپروتکلی",
    "description": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
-   "icon": "https://Iwanian.github.io/website/icons/i-673mfcqa.webp",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "icon": "https://iwanian.github.io/website/icons/i-673mfcqa.webp",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را باز کنید و دسترسی VPN را بپذیرید.",
     "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.",
@@ -1707,8 +1707,8 @@
    "category": "client",
    "kind": "کلاینت Xray/V2Ray",
    "description": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
-   "icon": "https://Iwanian.github.io/website/icons/i-m3oewhsl.webp",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "icon": "https://iwanian.github.io/website/icons/i-m3oewhsl.webp",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "دکمهٔ + بالای صفحه را بزنید.",
     "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.",
@@ -3142,7 +3142,7 @@
    "kind": "کلاینت Xray/sing-box",
    "description": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.",
     "سرور را انتخاب و فعال کنید.",
@@ -5980,7 +5980,7 @@
    "kind": "هستهٔ جهانی و کلاینت رسمی",
    "description": "کلاینت رسمی sing-box",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.",
@@ -23745,7 +23745,7 @@
    "kind": "اتصال با کلید دسترسی",
    "description": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.",
     "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.",
@@ -23810,7 +23810,7 @@
    "kind": "مرورگر ناشناس‌ساز",
    "description": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "نصب و اجرا کنید و Connect بزنید.",
     "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.",
@@ -23911,7 +23911,7 @@
    "kind": "تونل VPN",
    "description": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.",
     "تونل را فعال کنید."
@@ -23975,7 +23975,7 @@
    "kind": "VPN",
    "description": "",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "برنامه را باز و کمی صبر کنید.",
@@ -24006,7 +24006,7 @@
    "kind": "VPN",
    "description": "",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "برنامه را باز کنید و درخواست نمایش اعلان را تایید کنید.",
@@ -24037,7 +24037,7 @@
    "kind": "VPN",
    "description": "",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
@@ -24069,7 +24069,7 @@
    "kind": "VPN",
    "description": "",
    "icon": "",
-   "page": "https://Iwanian.github.io/website/#apps",
+   "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
