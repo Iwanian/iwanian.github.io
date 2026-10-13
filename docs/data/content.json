@@ -1,5 +1,5 @@
 {
-  "rev": 31,
+  "rev": 32,
   "sections": [
     {
       "id": "vpn",
@@ -353,34 +353,6 @@
       ]
     },
     {
-      "id": "a3cfhiw",
-      "name": "OTTER VPN",
-      "category": "vpn",
-      "icon": "icons/i-swa4kvpb.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز و کمی صبر کنید.",
-        "دکمه LET'S GO را بزنید.",
-        "روی یکی از سرور ها ضربه بزنید.",
-        "کمی صبر کنید تا متصل شود."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.otter.vpn",
-          "file": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
       "id": "a9e72ds",
       "name": "CAREN VPN",
       "category": "vpn",
@@ -403,6 +375,34 @@
       "links": [
         {
           "url": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "a3cfhiw",
+      "name": "OTTER VPN",
+      "category": "vpn",
+      "icon": "icons/i-swa4kvpb.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [
+        "برنامه را نصب کنید.",
+        "برنامه را باز و کمی صبر کنید.",
+        "دکمه LET'S GO را بزنید.",
+        "روی یکی از سرور ها ضربه بزنید.",
+        "کمی صبر کنید تا متصل شود."
+      ],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.otter.vpn",
           "file": "",
           "os": "android"
         }
