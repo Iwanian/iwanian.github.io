@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T22:27:05.719Z",
+ "t": "2026-10-13T22:30:21.342Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -51731,6 +51731,14 @@
     "store": "App Store"
    }
   ],
+  "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+    "store": "Google Play"
+   }
+  ],
   "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite": [
    {
     "kind": "store",
@@ -51795,6 +51803,22 @@
     "store": "Chrome Web Store"
    }
   ],
+  "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv",
+    "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/us/app/npv-tunnel/id1629465476": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/npv-tunnel/id1629465476",
+    "store": "App Store"
+   }
+  ],
   "https://play.google.com/store/apps/details?id=io.geph.android": [
    {
     "kind": "store",
@@ -51848,14 +51872,6 @@
     "plat": "ios",
     "href": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
     "store": "App Store"
-   }
-  ],
-  "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
-    "store": "Google Play"
    }
   ],
   "https://play.google.com/store/apps/details?id=com.rostamvpn.android": [

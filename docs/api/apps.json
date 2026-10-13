@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T22:27:05.719Z",
+ "generated": "2026-10-13T22:30:21.342Z",
  "site": "https://iwanian.github.io/website/",
- "count": 21,
+ "count": 22,
  "apps": [
   {
    "id": "hiddify",
@@ -27475,6 +27475,31 @@
    ]
   },
   {
+   "id": "a93y0iy",
+   "name": "BD NET VPN",
+   "category": "vpn",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-50l4jk0z.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
    "id": "a4c747a",
    "name": "AM TUNNUL LITE VPN",
    "category": "vpn",
@@ -27591,6 +27616,43 @@
    ]
   },
   {
+   "id": "ahv3fio",
+   "name": "NPV TUNNEL",
+   "category": "client",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-s57ingys.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "App Store",
+     "url": "https://apps.apple.com/us/app/npv-tunnel/id1629465476",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
    "id": "anklgk2",
    "name": "GEPH VPN",
    "category": "vpn",
@@ -27683,31 +27745,6 @@
      "kind": "store",
      "store": "App Store",
      "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    }
-   ]
-  },
-  {
-   "id": "a93y0iy",
-   "name": "BD NET VPN",
-   "category": "vpn",
-   "kind": "VPN",
-   "description": "",
-   "icon": "https://iwanian.github.io/website/icons/i-50l4jk0z.webp",
-   "page": "https://iwanian.github.io/website/#apps",
-   "guide_steps": [],
-   "version": "",
-   "downloads": [
-    {
-     "platform": "android",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "Google Play",
-     "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
      "name": "",
      "version": "",
      "prerelease": false,
