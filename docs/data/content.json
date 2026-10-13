@@ -1,5 +1,5 @@
 {
-  "rev": 9,
+  "rev": 10,
   "sections": [
     {
       "id": "vpn",
@@ -154,6 +154,13 @@
       "id": "singbox",
       "name": "sing-box",
       "category": "client",
+      "icon": "icons/i-bk0bhn9s.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
       "kind": "هستهٔ جهانی و کلاینت رسمی",
       "desc": "کلاینت رسمی sing-box",
       "steps": [
@@ -172,8 +179,7 @@
           "file": "",
           "os": ""
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "outline",
