@@ -1,5 +1,5 @@
 {
-  "rev": 51,
+  "rev": 52,
   "sections": [
     {
       "id": "vpn",
@@ -155,6 +155,28 @@
       ]
     },
     {
+      "id": "aciritu",
+      "name": "SHIROKHORSHID",
+      "category": "client",
+      "icon": "icons/i-ep04q1fq.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "v2rayn",
       "name": "v2rayN",
       "category": "client",
@@ -183,28 +205,6 @@
           "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.4",
           "file": "",
           "os": ""
-        }
-      ]
-    },
-    {
-      "id": "aciritu",
-      "name": "SHIROKHORSHID",
-      "category": "client",
-      "icon": "icons/i-ep04q1fq.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
-          "file": "",
-          "os": "android"
         }
       ]
     },
