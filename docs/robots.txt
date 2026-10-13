@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://Iwanian.github.io/website/sitemap.xml
+Sitemap: https://iwanian.github.io/website/sitemap.xml
