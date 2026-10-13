@@ -1,5 +1,5 @@
 {
-  "rev": 32,
+  "rev": 33,
   "sections": [
     {
       "id": "vpn",
@@ -409,34 +409,6 @@
       ]
     },
     {
-      "id": "a4c747a",
-      "name": "AM TUNNUL LITE VPN",
-      "category": "client",
-      "icon": "icons/i-8sfo12z0.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
-        "\"FastDNS\" یا \"UDP\" را انتخاب کنید. (همین دو تا متصل می شوند.)",
-        "روی دکمه START ضربه بزنید.(هر چی سریع تر وصل بشه سرعتتون سریع تره!)",
-        "متصل شدید."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
-          "file": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
       "id": "a5vuzzw",
       "name": "DEFYX VPN",
       "category": "vpn",
@@ -470,6 +442,34 @@
           "url": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
           "file": "",
           "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "a4c747a",
+      "name": "AM TUNNUL LITE VPN",
+      "category": "client",
+      "icon": "icons/i-8sfo12z0.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [
+        "برنامه را نصب کنید.",
+        "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
+        "\"FastDNS\" یا \"UDP\" را انتخاب کنید. (همین دو تا متصل می شوند.)",
+        "روی دکمه START ضربه بزنید.(هر چی سریع تر وصل بشه سرعتتون سریع تره!)",
+        "متصل شدید."
+      ],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
+          "file": "",
+          "os": "android"
         }
       ]
     },
