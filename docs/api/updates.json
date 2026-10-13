@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-13T19:52:08.894Z",
- "seq": 55,
+ "generated": "2026-10-13T20:27:09.246Z",
+ "seq": 56,
  "updates": [
+  {
+   "app": "anklgk2",
+   "name": "Geph VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-13T20:27:09.246Z",
+   "id": 56
+  },
   {
    "app": "a2ag89w",
    "name": "X VPN",

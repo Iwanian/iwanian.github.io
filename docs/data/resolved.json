@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T19:52:08.894Z",
+ "t": "2026-10-13T20:27:09.246Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -49302,6 +49302,53 @@
     "href": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
     "store": "Chrome Web Store"
    }
-  ]
+  ],
+  "https://play.google.com/store/apps/details?id=io.geph.android": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=io.geph.android",
+    "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone",
+    "store": "App Store"
+   }
+  ],
+  "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg": [
+   {
+    "kind": "direct",
+    "plat": "macos",
+    "arch": "",
+    "fmt": "pkg",
+    "href": "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg",
+    "name": "geph-macos.pkg"
+   }
+  ],
+  "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe": [
+   {
+    "kind": "direct",
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe",
+    "name": "geph-windows-setup.exe"
+   }
+  ],
+  "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk": [
+   {
+    "kind": "direct",
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk",
+    "name": "geph-android.apk"
+   }
+  ],
+  "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak": []
  }
 }

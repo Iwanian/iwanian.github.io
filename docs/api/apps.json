@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T19:52:08.894Z",
+ "generated": "2026-10-13T20:27:09.246Z",
  "site": "https://iwanian.github.io/website/",
- "count": 13,
+ "count": 14,
  "apps": [
   {
    "id": "hiddify",
@@ -25241,6 +25241,81 @@
      "store": "Chrome Web Store",
      "url": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
      "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
+   "id": "anklgk2",
+   "name": "Geph VPN",
+   "category": "vpn",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-i61n0usd.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [
+    "با فیلترشکن دانلود کنید."
+   ],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=io.geph.android",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "App Store",
+     "url": "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "macos",
+     "arch": "",
+     "format": "pkg",
+     "kind": "file",
+     "store": "",
+     "url": "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg",
+     "name": "geph-macos.pkg",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "windows",
+     "arch": "",
+     "format": "installer",
+     "kind": "file",
+     "store": "",
+     "url": "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe",
+     "name": "geph-windows-setup.exe",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk",
+     "name": "geph-android.apk",
      "version": "",
      "prerelease": false,
      "size": 0
