@@ -1,5 +1,5 @@
 {
-  "rev": 54,
+  "rev": 55,
   "sections": [
     {
       "id": "vpn",
@@ -698,6 +698,33 @@
       "links": [
         {
           "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "a7lmtvl",
+      "name": "WHITE DNS",
+      "category": "client",
+      "icon": "icons/i-8cj0ih57.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS",
+      "desc": "مناسب دوران قطعی",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
           "file": "",
           "os": "android"
         }
