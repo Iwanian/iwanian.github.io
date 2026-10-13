@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T19:08:44.780Z",
+ "t": "2026-10-13T19:42:58.424Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -49245,6 +49245,14 @@
     "plat": "ios",
     "href": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
     "store": "App Store"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb",
+    "store": "Google Play"
    }
   ]
  }
