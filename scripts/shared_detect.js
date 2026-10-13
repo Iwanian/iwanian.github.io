@@ -139,7 +139,7 @@ function linkCands(L){
   var forced = L.os || '', c, name, ai;
   if (L.file){
     var m = /^downloads\/([a-z]+)\//.exec(L.file); name = L.file.split('/').pop(); ai = classifyAsset(name) || {};
-    return Promise.resolve([{kind:'file', plat:forced || (m && m[1]) || ai.plat || '', arch:ai.arch || '', fmt:ai.fmt || '', href:L.file, name:name, sha:L.sha256 || ''}]);
+    return Promise.resolve([{kind:'file', plat:forced || (m && m[1]) || ai.plat || '', arch:ai.arch || '', fmt:ai.fmt || '', href:L.file, name:name}]);
   }
   var url = safeHref(L.url); if (!url) return Promise.resolve([]);
   var pre = RESOLVED_LINKS[url];
@@ -163,7 +163,18 @@ function githubCands(owner, repo){
   });
 }
 function candsOf(links){
-  return Promise.all((links || []).map(linkCands)).then(function(l){ return [].concat.apply([], l); });
+  return Promise.all((links || []).map(function(L, i){
+    return linkCands(L).then(function(l){ return l.map(function(c){ var o = {}; for (var k in c) o[k] = c[k]; o.li = i; return o; }); });   /* li = which of the app's links it came from */
+  })).then(function(l){ return [].concat.apply([], l); });
+}
+/* one button per link that fits: e.g. Google Play and a direct file for the same system are both offered */
+function pickAll(cands, T){
+  var by = {}, out = [];
+  cands.forEach(function(c){ (by[c.li == null ? 0 : c.li] = by[c.li == null ? 0 : c.li] || []).push(c); });
+  Object.keys(by).forEach(function(k){ var b = pickBest(by[k], T); if (b) out.push({c:b, s:scoreC(b, T), li:+k}); });
+  out.sort(function(a, b){ return b.s - a.s || a.li - b.li; });
+  var seen = {};
+  return out.map(function(x){ return x.c; }).filter(function(c){ if (seen[c.href]) return false; seen[c.href] = 1; return true; });
 }
 function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1) + ' MB' : n > 0 ? Math.max(1, Math.round(n / 1024)) + ' KB' : ''; }
 /*DETECT:END*/

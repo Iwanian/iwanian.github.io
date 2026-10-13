@@ -1,5 +1,5 @@
 {
-  "rev": 18,
+  "rev": 1,
   "sections": [
     {
       "id": "vpn",
@@ -17,14 +17,47 @@
       "desc": "افزونه‌ها و ابزارهای مرورگر؛ نسخهٔ مرورگر شما خودکار تشخیص داده می‌شود."
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "title": "راهنمای گام‌به‌گام اتصال",
+      "tags": [
+        "آموزش"
+      ],
+      "sample": true,
+      "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.",
+      "links": [],
+      "id": "p1",
+      "icon": ""
+    },
+    {
+      "title": "مخزن کانفیگ‌های آزمایش‌شده",
+      "tags": [
+        "ابزار",
+        "کانفیگ"
+      ],
+      "sample": true,
+      "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.",
+      "links": [],
+      "id": "p2",
+      "icon": ""
+    },
+    {
+      "title": "ابزار بررسی سلامت اتصال",
+      "tags": [
+        "ابزار"
+      ],
+      "sample": true,
+      "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.",
+      "links": [],
+      "id": "p3",
+      "icon": ""
+    }
+  ],
   "apps": [
     {
       "id": "hiddify",
       "name": "Hiddify",
-      "category": "client",
       "kind": "کلاینت چندپروتکلی",
-      "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria، TUIC، WireGuard",
       "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
       "steps": [
         "برنامه را باز کنید و دسترسی VPN را بپذیرید.",
@@ -32,32 +65,25 @@
         "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.",
         "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
       ],
+      "category": "client",
       "links": [
         {
           "url": "https://github.com/hiddify/hiddify-app/releases",
           "file": "",
-          "sha256": "",
           "os": ""
         },
         {
-          "url": "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone",
+          "url": "https://hiddify.com",
           "file": "",
-          "sha256": "",
           "os": "ios"
-        },
-        {
-          "url": "https://play.google.com/store/apps/details?id=app.hiddify.com",
-          "file": "",
-          "sha256": "",
-          "os": "android"
         }
-      ]
+      ],
+      "icon": ""
     },
     {
       "id": "v2rayng",
       "name": "v2rayNG",
       "kind": "کلاینت Xray/V2Ray",
-      "proto": "VLESS، VMess، Trojan، Shadowsocks",
       "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
       "steps": [
         "دکمهٔ + بالای صفحه را بزنید.",
@@ -70,17 +96,15 @@
         {
           "url": "https://github.com/2dust/v2rayNG/releases",
           "file": "",
-          "sha256": "",
           "os": "android"
         }
-      ]
+      ],
+      "icon": ""
     },
     {
       "id": "v2rayn",
       "name": "v2rayN",
-      "category": "client",
       "kind": "کلاینت Xray/sing-box",
-      "proto": "VLESS، VMess، Trojan، Shadowsocks، Hysteria",
       "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
       "steps": [
         "از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.",
@@ -88,274 +112,164 @@
         "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.",
         "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."
       ],
+      "category": "client",
       "links": [
         {
           "url": "https://github.com/2dust/v2rayN/releases",
           "file": "",
-          "sha256": "",
+          "os": "windows"
+        }
+      ],
+      "icon": ""
+    },
+    {
+      "id": "clashverge",
+      "name": "Clash Verge Rev",
+      "kind": "کلاینت Clash/Mihomo",
+      "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.",
+      "steps": [
+        "به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.",
+        "پروفایل را فعال کنید.",
+        "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).",
+        "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."
+      ],
+      "category": "client",
+      "links": [
+        {
+          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+          "file": "",
           "os": ""
         }
-      ]
+      ],
+      "icon": ""
     },
     {
       "id": "singbox",
       "name": "sing-box",
-      "category": "client",
       "kind": "هستهٔ جهانی و کلاینت رسمی",
-      "proto": "بیشتر پروتکل‌های رایج",
-      "desc": "کلاینت رسمی sing-box",
+      "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.",
       "steps": [
         "برنامه را نصب کنید.",
         "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.",
         "پروفایل را فعال و سرویس را روشن کنید."
       ],
+      "category": "client",
       "links": [
         {
-          "url": "https://github.com/SagerNet/sing-box/releases",
+          "url": "https://sing-box.sagernet.org/clients/",
           "file": "",
-          "sha256": "",
-          "os": ""
-        },
-        {
-          "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3",
-          "file": "",
-          "sha256": "",
           "os": ""
         }
-      ]
+      ],
+      "icon": ""
+    },
+    {
+      "id": "v2raya",
+      "name": "v2rayA",
+      "kind": "کلاینت وب برای Linux",
+      "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.",
+      "steps": [
+        "پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`",
+        "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.",
+        "اشتراک یا کانفیگ را Import و سرور را Connect کنید.",
+        "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."
+      ],
+      "category": "client",
+      "links": [
+        {
+          "url": "https://github.com/v2rayA/v2rayA/releases",
+          "file": "",
+          "os": "linux"
+        }
+      ],
+      "icon": ""
     },
     {
       "id": "outline",
       "name": "Outline",
-      "category": "client",
       "kind": "اتصال با کلید دسترسی",
-      "proto": "Shadowsocks",
       "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.",
       "steps": [
         "کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.",
         "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.",
         "روی Connect بزنید."
       ],
+      "category": "client",
       "links": [
         {
-          "url": "https://s3.amazonaws.com/outline-releases/client/android/stable/Outline-Client.apk",
+          "url": "https://getoutline.org/get-started/",
           "file": "",
-          "sha256": "",
-          "os": "android"
-        },
-        {
-          "url": "https://s3.amazonaws.com/outline-releases/client/windows/stable/Outline-Client.exe",
-          "file": "",
-          "sha256": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://s3.amazonaws.com/outline-releases/client/windows/stable/Outline-Client-arm64.exe",
-          "file": "",
-          "sha256": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://itunes.apple.com/us/app/outline-app/id1356177741",
-          "file": "",
-          "sha256": "",
-          "os": "ios"
-        },
-        {
-          "url": "https://itunes.apple.com/us/app/outline-app/id1356178125",
-          "file": "",
-          "sha256": "",
-          "os": "macos"
+          "os": ""
         }
-      ]
+      ],
+      "icon": ""
+    },
+    {
+      "id": "psiphon",
+      "name": "Psiphon",
+      "kind": "ابزار آمادهٔ اتصال",
+      "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.",
+      "steps": [
+        "برنامه را باز کنید.",
+        "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.",
+        "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."
+      ],
+      "category": "vpn",
+      "links": [
+        {
+          "url": "https://psiphon.ca/en/download.html",
+          "file": "",
+          "os": ""
+        }
+      ],
+      "icon": ""
     },
     {
       "id": "tor",
       "name": "Tor Browser",
-      "category": "client",
       "kind": "مرورگر ناشناس‌ساز",
-      "proto": "شبکهٔ Tor، پل‌های Snowflake و obfs4",
       "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.",
       "steps": [
         "نصب و اجرا کنید و Connect بزنید.",
         "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.",
         "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."
       ],
+      "category": "vpn",
       "links": [
         {
-          "url": "https://play.google.com/store/apps/details?id=org.torproject.torbrowser",
+          "url": "https://www.torproject.org/download/",
           "file": "",
-          "sha256": "",
-          "os": "android"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-i686-portable-16.0a13.exe",
-          "file": "",
-          "sha256": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-x86_64-portable-16.0a13.exe",
-          "file": "",
-          "sha256": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-macos-16.0a13.dmg",
-          "file": "",
-          "sha256": "",
-          "os": "macos"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-x86_64-16.0a13.tar.xz",
-          "file": "",
-          "sha256": "",
-          "os": "linux"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-aarch64-16.0a13.tar.xz",
-          "file": "",
-          "sha256": "",
-          "os": "linux"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/15.0.24/tor-browser-linux-i686-15.0.24.tar.xz",
-          "file": "",
-          "sha256": "",
-          "os": "linux"
+          "os": ""
         }
-      ]
+      ],
+      "icon": ""
     },
     {
       "id": "wireguard",
       "name": "WireGuard",
-      "category": "client",
       "kind": "تونل VPN",
-      "proto": "WireGuard",
       "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.",
       "steps": [
         "فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.",
         "تونل را فعال کنید."
       ],
+      "category": "client",
       "links": [
         {
-          "url": "https://download.wireguard.com/windows-client/wireguard-installer.exe",
+          "url": "https://www.wireguard.com/install/",
           "file": "",
-          "sha256": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12",
-          "file": "",
-          "sha256": "",
-          "os": "ios"
-        },
-        {
-          "url": "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk",
-          "file": "",
-          "sha256": "",
-          "os": "android"
-        },
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.wireguard.android",
-          "file": "",
-          "sha256": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
-      "id": "a3cfhiw",
-      "name": "OTTER VPN",
-      "category": "vpn",
-      "kind": "VPN",
-      "proto": "",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز و کمی صبر کنید.",
-        "دکمه LET'S GO را بزنید.",
-        "روی یکی از سرور ها ضربه بزنید.",
-        "کمی صبر کنید تا متصل شود."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.otter.vpn",
-          "file": "",
-          "sha256": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
-      "id": "a9e72ds",
-      "name": "CAREN VPN",
-      "category": "vpn",
-      "kind": "VPN",
-      "proto": "",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز کنید و درخواست نمایش اعلان را تایید کنید.",
-        "کمی صبر کنید تا سرور برای اینترنت شما پیدا شود. (با زدن روی سرور لیست دیگر سرور ها هم می توانید مشاهده کنید.)",
-        "روی دکمه وسط صفحه کلیک کنید و مجوز های لازم را تایید کنید.",
-        "کمی صبر کنید تا متصل شوید."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
-          "file": "",
-          "sha256": "",
           "os": ""
         }
-      ]
-    },
-    {
-      "id": "aotlwai",
-      "name": "ROKSA VPN",
-      "category": "client",
-      "kind": "VPN",
-      "proto": "",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
-        "گزینه \"OK\" و \"متوجه شدم\" را بزنید.",
-        "روی شروع ضربه بزنید و بسته به نیاز 30 دقیقه یا 60 دقیقه را انتخاب کنید. (تبلیغ 30 دقیقه کوتاه تر از 60 دقیقه است)",
-        "چند ثانیه صبر کنید تا تبلیغ برای شما نمایش داده بشود.",
-        "ضربدر گوشه آگهی را بزنید و فیلترشکن شما متصل است."
       ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=roksa.vpn.android",
-          "file": "",
-          "sha256": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
-      "id": "a4c747a",
-      "name": "AM TUNNUL LITE VPN",
-      "category": "client",
-      "kind": "VPN",
-      "proto": "",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
-        "\"FastDNS\" یا \"UDP\" را انتخاب کنید. (همین دو تا متصل می شوند.)",
-        "روی دکمه START ضربه بزنید.(هر چی سریع تر وصل بشه سرعتتون سریع تره!)",
-        "متصل شدید."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
-          "file": "",
-          "sha256": "",
-          "os": "android"
-        }
-      ]
+      "icon": ""
     }
-  ]
+  ],
+  "support": {
+    "title": "حمایت از ما",
+    "intro": "اگر کار ما برایتان مفید بوده، با ارز دیجیتال از ادامهٔ راه حمایت کنید. هر مبلغی، هرچند کوچک، ارزشمند است.",
+    "wallets": []
+  },
+  "site": {
+    "url": ""
+  }
 }
