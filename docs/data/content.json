@@ -1,5 +1,5 @@
 {
-  "rev": 20,
+  "rev": 21,
   "sections": [
     {
       "id": "vpn",
@@ -470,6 +470,28 @@
           "url": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
           "file": "",
           "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "a2ag89w",
+      "name": "X VPN",
+      "category": "vpn",
+      "icon": "icons/i-tzofjizk.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb",
+          "file": "",
+          "os": "android"
         }
       ]
     }
