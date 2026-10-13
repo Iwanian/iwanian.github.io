@@ -1,5 +1,5 @@
 {
-  "rev": 15,
+  "rev": 16,
   "sections": [
     {
       "id": "vpn",
@@ -375,7 +375,7 @@
         {
           "url": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
           "file": "",
-          "os": ""
+          "os": "android"
         }
       ]
     },
