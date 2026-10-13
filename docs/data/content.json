@@ -1,5 +1,5 @@
 {
-  "rev": 86,
+  "rev": 87,
   "sections": [
     {
       "id": "vpn",
@@ -687,28 +687,6 @@
       ]
     },
     {
-      "id": "auz16iv",
-      "name": "AZADI TUNNUL",
-      "category": "client",
-      "icon": "icons/i-dnizpa2y.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "همون شیر و خورشید اما برای ios!",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "a93y0iy",
       "name": "BD NET VPN",
       "category": "vpn",
@@ -727,6 +705,28 @@
           "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
           "file": "",
           "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "auz16iv",
+      "name": "AZADI TUNNUL",
+      "category": "client",
+      "icon": "icons/i-dnizpa2y.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "همون شیر و خورشید اما برای ios!",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
+          "file": "",
+          "os": "ios"
         }
       ]
     },
