@@ -1,5 +1,5 @@
 {
-  "rev": 49,
+  "rev": 50,
   "sections": [
     {
       "id": "vpn",
@@ -218,6 +218,28 @@
       ]
     },
     {
+      "id": "aciritu",
+      "name": "SHIROKHORSHID",
+      "category": "client",
+      "icon": "icons/i-ep04q1fq.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "outline",
       "name": "Outline",
       "category": "client",
@@ -260,28 +282,6 @@
           "url": "https://itunes.apple.com/us/app/outline-app/id1356178125",
           "file": "",
           "os": "macos"
-        }
-      ]
-    },
-    {
-      "id": "aciritu",
-      "name": "SHIROKHORSHID",
-      "category": "client",
-      "icon": "icons/i-ep04q1fq.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
-          "file": "",
-          "os": "android"
         }
       ]
     },
