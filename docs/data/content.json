@@ -1,5 +1,5 @@
 {
-  "rev": 68,
+  "rev": 69,
   "sections": [
     {
       "id": "vpn",
@@ -209,6 +209,33 @@
       ]
     },
     {
+      "id": "a7lmtvl",
+      "name": "WHITE DNS",
+      "category": "client",
+      "icon": "icons/i-8cj0ih57.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS",
+      "desc": "مناسب دوران قطعی",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "singbox",
       "name": "sing-box",
       "category": "client",
@@ -236,33 +263,6 @@
           "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3",
           "file": "",
           "os": ""
-        }
-      ]
-    },
-    {
-      "id": "a7lmtvl",
-      "name": "WHITE DNS",
-      "category": "client",
-      "icon": "icons/i-8cj0ih57.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS",
-      "desc": "مناسب دوران قطعی",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
-          "file": "",
-          "os": "android"
         }
       ]
     },
