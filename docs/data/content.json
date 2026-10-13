@@ -1,5 +1,5 @@
 {
-  "rev": 4,
+  "rev": 5,
   "sections": [
     {
       "id": "vpn",
@@ -54,7 +54,7 @@
       "id": "v2rayng",
       "name": "v2rayNG",
       "category": "client",
-      "icon": "icons/i-hs64v6e9.webp",
+      "icon": "icons/i-m3oewhsl.webp",
       "kind": "کلاینت Xray/V2Ray",
       "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
       "steps": [
