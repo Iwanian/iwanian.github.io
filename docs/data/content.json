@@ -1,5 +1,5 @@
 {
-  "rev": 67,
+  "rev": 68,
   "sections": [
     {
       "id": "vpn",
@@ -240,6 +240,33 @@
       ]
     },
     {
+      "id": "a7lmtvl",
+      "name": "WHITE DNS",
+      "category": "client",
+      "icon": "icons/i-8cj0ih57.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS",
+      "desc": "مناسب دوران قطعی",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "outline",
       "name": "Outline",
       "category": "client",
@@ -282,33 +309,6 @@
           "url": "https://itunes.apple.com/us/app/outline-app/id1356178125",
           "file": "",
           "os": "macos"
-        }
-      ]
-    },
-    {
-      "id": "a7lmtvl",
-      "name": "WHITE DNS",
-      "category": "client",
-      "icon": "icons/i-8cj0ih57.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS",
-      "desc": "مناسب دوران قطعی",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
-          "file": "",
-          "os": "android"
         }
       ]
     },
