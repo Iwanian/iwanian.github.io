@@ -1,5 +1,5 @@
 {
-  "rev": 35,
+  "rev": 36,
   "sections": [
     {
       "id": "vpn",
@@ -597,6 +597,28 @@
       ]
     },
     {
+      "id": "auz16iv",
+      "name": "AZADI TUNNUL",
+      "category": "client",
+      "icon": "icons/i-dnizpa2y.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "همون شیر و خورشید اما برای ios!",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
       "id": "aewwc42",
       "name": "ROSTAM VPN",
       "category": "vpn",
@@ -618,28 +640,6 @@
         },
         {
           "url": "https://apps.apple.com/app/id1487875612",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
-      "id": "auz16iv",
-      "name": "AZADI TUNNUL",
-      "category": "client",
-      "icon": "icons/i-dnizpa2y.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "همون شیر و خورشید اما برای ios!",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
           "file": "",
           "os": "ios"
         }
