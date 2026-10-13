@@ -1,5 +1,5 @@
 {
-  "rev": 61,
+  "rev": 62,
   "sections": [
     {
       "id": "vpn",
@@ -467,6 +467,33 @@
       ]
     },
     {
+      "id": "a7lmtvl",
+      "name": "WHITE DNS",
+      "category": "client",
+      "icon": "icons/i-8cj0ih57.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS",
+      "desc": "مناسب دوران قطعی",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "a5vuzzw",
       "name": "DEFYX VPN",
       "category": "vpn",
@@ -500,33 +527,6 @@
           "url": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
           "file": "",
           "os": "ios"
-        }
-      ]
-    },
-    {
-      "id": "a7lmtvl",
-      "name": "WHITE DNS",
-      "category": "client",
-      "icon": "icons/i-8cj0ih57.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS",
-      "desc": "مناسب دوران قطعی",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
-          "file": "",
-          "os": "android"
         }
       ]
     },
