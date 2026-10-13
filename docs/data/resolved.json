@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T22:24:52.856Z",
+ "t": "2026-10-13T22:27:05.719Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -51850,6 +51850,14 @@
     "store": "App Store"
    }
   ],
+  "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+    "store": "Google Play"
+   }
+  ],
   "https://play.google.com/store/apps/details?id=com.rostamvpn.android": [
    {
     "kind": "store",
@@ -51864,14 +51872,6 @@
     "plat": "ios",
     "href": "https://apps.apple.com/app/id1487875612",
     "store": "App Store"
-   }
-  ],
-  "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
-    "store": "Google Play"
    }
   ],
   "https://testflight.apple.com/join/DRkT6zny": [

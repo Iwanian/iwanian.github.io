@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T22:24:52.856Z",
+ "generated": "2026-10-13T22:27:05.719Z",
  "site": "https://iwanian.github.io/website/",
  "count": 21,
  "apps": [
@@ -27691,6 +27691,31 @@
    ]
   },
   {
+   "id": "a93y0iy",
+   "name": "BD NET VPN",
+   "category": "vpn",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-50l4jk0z.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
    "id": "aewwc42",
    "name": "ROSTAM VPN",
    "category": "vpn",
@@ -27720,31 +27745,6 @@
      "kind": "store",
      "store": "App Store",
      "url": "https://apps.apple.com/app/id1487875612",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    }
-   ]
-  },
-  {
-   "id": "a93y0iy",
-   "name": "BD NET VPN",
-   "category": "vpn",
-   "kind": "VPN",
-   "description": "",
-   "icon": "https://iwanian.github.io/website/icons/i-50l4jk0z.webp",
-   "page": "https://iwanian.github.io/website/#apps",
-   "guide_steps": [],
-   "version": "",
-   "downloads": [
-    {
-     "platform": "android",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "Google Play",
-     "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
      "name": "",
      "version": "",
      "prerelease": false,
