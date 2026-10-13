@@ -1,5 +1,5 @@
 {
-  "rev": 26,
+  "rev": 27,
   "sections": [
     {
       "id": "vpn",
@@ -611,21 +611,21 @@
         "symbol": "USDT",
         "network": "Polygon",
         "address": "0x3d76c651ee3f76ac468e2769c9d9fbfcaa545088",
-        "note": ""
+        "note": "حتما روی شبکه Polygon بفرستید."
       },
       {
         "coin": "بیت کوین",
         "symbol": "BTC",
         "network": "Ethereum",
         "address": "0x3d76c651ee3f76ac468e2769c9d9fbfcaa545088",
-        "note": ""
+        "note": "حتما روی شبکه Ethereum بفرستید."
       },
       {
         "coin": "ترون",
         "symbol": "TRX",
         "network": "Tron",
         "address": "TFaCWNT4N9wHJ2e1Z9MSuz1waUoMseRGqx",
-        "note": ""
+        "note": "حتما روی شبکه Tron بفرستید."
       }
     ]
   },
