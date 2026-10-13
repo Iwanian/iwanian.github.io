@@ -1,5 +1,5 @@
 {
-  "rev": 82,
+  "rev": 83,
   "sections": [
     {
       "id": "vpn",
@@ -369,6 +369,33 @@
       ]
     },
     {
+      "id": "ab0nwmg",
+      "name": "V2BOX",
+      "category": "client",
+      "icon": "icons/i-m7xxs39g.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+          "file": "",
+          "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
       "id": "wireguard",
       "name": "WireGuard",
       "category": "client",
@@ -405,33 +432,6 @@
           "url": "https://play.google.com/store/apps/details?id=com.wireguard.android",
           "file": "",
           "os": "android"
-        }
-      ]
-    },
-    {
-      "id": "ab0nwmg",
-      "name": "V2BOX",
-      "category": "client",
-      "icon": "icons/i-m7xxs39g.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
-          "file": "",
-          "os": "ios"
         }
       ]
     },
