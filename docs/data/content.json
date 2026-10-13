@@ -1,5 +1,5 @@
 {
-  "rev": 19,
+  "rev": 20,
   "sections": [
     {
       "id": "vpn",
@@ -460,6 +460,16 @@
           "url": "https://play.google.com/store/apps/details?id=de.unboundtech.defyxvpn",
           "file": "",
           "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/defyx/id6746811872",
+          "file": "",
+          "os": "macos"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
+          "file": "",
+          "os": "ios"
         }
       ]
     }
