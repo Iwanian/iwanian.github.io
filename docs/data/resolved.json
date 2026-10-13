@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T22:30:47.412Z",
+ "t": "2026-10-13T23:04:58.122Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -11937,6 +11937,38 @@
     "size": 5605120,
     "tag": "1.2.0",
     "pre": false
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+    "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+    "store": "App Store"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv",
+    "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/us/app/npv-tunnel/id1629465476": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/npv-tunnel/id1629465476",
+    "store": "App Store"
    }
   ],
   "https://github.com/SagerNet/sing-box/releases": [
@@ -50397,22 +50429,6 @@
     "pre": true
    }
   ],
-  "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
-    "store": "Google Play"
-   }
-  ],
-  "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690": [
-   {
-    "kind": "store",
-    "plat": "ios",
-    "href": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
-    "store": "App Store"
-   }
-  ],
   "https://s3.amazonaws.com/outline-releases/client/android/stable/Outline-Client.apk": [
    {
     "kind": "direct",
@@ -50456,22 +50472,6 @@
     "kind": "store",
     "plat": "ios",
     "href": "https://itunes.apple.com/us/app/outline-app/id1356178125",
-    "store": "App Store"
-   }
-  ],
-  "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv",
-    "store": "Google Play"
-   }
-  ],
-  "https://apps.apple.com/us/app/npv-tunnel/id1629465476": [
-   {
-    "kind": "store",
-    "plat": "ios",
-    "href": "https://apps.apple.com/us/app/npv-tunnel/id1629465476",
     "store": "App Store"
    }
   ],
