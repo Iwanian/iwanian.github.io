@@ -174,7 +174,10 @@ function pickAll(cands, T){
   Object.keys(by).forEach(function(k){ var b = pickBest(by[k], T); if (b) out.push({c:b, s:scoreC(b, T), li:+k}); });
   out.sort(function(a, b){ return b.s - a.s || a.li - b.li; });
   var seen = {};
-  return out.map(function(x){ return x.c; }).filter(function(c){ if (seen[c.href]) return false; seen[c.href] = 1; return true; });
+  var all = out.map(function(x){ return x.c; }).filter(function(c){ if (seen[c.href]) return false; seen[c.href] = 1; return true; });
+  /* a file for this exact CPU exists -> never also show files for other CPUs */
+  var exact = T && T.arch && all.some(function(c){ return c.kind !== 'store' && c.arch === T.arch; });
+  return exact ? all.filter(function(c){ return c.kind === 'store' || c.arch === T.arch; }) : all;
 }
 function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1) + ' MB' : n > 0 ? Math.max(1, Math.round(n / 1024)) + ' KB' : ''; }
 /*DETECT:END*/
