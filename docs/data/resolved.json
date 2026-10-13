@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T21:07:15.017Z",
+ "t": "2026-10-13T21:12:18.947Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -49483,6 +49483,14 @@
     "size": 24931923,
     "tag": "v2026.02.08-4931bb5",
     "pre": false
+   }
+  ],
+  "https://apps.apple.com/au/app/azaditunnel/id6776486891": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
+    "store": "App Store"
    }
   ]
  }

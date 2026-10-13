@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T21:07:15.017Z",
+ "generated": "2026-10-13T21:12:18.947Z",
  "site": "https://iwanian.github.io/website/",
- "count": 16,
+ "count": 17,
  "apps": [
   {
    "id": "hiddify",
@@ -25477,6 +25477,31 @@
      "version": "v2026.02.08-4931bb5",
      "prerelease": false,
      "size": 24931923
+    }
+   ]
+  },
+  {
+   "id": "auz16iv",
+   "name": "AZADI TUNNUL",
+   "category": "client",
+   "kind": "VPN",
+   "description": "همون شیر و خورشید اما برای ios!",
+   "icon": "https://iwanian.github.io/website/icons/i-dnizpa2y.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "App Store",
+     "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
     }
    ]
   }
