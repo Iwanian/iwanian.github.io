@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-13T19:04:23.386Z",
- "seq": 52,
+ "generated": "2026-10-13T19:08:44.780Z",
+ "seq": 53,
  "updates": [
+  {
+   "app": "a5vuzzw",
+   "name": "DEFYX VPN",
+   "type": "update",
+   "version": "v5.12.2",
+   "previous": "v5.12.2",
+   "t": "2026-10-13T19:08:44.780Z",
+   "id": 53
+  },
   {
    "app": "a5vuzzw",
    "name": "DEFYX VPN",

@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T19:04:23.386Z",
+ "t": "2026-10-13T19:08:44.780Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -49229,6 +49229,22 @@
     "plat": "android",
     "href": "https://play.google.com/store/apps/details?id=de.unboundtech.defyxvpn",
     "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/us/app/defyx/id6746811872": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/defyx/id6746811872",
+    "store": "App Store"
+   }
+  ],
+  "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
+    "store": "App Store"
    }
   ]
  }

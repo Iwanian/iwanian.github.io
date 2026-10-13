@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T19:04:23.386Z",
+ "generated": "2026-10-13T19:08:44.780Z",
  "site": "https://iwanian.github.io/website/",
  "count": 12,
  "apps": [
@@ -25143,6 +25143,18 @@
      "kind": "store",
      "store": "Google Play",
      "url": "https://play.google.com/store/apps/details?id=de.unboundtech.defyxvpn",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "App Store",
+     "url": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
      "name": "",
      "version": "",
      "prerelease": false,
