@@ -1,5 +1,5 @@
 {
-  "rev": 23,
+  "rev": 24,
   "sections": [
     {
       "id": "vpn",
@@ -527,7 +527,7 @@
     },
     {
       "id": "anklgk2",
-      "name": "Geph VPN",
+      "name": "GEPH VPN",
       "category": "vpn",
       "icon": "icons/i-i61n0usd.webp",
       "layout": {
