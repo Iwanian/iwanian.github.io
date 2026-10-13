@@ -1,5 +1,5 @@
 {
- "t": "2026-10-12T17:15:11.397Z",
+ "t": "2026-10-13T10:49:39.265Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -44910,6 +44910,42 @@
     "store": "App Store"
    }
   ],
+  "https://download.wireguard.com/windows-client/wireguard-installer.exe": [
+   {
+    "kind": "direct",
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://download.wireguard.com/windows-client/wireguard-installer.exe",
+    "name": "wireguard-installer.exe"
+   }
+  ],
+  "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12",
+    "store": "App Store"
+   }
+  ],
+  "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk": [
+   {
+    "kind": "direct",
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk",
+    "name": "com.wireguard.android-1.0.20260315.apk"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=com.wireguard.android": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.wireguard.android",
+    "store": "Google Play"
+   }
+  ],
   "https://play.google.com/store/apps/details?id=org.torproject.torbrowser": [
    {
     "kind": "store",
@@ -44976,42 +45012,6 @@
     "fmt": "archive",
     "href": "https://dist.torproject.org/torbrowser/15.0.24/tor-browser-linux-i686-15.0.24.tar.xz",
     "name": "tor-browser-linux-i686-15.0.24.tar.xz"
-   }
-  ],
-  "https://download.wireguard.com/windows-client/wireguard-installer.exe": [
-   {
-    "kind": "direct",
-    "plat": "windows",
-    "arch": "",
-    "fmt": "installer",
-    "href": "https://download.wireguard.com/windows-client/wireguard-installer.exe",
-    "name": "wireguard-installer.exe"
-   }
-  ],
-  "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12": [
-   {
-    "kind": "store",
-    "plat": "ios",
-    "href": "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12",
-    "store": "App Store"
-   }
-  ],
-  "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk": [
-   {
-    "kind": "direct",
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk",
-    "name": "com.wireguard.android-1.0.20260315.apk"
-   }
-  ],
-  "https://play.google.com/store/apps/details?id=com.wireguard.android": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=com.wireguard.android",
-    "store": "Google Play"
    }
   ],
   "https://play.google.com/store/apps/details?id=com.otter.vpn": [
