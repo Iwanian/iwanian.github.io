@@ -1,5 +1,5 @@
 {
-  "rev": 41,
+  "rev": 42,
   "sections": [
     {
       "id": "vpn",
@@ -70,6 +70,28 @@
         {
           "label": "ورود به ربات",
           "url": "https://t.me/I_w_a_n_a_bot"
+        }
+      ],
+      "sample": true
+    },
+    {
+      "id": "pgenp5e",
+      "title": "Iwana Free Sub",
+      "icon": "icons/i-f7knl9vq.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "desc": "کانفیگ بزن تو کلاینت ها. نوش جونت!",
+      "tags": [
+        "ساب"
+      ],
+      "links": [
+        {
+          "label": "لینک ساب",
+          "url": "https://raw.githubusercontent.com/Iwanian/Sub/main/Telegram-Channel-%40I_w_a_n_a.txt"
         }
       ],
       "sample": true
