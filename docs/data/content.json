@@ -1,5 +1,5 @@
 {
-  "rev": 2,
+  "rev": 3,
   "sections": [
     {
       "id": "vpn",
@@ -23,6 +23,7 @@
       "id": "hiddify",
       "name": "Hiddify",
       "category": "client",
+      "icon": "icons/i-673mfcqa.webp",
       "kind": "کلاینت چندپروتکلی",
       "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
       "steps": [
@@ -47,8 +48,7 @@
           "file": "",
           "os": "android"
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "v2rayng",
