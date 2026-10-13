@@ -1,5 +1,5 @@
 {
-  "rev": 10,
+  "rev": 11,
   "sections": [
     {
       "id": "vpn",
@@ -185,6 +185,13 @@
       "id": "outline",
       "name": "Outline",
       "category": "client",
+      "icon": "icons/i-xcpgleoh.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
       "kind": "اتصال با کلید دسترسی",
       "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.",
       "steps": [
@@ -218,8 +225,7 @@
           "file": "",
           "os": "macos"
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "tor",
