@@ -1,5 +1,5 @@
 {
-  "rev": 42,
+  "rev": 43,
   "sections": [
     {
       "id": "vpn",
@@ -26,7 +26,7 @@
         "mode": "grid",
         "cols": 2,
         "align": "center",
-        "fill": false
+        "fill": true
       },
       "desc": "پروکسی یاب تلگرام، متناسب با اینترنت شما!",
       "tags": [
@@ -38,16 +38,8 @@
           "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
         },
         {
-          "label": "نسخه ویندوز",
+          "label": "سیستم های دیگه",
           "url": "https://github.com/Iwanian/Iwana-Proxy/releases/tag/v1.0.0"
-        },
-        {
-          "label": "نسخه لینوکس",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Linux.AppImage"
-        },
-        {
-          "label": "نسخه مک",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-MacOS.dmg"
         }
       ],
       "sample": true
