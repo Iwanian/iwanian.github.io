@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T20:36:34.685Z",
+ "generated": "2026-10-13T21:07:15.017Z",
  "site": "https://iwanian.github.io/website/",
- "count": 15,
+ "count": 16,
  "apps": [
   {
    "id": "hiddify",
@@ -25356,6 +25356,127 @@
      "version": "",
      "prerelease": false,
      "size": 0
+    }
+   ]
+  },
+  {
+   "id": "aciritu",
+   "name": "SHIROKHORSHID",
+   "category": "client",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-ep04q1fq.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [],
+   "version": "v2026.05.24-a3b91cf",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.05.24-a3b91cf/ShirOKhorshid-2026.05.24.apk",
+     "name": "ShirOKhorshid-2026.05.24.apk",
+     "version": "v2026.05.24-a3b91cf",
+     "prerelease": false,
+     "size": 26259337
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.05.14-8a28d0c/ShirOKhorshid-2026.05.14.apk",
+     "name": "ShirOKhorshid-2026.05.14.apk",
+     "version": "v2026.05.14-8a28d0c",
+     "prerelease": false,
+     "size": 25088970
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.03.17-75fc6ed/ShirOKhorshid-2026.03.17.apk",
+     "name": "ShirOKhorshid-2026.03.17.apk",
+     "version": "v2026.03.17-75fc6ed",
+     "prerelease": false,
+     "size": 25207250
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.03.05-a535f68/ShirOKhorshid-2026.03.05.apk",
+     "name": "ShirOKhorshid-2026.03.05.apk",
+     "version": "v2026.03.05-a535f68",
+     "prerelease": false,
+     "size": 25185296
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.20-a535f68/ShirOKhorshid-2026.02.20.apk",
+     "name": "ShirOKhorshid-2026.02.20.apk",
+     "version": "v2026.02.20-a535f68",
+     "prerelease": false,
+     "size": 24979439
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.18-5b197fc/ShirOKhorshid-2026.02.18.apk",
+     "name": "ShirOKhorshid-2026.02.18.apk",
+     "version": "v2026.02.18-5b197fc",
+     "prerelease": false,
+     "size": 24962372
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.14-c27a07c/ShirOKhorshid-2026.02.14.apk",
+     "name": "ShirOKhorshid-2026.02.14.apk",
+     "version": "v2026.02.14-c27a07c",
+     "prerelease": false,
+     "size": 24966828
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.13-b517fbc/ShirOKhorshid-2026.02.13.apk",
+     "name": "ShirOKhorshid-2026.02.13.apk",
+     "version": "v2026.02.13-b517fbc",
+     "prerelease": false,
+     "size": 24946923
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.08-4931bb5/ShirOKhorshid-2026.02.08.apk",
+     "name": "ShirOKhorshid-2026.02.08.apk",
+     "version": "v2026.02.08-4931bb5",
+     "prerelease": false,
+     "size": 24931923
     }
    ]
   }
