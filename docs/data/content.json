@@ -1,5 +1,5 @@
 {
-  "rev": 11,
+  "rev": 12,
   "sections": [
     {
       "id": "vpn",
@@ -231,7 +231,14 @@
       "id": "tor",
       "name": "Tor Browser",
       "category": "client",
-      "kind": "مرورگر ناشناس‌ساز",
+      "icon": "icons/i-nv5blle6.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "مرورگر",
       "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.",
       "steps": [
         "نصب و اجرا کنید و Connect بزنید.",
@@ -274,8 +281,7 @@
           "file": "",
           "os": "linux"
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "wireguard",
