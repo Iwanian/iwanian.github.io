@@ -1,5 +1,5 @@
 {
-  "rev": 57,
+  "rev": 58,
   "sections": [
     {
       "id": "vpn",
@@ -633,28 +633,6 @@
       ]
     },
     {
-      "id": "auz16iv",
-      "name": "AZADI TUNNUL",
-      "category": "client",
-      "icon": "icons/i-dnizpa2y.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "همون شیر و خورشید اما برای ios!",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "a7lmtvl",
       "name": "WHITE DNS",
       "category": "client",
@@ -678,6 +656,28 @@
           "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
           "file": "",
           "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "auz16iv",
+      "name": "AZADI TUNNUL",
+      "category": "client",
+      "icon": "icons/i-dnizpa2y.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "همون شیر و خورشید اما برای ios!",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
+          "file": "",
+          "os": "ios"
         }
       ]
     },
