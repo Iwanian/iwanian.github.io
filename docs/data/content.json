@@ -1,5 +1,5 @@
 {
-  "rev": 75,
+  "rev": 76,
   "sections": [
     {
       "id": "vpn",
@@ -611,6 +611,33 @@
       ]
     },
     {
+      "id": "ab0nwmg",
+      "name": "V2BOX",
+      "category": "client",
+      "icon": "icons/i-m7xxs39g.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+          "file": "",
+          "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
       "id": "anklgk2",
       "name": "GEPH VPN",
       "category": "vpn",
@@ -656,33 +683,6 @@
           "url": "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak",
           "file": "",
           "os": "linux"
-        }
-      ]
-    },
-    {
-      "id": "ab0nwmg",
-      "name": "V2BOX",
-      "category": "client",
-      "icon": "icons/i-m7xxs39g.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
-          "file": "",
-          "os": "ios"
         }
       ]
     },
