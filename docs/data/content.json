@@ -1,5 +1,5 @@
 {
-  "rev": 5,
+  "rev": 6,
   "sections": [
     {
       "id": "vpn",
@@ -34,19 +34,19 @@
       ],
       "links": [
         {
-          "label": "دانلود نسخه اندروید",
+          "label": "نسخه اندروید",
           "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
         },
         {
-          "label": "دانلود نسخه ویندوز",
+          "label": "نسخه ویندوز",
           "url": "https://github.com/Iwanian/Iwana-Proxy/releases/tag/v1.0.0"
         },
         {
-          "label": "دانلود نسخه لینوکس",
+          "label": "نسخه لینوکس",
           "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Linux.AppImage"
         },
         {
-          "label": "دانلود نسخه مک",
+          "label": "نسخه مک",
           "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-MacOS.dmg"
         }
       ],
