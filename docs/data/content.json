@@ -1,5 +1,5 @@
 {
-  "rev": 24,
+  "rev": 25,
   "sections": [
     {
       "id": "vpn",
@@ -571,6 +571,33 @@
           "url": "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak",
           "file": "",
           "os": "linux"
+        }
+      ]
+    },
+    {
+      "id": "aewwc42",
+      "name": "ROSTAM VPN",
+      "category": "vpn",
+      "icon": "icons/i-u199iglm.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
+          "file": "",
+          "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/app/id1487875612",
+          "file": "",
+          "os": "ios"
         }
       ]
     }
