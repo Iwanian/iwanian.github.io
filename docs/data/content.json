@@ -1,5 +1,5 @@
 {
-  "rev": 1,
+  "rev": 2,
   "sections": [
     {
       "id": "vpn",
@@ -270,6 +270,6 @@
     "wallets": []
   },
   "site": {
-    "url": ""
+    "url": "https://iwanian.github.io/website/"
   }
 }
