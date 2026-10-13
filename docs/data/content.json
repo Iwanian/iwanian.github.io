@@ -1,5 +1,5 @@
 {
-  "rev": 98,
+  "rev": 99,
   "sections": [
     {
       "id": "vpn",
@@ -558,28 +558,6 @@
       ]
     },
     {
-      "id": "a93y0iy",
-      "name": "BD NET VPN",
-      "category": "vpn",
-      "icon": "icons/i-50l4jk0z.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
-          "file": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
       "id": "ahv3fio",
       "name": "NPV TUNNEL",
       "category": "client",
@@ -603,6 +581,28 @@
           "url": "https://apps.apple.com/us/app/npv-tunnel/id1629465476",
           "file": "",
           "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "a93y0iy",
+      "name": "BD NET VPN",
+      "category": "vpn",
+      "icon": "icons/i-50l4jk0z.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+          "file": "",
+          "os": "android"
         }
       ]
     },
