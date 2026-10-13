@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T12:54:47.170Z",
+ "generated": "2026-10-13T13:15:45.676Z",
  "site": "https://Iwanian.github.io/website/",
  "count": 11,
  "apps": [
@@ -9,7 +9,7 @@
    "category": "client",
    "kind": "کلاینت چندپروتکلی",
    "description": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
-   "icon": "",
+   "icon": "https://Iwanian.github.io/website/icons/i-673mfcqa.webp",
    "page": "https://Iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را باز کنید و دسترسی VPN را بپذیرید.",
