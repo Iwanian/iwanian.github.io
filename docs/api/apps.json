@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T18:20:22.562Z",
+ "generated": "2026-10-13T18:21:09.132Z",
  "site": "https://iwanian.github.io/website/",
  "count": 11,
  "apps": [
@@ -23974,7 +23974,7 @@
    "category": "vpn",
    "kind": "VPN",
    "description": "",
-   "icon": "",
+   "icon": "https://iwanian.github.io/website/icons/i-swa4kvpb.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را نصب کنید.",
