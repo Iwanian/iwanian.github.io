@@ -1,5 +1,5 @@
 {
-  "rev": 14,
+  "rev": 15,
   "sections": [
     {
       "id": "vpn",
@@ -355,6 +355,13 @@
       "id": "a9e72ds",
       "name": "CAREN VPN",
       "category": "vpn",
+      "icon": "icons/i-hec7navs.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
       "kind": "VPN",
       "desc": "",
       "steps": [
@@ -370,8 +377,7 @@
           "file": "",
           "os": ""
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "aotlwai",
