@@ -1,5 +1,5 @@
 {
-  "rev": 29,
+  "rev": 30,
   "sections": [
     {
       "id": "vpn",
@@ -352,34 +352,6 @@
       ]
     },
     {
-      "id": "a9e72ds",
-      "name": "CAREN VPN",
-      "category": "vpn",
-      "icon": "icons/i-hec7navs.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز کنید و درخواست نمایش اعلان را تایید کنید.",
-        "کمی صبر کنید تا سرور برای اینترنت شما پیدا شود. (با زدن روی سرور لیست دیگر سرور ها هم می توانید مشاهده کنید.)",
-        "روی دکمه وسط صفحه کلیک کنید و مجوز های لازم را تایید کنید.",
-        "کمی صبر کنید تا متصل شوید."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
-          "file": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
       "id": "aotlwai",
       "name": "ROKSA VPN",
       "category": "client",
@@ -403,6 +375,34 @@
       "links": [
         {
           "url": "https://play.google.com/store/apps/details?id=roksa.vpn.android",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "a9e72ds",
+      "name": "CAREN VPN",
+      "category": "vpn",
+      "icon": "icons/i-hec7navs.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [
+        "برنامه را نصب کنید.",
+        "برنامه را باز کنید و درخواست نمایش اعلان را تایید کنید.",
+        "کمی صبر کنید تا سرور برای اینترنت شما پیدا شود. (با زدن روی سرور لیست دیگر سرور ها هم می توانید مشاهده کنید.)",
+        "روی دکمه وسط صفحه کلیک کنید و مجوز های لازم را تایید کنید.",
+        "کمی صبر کنید تا متصل شوید."
+      ],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
           "file": "",
           "os": "android"
         }
