@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T18:04:36.082Z",
+ "generated": "2026-10-13T18:15:51.488Z",
  "site": "https://iwanian.github.io/website/",
  "count": 11,
  "apps": [
@@ -5979,7 +5979,7 @@
    "category": "client",
    "kind": "هستهٔ جهانی و کلاینت رسمی",
    "description": "کلاینت رسمی sing-box",
-   "icon": "",
+   "icon": "https://iwanian.github.io/website/icons/i-bk0bhn9s.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را نصب کنید.",
