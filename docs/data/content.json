@@ -1,5 +1,5 @@
 {
-  "rev": 7,
+  "rev": 8,
   "sections": [
     {
       "id": "vpn",
@@ -122,6 +122,13 @@
       "id": "v2rayn",
       "name": "v2rayN",
       "category": "client",
+      "icon": "icons/i-af7j9181.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
       "kind": "کلاینت Xray/sing-box",
       "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
       "steps": [
@@ -136,8 +143,7 @@
           "file": "",
           "os": ""
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "singbox",
