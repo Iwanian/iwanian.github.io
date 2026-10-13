@@ -1,5 +1,5 @@
 {
-  "rev": 17,
+  "rev": 18,
   "sections": [
     {
       "id": "vpn",
@@ -412,6 +412,13 @@
       "id": "a4c747a",
       "name": "AM TUNNUL LITE VPN",
       "category": "client",
+      "icon": "icons/i-8sfo12z0.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
       "kind": "VPN",
       "desc": "",
       "steps": [
@@ -427,8 +434,7 @@
           "file": "",
           "os": "android"
         }
-      ],
-      "icon": ""
+      ]
     }
   ],
   "support": {
