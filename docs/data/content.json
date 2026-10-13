@@ -1,5 +1,5 @@
 {
-  "rev": 3,
+  "rev": 4,
   "sections": [
     {
       "id": "vpn",
@@ -53,6 +53,8 @@
     {
       "id": "v2rayng",
       "name": "v2rayNG",
+      "category": "client",
+      "icon": "icons/i-hs64v6e9.webp",
       "kind": "کلاینت Xray/V2Ray",
       "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
       "steps": [
@@ -61,15 +63,13 @@
         "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.",
         "با گزینهٔ تست تأخیر اتصال را بسنجید."
       ],
-      "category": "client",
       "links": [
         {
           "url": "https://github.com/2dust/v2rayNG/releases",
           "file": "",
           "os": "android"
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "v2rayn",
