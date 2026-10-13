@@ -1,5 +1,5 @@
 {
-  "rev": 28,
+  "rev": 29,
   "sections": [
     {
       "id": "vpn",
@@ -620,6 +620,28 @@
           "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
           "file": "",
           "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "auz16iv",
+      "name": "AZADI TUNNUL",
+      "category": "client",
+      "icon": "icons/i-dnizpa2y.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "همون شیر و خورشید اما برای ios!",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
+          "file": "",
+          "os": "ios"
         }
       ]
     }
