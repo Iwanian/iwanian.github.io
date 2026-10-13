@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T21:12:18.947Z",
+ "t": "2026-10-13T21:13:26.274Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -48079,19 +48079,19 @@
     "store": "Google Play"
    }
   ],
-  "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
-    "store": "Google Play"
-   }
-  ],
   "https://play.google.com/store/apps/details?id=roksa.vpn.android": [
    {
     "kind": "store",
     "plat": "android",
     "href": "https://play.google.com/store/apps/details?id=roksa.vpn.android",
+    "store": "Google Play"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
     "store": "Google Play"
    }
   ],

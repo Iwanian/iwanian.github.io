@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T21:12:18.947Z",
+ "generated": "2026-10-13T21:13:26.274Z",
  "site": "https://iwanian.github.io/website/",
  "count": 17,
  "apps": [
@@ -24000,37 +24000,6 @@
    ]
   },
   {
-   "id": "a9e72ds",
-   "name": "CAREN VPN",
-   "category": "vpn",
-   "kind": "VPN",
-   "description": "",
-   "icon": "https://iwanian.github.io/website/icons/i-hec7navs.webp",
-   "page": "https://iwanian.github.io/website/#apps",
-   "guide_steps": [
-    "برنامه را نصب کنید.",
-    "برنامه را باز کنید و درخواست نمایش اعلان را تایید کنید.",
-    "کمی صبر کنید تا سرور برای اینترنت شما پیدا شود. (با زدن روی سرور لیست دیگر سرور ها هم می توانید مشاهده کنید.)",
-    "روی دکمه وسط صفحه کلیک کنید و مجوز های لازم را تایید کنید.",
-    "کمی صبر کنید تا متصل شوید."
-   ],
-   "version": "",
-   "downloads": [
-    {
-     "platform": "android",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "Google Play",
-     "url": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    }
-   ]
-  },
-  {
    "id": "aotlwai",
    "name": "ROKSA VPN",
    "category": "client",
@@ -24055,6 +24024,37 @@
      "kind": "store",
      "store": "Google Play",
      "url": "https://play.google.com/store/apps/details?id=roksa.vpn.android",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
+   "id": "a9e72ds",
+   "name": "CAREN VPN",
+   "category": "vpn",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-hec7navs.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [
+    "برنامه را نصب کنید.",
+    "برنامه را باز کنید و درخواست نمایش اعلان را تایید کنید.",
+    "کمی صبر کنید تا سرور برای اینترنت شما پیدا شود. (با زدن روی سرور لیست دیگر سرور ها هم می توانید مشاهده کنید.)",
+    "روی دکمه وسط صفحه کلیک کنید و مجوز های لازم را تایید کنید.",
+    "کمی صبر کنید تا متصل شوید."
+   ],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
      "name": "",
      "version": "",
      "prerelease": false,
