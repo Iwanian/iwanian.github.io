@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T19:42:58.424Z",
+ "generated": "2026-10-13T19:52:08.894Z",
  "site": "https://iwanian.github.io/website/",
  "count": 13,
  "apps": [
@@ -25171,7 +25171,7 @@
    "icon": "https://iwanian.github.io/website/icons/i-tzofjizk.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [],
-   "version": "",
+   "version": "78.2.0",
    "downloads": [
     {
      "platform": "android",
@@ -25180,6 +25180,66 @@
      "kind": "store",
      "store": "Google Play",
      "url": "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "windows",
+     "arch": "",
+     "format": "installer",
+     "kind": "file",
+     "store": "",
+     "url": "https://z3d9.com/6ays8gw3vw/X-VPN_78.1.0_6025_0e29313d9_2026-08-27-12-56-06.exe",
+     "name": "X-VPN_78.1.0_6025_0e29313d9_2026-08-27-12-56-06.exe",
+     "version": "78.1.0",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "macos",
+     "arch": "",
+     "format": "dmg",
+     "kind": "file",
+     "store": "",
+     "url": "https://z3d9.com/6ays8gw3vw/X-VPN_78.2.0_6054_7695194c7_2026-09-09-01-44-32.dmg",
+     "name": "X-VPN_78.2.0_6054_7695194c7_2026-09-09-01-44-32.dmg",
+     "version": "78.2.0",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "macos",
+     "arch": "",
+     "format": "dmg",
+     "kind": "file",
+     "store": "",
+     "url": "https://z3d9.com/6ays8gw3vw/X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg",
+     "name": "X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "App Store",
+     "url": "https://apps.apple.com/us/app/x-vpn-super-vpn-best-proxy/id1250312807",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "chrome",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Chrome Web Store",
+     "url": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
      "name": "",
      "version": "",
      "prerelease": false,

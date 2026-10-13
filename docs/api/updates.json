@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-13T19:42:58.424Z",
- "seq": 54,
+ "generated": "2026-10-13T19:52:08.894Z",
+ "seq": 55,
  "updates": [
+  {
+   "app": "a2ag89w",
+   "name": "X VPN",
+   "type": "update",
+   "version": "78.2.0",
+   "previous": "",
+   "t": "2026-10-13T19:52:08.894Z",
+   "id": 55
+  },
   {
    "app": "a2ag89w",
    "name": "X VPN",
