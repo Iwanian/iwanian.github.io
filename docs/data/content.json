@@ -1,5 +1,5 @@
 {
-  "rev": 83,
+  "rev": 84,
   "sections": [
     {
       "id": "vpn",
@@ -313,6 +313,33 @@
       ]
     },
     {
+      "id": "ab0nwmg",
+      "name": "V2BOX",
+      "category": "client",
+      "icon": "icons/i-m7xxs39g.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+          "file": "",
+          "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
       "id": "tor",
       "name": "Tor Browser",
       "category": "client",
@@ -365,33 +392,6 @@
           "url": "https://dist.torproject.org/torbrowser/15.0.24/tor-browser-linux-i686-15.0.24.tar.xz",
           "file": "",
           "os": "linux"
-        }
-      ]
-    },
-    {
-      "id": "ab0nwmg",
-      "name": "V2BOX",
-      "category": "client",
-      "icon": "icons/i-m7xxs39g.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
-          "file": "",
-          "os": "ios"
         }
       ]
     },
