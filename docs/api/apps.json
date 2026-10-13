@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T13:15:45.676Z",
+ "generated": "2026-10-13T13:17:22.570Z",
  "site": "https://Iwanian.github.io/website/",
  "count": 11,
  "apps": [
@@ -1707,7 +1707,7 @@
    "category": "client",
    "kind": "کلاینت Xray/V2Ray",
    "description": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
-   "icon": "",
+   "icon": "https://Iwanian.github.io/website/icons/i-hs64v6e9.webp",
    "page": "https://Iwanian.github.io/website/#apps",
    "guide_steps": [
     "دکمهٔ + بالای صفحه را بزنید.",
