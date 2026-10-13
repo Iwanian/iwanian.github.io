@@ -1,5 +1,5 @@
 {
-  "rev": 69,
+  "rev": 70,
   "sections": [
     {
       "id": "vpn",
@@ -727,6 +727,28 @@
           "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
           "file": "",
           "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "atzbmda",
+      "name": "CORE FORGE",
+      "category": "client",
+      "icon": "icons/i-jwhwo0hl.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS & VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://testflight.apple.com/join/DRkT6zny",
+          "file": "",
+          "os": "ios"
         }
       ]
     }
