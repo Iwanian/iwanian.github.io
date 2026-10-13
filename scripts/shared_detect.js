@@ -92,6 +92,7 @@ function scoreC(c, T){
 /* version shown on the button: release tag, else a number found in the file name */
 function verOf(c){
   var t = String(c.ver || c.tag || '').replace(/^[vV]\s*/, '');
+  if (!/\d/.test(t)) t = '';
   if (!t){ var m = /(\d+\.\d+(?:\.\d+){0,2}(?:[-.]?(?:beta|alpha|rc|nightly|preview|pre)[.-]?\d*)?)/i.exec(String(c.name || '').replace(/(x|amd|arm|i)\d{2,3}/gi, '')); t = m ? m[1] : ''; }
   return t.length > 24 ? t.slice(0, 24) : t;
 }
