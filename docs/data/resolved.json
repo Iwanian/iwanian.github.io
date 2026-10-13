@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T21:17:08.008Z",
+ "t": "2026-10-13T21:42:39.360Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -47921,6 +47921,125 @@
     "pre": true
    }
   ],
+  "https://github.com/shirokhorshid/shirokhorshid-android/releases": [
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.05.24-a3b91cf/ShirOKhorshid-2026.05.24.apk",
+    "name": "ShirOKhorshid-2026.05.24.apk",
+    "size": 26259337,
+    "tag": "v2026.05.24-a3b91cf",
+    "pre": false
+   },
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 1,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.05.14-8a28d0c/ShirOKhorshid-2026.05.14.apk",
+    "name": "ShirOKhorshid-2026.05.14.apk",
+    "size": 25088970,
+    "tag": "v2026.05.14-8a28d0c",
+    "pre": false
+   },
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 2,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.03.17-75fc6ed/ShirOKhorshid-2026.03.17.apk",
+    "name": "ShirOKhorshid-2026.03.17.apk",
+    "size": 25207250,
+    "tag": "v2026.03.17-75fc6ed",
+    "pre": false
+   },
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 3,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.03.05-a535f68/ShirOKhorshid-2026.03.05.apk",
+    "name": "ShirOKhorshid-2026.03.05.apk",
+    "size": 25185296,
+    "tag": "v2026.03.05-a535f68",
+    "pre": false
+   },
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 4,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.20-a535f68/ShirOKhorshid-2026.02.20.apk",
+    "name": "ShirOKhorshid-2026.02.20.apk",
+    "size": 24979439,
+    "tag": "v2026.02.20-a535f68",
+    "pre": false
+   },
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 5,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.18-5b197fc/ShirOKhorshid-2026.02.18.apk",
+    "name": "ShirOKhorshid-2026.02.18.apk",
+    "size": 24962372,
+    "tag": "v2026.02.18-5b197fc",
+    "pre": false
+   },
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 6,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.14-c27a07c/ShirOKhorshid-2026.02.14.apk",
+    "name": "ShirOKhorshid-2026.02.14.apk",
+    "size": 24966828,
+    "tag": "v2026.02.14-c27a07c",
+    "pre": false
+   },
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 7,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.13-b517fbc/ShirOKhorshid-2026.02.13.apk",
+    "name": "ShirOKhorshid-2026.02.13.apk",
+    "size": 24946923,
+    "tag": "v2026.02.13-b517fbc",
+    "pre": false
+   },
+   {
+    "kind": "asset",
+    "src": "shirokhorshid/shirokhorshid-android",
+    "ri": 8,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.08-4931bb5/ShirOKhorshid-2026.02.08.apk",
+    "name": "ShirOKhorshid-2026.02.08.apk",
+    "size": 24931923,
+    "tag": "v2026.02.08-4931bb5",
+    "pre": false
+   }
+  ],
   "https://s3.amazonaws.com/outline-releases/client/android/stable/Outline-Client.apk": [
    {
     "kind": "direct",
@@ -49237,125 +49356,6 @@
     "plat": "ios",
     "href": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
     "store": "App Store"
-   }
-  ],
-  "https://github.com/shirokhorshid/shirokhorshid-android/releases": [
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 0,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.05.24-a3b91cf/ShirOKhorshid-2026.05.24.apk",
-    "name": "ShirOKhorshid-2026.05.24.apk",
-    "size": 26259337,
-    "tag": "v2026.05.24-a3b91cf",
-    "pre": false
-   },
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 1,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.05.14-8a28d0c/ShirOKhorshid-2026.05.14.apk",
-    "name": "ShirOKhorshid-2026.05.14.apk",
-    "size": 25088970,
-    "tag": "v2026.05.14-8a28d0c",
-    "pre": false
-   },
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 2,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.03.17-75fc6ed/ShirOKhorshid-2026.03.17.apk",
-    "name": "ShirOKhorshid-2026.03.17.apk",
-    "size": 25207250,
-    "tag": "v2026.03.17-75fc6ed",
-    "pre": false
-   },
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 3,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.03.05-a535f68/ShirOKhorshid-2026.03.05.apk",
-    "name": "ShirOKhorshid-2026.03.05.apk",
-    "size": 25185296,
-    "tag": "v2026.03.05-a535f68",
-    "pre": false
-   },
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 4,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.20-a535f68/ShirOKhorshid-2026.02.20.apk",
-    "name": "ShirOKhorshid-2026.02.20.apk",
-    "size": 24979439,
-    "tag": "v2026.02.20-a535f68",
-    "pre": false
-   },
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 5,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.18-5b197fc/ShirOKhorshid-2026.02.18.apk",
-    "name": "ShirOKhorshid-2026.02.18.apk",
-    "size": 24962372,
-    "tag": "v2026.02.18-5b197fc",
-    "pre": false
-   },
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 6,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.14-c27a07c/ShirOKhorshid-2026.02.14.apk",
-    "name": "ShirOKhorshid-2026.02.14.apk",
-    "size": 24966828,
-    "tag": "v2026.02.14-c27a07c",
-    "pre": false
-   },
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 7,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.13-b517fbc/ShirOKhorshid-2026.02.13.apk",
-    "name": "ShirOKhorshid-2026.02.13.apk",
-    "size": 24946923,
-    "tag": "v2026.02.13-b517fbc",
-    "pre": false
-   },
-   {
-    "kind": "asset",
-    "src": "shirokhorshid/shirokhorshid-android",
-    "ri": 8,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/shirokhorshid/shirokhorshid-android/releases/download/v2026.02.08-4931bb5/ShirOKhorshid-2026.02.08.apk",
-    "name": "ShirOKhorshid-2026.02.08.apk",
-    "size": 24931923,
-    "tag": "v2026.02.08-4931bb5",
-    "pre": false
    }
   ],
   "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite": [
