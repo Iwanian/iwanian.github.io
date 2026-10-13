@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T20:27:09.246Z",
+ "generated": "2026-10-13T20:30:31.809Z",
  "site": "https://iwanian.github.io/website/",
  "count": 14,
  "apps": [
@@ -25249,7 +25249,7 @@
   },
   {
    "id": "anklgk2",
-   "name": "Geph VPN",
+   "name": "GEPH VPN",
    "category": "vpn",
    "kind": "VPN",
    "description": "",
