@@ -1,5 +1,5 @@
 {
-  "rev": 16,
+  "rev": 17,
   "sections": [
     {
       "id": "vpn",
@@ -383,6 +383,13 @@
       "id": "aotlwai",
       "name": "ROKSA VPN",
       "category": "client",
+      "icon": "icons/i-vny3q3nd.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
       "kind": "VPN",
       "desc": "",
       "steps": [
@@ -399,8 +406,7 @@
           "file": "",
           "os": "android"
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "a4c747a",
