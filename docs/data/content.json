@@ -1,5 +1,5 @@
 {
-  "rev": 39,
+  "rev": 40,
   "sections": [
     {
       "id": "vpn",
@@ -326,7 +326,7 @@
     {
       "id": "aotlwai",
       "name": "ROKSA VPN",
-      "category": "client",
+      "category": "vpn",
       "icon": "icons/i-vny3q3nd.webp",
       "layout": {
         "mode": "row",
