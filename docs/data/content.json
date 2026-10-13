@@ -1,5 +1,5 @@
 {
-  "rev": 25,
+  "rev": 26,
   "sections": [
     {
       "id": "vpn",
@@ -605,7 +605,29 @@
   "support": {
     "title": "حمایت از ما",
     "intro": "اگر کار ما برایتان مفید بوده، با ارز دیجیتال از ادامهٔ راه حمایت کنید. هر مبلغی، هرچند کوچک، ارزشمند است.",
-    "wallets": []
+    "wallets": [
+      {
+        "coin": "تتر",
+        "symbol": "USDT",
+        "network": "Polygon",
+        "address": "0x3d76c651ee3f76ac468e2769c9d9fbfcaa545088",
+        "note": ""
+      },
+      {
+        "coin": "بیت کوین",
+        "symbol": "BTC",
+        "network": "Ethereum",
+        "address": "0x3d76c651ee3f76ac468e2769c9d9fbfcaa545088",
+        "note": ""
+      },
+      {
+        "coin": "ترون",
+        "symbol": "TRX",
+        "network": "Tron",
+        "address": "TFaCWNT4N9wHJ2e1Z9MSuz1waUoMseRGqx",
+        "note": ""
+      }
+    ]
   },
   "site": {
     "url": "https://iwanian.github.io/website/"
