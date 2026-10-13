@@ -1,5 +1,5 @@
 {
-  "rev": 47,
+  "rev": 48,
   "sections": [
     {
       "id": "vpn",
@@ -320,6 +320,28 @@
       ]
     },
     {
+      "id": "aciritu",
+      "name": "SHIROKHORSHID",
+      "category": "client",
+      "icon": "icons/i-ep04q1fq.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "wireguard",
       "name": "WireGuard",
       "category": "client",
@@ -354,28 +376,6 @@
         },
         {
           "url": "https://play.google.com/store/apps/details?id=com.wireguard.android",
-          "file": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
-      "id": "aciritu",
-      "name": "SHIROKHORSHID",
-      "category": "client",
-      "icon": "icons/i-ep04q1fq.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
           "file": "",
           "os": "android"
         }
