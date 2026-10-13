@@ -1,5 +1,5 @@
 {
-  "rev": 91,
+  "rev": 92,
   "sections": [
     {
       "id": "vpn",
@@ -758,28 +758,6 @@
       ]
     },
     {
-      "id": "atzbmda",
-      "name": "CORE FORGE",
-      "category": "client",
-      "icon": "icons/i-jwhwo0hl.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS & VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://testflight.apple.com/join/DRkT6zny",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "ahv3fio",
       "name": "NPV TUNNEL",
       "category": "client",
@@ -801,6 +779,28 @@
         },
         {
           "url": "https://apps.apple.com/us/app/npv-tunnel/id1629465476",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "atzbmda",
+      "name": "CORE FORGE",
+      "category": "client",
+      "icon": "icons/i-jwhwo0hl.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS & VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://testflight.apple.com/join/DRkT6zny",
           "file": "",
           "os": "ios"
         }
