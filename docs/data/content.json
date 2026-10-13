@@ -1,5 +1,5 @@
 {
-  "rev": 93,
+  "rev": 94,
   "sections": [
     {
       "id": "vpn",
@@ -709,28 +709,6 @@
       ]
     },
     {
-      "id": "auz16iv",
-      "name": "AZADI TUNNUL",
-      "category": "client",
-      "icon": "icons/i-dnizpa2y.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "همون شیر و خورشید اما برای ios!",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "ahv3fio",
       "name": "NPV TUNNEL",
       "category": "client",
@@ -752,6 +730,28 @@
         },
         {
           "url": "https://apps.apple.com/us/app/npv-tunnel/id1629465476",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "auz16iv",
+      "name": "AZADI TUNNUL",
+      "category": "client",
+      "icon": "icons/i-dnizpa2y.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "همون شیر و خورشید اما برای ios!",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
           "file": "",
           "os": "ios"
         }
