@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-13T22:15:16.795Z",
- "seq": 61,
+ "generated": "2026-10-13T22:22:20.883Z",
+ "seq": 62,
  "updates": [
+  {
+   "app": "atzbmda",
+   "name": "CORE FORGE",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-13T22:22:20.883Z",
+   "id": 62
+  },
   {
    "app": "a7lmtvl",
    "name": "WHITE DNS",
