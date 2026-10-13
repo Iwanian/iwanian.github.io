@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T18:15:51.488Z",
+ "generated": "2026-10-13T18:17:51.389Z",
  "site": "https://iwanian.github.io/website/",
  "count": 11,
  "apps": [
@@ -23744,7 +23744,7 @@
    "category": "client",
    "kind": "اتصال با کلید دسترسی",
    "description": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.",
-   "icon": "",
+   "icon": "https://iwanian.github.io/website/icons/i-xcpgleoh.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.",
