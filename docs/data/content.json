@@ -1,5 +1,5 @@
 {
-  "rev": 78,
+  "rev": 79,
   "sections": [
     {
       "id": "vpn",
@@ -494,6 +494,33 @@
       ]
     },
     {
+      "id": "ab0nwmg",
+      "name": "V2BOX",
+      "category": "client",
+      "icon": "icons/i-m7xxs39g.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+          "file": "",
+          "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
       "id": "a5vuzzw",
       "name": "DEFYX VPN",
       "category": "vpn",
@@ -525,33 +552,6 @@
         },
         {
           "url": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
-      "id": "ab0nwmg",
-      "name": "V2BOX",
-      "category": "client",
-      "icon": "icons/i-m7xxs39g.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
           "file": "",
           "os": "ios"
         }
