@@ -1,5 +1,5 @@
 {
-  "rev": 3,
+  "rev": 4,
   "sections": [
     {
       "id": "vpn",
@@ -22,6 +22,12 @@
       "id": "p3nqejx",
       "title": "Iwana Proxy",
       "icon": "icons/i-u5ai19lt.webp",
+      "layout": {
+        "mode": "grid",
+        "cols": 2,
+        "align": "center",
+        "fill": false
+      },
       "desc": "پروکسی یاب تلگرام، متناسب با اینترنت شما!",
       "tags": [
         "پروکسی"
