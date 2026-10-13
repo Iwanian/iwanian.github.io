@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T22:24:05.746Z",
+ "generated": "2026-10-13T22:24:52.856Z",
  "site": "https://iwanian.github.io/website/",
  "count": 21,
  "apps": [
@@ -26045,6 +26045,43 @@
    ]
   },
   {
+   "id": "ab0nwmg",
+   "name": "V2BOX",
+   "category": "client",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-m7xxs39g.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "App Store",
+     "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
    "id": "outline",
    "name": "Outline",
    "category": "client",
@@ -27733,43 +27770,6 @@
      "kind": "store",
      "store": "App Store",
      "url": "https://testflight.apple.com/join/DRkT6zny",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    }
-   ]
-  },
-  {
-   "id": "ab0nwmg",
-   "name": "V2BOX",
-   "category": "client",
-   "kind": "VPN",
-   "description": "",
-   "icon": "https://iwanian.github.io/website/icons/i-m7xxs39g.webp",
-   "page": "https://iwanian.github.io/website/#apps",
-   "guide_steps": [],
-   "version": "",
-   "downloads": [
-    {
-     "platform": "android",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "Google Play",
-     "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    },
-    {
-     "platform": "ios",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "App Store",
-     "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
      "name": "",
      "version": "",
      "prerelease": false,
