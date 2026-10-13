@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T18:17:51.389Z",
+ "generated": "2026-10-13T18:19:22.627Z",
  "site": "https://iwanian.github.io/website/",
  "count": 11,
  "apps": [
@@ -23807,9 +23807,9 @@
    "id": "tor",
    "name": "Tor Browser",
    "category": "client",
-   "kind": "مرورگر ناشناس‌ساز",
+   "kind": "مرورگر",
    "description": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.",
-   "icon": "",
+   "icon": "https://iwanian.github.io/website/icons/i-nv5blle6.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "نصب و اجرا کنید و Connect بزنید.",
