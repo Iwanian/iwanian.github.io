@@ -1,5 +1,5 @@
 {
-  "rev": 18,
+  "rev": 19,
   "sections": [
     {
       "id": "vpn",
@@ -431,6 +431,33 @@
       "links": [
         {
           "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
+      "id": "a5vuzzw",
+      "name": "DEFYX VPN",
+      "category": "vpn",
+      "icon": "icons/i-7kc4210n.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/UnboundTechCo/defyxVPN/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=de.unboundtech.defyxvpn",
           "file": "",
           "os": "android"
         }
