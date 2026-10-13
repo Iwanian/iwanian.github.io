@@ -1,5 +1,5 @@
 {
-  "rev": 50,
+  "rev": 51,
   "sections": [
     {
       "id": "vpn",
@@ -187,6 +187,28 @@
       ]
     },
     {
+      "id": "aciritu",
+      "name": "SHIROKHORSHID",
+      "category": "client",
+      "icon": "icons/i-ep04q1fq.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "singbox",
       "name": "sing-box",
       "category": "client",
@@ -214,28 +236,6 @@
           "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3",
           "file": "",
           "os": ""
-        }
-      ]
-    },
-    {
-      "id": "aciritu",
-      "name": "SHIROKHORSHID",
-      "category": "client",
-      "icon": "icons/i-ep04q1fq.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
-          "file": "",
-          "os": "android"
         }
       ]
     },
