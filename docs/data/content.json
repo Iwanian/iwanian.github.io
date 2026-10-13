@@ -1,5 +1,5 @@
 {
-  "rev": 8,
+  "rev": 9,
   "sections": [
     {
       "id": "vpn",
@@ -140,6 +140,11 @@
       "links": [
         {
           "url": "https://github.com/2dust/v2rayN/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.4",
           "file": "",
           "os": ""
         }
