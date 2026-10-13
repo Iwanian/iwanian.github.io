@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T21:13:26.274Z",
+ "generated": "2026-10-13T21:14:05.764Z",
  "site": "https://iwanian.github.io/website/",
  "count": 17,
  "apps": [
@@ -23969,37 +23969,6 @@
    ]
   },
   {
-   "id": "a3cfhiw",
-   "name": "OTTER VPN",
-   "category": "vpn",
-   "kind": "VPN",
-   "description": "",
-   "icon": "https://iwanian.github.io/website/icons/i-swa4kvpb.webp",
-   "page": "https://iwanian.github.io/website/#apps",
-   "guide_steps": [
-    "برنامه را نصب کنید.",
-    "برنامه را باز و کمی صبر کنید.",
-    "دکمه LET'S GO را بزنید.",
-    "روی یکی از سرور ها ضربه بزنید.",
-    "کمی صبر کنید تا متصل شود."
-   ],
-   "version": "",
-   "downloads": [
-    {
-     "platform": "android",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "Google Play",
-     "url": "https://play.google.com/store/apps/details?id=com.otter.vpn",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    }
-   ]
-  },
-  {
    "id": "aotlwai",
    "name": "ROKSA VPN",
    "category": "client",
@@ -24063,19 +24032,19 @@
    ]
   },
   {
-   "id": "a4c747a",
-   "name": "AM TUNNUL LITE VPN",
-   "category": "client",
+   "id": "a3cfhiw",
+   "name": "OTTER VPN",
+   "category": "vpn",
    "kind": "VPN",
    "description": "",
-   "icon": "https://iwanian.github.io/website/icons/i-8sfo12z0.webp",
+   "icon": "https://iwanian.github.io/website/icons/i-swa4kvpb.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "برنامه را نصب کنید.",
-    "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
-    "\"FastDNS\" یا \"UDP\" را انتخاب کنید. (همین دو تا متصل می شوند.)",
-    "روی دکمه START ضربه بزنید.(هر چی سریع تر وصل بشه سرعتتون سریع تره!)",
-    "متصل شدید."
+    "برنامه را باز و کمی صبر کنید.",
+    "دکمه LET'S GO را بزنید.",
+    "روی یکی از سرور ها ضربه بزنید.",
+    "کمی صبر کنید تا متصل شود."
    ],
    "version": "",
    "downloads": [
@@ -24085,7 +24054,7 @@
      "format": "",
      "kind": "store",
      "store": "Google Play",
-     "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
+     "url": "https://play.google.com/store/apps/details?id=com.otter.vpn",
      "name": "",
      "version": "",
      "prerelease": false,
@@ -25163,6 +25132,37 @@
    ]
   },
   {
+   "id": "a4c747a",
+   "name": "AM TUNNUL LITE VPN",
+   "category": "client",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-8sfo12z0.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [
+    "برنامه را نصب کنید.",
+    "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
+    "\"FastDNS\" یا \"UDP\" را انتخاب کنید. (همین دو تا متصل می شوند.)",
+    "روی دکمه START ضربه بزنید.(هر چی سریع تر وصل بشه سرعتتون سریع تره!)",
+    "متصل شدید."
+   ],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
    "id": "a2ag89w",
    "name": "X VPN",
    "category": "vpn",
@@ -25240,118 +25240,6 @@
      "kind": "store",
      "store": "Chrome Web Store",
      "url": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    }
-   ]
-  },
-  {
-   "id": "anklgk2",
-   "name": "GEPH VPN",
-   "category": "vpn",
-   "kind": "VPN",
-   "description": "",
-   "icon": "https://iwanian.github.io/website/icons/i-i61n0usd.webp",
-   "page": "https://iwanian.github.io/website/#apps",
-   "guide_steps": [
-    "با فیلترشکن دانلود کنید."
-   ],
-   "version": "",
-   "downloads": [
-    {
-     "platform": "android",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "Google Play",
-     "url": "https://play.google.com/store/apps/details?id=io.geph.android",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    },
-    {
-     "platform": "ios",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "App Store",
-     "url": "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    },
-    {
-     "platform": "macos",
-     "arch": "",
-     "format": "pkg",
-     "kind": "file",
-     "store": "",
-     "url": "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg",
-     "name": "geph-macos.pkg",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    },
-    {
-     "platform": "windows",
-     "arch": "",
-     "format": "installer",
-     "kind": "file",
-     "store": "",
-     "url": "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe",
-     "name": "geph-windows-setup.exe",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    },
-    {
-     "platform": "android",
-     "arch": "",
-     "format": "apk",
-     "kind": "file",
-     "store": "",
-     "url": "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk",
-     "name": "geph-android.apk",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    }
-   ]
-  },
-  {
-   "id": "aewwc42",
-   "name": "ROSTAM VPN",
-   "category": "vpn",
-   "kind": "VPN",
-   "description": "",
-   "icon": "https://iwanian.github.io/website/icons/i-u199iglm.webp",
-   "page": "https://iwanian.github.io/website/#apps",
-   "guide_steps": [],
-   "version": "",
-   "downloads": [
-    {
-     "platform": "android",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "Google Play",
-     "url": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
-     "name": "",
-     "version": "",
-     "prerelease": false,
-     "size": 0
-    },
-    {
-     "platform": "ios",
-     "arch": "",
-     "format": "",
-     "kind": "store",
-     "store": "App Store",
-     "url": "https://apps.apple.com/app/id1487875612",
      "name": "",
      "version": "",
      "prerelease": false,
@@ -25481,6 +25369,81 @@
    ]
   },
   {
+   "id": "anklgk2",
+   "name": "GEPH VPN",
+   "category": "vpn",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-i61n0usd.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [
+    "با فیلترشکن دانلود کنید."
+   ],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=io.geph.android",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "App Store",
+     "url": "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "macos",
+     "arch": "",
+     "format": "pkg",
+     "kind": "file",
+     "store": "",
+     "url": "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg",
+     "name": "geph-macos.pkg",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "windows",
+     "arch": "",
+     "format": "installer",
+     "kind": "file",
+     "store": "",
+     "url": "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe",
+     "name": "geph-windows-setup.exe",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk",
+     "name": "geph-android.apk",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
    "id": "auz16iv",
    "name": "AZADI TUNNUL",
    "category": "client",
@@ -25498,6 +25461,43 @@
      "kind": "store",
      "store": "App Store",
      "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
+   "id": "aewwc42",
+   "name": "ROSTAM VPN",
+   "category": "vpn",
+   "kind": "VPN",
+   "description": "",
+   "icon": "https://iwanian.github.io/website/icons/i-u199iglm.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "App Store",
+     "url": "https://apps.apple.com/app/id1487875612",
      "name": "",
      "version": "",
      "prerelease": false,

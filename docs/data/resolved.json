@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T21:13:26.274Z",
+ "t": "2026-10-13T21:14:05.764Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -48071,14 +48071,6 @@
     "store": "Google Play"
    }
   ],
-  "https://play.google.com/store/apps/details?id=com.otter.vpn": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=com.otter.vpn",
-    "store": "Google Play"
-   }
-  ],
   "https://play.google.com/store/apps/details?id=roksa.vpn.android": [
    {
     "kind": "store",
@@ -48095,11 +48087,11 @@
     "store": "Google Play"
    }
   ],
-  "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite": [
+  "https://play.google.com/store/apps/details?id=com.otter.vpn": [
    {
     "kind": "store",
     "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
+    "href": "https://play.google.com/store/apps/details?id=com.otter.vpn",
     "store": "Google Play"
    }
   ],
@@ -49247,6 +49239,14 @@
     "store": "App Store"
    }
   ],
+  "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
+    "store": "Google Play"
+   }
+  ],
   "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb": [
    {
     "kind": "store",
@@ -49301,69 +49301,6 @@
     "plat": "chrome",
     "href": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
     "store": "Chrome Web Store"
-   }
-  ],
-  "https://play.google.com/store/apps/details?id=io.geph.android": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=io.geph.android",
-    "store": "Google Play"
-   }
-  ],
-  "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone": [
-   {
-    "kind": "store",
-    "plat": "ios",
-    "href": "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone",
-    "store": "App Store"
-   }
-  ],
-  "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg": [
-   {
-    "kind": "direct",
-    "plat": "macos",
-    "arch": "",
-    "fmt": "pkg",
-    "href": "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg",
-    "name": "geph-macos.pkg"
-   }
-  ],
-  "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe": [
-   {
-    "kind": "direct",
-    "plat": "windows",
-    "arch": "",
-    "fmt": "installer",
-    "href": "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe",
-    "name": "geph-windows-setup.exe"
-   }
-  ],
-  "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk": [
-   {
-    "kind": "direct",
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk",
-    "name": "geph-android.apk"
-   }
-  ],
-  "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak": [],
-  "https://play.google.com/store/apps/details?id=com.rostamvpn.android": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
-    "store": "Google Play"
-   }
-  ],
-  "https://apps.apple.com/app/id1487875612": [
-   {
-    "kind": "store",
-    "plat": "ios",
-    "href": "https://apps.apple.com/app/id1487875612",
-    "store": "App Store"
    }
   ],
   "https://github.com/shirokhorshid/shirokhorshid-android/releases": [
@@ -49485,11 +49422,74 @@
     "pre": false
    }
   ],
+  "https://play.google.com/store/apps/details?id=io.geph.android": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=io.geph.android",
+    "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone",
+    "store": "App Store"
+   }
+  ],
+  "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg": [
+   {
+    "kind": "direct",
+    "plat": "macos",
+    "arch": "",
+    "fmt": "pkg",
+    "href": "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg",
+    "name": "geph-macos.pkg"
+   }
+  ],
+  "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe": [
+   {
+    "kind": "direct",
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe",
+    "name": "geph-windows-setup.exe"
+   }
+  ],
+  "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk": [
+   {
+    "kind": "direct",
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk",
+    "name": "geph-android.apk"
+   }
+  ],
+  "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak": [],
   "https://apps.apple.com/au/app/azaditunnel/id6776486891": [
    {
     "kind": "store",
     "plat": "ios",
     "href": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
+    "store": "App Store"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=com.rostamvpn.android": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
+    "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/app/id1487875612": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/app/id1487875612",
     "store": "App Store"
    }
   ]
