@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T17:59:28.042Z",
+ "generated": "2026-10-13T18:04:36.082Z",
  "site": "https://iwanian.github.io/website/",
  "count": 11,
  "apps": [
@@ -3141,7 +3141,7 @@
    "category": "client",
    "kind": "کلاینت Xray/sing-box",
    "description": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
-   "icon": "",
+   "icon": "https://iwanian.github.io/website/icons/i-af7j9181.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.",
