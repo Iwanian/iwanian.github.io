@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T18:19:22.627Z",
+ "generated": "2026-10-13T18:20:22.562Z",
  "site": "https://iwanian.github.io/website/",
  "count": 11,
  "apps": [
@@ -23910,7 +23910,7 @@
    "category": "client",
    "kind": "تونل VPN",
    "description": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.",
-   "icon": "",
+   "icon": "https://iwanian.github.io/website/icons/i-amsh4aez.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
     "فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.",
