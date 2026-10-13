@@ -1,5 +1,5 @@
 {
-  "rev": 12,
+  "rev": 13,
   "sections": [
     {
       "id": "vpn",
@@ -287,6 +287,13 @@
       "id": "wireguard",
       "name": "WireGuard",
       "category": "client",
+      "icon": "icons/i-amsh4aez.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
       "kind": "تونل VPN",
       "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.",
       "steps": [
@@ -314,8 +321,7 @@
           "file": "",
           "os": "android"
         }
-      ],
-      "icon": ""
+      ]
     },
     {
       "id": "a3cfhiw",
