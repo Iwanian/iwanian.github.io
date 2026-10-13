@@ -1,5 +1,5 @@
 {
-  "rev": 27,
+  "rev": 28,
   "sections": [
     {
       "id": "vpn",
@@ -598,6 +598,28 @@
           "url": "https://apps.apple.com/app/id1487875612",
           "file": "",
           "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "aciritu",
+      "name": "SHIROKHORSHID",
+      "category": "client",
+      "icon": "icons/i-ep04q1fq.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
+          "file": "",
+          "os": "android"
         }
       ]
     }
