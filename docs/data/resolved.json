@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T20:27:09.246Z",
+ "t": "2026-10-13T20:36:34.685Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -49349,6 +49349,22 @@
     "name": "geph-android.apk"
    }
   ],
-  "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak": []
+  "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak": [],
+  "https://play.google.com/store/apps/details?id=com.rostamvpn.android": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
+    "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/app/id1487875612": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/app/id1487875612",
+    "store": "App Store"
+   }
+  ]
  }
 }
