@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T21:14:05.764Z",
+ "t": "2026-10-13T21:17:08.008Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -49239,70 +49239,6 @@
     "store": "App Store"
    }
   ],
-  "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
-    "store": "Google Play"
-   }
-  ],
-  "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb": [
-   {
-    "kind": "store",
-    "plat": "android",
-    "href": "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb",
-    "store": "Google Play"
-   }
-  ],
-  "https://xvpn.io/download?isAutoDownload=true&os=win": [
-   {
-    "kind": "direct",
-    "plat": "windows",
-    "arch": "",
-    "fmt": "installer",
-    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_78.1.0_6025_0e29313d9_2026-08-27-12-56-06.exe",
-    "name": "X-VPN_78.1.0_6025_0e29313d9_2026-08-27-12-56-06.exe",
-    "ver": "78.1.0"
-   }
-  ],
-  "https://xvpn.io/fa/download/vpn-mac?isAutoDownload=true&os=mac": [
-   {
-    "kind": "direct",
-    "plat": "macos",
-    "arch": "",
-    "fmt": "dmg",
-    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_78.2.0_6054_7695194c7_2026-09-09-01-44-32.dmg",
-    "name": "X-VPN_78.2.0_6054_7695194c7_2026-09-09-01-44-32.dmg",
-    "ver": "78.2.0"
-   }
-  ],
-  "https://z3d9.com/6ays8gw3vw/X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg": [
-   {
-    "kind": "direct",
-    "plat": "macos",
-    "arch": "",
-    "fmt": "dmg",
-    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg",
-    "name": "X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg"
-   }
-  ],
-  "https://apps.apple.com/us/app/x-vpn-super-vpn-best-proxy/id1250312807": [
-   {
-    "kind": "store",
-    "plat": "ios",
-    "href": "https://apps.apple.com/us/app/x-vpn-super-vpn-best-proxy/id1250312807",
-    "store": "App Store"
-   }
-  ],
-  "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl": [
-   {
-    "kind": "store",
-    "plat": "chrome",
-    "href": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
-    "store": "Chrome Web Store"
-   }
-  ],
   "https://github.com/shirokhorshid/shirokhorshid-android/releases": [
    {
     "kind": "asset",
@@ -49420,6 +49356,70 @@
     "size": 24931923,
     "tag": "v2026.02.08-4931bb5",
     "pre": false
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
+    "store": "Google Play"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb",
+    "store": "Google Play"
+   }
+  ],
+  "https://xvpn.io/download?isAutoDownload=true&os=win": [
+   {
+    "kind": "direct",
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_78.1.0_6025_0e29313d9_2026-08-27-12-56-06.exe",
+    "name": "X-VPN_78.1.0_6025_0e29313d9_2026-08-27-12-56-06.exe",
+    "ver": "78.1.0"
+   }
+  ],
+  "https://xvpn.io/fa/download/vpn-mac?isAutoDownload=true&os=mac": [
+   {
+    "kind": "direct",
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_78.2.0_6054_7695194c7_2026-09-09-01-44-32.dmg",
+    "name": "X-VPN_78.2.0_6054_7695194c7_2026-09-09-01-44-32.dmg",
+    "ver": "78.2.0"
+   }
+  ],
+  "https://z3d9.com/6ays8gw3vw/X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg": [
+   {
+    "kind": "direct",
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg",
+    "name": "X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg"
+   }
+  ],
+  "https://apps.apple.com/us/app/x-vpn-super-vpn-best-proxy/id1250312807": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/x-vpn-super-vpn-best-proxy/id1250312807",
+    "store": "App Store"
+   }
+  ],
+  "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl": [
+   {
+    "kind": "store",
+    "plat": "chrome",
+    "href": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
+    "store": "Chrome Web Store"
    }
   ],
   "https://play.google.com/store/apps/details?id=io.geph.android": [
