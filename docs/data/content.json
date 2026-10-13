@@ -1,5 +1,5 @@
 {
-  "rev": 40,
+  "rev": 41,
   "sections": [
     {
       "id": "vpn",
@@ -48,6 +48,28 @@
         {
           "label": "نسخه مک",
           "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-MacOS.dmg"
+        }
+      ],
+      "sample": true
+    },
+    {
+      "id": "pj7a4sw",
+      "title": "Iwana Bot",
+      "icon": "icons/i-3dn9ffq3.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "desc": "این ربات تا اینترنت آزاد همراهته!",
+      "tags": [
+        "ربات"
+      ],
+      "links": [
+        {
+          "label": "ورود به ربات",
+          "url": "https://t.me/I_w_a_n_a_bot"
         }
       ],
       "sample": true
