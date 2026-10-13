@@ -1,5 +1,5 @@
 {
-  "rev": 87,
+  "rev": 88,
   "sections": [
     {
       "id": "vpn",
@@ -638,6 +638,28 @@
       ]
     },
     {
+      "id": "a93y0iy",
+      "name": "BD NET VPN",
+      "category": "vpn",
+      "icon": "icons/i-50l4jk0z.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "anklgk2",
       "name": "GEPH VPN",
       "category": "vpn",
@@ -683,28 +705,6 @@
           "url": "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak",
           "file": "",
           "os": "linux"
-        }
-      ]
-    },
-    {
-      "id": "a93y0iy",
-      "name": "BD NET VPN",
-      "category": "vpn",
-      "icon": "icons/i-50l4jk0z.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
-          "file": "",
-          "os": "android"
         }
       ]
     },
