@@ -1,5 +1,5 @@
 {
-  "rev": 73,
+  "rev": 74,
   "sections": [
     {
       "id": "vpn",
@@ -682,33 +682,6 @@
       ]
     },
     {
-      "id": "aewwc42",
-      "name": "ROSTAM VPN",
-      "category": "vpn",
-      "icon": "icons/i-u199iglm.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/app/id1487875612",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "ab0nwmg",
       "name": "V2BOX",
       "category": "client",
@@ -730,6 +703,33 @@
         },
         {
           "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "aewwc42",
+      "name": "ROSTAM VPN",
+      "category": "vpn",
+      "icon": "icons/i-u199iglm.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
+          "file": "",
+          "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/app/id1487875612",
           "file": "",
           "os": "ios"
         }
