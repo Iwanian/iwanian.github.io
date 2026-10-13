@@ -1,5 +1,5 @@
 {
-  "rev": 71,
+  "rev": 72,
   "sections": [
     {
       "id": "vpn",
@@ -731,28 +731,6 @@
       ]
     },
     {
-      "id": "atzbmda",
-      "name": "CORE FORGE",
-      "category": "client",
-      "icon": "icons/i-jwhwo0hl.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS & VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://testflight.apple.com/join/DRkT6zny",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "ab0nwmg",
       "name": "V2BOX",
       "category": "client",
@@ -774,6 +752,28 @@
         },
         {
           "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "atzbmda",
+      "name": "CORE FORGE",
+      "category": "client",
+      "icon": "icons/i-jwhwo0hl.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS & VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://testflight.apple.com/join/DRkT6zny",
           "file": "",
           "os": "ios"
         }
