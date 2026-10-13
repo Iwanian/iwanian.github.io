@@ -1,5 +1,5 @@
 {
-  "rev": 88,
+  "rev": 89,
   "sections": [
     {
       "id": "vpn",
@@ -586,6 +586,28 @@
       ]
     },
     {
+      "id": "a93y0iy",
+      "name": "BD NET VPN",
+      "category": "vpn",
+      "icon": "icons/i-50l4jk0z.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "a2ag89w",
       "name": "X VPN",
       "category": "vpn",
@@ -634,28 +656,6 @@
           "url": "",
           "file": "downloads/linux/X-VPN Linux.txt",
           "os": "linux"
-        }
-      ]
-    },
-    {
-      "id": "a93y0iy",
-      "name": "BD NET VPN",
-      "category": "vpn",
-      "icon": "icons/i-50l4jk0z.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
-          "file": "",
-          "os": "android"
         }
       ]
     },
