@@ -1,5 +1,5 @@
 {
-  "rev": 58,
+  "rev": 59,
   "sections": [
     {
       "id": "vpn",
@@ -584,6 +584,33 @@
       ]
     },
     {
+      "id": "a7lmtvl",
+      "name": "WHITE DNS",
+      "category": "client",
+      "icon": "icons/i-8cj0ih57.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS",
+      "desc": "مناسب دوران قطعی",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
+          "file": "",
+          "os": "android"
+        }
+      ]
+    },
+    {
       "id": "anklgk2",
       "name": "GEPH VPN",
       "category": "vpn",
@@ -629,33 +656,6 @@
           "url": "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak",
           "file": "",
           "os": "linux"
-        }
-      ]
-    },
-    {
-      "id": "a7lmtvl",
-      "name": "WHITE DNS",
-      "category": "client",
-      "icon": "icons/i-8cj0ih57.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS",
-      "desc": "مناسب دوران قطعی",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
-          "file": "",
-          "os": "android"
         }
       ]
     },
