@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T22:22:20.883Z",
+ "t": "2026-10-13T22:24:05.746Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -51863,6 +51863,22 @@
     "kind": "store",
     "plat": "ios",
     "href": "https://testflight.apple.com/join/DRkT6zny",
+    "store": "App Store"
+   }
+  ],
+  "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box": [
+   {
+    "kind": "store",
+    "plat": "android",
+    "href": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+    "store": "Google Play"
+   }
+  ],
+  "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690": [
+   {
+    "kind": "store",
+    "plat": "ios",
+    "href": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
     "store": "App Store"
    }
   ]
