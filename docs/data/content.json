@@ -1,5 +1,5 @@
 {
-  "rev": 77,
+  "rev": 78,
   "sections": [
     {
       "id": "vpn",
@@ -531,6 +531,33 @@
       ]
     },
     {
+      "id": "ab0nwmg",
+      "name": "V2BOX",
+      "category": "client",
+      "icon": "icons/i-m7xxs39g.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+          "file": "",
+          "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
       "id": "a4c747a",
       "name": "AM TUNNUL LITE VPN",
       "category": "vpn",
@@ -555,33 +582,6 @@
           "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
           "file": "",
           "os": "android"
-        }
-      ]
-    },
-    {
-      "id": "ab0nwmg",
-      "name": "V2BOX",
-      "category": "client",
-      "icon": "icons/i-m7xxs39g.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
-          "file": "",
-          "os": "ios"
         }
       ]
     },
