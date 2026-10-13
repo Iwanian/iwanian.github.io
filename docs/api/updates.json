@@ -1,7 +1,70 @@
 {
- "generated": "2026-10-13T17:26:17.908Z",
- "seq": 34,
+ "generated": "2026-10-13T17:42:31.496Z",
+ "seq": 41,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v4.1.1",
+   "previous": "v4.1.1",
+   "t": "2026-10-13T17:42:31.496Z",
+   "id": 41
+  },
+  {
+   "app": "v2rayn",
+   "name": "v2rayN",
+   "type": "update",
+   "version": "7.25.6",
+   "previous": "7.25.6",
+   "t": "2026-10-13T17:42:31.496Z",
+   "id": 40
+  },
+  {
+   "app": "clashverge",
+   "name": "Clash Verge Rev",
+   "type": "new",
+   "version": "v2.5.8",
+   "previous": "",
+   "t": "2026-10-13T17:42:31.496Z",
+   "id": 39
+  },
+  {
+   "app": "v2raya",
+   "name": "v2rayA",
+   "type": "new",
+   "version": "v2.5.10",
+   "previous": "",
+   "t": "2026-10-13T17:42:31.496Z",
+   "id": 38
+  },
+  {
+   "app": "outline",
+   "name": "Outline",
+   "type": "update",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-13T17:42:31.496Z",
+   "id": 37
+  },
+  {
+   "app": "psiphon",
+   "name": "Psiphon",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-13T17:42:31.496Z",
+   "id": 36
+  },
+  {
+   "app": "wireguard",
+   "name": "WireGuard",
+   "type": "update",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-13T17:42:31.496Z",
+   "id": 35
+  },
   {
    "app": "hiddify",
    "name": "Hiddify",
