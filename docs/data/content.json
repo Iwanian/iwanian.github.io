@@ -1,5 +1,5 @@
 {
-  "rev": 38,
+  "rev": 39,
   "sections": [
     {
       "id": "vpn",
@@ -470,12 +470,12 @@
     {
       "id": "a4c747a",
       "name": "AM TUNNUL LITE VPN",
-      "category": "client",
+      "category": "vpn",
       "icon": "icons/i-8sfo12z0.webp",
       "layout": {
         "mode": "row",
         "cols": 2,
-        "align": "start",
+        "align": "center",
         "fill": true
       },
       "kind": "VPN",
