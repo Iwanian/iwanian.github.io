@@ -9,21 +9,21 @@
 <title>Iwana? | دانلود مستقیم کلاینت، فیلترشکن و افزونهٔ مرورگر برای اینترنت آزاد</title>
 <meta name="description" content="Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux.">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="https://Iwanian.github.io/website/">
+<link rel="canonical" href="https://iwanian.github.io/website/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Iwana?">
 <meta property="og:locale" content="fa_IR">
 <meta property="og:title" content="Iwana? | دانلود مستقیم کلاینت، فیلترشکن و افزونهٔ مرورگر برای اینترنت آزاد">
 <meta property="og:description" content="Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux.">
-<meta property="og:url" content="https://Iwanian.github.io/website/">
-<meta property="og:image" content="https://Iwanian.github.io/website/assets/og.jpg">
+<meta property="og:url" content="https://iwanian.github.io/website/">
+<meta property="og:image" content="https://iwanian.github.io/website/assets/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Iwana? | دانلود مستقیم کلاینت، فیلترشکن و افزونهٔ مرورگر برای اینترنت آزاد">
 <meta name="twitter:description" content="Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux.">
-<meta name="twitter:image" content="https://Iwanian.github.io/website/assets/og.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Iwana?", "url": "https://Iwanian.github.io/website/", "inLanguage": "fa", "description": "Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux."}</script>
+<meta name="twitter:image" content="https://iwanian.github.io/website/assets/og.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Iwana?", "url": "https://iwanian.github.io/website/", "inLanguage": "fa", "description": "Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux."}</script>
 <!--SEO:END-->
 </head>
 <body>
@@ -126,7 +126,7 @@ main{position:relative;z-index:1}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .tag{font-size:.76rem;font-weight:500;padding:.1rem .6rem;border-radius:999px;border:1px solid var(--line);color:#cfcbff;background:rgba(138,109,255,.12)}
 .tag.sample{border-color:rgba(255,166,61,.5);color:var(--gold);background:rgba(255,166,61,.1)}
-.card .actions{margin-top:auto;display:flex;flex-wrap:wrap;gap:8px;padding-top:.4rem}
+.card .actions{margin-top:auto;display:flex;flex-wrap:wrap;gap:8px;padding-top:.6rem}
 
 /* apps */
 .tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
@@ -164,7 +164,9 @@ main{position:relative;z-index:1}
 .with-ico span{line-height:1.2}
 .ico{width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 0 0 1px rgba(255,166,61,.45)}
 .dl{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.dl-main{width:100%;min-height:48px;font-weight:700;text-align:center}
+.dl-main{font-weight:700;text-align:center}
+.dl .btn,.card .actions .btn{width:auto;min-height:40px;padding:.45rem 1.25rem;border-radius:999px;font-size:.92rem;max-width:100%;text-align:center}
+.dl[data-fill="1"] .btn,.card .actions[data-fill="1"] .btn{width:100%;flex:1 1 auto}
 .dl-meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;font-size:.8rem;color:var(--muted)}
 .dl-file{direction:ltr;unicode-bidi:isolate;font-family:var(--f-mono);font-size:.74rem;overflow-wrap:anywhere}
 .dl-load,.dl-none{margin:0;font-size:.88rem;color:var(--muted)}
@@ -401,6 +403,17 @@ const OS = [
     {id:'browser', title:'مرورگر', desc:'افزونه‌ها و ابزارهای مرورگر؛ نسخهٔ مرورگر شما خودکار تشخیص داده می‌شود.'}
   ];
   function arr(x){ return Array.isArray(x) ? x : []; }
+  function normLayout(L){
+    L = L && typeof L === 'object' ? L : {};
+    return {mode:['row','column','grid'].indexOf(L.mode) >= 0 ? L.mode : 'row', cols:Math.min(4, Math.max(2, parseInt(L.cols, 10) || 2)), align:['start','center','end'].indexOf(L.align) >= 0 ? L.align : 'start', fill:!!L.fill};
+  }
+  function applyLayout(host, L){
+    L = normLayout(L); var j = {start:'flex-start', center:'center', end:'flex-end'}[L.align], s = host.style;
+    s.display = L.mode === 'grid' ? 'grid' : 'flex'; s.flexWrap = L.mode === 'row' ? 'wrap' : 'nowrap'; s.flexDirection = L.mode === 'column' ? 'column' : 'row';
+    s.gridTemplateColumns = L.mode === 'grid' ? 'repeat(' + L.cols + ',minmax(0,1fr))' : '';
+    s.justifyContent = L.mode === 'row' ? j : ''; s.alignItems = L.mode === 'column' ? (L.fill ? 'stretch' : j) : 'stretch';
+    host.setAttribute('data-fill', L.fill || L.mode === 'grid' ? '1' : '0');
+  }
   function safeIcon(u){ u = String(u || '').trim(); return /^icons\/[A-Za-z0-9._-]+$/.test(u) && u.indexOf('..') < 0 ? u : ''; }
   function safeFile(u){ u = String(u || '').trim(); return /^downloads\/[A-Za-z0-9_-]+\/[A-Za-z0-9._() -]+$/.test(u) && u.indexOf('..') < 0 ? u : ''; }
   function faNum(n){ try { return Number(n).toLocaleString('fa-IR'); } catch (e) { return String(n); } }
@@ -629,7 +642,7 @@ function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1)
     arr(list).forEach(function(a){
       if (!a || typeof a !== 'object' || !a.name) return;
       out.push({id:String(a.id || ''), name:String(a.name), icon:safeIcon(a.icon), category:CATS.indexOf(a.category) >= 0 ? a.category : 'client', kind:String(a.kind || ''),
-        desc:String(a.desc || ''), steps:arr(a.steps).map(String), links:normLinks(a)});
+        desc:String(a.desc || ''), steps:arr(a.steps).map(String), links:normLinks(a), layout:normLayout(a.layout)});
     });
     return out;
   }
@@ -642,7 +655,7 @@ function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1)
     PROJECTS.forEach(function(p){
       var tags = el('div', {class:'tags'}, arr(p.tags).map(function(t){ return el('span', {class:'tag', text:t}); }));
       if (p.sample) tags.appendChild(el('span', {class:'tag sample', text:'ایوانا'}));
-      var actions = el('div', {class:'actions'});
+      var actions = el('div', {class:'actions'}); applyLayout(actions, p.layout);
       arr(p.links).forEach(function(l){ var u = safeHref(l.url); if (u) actions.appendChild(el('a', {class:'btn btn-primary', href:u, target:'_blank', rel:'noopener', text:l.label || u})); });
       var ic = safeIcon(p.icon), th = el('h3', {class:'with-ico'}, [ic ? el('img', {class:'ico', src:ic, alt:'', width:'36', height:'36', loading:'lazy'}) : null, el('span', {text:p.title})]);
       pg.appendChild(el('article', {class:'card'}, [tags, th, el('p', {text:p.desc}), actions.children.length ? actions : null]));
@@ -762,7 +775,7 @@ function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1)
     return box;
   }
   function appCard(a, list, T){
-    var resultHost = el('div', {class:'dl'});
+    var resultHost = el('div', {class:'dl'}); applyLayout(resultHost, a.layout);
     paintResults(resultHost, list, T);
     var head = el('h3', {class:'with-ico'}, [a.icon ? el('img', {class:'ico', src:a.icon, alt:'', width:'36', height:'36', loading:'lazy'}) : null, el('span', {class:'name', text:a.name}), el('span', {class:'kind', text:a.kind || ''})]);
     var card = el('article', {class:'card app'}, [head, a.desc ? el('p', {text:a.desc}) : null, resultHost]);
