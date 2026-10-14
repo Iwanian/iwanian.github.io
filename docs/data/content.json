@@ -1,5 +1,5 @@
 {
-  "rev": 118,
+  "rev": 119,
   "sections": [
     {
       "id": "vpn",
@@ -736,28 +736,6 @@
       ]
     },
     {
-      "id": "auz16iv",
-      "name": "AZADI TUNNUL",
-      "category": "client",
-      "icon": "icons/i-dnizpa2y.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "همون شیر و خورشید اما برای ios!",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "ab128fb",
       "name": "LANTERN",
       "category": "vpn",
@@ -779,6 +757,28 @@
         },
         {
           "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "auz16iv",
+      "name": "AZADI TUNNUL",
+      "category": "client",
+      "icon": "icons/i-dnizpa2y.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "همون شیر و خورشید اما برای ios!",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
           "file": "",
           "os": "ios"
         }
