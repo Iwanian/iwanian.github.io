@@ -1,5 +1,5 @@
 {
-  "rev": 122,
+  "rev": 123,
   "sections": [
     {
       "id": "vpn",
@@ -607,6 +607,33 @@
       ]
     },
     {
+      "id": "ab128fb",
+      "name": "LANTERN",
+      "category": "vpn",
+      "icon": "icons/i-wynkdej0.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/getlantern/lantern/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
       "id": "a4c747a",
       "name": "AM TUNNUL LITE VPN",
       "category": "vpn",
@@ -631,33 +658,6 @@
           "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
           "file": "",
           "os": "android"
-        }
-      ]
-    },
-    {
-      "id": "ab128fb",
-      "name": "LANTERN",
-      "category": "vpn",
-      "icon": "icons/i-wynkdej0.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/getlantern/lantern/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
-          "file": "",
-          "os": "ios"
         }
       ]
     },
