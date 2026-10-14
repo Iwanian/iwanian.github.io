@@ -1,5 +1,5 @@
 {
-  "rev": 110,
+  "rev": 111,
   "sections": [
     {
       "id": "vpn",
@@ -188,7 +188,7 @@
         "fill": true
       },
       "kind": "کلاینت Xray/sing-box",
-      "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
+      "desc": "کلاینت قدرتمند ویندوز با مدیریت اشتراک و حالت TUN.",
       "steps": [
         "از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.",
         "سرور را انتخاب و فعال کنید.",
