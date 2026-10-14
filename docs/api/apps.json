@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T09:11:37.178Z",
+ "generated": "2026-10-14T09:12:05.402Z",
  "site": "https://iwanian.github.io/website/",
  "count": 22,
  "apps": [
@@ -3261,7 +3261,7 @@
    "name": "v2rayN",
    "category": "client",
    "kind": "کلاینت Xray/sing-box",
-   "description": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
+   "description": "کلاینت قدرتمند ویندوز با مدیریت اشتراک و حالت TUN.",
    "icon": "https://iwanian.github.io/website/icons/i-af7j9181.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [
