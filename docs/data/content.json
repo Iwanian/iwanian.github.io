@@ -1,5 +1,5 @@
 {
-  "rev": 128,
+  "rev": 129,
   "sections": [
     {
       "id": "vpn",
@@ -857,6 +857,28 @@
           "url": "https://addons.mozilla.org/fa/firefox/addon/vpn-free-betternet-proxy/",
           "file": "",
           "os": "firefox"
+        }
+      ]
+    },
+    {
+      "id": "atz0tg7",
+      "name": "AETHER",
+      "category": "client",
+      "icon": "icons/i-juw2to4c.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "",
+      "desc": "یک کلاینت دور زدن سانسور اینترنت برای شبکه‌های به‌شدت محدود و فیلترشده",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/CluvexStudio/Aether/releases",
+          "file": "",
+          "os": ""
         }
       ]
     }
