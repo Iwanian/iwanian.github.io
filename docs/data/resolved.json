@@ -1,5 +1,5 @@
 {
- "t": "2026-10-13T23:04:58.122Z",
+ "t": "2026-10-14T06:44:42.294Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -3480,7 +3480,7 @@
     "name": "v2rayN-linux-64.deb",
     "size": 86619748,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3493,7 +3493,7 @@
     "name": "v2rayN-linux-64.zip",
     "size": 142814357,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3506,7 +3506,7 @@
     "name": "v2rayN-linux-arm64.deb",
     "size": 78251484,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3519,7 +3519,7 @@
     "name": "v2rayN-linux-arm64.zip",
     "size": 134147380,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3532,7 +3532,7 @@
     "name": "v2rayN-linux-loong64.deb",
     "size": 74266148,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3545,7 +3545,7 @@
     "name": "v2rayN-linux-rhel-64.rpm",
     "size": 95991224,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3558,7 +3558,7 @@
     "name": "v2rayN-linux-rhel-arm64.rpm",
     "size": 89654209,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3571,7 +3571,7 @@
     "name": "v2rayN-linux-rhel-loong64.rpm",
     "size": 85261781,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3584,7 +3584,7 @@
     "name": "v2rayN-linux-rhel-riscv64.rpm",
     "size": 88744588,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3597,7 +3597,7 @@
     "name": "v2rayN-linux-riscv64.deb",
     "size": 147686188,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3610,7 +3610,7 @@
     "name": "v2rayN-macos-64.dmg",
     "size": 142743437,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3623,7 +3623,7 @@
     "name": "v2rayN-macos-64.zip",
     "size": 144964687,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3636,7 +3636,7 @@
     "name": "v2rayN-macos-arm64.dmg",
     "size": 135534635,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3649,7 +3649,7 @@
     "name": "v2rayN-macos-arm64.zip",
     "size": 137451000,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3662,7 +3662,7 @@
     "name": "v2rayN-windows-64-desktop.zip",
     "size": 144735873,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3675,7 +3675,7 @@
     "name": "v2rayN-windows-64.zip",
     "size": 168730000,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3688,7 +3688,7 @@
     "name": "v2rayN-windows-86-desktop.zip",
     "size": 145408272,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3701,7 +3701,7 @@
     "name": "v2rayN-windows-86.zip",
     "size": 141128830,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3714,7 +3714,7 @@
     "name": "v2rayN-windows-arm64-desktop.zip",
     "size": 134940538,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -3727,7 +3727,7 @@
     "name": "v2rayN-windows-arm64.zip",
     "size": 155862162,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6537,7 +6537,7 @@
     "name": "v2rayN-linux-64.deb",
     "size": 86619748,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6550,7 +6550,7 @@
     "name": "v2rayN-linux-64.zip",
     "size": 142814357,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6563,7 +6563,7 @@
     "name": "v2rayN-linux-arm64.deb",
     "size": 78251484,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6576,7 +6576,7 @@
     "name": "v2rayN-linux-arm64.zip",
     "size": 134147380,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6589,7 +6589,7 @@
     "name": "v2rayN-linux-loong64.deb",
     "size": 74266148,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6602,7 +6602,7 @@
     "name": "v2rayN-linux-rhel-64.rpm",
     "size": 95991224,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6615,7 +6615,7 @@
     "name": "v2rayN-linux-rhel-arm64.rpm",
     "size": 89654209,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6628,7 +6628,7 @@
     "name": "v2rayN-linux-rhel-loong64.rpm",
     "size": 85261781,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6641,7 +6641,7 @@
     "name": "v2rayN-linux-rhel-riscv64.rpm",
     "size": 88744588,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6654,7 +6654,7 @@
     "name": "v2rayN-linux-riscv64.deb",
     "size": 147686188,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6667,7 +6667,7 @@
     "name": "v2rayN-macos-64.dmg",
     "size": 142743437,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6680,7 +6680,7 @@
     "name": "v2rayN-macos-64.zip",
     "size": 144964687,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6693,7 +6693,7 @@
     "name": "v2rayN-macos-arm64.dmg",
     "size": 135534635,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6706,7 +6706,7 @@
     "name": "v2rayN-macos-arm64.zip",
     "size": 137451000,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6719,7 +6719,7 @@
     "name": "v2rayN-windows-64-desktop.zip",
     "size": 144735873,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6732,7 +6732,7 @@
     "name": "v2rayN-windows-64.zip",
     "size": 168730000,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6745,7 +6745,7 @@
     "name": "v2rayN-windows-86-desktop.zip",
     "size": 145408272,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6758,7 +6758,7 @@
     "name": "v2rayN-windows-86.zip",
     "size": 141128830,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6771,7 +6771,7 @@
     "name": "v2rayN-windows-arm64-desktop.zip",
     "size": 134940538,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",
@@ -6784,7 +6784,7 @@
     "name": "v2rayN-windows-arm64.zip",
     "size": 155862162,
     "tag": "7.25.6",
-    "pre": true
+    "pre": false
    },
    {
     "kind": "asset",

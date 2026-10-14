@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T23:04:58.122Z",
+ "generated": "2026-10-14T06:44:42.294Z",
  "site": "https://iwanian.github.io/website/",
  "count": 22,
  "apps": [
@@ -3281,7 +3281,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-64.deb",
      "name": "v2rayN-linux-64.deb",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 86619748
     },
     {
@@ -3293,7 +3293,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-64.zip",
      "name": "v2rayN-linux-64.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 142814357
     },
     {
@@ -3305,7 +3305,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-arm64.deb",
      "name": "v2rayN-linux-arm64.deb",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 78251484
     },
     {
@@ -3317,7 +3317,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-arm64.zip",
      "name": "v2rayN-linux-arm64.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 134147380
     },
     {
@@ -3329,7 +3329,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-loong64.deb",
      "name": "v2rayN-linux-loong64.deb",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 74266148
     },
     {
@@ -3341,7 +3341,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-rhel-64.rpm",
      "name": "v2rayN-linux-rhel-64.rpm",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 95991224
     },
     {
@@ -3353,7 +3353,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-rhel-arm64.rpm",
      "name": "v2rayN-linux-rhel-arm64.rpm",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 89654209
     },
     {
@@ -3365,7 +3365,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-rhel-loong64.rpm",
      "name": "v2rayN-linux-rhel-loong64.rpm",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 85261781
     },
     {
@@ -3377,7 +3377,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-rhel-riscv64.rpm",
      "name": "v2rayN-linux-rhel-riscv64.rpm",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 88744588
     },
     {
@@ -3389,7 +3389,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-riscv64.deb",
      "name": "v2rayN-linux-riscv64.deb",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 147686188
     },
     {
@@ -3401,7 +3401,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-macos-64.dmg",
      "name": "v2rayN-macos-64.dmg",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 142743437
     },
     {
@@ -3413,7 +3413,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-macos-64.zip",
      "name": "v2rayN-macos-64.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 144964687
     },
     {
@@ -3425,7 +3425,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-macos-arm64.dmg",
      "name": "v2rayN-macos-arm64.dmg",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 135534635
     },
     {
@@ -3437,7 +3437,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-macos-arm64.zip",
      "name": "v2rayN-macos-arm64.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 137451000
     },
     {
@@ -3449,7 +3449,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-64-desktop.zip",
      "name": "v2rayN-windows-64-desktop.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 144735873
     },
     {
@@ -3461,7 +3461,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-64.zip",
      "name": "v2rayN-windows-64.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 168730000
     },
     {
@@ -3473,7 +3473,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-86-desktop.zip",
      "name": "v2rayN-windows-86-desktop.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 145408272
     },
     {
@@ -3485,7 +3485,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-86.zip",
      "name": "v2rayN-windows-86.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 141128830
     },
     {
@@ -3497,7 +3497,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-arm64-desktop.zip",
      "name": "v2rayN-windows-arm64-desktop.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 134940538
     },
     {
@@ -3509,7 +3509,7 @@
      "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-arm64.zip",
      "name": "v2rayN-windows-arm64.zip",
      "version": "7.25.6",
-     "prerelease": true,
+     "prerelease": false,
      "size": 155862162
     },
     {
