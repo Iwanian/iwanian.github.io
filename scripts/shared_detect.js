@@ -11,6 +11,7 @@ function archOf(n, plat){
   if (/arm64|aarch64|armv8|apple-?silicon/.test(n)) return 'arm64';
   if (/armeabi|armv7|armhf|arm32|armv6/.test(n)) return 'armv7';
   if (/x86[_-]?64|amd64|x64|win64|(^|[^0-9])64-?bit|(^|[^0-9a-z])64([^0-9a-z]|$)/.test(n)) return 'x64';
+  if (plat === 'macos' && /(^|[^a-z0-9])intel([^a-z0-9]|$)/.test(n)) return 'x64';
   if (/(^|[^a-z0-9])arm([^a-z0-9]|$)/.test(n)) return plat === 'macos' ? 'arm64' : 'armv7';
   if (/i[3-6]86|x86|ia32|win32|(^|[^0-9])32-?bit/.test(n)) return 'x86';
   return '';
