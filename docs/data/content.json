@@ -1,5 +1,5 @@
 {
-  "rev": 131,
+  "rev": 132,
   "sections": [
     {
       "id": "vpn",
@@ -873,7 +873,9 @@
       },
       "kind": "کلاینت چندپروتکلی",
       "desc": "یک کلاینت دور زدن سانسور اینترنت برای شبکه‌های به‌شدت محدود و فیلترشده",
-      "steps": [],
+      "steps": [
+        "https://github.com/CluvexStudio/Aether/blob/main/README.fa.md"
+      ],
       "links": [
         {
           "url": "https://github.com/CluvexStudio/Aether/releases",
