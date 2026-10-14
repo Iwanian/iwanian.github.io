@@ -1,5 +1,5 @@
 {
-  "rev": 117,
+  "rev": 118,
   "sections": [
     {
       "id": "vpn",
@@ -758,33 +758,6 @@
       ]
     },
     {
-      "id": "aewwc42",
-      "name": "ROSTAM VPN",
-      "category": "vpn",
-      "icon": "icons/i-u199iglm.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/app/id1487875612",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "ab128fb",
       "name": "LANTERN",
       "category": "vpn",
@@ -806,6 +779,33 @@
         },
         {
           "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "aewwc42",
+      "name": "ROSTAM VPN",
+      "category": "vpn",
+      "icon": "icons/i-u199iglm.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
+          "file": "",
+          "os": "android"
+        },
+        {
+          "url": "https://apps.apple.com/app/id1487875612",
           "file": "",
           "os": "ios"
         }
