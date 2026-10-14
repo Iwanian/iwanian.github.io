@@ -1,5 +1,5 @@
 {
-  "rev": 112,
+  "rev": 113,
   "sections": [
     {
       "id": "vpn",
@@ -796,7 +796,7 @@
         "fill": true
       },
       "kind": "DNS & VPN",
-      "desc": "",
+      "desc": "کلاینت white dns برای ios.",
       "steps": [],
       "links": [
         {
