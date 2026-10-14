@@ -1,5 +1,5 @@
 {
-  "rev": 108,
+  "rev": 109,
   "sections": [
     {
       "id": "vpn",
@@ -165,7 +165,7 @@
         "align": "center",
         "fill": true
       },
-      "kind": "VPN",
+      "kind": "برگرفته از سایفون",
       "desc": "",
       "steps": [],
       "links": [
