@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:07:30.242Z",
+ "generated": "2026-10-14T15:08:03.117Z",
  "site": "https://iwanian.github.io/website/",
  "count": 25,
  "apps": [
@@ -28888,7 +28888,7 @@
    "id": "atz0tg7",
    "name": "AETHER",
    "category": "client",
-   "kind": "",
+   "kind": "کلاینت چندپروتکلی",
    "description": "یک کلاینت دور زدن سانسور اینترنت برای شبکه‌های به‌شدت محدود و فیلترشده",
    "icon": "https://iwanian.github.io/website/icons/i-juw2to4c.webp",
    "page": "https://iwanian.github.io/website/#apps",
