@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:08:03.117Z",
+ "generated": "2026-10-14T15:09:36.781Z",
  "site": "https://iwanian.github.io/website/",
  "count": 25,
  "apps": [
@@ -28892,7 +28892,9 @@
    "description": "یک کلاینت دور زدن سانسور اینترنت برای شبکه‌های به‌شدت محدود و فیلترشده",
    "icon": "https://iwanian.github.io/website/icons/i-juw2to4c.webp",
    "page": "https://iwanian.github.io/website/#apps",
-   "guide_steps": [],
+   "guide_steps": [
+    "https://github.com/CluvexStudio/Aether/blob/main/README.fa.md"
+   ],
    "version": "v2.3.0",
    "downloads": [
     {
