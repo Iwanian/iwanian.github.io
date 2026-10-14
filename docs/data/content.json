@@ -1,5 +1,5 @@
 {
-  "rev": 123,
+  "rev": 124,
   "sections": [
     {
       "id": "vpn",
@@ -585,28 +585,6 @@
       ]
     },
     {
-      "id": "a93y0iy",
-      "name": "BD NET VPN",
-      "category": "vpn",
-      "icon": "icons/i-50l4jk0z.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
-          "file": "",
-          "os": "android"
-        }
-      ]
-    },
-    {
       "id": "ab128fb",
       "name": "LANTERN",
       "category": "vpn",
@@ -630,6 +608,28 @@
           "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
           "file": "",
           "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "a93y0iy",
+      "name": "BD NET VPN",
+      "category": "vpn",
+      "icon": "icons/i-50l4jk0z.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
+          "file": "",
+          "os": "android"
         }
       ]
     },
