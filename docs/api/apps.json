@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T09:12:05.402Z",
+ "generated": "2026-10-14T09:13:11.409Z",
  "site": "https://iwanian.github.io/website/",
  "count": 22,
  "apps": [
@@ -8284,7 +8284,7 @@
    "name": "V2BOX",
    "category": "client",
    "kind": "VPN",
-   "description": "",
+   "description": "کلاینت قدرتمند اندروید با مدیریت اشتراک و حالت TUN.",
    "icon": "https://iwanian.github.io/website/icons/i-m7xxs39g.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [],
@@ -27842,7 +27842,7 @@
    "name": "CORE FORGE",
    "category": "client",
    "kind": "DNS & VPN",
-   "description": "",
+   "description": "کلاینت white dns برای ios.",
    "icon": "https://iwanian.github.io/website/icons/i-jwhwo0hl.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [],
