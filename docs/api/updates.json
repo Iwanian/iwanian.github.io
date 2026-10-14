@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-14T10:39:50.416Z",
- "seq": 68,
+ "generated": "2026-10-14T13:05:37.434Z",
+ "seq": 69,
  "updates": [
+  {
+   "app": "azwtdad",
+   "name": "BETTERNET UNLIMITED VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-14T13:05:37.434Z",
+   "id": 69
+  },
   {
    "app": "a2ag89w",
    "name": "X VPN",

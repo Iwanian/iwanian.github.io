@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-14T10:40:58.503Z",
+ "generated": "2026-10-14T13:05:37.434Z",
  "site": "https://iwanian.github.io/website/",
- "count": 23,
+ "count": 24,
  "apps": [
   {
    "id": "hiddify",
@@ -28840,6 +28840,43 @@
      "kind": "store",
      "store": "App Store",
      "url": "https://testflight.apple.com/join/DRkT6zny",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    }
+   ]
+  },
+  {
+   "id": "azwtdad",
+   "name": "BETTERNET UNLIMITED VPN",
+   "category": "browser",
+   "kind": "VPN",
+   "description": "افزونه VPN نامحدود برای مرورگر.",
+   "icon": "https://iwanian.github.io/website/icons/i-2mt89ex4.webp",
+   "page": "https://iwanian.github.io/website/#apps",
+   "guide_steps": [],
+   "version": "",
+   "downloads": [
+    {
+     "platform": "chrome",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Chrome Web Store",
+     "url": "https://chromewebstore.google.com/detail/gjknjjomckknofjidppipffbpoekiipm?utm_source=item-share-cb",
+     "name": "",
+     "version": "",
+     "prerelease": false,
+     "size": 0
+    },
+    {
+     "platform": "firefox",
+     "arch": "",
+     "format": "",
+     "kind": "store",
+     "store": "Firefox Add-ons",
+     "url": "https://addons.mozilla.org/fa/firefox/addon/vpn-free-betternet-proxy/",
      "name": "",
      "version": "",
      "prerelease": false,

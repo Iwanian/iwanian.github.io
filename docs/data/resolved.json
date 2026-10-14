@@ -1,5 +1,5 @@
 {
- "t": "2026-10-14T10:40:58.503Z",
+ "t": "2026-10-14T13:05:37.434Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -53000,6 +53000,22 @@
     "plat": "ios",
     "href": "https://testflight.apple.com/join/DRkT6zny",
     "store": "App Store"
+   }
+  ],
+  "https://chromewebstore.google.com/detail/gjknjjomckknofjidppipffbpoekiipm?utm_source=item-share-cb": [
+   {
+    "kind": "store",
+    "plat": "chrome",
+    "href": "https://chromewebstore.google.com/detail/gjknjjomckknofjidppipffbpoekiipm?utm_source=item-share-cb",
+    "store": "Chrome Web Store"
+   }
+  ],
+  "https://addons.mozilla.org/fa/firefox/addon/vpn-free-betternet-proxy/": [
+   {
+    "kind": "store",
+    "plat": "firefox",
+    "href": "https://addons.mozilla.org/fa/firefox/addon/vpn-free-betternet-proxy/",
+    "store": "Firefox Add-ons"
    }
   ]
  }
