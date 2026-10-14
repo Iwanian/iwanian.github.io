@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T09:10:52.464Z",
+ "generated": "2026-10-14T09:11:37.178Z",
  "site": "https://iwanian.github.io/website/",
  "count": 22,
  "apps": [
@@ -8321,7 +8321,7 @@
    "name": "NPV TUNNEL",
    "category": "client",
    "kind": "VPN",
-   "description": "",
+   "description": "کلاینت قدرتمند اندروید با مدیریت اشتراک و حالت TUN.",
    "icon": "https://iwanian.github.io/website/icons/i-s57ingys.webp",
    "page": "https://iwanian.github.io/website/#apps",
    "guide_steps": [],
