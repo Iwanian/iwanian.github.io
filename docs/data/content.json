@@ -1,5 +1,5 @@
 {
-  "rev": 114,
+  "rev": 115,
   "sections": [
     {
       "id": "vpn",
@@ -807,7 +807,7 @@
       ]
     },
     {
-      "id": "a8zl5km",
+      "id": "ab128fb",
       "name": "LANTERN",
       "category": "vpn",
       "icon": "icons/i-wynkdej0.webp",
@@ -834,7 +834,7 @@
       ]
     },
     {
-      "id": "ab128fb",
+      "id": "a8zl5km",
       "name": "LANTERN",
       "category": "vpn",
       "icon": "icons/i-wynkdej0.webp",
