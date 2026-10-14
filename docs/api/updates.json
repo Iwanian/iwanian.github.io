@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-14T20:48:44.055Z",
- "seq": 72,
+ "generated": "2026-10-14T23:29:09.962Z",
+ "seq": 73,
  "updates": [
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "update",
+   "version": "v10.0.3-beta-4",
+   "previous": "v10.0.3-beta-3",
+   "t": "2026-10-14T23:29:09.962Z",
+   "id": 73
+  },
   {
    "app": "aciritu",
    "name": "SHIROKHORSHID",
