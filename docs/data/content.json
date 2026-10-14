@@ -1,5 +1,5 @@
 {
-  "rev": 124,
+  "rev": 125,
   "sections": [
     {
       "id": "vpn",
@@ -548,6 +548,33 @@
       ]
     },
     {
+      "id": "ab128fb",
+      "name": "LANTERN",
+      "category": "vpn",
+      "icon": "icons/i-wynkdej0.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://github.com/getlantern/lantern/releases",
+          "file": "",
+          "os": ""
+        },
+        {
+          "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
       "id": "a5vuzzw",
       "name": "DEFYX VPN",
       "category": "vpn",
@@ -579,33 +606,6 @@
         },
         {
           "url": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
-      "id": "ab128fb",
-      "name": "LANTERN",
-      "category": "vpn",
-      "icon": "icons/i-wynkdej0.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/getlantern/lantern/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
           "file": "",
           "os": "ios"
         }
