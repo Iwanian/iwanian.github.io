@@ -1,7 +1,34 @@
 {
- "generated": "2026-10-14T09:10:52.464Z",
- "seq": 65,
+ "generated": "2026-10-14T10:39:50.416Z",
+ "seq": 68,
  "updates": [
+  {
+   "app": "a2ag89w",
+   "name": "X VPN",
+   "type": "update",
+   "version": "79.0.0",
+   "previous": "78.2.0",
+   "t": "2026-10-14T10:39:50.416Z",
+   "id": 68
+  },
+  {
+   "app": "a8zl5km",
+   "name": "LANTERN",
+   "type": "new",
+   "version": "v10.0.3-beta-2",
+   "previous": "",
+   "t": "2026-10-14T10:39:50.416Z",
+   "id": 67
+  },
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "new",
+   "version": "v10.0.3-beta-2",
+   "previous": "",
+   "t": "2026-10-14T10:39:50.416Z",
+   "id": 66
+  },
   {
    "app": "a5vuzzw",
    "name": "DEFYX VPN",
