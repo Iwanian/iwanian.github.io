@@ -1,5 +1,5 @@
 {
-  "rev": 126,
+  "rev": 127,
   "sections": [
     {
       "id": "vpn",
@@ -830,6 +830,33 @@
           "url": "https://testflight.apple.com/join/DRkT6zny",
           "file": "",
           "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "azwtdad",
+      "name": "BETTERNET UNLIMITED VPN",
+      "category": "browser",
+      "icon": "icons/i-2mt89ex4.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "VPN",
+      "desc": "افزونه VPN نامحدود برای مرورگر.",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://chromewebstore.google.com/detail/gjknjjomckknofjidppipffbpoekiipm?utm_source=item-share-cb",
+          "file": "",
+          "os": "chrome"
+        },
+        {
+          "url": "https://addons.mozilla.org/fa/firefox/addon/vpn-free-betternet-proxy/",
+          "file": "",
+          "os": "firefox"
         }
       ]
     }
