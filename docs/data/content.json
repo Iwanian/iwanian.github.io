@@ -1,5 +1,5 @@
 {
-  "rev": 127,
+  "rev": 128,
   "sections": [
     {
       "id": "vpn",
@@ -835,7 +835,7 @@
     },
     {
       "id": "azwtdad",
-      "name": "BETTERNET UNLIMITED VPN",
+      "name": "BETTERNET UNLIMITED",
       "category": "browser",
       "icon": "icons/i-2mt89ex4.webp",
       "layout": {
