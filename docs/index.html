@@ -84,13 +84,13 @@ code{font-family:var(--f-mono);font-size:.86em;direction:ltr;unicode-bidi:isolat
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text)}
 .brand svg{width:36px;height:36px;flex:none}
 .brand b{font:300 1.15rem/1 var(--f-mark);letter-spacing:.34em;direction:ltr;padding-left:.34em}
-.nav{display:flex;gap:4px}
+.nav{display:flex;gap:4px}.tg-link{display:inline-flex;align-items:center;gap:6px}.tg-link svg{flex:none}
 .nav a{color:var(--text);text-decoration:none;padding:.35rem .8rem;border-radius:999px;font-size:.92rem;font-weight:500;opacity:.9}
 .nav a:hover{background:rgba(138,109,255,.2);opacity:1}
 
 /* ---------- hero ---------- */
 main{position:relative;z-index:1}
-.hero{min-height:calc(100vh - 110px);min-height:calc(100svh - 110px);padding:104px 20px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;position:relative}
+.hero{min-height:calc(100vh + 70px);min-height:calc(100svh + 70px);padding:104px 20px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;position:relative}
 .wordmark{margin:0;font:200 clamp(3.2rem,12.5vw,8.6rem)/1 var(--f-mark);letter-spacing:.3em;padding-left:.3em;direction:ltr;color:#fff;
   text-shadow:0 0 38px rgba(255,166,61,.4),0 2px 24px rgba(7,5,42,.8)}
 .hero-line{margin:.9rem 0 0;font-weight:800;font-size:clamp(1.25rem,3.4vw,1.9rem);line-height:1.5;text-shadow:0 2px 20px rgba(7,5,42,.9)}
@@ -256,8 +256,10 @@ footer .brand b{font-size:1rem}
   </a>
   <nav class="nav" aria-label="منو">
     <a href="support.html" class="nav-support">حمایت از ما</a>
+    <a href="tg://resolve?domain=I_w_a_n_a" id="tgLink" class="tg-link" aria-label="کانال تلگرام"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M9.8 15.6l-.4 4.2c.6 0 .9-.3 1.2-.6l2.9-2.7 6 4.4c1.1.6 1.9.3 2.2-1L24 3.6c.4-1.6-.6-2.2-1.6-1.8L1.3 9.9c-1.5.6-1.5 1.4-.3 1.8l5.4 1.7L19 5.5c.6-.4 1.2-.2.7.2z"/></svg><span>تلگرام</span></a>
   </nav>
 </header>
+<script>(function(){var a=document.getElementById('tgLink');if(!a)return;a.addEventListener('click',function(e){e.preventDefault();var t=false;function h(){t=true}window.addEventListener('blur',h,{once:true});document.addEventListener('visibilitychange',h,{once:true});location.href='tg://resolve?domain=I_w_a_n_a';setTimeout(function(){if(!t&&!document.hidden)window.open('https://t.me/I_w_a_n_a','_blank','noopener')},1600)})})();</script>
 
 <main>
   <section class="hero" aria-labelledby="h1">
@@ -430,6 +432,7 @@ function archOf(n, plat){
   if (/arm64|aarch64|armv8|apple-?silicon/.test(n)) return 'arm64';
   if (/armeabi|armv7|armhf|arm32|armv6/.test(n)) return 'armv7';
   if (/x86[_-]?64|amd64|x64|win64|(^|[^0-9])64-?bit|(^|[^0-9a-z])64([^0-9a-z]|$)/.test(n)) return 'x64';
+  if (plat === 'macos' && /(^|[^a-z0-9])intel([^a-z0-9]|$)/.test(n)) return 'x64';
   if (/(^|[^a-z0-9])arm([^a-z0-9]|$)/.test(n)) return plat === 'macos' ? 'arm64' : 'armv7';
   if (/i[3-6]86|x86|ia32|win32|(^|[^0-9])32-?bit/.test(n)) return 'x86';
   return '';
