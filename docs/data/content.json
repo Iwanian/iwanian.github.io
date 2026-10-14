@@ -1,5 +1,5 @@
 {
-  "rev": 116,
+  "rev": 117,
   "sections": [
     {
       "id": "vpn",
@@ -785,28 +785,6 @@
       ]
     },
     {
-      "id": "atzbmda",
-      "name": "CORE FORGE",
-      "category": "client",
-      "icon": "icons/i-jwhwo0hl.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS & VPN",
-      "desc": "کلاینت white dns برای ios.",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://testflight.apple.com/join/DRkT6zny",
-          "file": "",
-          "os": "ios"
-        }
-      ]
-    },
-    {
       "id": "ab128fb",
       "name": "LANTERN",
       "category": "vpn",
@@ -828,6 +806,28 @@
         },
         {
           "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
+          "file": "",
+          "os": "ios"
+        }
+      ]
+    },
+    {
+      "id": "atzbmda",
+      "name": "CORE FORGE",
+      "category": "client",
+      "icon": "icons/i-jwhwo0hl.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "kind": "DNS & VPN",
+      "desc": "کلاینت white dns برای ios.",
+      "steps": [],
+      "links": [
+        {
+          "url": "https://testflight.apple.com/join/DRkT6zny",
           "file": "",
           "os": "ios"
         }
