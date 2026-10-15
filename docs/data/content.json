@@ -1,5 +1,5 @@
 {
-  "rev": 145,
+  "rev": 146,
   "sections": [
     {
       "id": "vpn",
@@ -942,6 +942,6 @@
   },
   "site": {
     "url": "https://iwanian.github.io/",
-    "messagesApi": "https://iwana-messages.iwanima.workers.dev"
+    "messagesApi": ""
   }
 }
