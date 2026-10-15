@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T23:29:09.962Z",
+ "generated": "2026-10-15T15:07:52.467Z",
  "site": "https://iwanian.github.io/website/",
  "count": 25,
  "apps": [
@@ -11,6 +11,8 @@
    "description": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
    "icon": "https://iwanian.github.io/website/icons/i-673mfcqa.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "برنامه را باز کنید و دسترسی VPN را بپذیرید.",
     "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.",
@@ -1709,6 +1711,8 @@
    "description": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
    "icon": "https://iwanian.github.io/website/icons/i-m3oewhsl.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "دکمهٔ + بالای صفحه را بزنید.",
     "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.",
@@ -3143,6 +3147,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-ep04q1fq.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "v2026.10.14-2c71930",
    "downloads": [
@@ -3276,6 +3282,8 @@
    "description": "کلاینت قدرتمند ویندوز با مدیریت اشتراک و حالت TUN.",
    "icon": "https://iwanian.github.io/website/icons/i-af7j9181.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.",
     "سرور را انتخاب و فعال کنید.",
@@ -6114,6 +6122,8 @@
    "description": "مناسب دوران قطعی",
    "icon": "https://iwanian.github.io/website/icons/i-8cj0ih57.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "1.6.5",
    "downloads": [
@@ -8299,6 +8309,8 @@
    "description": "کلاینت قدرتمند اندروید با مدیریت اشتراک و حالت TUN.",
    "icon": "https://iwanian.github.io/website/icons/i-m7xxs39g.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "",
    "downloads": [
@@ -8336,6 +8348,8 @@
    "description": "کلاینت قدرتمند اندروید با مدیریت اشتراک و حالت TUN.",
    "icon": "https://iwanian.github.io/website/icons/i-s57ingys.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "",
    "downloads": [
@@ -8373,6 +8387,8 @@
    "description": "کلاینت رسمی sing-box",
    "icon": "https://iwanian.github.io/website/icons/i-bk0bhn9s.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.",
@@ -8667,6 +8683,54 @@
      "version": "v1.15.0-alpha.12",
      "prerelease": true,
      "size": 98864408
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.12/sing-box-1.15.0-alpha.12-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.12-android-386.tar.gz",
+     "version": "v1.15.0-alpha.12",
+     "prerelease": true,
+     "size": 27663316
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.12/sing-box-1.15.0-alpha.12-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.12-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.12",
+     "prerelease": true,
+     "size": 26741626
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.12/sing-box-1.15.0-alpha.12-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.12-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.12",
+     "prerelease": true,
+     "size": 25409883
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.12/sing-box-1.15.0-alpha.12-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.12-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.12",
+     "prerelease": true,
+     "size": 24848768
     },
     {
      "platform": "macos",
@@ -10157,6 +10221,54 @@
      "size": 96995584
     },
     {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.11/sing-box-1.15.0-alpha.11-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.11-android-386.tar.gz",
+     "version": "v1.15.0-alpha.11",
+     "prerelease": true,
+     "size": 27663473
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.11/sing-box-1.15.0-alpha.11-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.11-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.11",
+     "prerelease": true,
+     "size": 26741573
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.11/sing-box-1.15.0-alpha.11-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.11-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.11",
+     "prerelease": true,
+     "size": 25409779
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.11/sing-box-1.15.0-alpha.11-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.11-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.11",
+     "prerelease": true,
+     "size": 24849065
+    },
+    {
      "platform": "macos",
      "arch": "x64",
      "format": "zip",
@@ -11645,6 +11757,54 @@
      "size": 97439120
     },
     {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.3/sing-box-1.14.3-android-386.tar.gz",
+     "name": "sing-box-1.14.3-android-386.tar.gz",
+     "version": "v1.14.3",
+     "prerelease": false,
+     "size": 28416361
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.3/sing-box-1.14.3-android-amd64.tar.gz",
+     "name": "sing-box-1.14.3-android-amd64.tar.gz",
+     "version": "v1.14.3",
+     "prerelease": false,
+     "size": 27494675
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.3/sing-box-1.14.3-android-arm.tar.gz",
+     "name": "sing-box-1.14.3-android-arm.tar.gz",
+     "version": "v1.14.3",
+     "prerelease": false,
+     "size": 26110218
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.3/sing-box-1.14.3-android-arm64.tar.gz",
+     "name": "sing-box-1.14.3-android-arm64.tar.gz",
+     "version": "v1.14.3",
+     "prerelease": false,
+     "size": 25589071
+    },
+    {
      "platform": "macos",
      "arch": "x64",
      "format": "zip",
@@ -13119,6 +13279,54 @@
      "version": "v1.15.0-alpha.10",
      "prerelease": true,
      "size": 96980400
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.10/sing-box-1.15.0-alpha.10-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.10-android-386.tar.gz",
+     "version": "v1.15.0-alpha.10",
+     "prerelease": true,
+     "size": 27640544
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.10/sing-box-1.15.0-alpha.10-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.10-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.10",
+     "prerelease": true,
+     "size": 26730427
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.10/sing-box-1.15.0-alpha.10-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.10-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.10",
+     "prerelease": true,
+     "size": 25393274
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.10/sing-box-1.15.0-alpha.10-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.10-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.10",
+     "prerelease": true,
+     "size": 24832334
     },
     {
      "platform": "macos",
@@ -14597,6 +14805,54 @@
      "size": 97054816
     },
     {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.9/sing-box-1.15.0-alpha.9-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.9-android-386.tar.gz",
+     "version": "v1.15.0-alpha.9",
+     "prerelease": true,
+     "size": 27752457
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.9/sing-box-1.15.0-alpha.9-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.9-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.9",
+     "prerelease": true,
+     "size": 26821315
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.9/sing-box-1.15.0-alpha.9-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.9-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.9",
+     "prerelease": true,
+     "size": 25498090
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.9/sing-box-1.15.0-alpha.9-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.9-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.9",
+     "prerelease": true,
+     "size": 24911617
+    },
+    {
      "platform": "macos",
      "arch": "x64",
      "format": "zip",
@@ -16071,6 +16327,54 @@
      "version": "v1.14.2",
      "prerelease": false,
      "size": 97435544
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.2/sing-box-1.14.2-android-386.tar.gz",
+     "name": "sing-box-1.14.2-android-386.tar.gz",
+     "version": "v1.14.2",
+     "prerelease": false,
+     "size": 28444476
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.2/sing-box-1.14.2-android-amd64.tar.gz",
+     "name": "sing-box-1.14.2-android-amd64.tar.gz",
+     "version": "v1.14.2",
+     "prerelease": false,
+     "size": 27502901
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.2/sing-box-1.14.2-android-arm.tar.gz",
+     "name": "sing-box-1.14.2-android-arm.tar.gz",
+     "version": "v1.14.2",
+     "prerelease": false,
+     "size": 26141674
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.2/sing-box-1.14.2-android-arm64.tar.gz",
+     "name": "sing-box-1.14.2-android-arm64.tar.gz",
+     "version": "v1.14.2",
+     "prerelease": false,
+     "size": 25587908
     },
     {
      "platform": "macos",
@@ -17549,6 +17853,54 @@
      "size": 97039096
     },
     {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.8/sing-box-1.15.0-alpha.8-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.8-android-386.tar.gz",
+     "version": "v1.15.0-alpha.8",
+     "prerelease": true,
+     "size": 27734710
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.8/sing-box-1.15.0-alpha.8-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.8-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.8",
+     "prerelease": true,
+     "size": 26795864
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.8/sing-box-1.15.0-alpha.8-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.8-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.8",
+     "prerelease": true,
+     "size": 25479501
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.8/sing-box-1.15.0-alpha.8-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.8-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.8",
+     "prerelease": true,
+     "size": 24886976
+    },
+    {
      "platform": "macos",
      "arch": "x64",
      "format": "zip",
@@ -19023,6 +19375,54 @@
      "version": "v1.15.0-alpha.7",
      "prerelease": true,
      "size": 97052608
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.7/sing-box-1.15.0-alpha.7-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.7-android-386.tar.gz",
+     "version": "v1.15.0-alpha.7",
+     "prerelease": true,
+     "size": 27701458
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.7/sing-box-1.15.0-alpha.7-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.7-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.7",
+     "prerelease": true,
+     "size": 26767375
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.7/sing-box-1.15.0-alpha.7-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.7-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.7",
+     "prerelease": true,
+     "size": 25448229
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.7/sing-box-1.15.0-alpha.7-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.7-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.7",
+     "prerelease": true,
+     "size": 24866033
     },
     {
      "platform": "macos",
@@ -20501,6 +20901,54 @@
      "size": 96927776
     },
     {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.6/sing-box-1.15.0-alpha.6-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.6-android-386.tar.gz",
+     "version": "v1.15.0-alpha.6",
+     "prerelease": true,
+     "size": 27517925
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.6/sing-box-1.15.0-alpha.6-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.6-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.6",
+     "prerelease": true,
+     "size": 26581534
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.6/sing-box-1.15.0-alpha.6-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.6-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.6",
+     "prerelease": true,
+     "size": 25282063
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.6/sing-box-1.15.0-alpha.6-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.6-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.6",
+     "prerelease": true,
+     "size": 24687529
+    },
+    {
      "platform": "macos",
      "arch": "x64",
      "format": "zip",
@@ -21975,6 +22423,54 @@
      "version": "v1.15.0-alpha.5",
      "prerelease": true,
      "size": 96891096
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.5/sing-box-1.15.0-alpha.5-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.5-android-386.tar.gz",
+     "version": "v1.15.0-alpha.5",
+     "prerelease": true,
+     "size": 27502816
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.5/sing-box-1.15.0-alpha.5-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.5-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.5",
+     "prerelease": true,
+     "size": 26570539
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.5/sing-box-1.15.0-alpha.5-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.5-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.5",
+     "prerelease": true,
+     "size": 25272045
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.5/sing-box-1.15.0-alpha.5-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.5-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.5",
+     "prerelease": true,
+     "size": 24682779
     },
     {
      "platform": "macos",
@@ -23453,6 +23949,54 @@
      "size": 97423520
     },
     {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.1/sing-box-1.14.1-android-386.tar.gz",
+     "name": "sing-box-1.14.1-android-386.tar.gz",
+     "version": "v1.14.1",
+     "prerelease": false,
+     "size": 28429819
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.1/sing-box-1.14.1-android-amd64.tar.gz",
+     "name": "sing-box-1.14.1-android-amd64.tar.gz",
+     "version": "v1.14.1",
+     "prerelease": false,
+     "size": 27486001
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.1/sing-box-1.14.1-android-arm.tar.gz",
+     "name": "sing-box-1.14.1-android-arm.tar.gz",
+     "version": "v1.14.1",
+     "prerelease": false,
+     "size": 26122066
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.1/sing-box-1.14.1-android-arm64.tar.gz",
+     "name": "sing-box-1.14.1-android-arm64.tar.gz",
+     "version": "v1.14.1",
+     "prerelease": false,
+     "size": 25575280
+    },
+    {
      "platform": "macos",
      "arch": "x64",
      "format": "zip",
@@ -24929,6 +25473,54 @@
      "size": 97677864
     },
     {
+     "platform": "android",
+     "arch": "",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.4/sing-box-1.15.0-alpha.4-android-386.tar.gz",
+     "name": "sing-box-1.15.0-alpha.4-android-386.tar.gz",
+     "version": "v1.15.0-alpha.4",
+     "prerelease": true,
+     "size": 28892892
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.4/sing-box-1.15.0-alpha.4-android-amd64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.4-android-amd64.tar.gz",
+     "version": "v1.15.0-alpha.4",
+     "prerelease": true,
+     "size": 27936810
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.4/sing-box-1.15.0-alpha.4-android-arm.tar.gz",
+     "name": "sing-box-1.15.0-alpha.4-android-arm.tar.gz",
+     "version": "v1.15.0-alpha.4",
+     "prerelease": true,
+     "size": 26561502
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.15.0-alpha.4/sing-box-1.15.0-alpha.4-android-arm64.tar.gz",
+     "name": "sing-box-1.15.0-alpha.4-android-arm64.tar.gz",
+     "version": "v1.15.0-alpha.4",
+     "prerelease": true,
+     "size": 25994043
+    },
+    {
      "platform": "macos",
      "arch": "x64",
      "format": "zip",
@@ -26138,6 +26730,8 @@
    "description": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.",
    "icon": "https://iwanian.github.io/website/icons/i-xcpgleoh.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.",
     "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.",
@@ -26203,6 +26797,8 @@
    "description": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.",
    "icon": "https://iwanian.github.io/website/icons/i-nv5blle6.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "نصب و اجرا کنید و Connect بزنید.",
     "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.",
@@ -26304,6 +26900,8 @@
    "description": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.",
    "icon": "https://iwanian.github.io/website/icons/i-amsh4aez.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.",
     "تونل را فعال کنید."
@@ -26368,6 +26966,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-vny3q3nd.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
@@ -26400,6 +27000,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-hec7navs.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "برنامه را باز کنید و درخواست نمایش اعلان را تایید کنید.",
@@ -26431,6 +27033,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-swa4kvpb.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "برنامه را باز و کمی صبر کنید.",
@@ -26462,6 +27066,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-wynkdej0.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "v10.0.3-beta-4",
    "downloads": [
@@ -27447,6 +28053,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-7kc4210n.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "v5.12.4",
    "downloads": [
@@ -28564,6 +29172,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-50l4jk0z.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "",
    "downloads": [
@@ -28589,6 +29199,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-8sfo12z0.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "برنامه را نصب کنید.",
     "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
@@ -28620,6 +29232,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-tzofjizk.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "79.0.0",
    "downloads": [
@@ -28705,6 +29319,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-i61n0usd.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "با فیلترشکن دانلود کنید."
    ],
@@ -28780,6 +29396,8 @@
    "description": "همون شیر و خورشید اما برای ios!",
    "icon": "https://iwanian.github.io/website/icons/i-dnizpa2y.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "",
    "downloads": [
@@ -28805,6 +29423,8 @@
    "description": "",
    "icon": "https://iwanian.github.io/website/icons/i-u199iglm.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "",
    "downloads": [
@@ -28842,6 +29462,8 @@
    "description": "کلاینت white dns برای ios.",
    "icon": "https://iwanian.github.io/website/icons/i-jwhwo0hl.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "",
    "downloads": [
@@ -28867,6 +29489,8 @@
    "description": "افزونه VPN نامحدود برای مرورگر.",
    "icon": "https://iwanian.github.io/website/icons/i-2mt89ex4.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [],
    "version": "",
    "downloads": [
@@ -28904,11 +29528,49 @@
    "description": "یک کلاینت دور زدن سانسور اینترنت برای شبکه‌های به‌شدت محدود و فیلترشده",
    "icon": "https://iwanian.github.io/website/icons/i-juw2to4c.webp",
    "page": "https://iwanian.github.io/website/#apps",
+   "homepage": "",
+   "guide_url": "",
    "guide_steps": [
     "https://github.com/CluvexStudio/Aether/blob/main/README.fa.md"
    ],
    "version": "v2.3.0",
    "downloads": [
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.3.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v2.3.0",
+     "prerelease": false,
+     "size": 22096188
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.3.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v2.3.0",
+     "prerelease": false,
+     "size": 21451164
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.3.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v2.3.0",
+     "prerelease": false,
+     "size": 24191827
+    },
     {
      "platform": "linux",
      "arch": "arm64",
@@ -29016,6 +29678,42 @@
      "version": "v2.3.0",
      "prerelease": false,
      "size": 25130106
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.1.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v2.1.0",
+     "prerelease": false,
+     "size": 21754068
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.1.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v2.1.0",
+     "prerelease": false,
+     "size": 21158580
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.1.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v2.1.0",
+     "prerelease": false,
+     "size": 23833592
     },
     {
      "platform": "linux",
@@ -29126,6 +29824,42 @@
      "size": 24676466
     },
     {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.0.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v2.0.0",
+     "prerelease": false,
+     "size": 13746221
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.0.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v2.0.0",
+     "prerelease": false,
+     "size": 12759492
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v2.0.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v2.0.0",
+     "prerelease": false,
+     "size": 14915624
+    },
+    {
      "platform": "linux",
      "arch": "arm64",
      "format": "archive",
@@ -29232,6 +29966,42 @@
      "version": "v2.0.0",
      "prerelease": false,
      "size": 15571244
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.9.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.9.0",
+     "prerelease": false,
+     "size": 3935828
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.9.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.9.0",
+     "prerelease": false,
+     "size": 3256371
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.9.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.9.0",
+     "prerelease": false,
+     "size": 4233209
     },
     {
      "platform": "linux",
@@ -29342,6 +30112,42 @@
      "size": 4525703
     },
     {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.8.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.8.0",
+     "prerelease": false,
+     "size": 3910214
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.8.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.8.0",
+     "prerelease": false,
+     "size": 3230151
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.8.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.8.0",
+     "prerelease": false,
+     "size": 4207837
+    },
+    {
      "platform": "linux",
      "arch": "arm64",
      "format": "archive",
@@ -29448,6 +30254,42 @@
      "version": "v1.8.0",
      "prerelease": false,
      "size": 4498178
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.7.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.7.0",
+     "prerelease": false,
+     "size": 3903569
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.7.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.7.0",
+     "prerelease": false,
+     "size": 3257200
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.7.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.7.0",
+     "prerelease": false,
+     "size": 4231451
     },
     {
      "platform": "linux",
@@ -29558,6 +30400,42 @@
      "size": 4522477
     },
     {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.6.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.6.0",
+     "prerelease": false,
+     "size": 3866147
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.6.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.6.0",
+     "prerelease": false,
+     "size": 3216861
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.6.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.6.0",
+     "prerelease": false,
+     "size": 4183020
+    },
+    {
      "platform": "linux",
      "arch": "arm64",
      "format": "archive",
@@ -29664,6 +30542,42 @@
      "version": "v1.6.0",
      "prerelease": false,
      "size": 4476345
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.5.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.5.0",
+     "prerelease": false,
+     "size": 3733930
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.5.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.5.0",
+     "prerelease": false,
+     "size": 3135250
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.5.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.5.0",
+     "prerelease": false,
+     "size": 4045867
     },
     {
      "platform": "linux",
@@ -29774,6 +30688,42 @@
      "size": 4370653
     },
     {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.4.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.4.0",
+     "prerelease": false,
+     "size": 3557290
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.4.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.4.0",
+     "prerelease": false,
+     "size": 2966161
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.4.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.4.0",
+     "prerelease": false,
+     "size": 3862316
+    },
+    {
      "platform": "linux",
      "arch": "arm64",
      "format": "archive",
@@ -29882,6 +30832,42 @@
      "size": 4155520
     },
     {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.3.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.3.0",
+     "prerelease": false,
+     "size": 3545172
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.3.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.3.0",
+     "prerelease": false,
+     "size": 2951444
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.3.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.3.0",
+     "prerelease": false,
+     "size": 3848425
+    },
+    {
      "platform": "linux",
      "arch": "arm64",
      "format": "archive",
@@ -29966,6 +30952,42 @@
      "size": 4133418
     },
     {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.2.0/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.2.0",
+     "prerelease": false,
+     "size": 3521223
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.2.0/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.2.0",
+     "prerelease": false,
+     "size": 2932197
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.2.0/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.2.0",
+     "prerelease": false,
+     "size": 3824634
+    },
+    {
      "platform": "linux",
      "arch": "arm64",
      "format": "archive",
@@ -30036,6 +31058,42 @@
      "version": "v1.2.0",
      "prerelease": false,
      "size": 4097985
+    },
+    {
+     "platform": "android",
+     "arch": "arm64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-android-arm64.tar.gz",
+     "name": "aether-android-arm64.tar.gz",
+     "version": "v1.1.1",
+     "prerelease": false,
+     "size": 3517598
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-android-armv7.tar.gz",
+     "name": "aether-android-armv7.tar.gz",
+     "version": "v1.1.1",
+     "prerelease": false,
+     "size": 2929718
+    },
+    {
+     "platform": "android",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-android-x86_64.tar.gz",
+     "name": "aether-android-x86_64.tar.gz",
+     "version": "v1.1.1",
+     "prerelease": false,
+     "size": 3820170
     },
     {
      "platform": "linux",

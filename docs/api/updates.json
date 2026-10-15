@@ -1,7 +1,25 @@
 {
- "generated": "2026-10-14T23:29:09.962Z",
- "seq": 73,
+ "generated": "2026-10-15T15:07:52.467Z",
+ "seq": 75,
  "updates": [
+  {
+   "app": "singbox",
+   "name": "sing-box",
+   "type": "update",
+   "version": "v1.15.0-alpha.12",
+   "previous": "v1.15.0-alpha.12",
+   "t": "2026-10-15T15:07:52.467Z",
+   "id": 75
+  },
+  {
+   "app": "atz0tg7",
+   "name": "AETHER",
+   "type": "update",
+   "version": "v2.3.0",
+   "previous": "v2.3.0",
+   "t": "2026-10-15T15:07:52.467Z",
+   "id": 74
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
