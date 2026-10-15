@@ -5,25 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#07052a">
 <link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <!--SEO:START-->
 <title>Iwana? | دانلود مستقیم کلاینت، فیلترشکن و افزونهٔ مرورگر برای اینترنت آزاد</title>
 <meta name="description" content="Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux.">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="https://iwanian.github.io/">
+<link rel="canonical" href="https://iwanian.github.io/website/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Iwana?">
 <meta property="og:locale" content="fa_IR">
 <meta property="og:title" content="Iwana? | دانلود مستقیم کلاینت، فیلترشکن و افزونهٔ مرورگر برای اینترنت آزاد">
 <meta property="og:description" content="Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux.">
-<meta property="og:url" content="https://iwanian.github.io/">
-<meta property="og:image" content="https://iwanian.github.io/assets/og.jpg">
+<meta property="og:url" content="https://iwanian.github.io/website/">
+<meta property="og:image" content="https://iwanian.github.io/website/assets/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Iwana? | دانلود مستقیم کلاینت، فیلترشکن و افزونهٔ مرورگر برای اینترنت آزاد">
 <meta name="twitter:description" content="Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux.">
-<meta name="twitter:image" content="https://iwanian.github.io/assets/og.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Iwana?", "url": "https://iwanian.github.io/", "inLanguage": "fa", "description": "Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux."}</script>
+<meta name="twitter:image" content="https://iwanian.github.io/website/assets/og.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Iwana?", "url": "https://iwanian.github.io/website/", "inLanguage": "fa", "description": "Iwana؟ آخرین نسخهٔ کلاینت‌ها، فیلترشکن‌ها و افزونه‌های مرورگر را برای سیستم و پردازندهٔ شما پیدا می‌کند و مستقیم می‌دهد؛ با آموزش نصب و اتصال برای Android، iOS، Windows، macOS و Linux."}</script>
 <!--SEO:END-->
 </head>
 <body>
@@ -200,6 +202,7 @@ a.who:hover .name{text-decoration:underline;text-underline-offset:4px}
 .dl-main{font-weight:700;text-align:center}
 .dl .btn,.card .actions .btn{width:auto;min-height:40px;padding:.45rem 1.25rem;border-radius:999px;font-size:.92rem;max-width:100%;text-align:center}
 .dl[data-fill="1"] .btn,.card .actions[data-fill="1"] .btn{width:100%;flex:1 1 auto}
+.card .upd{margin:.1rem 0 0;font-size:.78rem;color:var(--muted)}
 .dl-meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;font-size:.8rem;color:var(--muted)}
 .dl-file{direction:ltr;unicode-bidi:isolate;font-family:var(--f-mono);font-size:.74rem;overflow-wrap:anywhere}
 .dl-load,.dl-none{margin:0;font-size:.88rem;color:var(--muted)}
@@ -398,6 +401,8 @@ footer .brand b{font-size:1rem}
     </div>
   </section>
 </main>
+<script>if('serviceWorker' in navigator&&location.protocol==='https:'){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}</script>
+
 <script src="assets/three.min.js"></script>
 <script>
 /* Content (projects and apps) lives in data/content.json.
@@ -847,13 +852,21 @@ function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1)
     if (o.note) box.appendChild(el('p', {class:'note', text:o.note}));
     return box;
   }
+  function updText(list){
+    var best = '';
+    list.forEach(function(c){ if (c.date && c.date > best) best = c.date; });
+    if (!best) return '';
+    var d = new Date(best); if (isNaN(d)) return '';
+    try { return 'آخرین به‌روزرسانی: ' + d.toLocaleDateString('fa-IR-u-ca-persian', {year:'numeric', month:'long', day:'numeric'}); } catch (e) { return ''; }
+  }
   function appCard(a, list, T){
     var resultHost = el('div', {class:'dl'}); applyLayout(resultHost, a.layout);
     paintResults(resultHost, list, T);
     var whoKids = [a.icon ? el('img', {class:'ico', src:a.icon, alt:'', width:'36', height:'36', loading:'lazy'}) : null, el('span', {class:'name', text:a.name})];
     var who = a.home ? el('a', {class:'who', href:a.home, target:'_blank', rel:'noopener', title:'صفحهٔ رسمی ' + a.name}, whoKids) : el('span', {class:'who'}, whoKids);
     var head = el('h3', {class:'with-ico'}, [who, el('span', {class:'kind', text:a.kind || ''})]);
-    var card = el('article', {class:'card app'}, [head, a.desc ? el('p', {text:a.desc}) : null, resultHost]);
+    var upd = updText(list);
+    var card = el('article', {class:'card app'}, [head, a.desc ? el('p', {text:a.desc}) : null, upd ? el('p', {class:'upd', text:upd}) : null, resultHost]);
     if (a.steps.length || a.guideUrl || a.category !== 'browser'){
       var inner = el('div', {}, [a.steps.length ? steps(a.steps) : null, a.guideUrl ? el('p', {}, [el('a', {class:'guide-link', href:a.guideUrl, target:'_blank', rel:'noopener', text:'آموزش کامل این برنامه ↗'})]) : null, a.category !== 'browser' ? osGuide(T.plat) : null]);
       card.appendChild(el('details', {class:'how'}, [el('summary', {text:'آموزش نصب و اتصال'}), inner]));

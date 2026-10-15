@@ -1,0 +1,16 @@
+{
+  "name": "Iwana? | اینترنت آزاد",
+  "short_name": "Iwana?",
+  "description": "دانلود مستقیم کلاینت، فیلترشکن و افزونهٔ مرورگر برای اینترنت آزاد",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07052a",
+  "theme_color": "#07052a",
+  "icons": [
+    {"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}

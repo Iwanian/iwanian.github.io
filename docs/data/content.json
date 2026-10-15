@@ -1,5 +1,5 @@
 {
-  "rev": 146,
+  "rev": 1,
   "sections": [
     {
       "id": "vpn",
@@ -14,73 +14,49 @@
     {
       "id": "browser",
       "title": "مرورگر",
-      "desc": "افزونه‌ها و ابزارهای مرورگر برای اینترنت."
+      "desc": "افزونه‌ها و ابزارهای مرورگر؛ نسخهٔ مرورگر شما خودکار تشخیص داده می‌شود."
     }
   ],
   "projects": [
     {
-      "id": "p3nqejx",
-      "title": "Iwana Proxy",
-      "icon": "icons/i-u5ai19lt.webp",
-      "layout": {
-        "mode": "grid",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "desc": "پروکسی یاب تلگرام، متناسب با اینترنت شما!",
+      "title": "راهنمای گام‌به‌گام اتصال",
       "tags": [
-        "پروکسی"
+        "آموزش"
       ],
-      "links": [
-        {
-          "label": "نسخه اندروید",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
-        },
-        {
-          "label": "سیستم های دیگه",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/tag/v1.0.0"
-        }
-      ],
-      "sample": true
+      "sample": true,
+      "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.",
+      "links": [],
+      "id": "p1",
+      "icon": ""
     },
     {
-      "id": "pj7a4sw",
-      "title": "Iwana Bot",
-      "icon": "icons/i-3dn9ffq3.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "desc": "این ربات تا اینترنت آزاد همراهته!",
+      "title": "مخزن کانفیگ‌های آزمایش‌شده",
       "tags": [
-        "ربات"
+        "ابزار",
+        "کانفیگ"
       ],
-      "links": [
-        {
-          "label": "ورود به ربات",
-          "url": "https://t.me/I_w_a_n_a_bot"
-        }
+      "sample": true,
+      "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.",
+      "links": [],
+      "id": "p2",
+      "icon": ""
+    },
+    {
+      "title": "ابزار بررسی سلامت اتصال",
+      "tags": [
+        "ابزار"
       ],
-      "sample": true
+      "sample": true,
+      "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.",
+      "links": [],
+      "id": "p3",
+      "icon": ""
     }
   ],
   "apps": [
     {
       "id": "hiddify",
       "name": "Hiddify",
-      "category": "client",
-      "icon": "icons/i-673mfcqa.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "home": "https://github.com/hiddify/hiddify-app",
-      "guideUrl": "",
       "kind": "کلاینت چندپروتکلی",
       "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
       "steps": [
@@ -89,6 +65,7 @@
         "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.",
         "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
       ],
+      "category": "client",
       "links": [
         {
           "url": "https://github.com/hiddify/hiddify-app/releases",
@@ -96,28 +73,16 @@
           "os": ""
         },
         {
-          "url": "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone",
+          "url": "https://hiddify.com",
           "file": "",
           "os": "ios"
-        },
-        {
-          "url": "https://play.google.com/store/apps/details?id=app.hiddify.com",
-          "file": "",
-          "os": "android"
         }
-      ]
+      ],
+      "icon": ""
     },
     {
       "id": "v2rayng",
       "name": "v2rayNG",
-      "category": "client",
-      "icon": "icons/i-m3oewhsl.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
       "kind": "کلاینت Xray/V2Ray",
       "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
       "steps": [
@@ -126,6 +91,7 @@
         "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.",
         "با گزینهٔ تست تأخیر اتصال را بسنجید."
       ],
+      "category": "client",
       "links": [
         {
           "url": "https://github.com/2dust/v2rayNG/releases",
@@ -133,198 +99,94 @@
           "os": "android"
         }
       ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "aciritu",
-      "name": "SHIROKHORSHID",
-      "category": "client",
-      "icon": "icons/i-ep04q1fq.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "home": "https://github.com/shirokhorshid/shirokhorshid-android/",
-      "guideUrl": "",
-      "kind": "برگرفته از سایفون",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/shirokhorshid/shirokhorshid-android/releases",
-          "file": "",
-          "os": "android"
-        }
-      ]
+      "icon": ""
     },
     {
       "id": "v2rayn",
       "name": "v2rayN",
-      "category": "client",
-      "icon": "icons/i-af7j9181.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "home": "https://github.com/2dust/v2rayN",
-      "guideUrl": "",
       "kind": "کلاینت Xray/sing-box",
-      "desc": "کلاینت قدرتمند ویندوز با مدیریت اشتراک و حالت TUN.",
+      "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.",
       "steps": [
         "از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.",
         "سرور را انتخاب و فعال کنید.",
         "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.",
         "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."
       ],
+      "category": "client",
       "links": [
         {
           "url": "https://github.com/2dust/v2rayN/releases",
           "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://github.com/2dust/v2rayN/releases/tag/7.25.4",
-          "file": "",
-          "os": ""
-        }
-      ]
-    },
-    {
-      "id": "a7lmtvl",
-      "name": "WHITE DNS",
-      "category": "client",
-      "icon": "icons/i-8cj0ih57.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS",
-      "desc": "مناسب دوران قطعی",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/",
-          "file": "",
-          "os": "android"
+          "os": "windows"
         }
       ],
-      "home": "",
-      "guideUrl": ""
+      "icon": ""
     },
     {
-      "id": "ab0nwmg",
-      "name": "V2BOX",
+      "id": "clashverge",
+      "name": "Clash Verge Rev",
+      "kind": "کلاینت Clash/Mihomo",
+      "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.",
+      "steps": [
+        "به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.",
+        "پروفایل را فعال کنید.",
+        "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).",
+        "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."
+      ],
       "category": "client",
-      "icon": "icons/i-m7xxs39g.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "کلاینت قدرتمند اندروید با مدیریت اشتراک و حالت TUN.",
-      "steps": [],
       "links": [
         {
-          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+          "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
           "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
-          "file": "",
-          "os": "ios"
+          "os": ""
         }
       ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "ahv3fio",
-      "name": "NPV TUNNEL",
-      "category": "client",
-      "icon": "icons/i-s57ingys.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "کلاینت قدرتمند اندروید با مدیریت اشتراک و حالت TUN.",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/npv-tunnel/id1629465476",
-          "file": "",
-          "os": "ios"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
+      "icon": ""
     },
     {
       "id": "singbox",
       "name": "sing-box",
-      "category": "client",
-      "icon": "icons/i-bk0bhn9s.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
       "kind": "هستهٔ جهانی و کلاینت رسمی",
-      "desc": "کلاینت رسمی sing-box",
+      "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.",
       "steps": [
         "برنامه را نصب کنید.",
         "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.",
         "پروفایل را فعال و سرویس را روشن کنید."
       ],
+      "category": "client",
       "links": [
         {
-          "url": "https://github.com/SagerNet/sing-box/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3",
+          "url": "https://sing-box.sagernet.org/clients/",
           "file": "",
           "os": ""
         }
       ],
-      "home": "",
-      "guideUrl": ""
+      "icon": ""
+    },
+    {
+      "id": "v2raya",
+      "name": "v2rayA",
+      "kind": "کلاینت وب برای Linux",
+      "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.",
+      "steps": [
+        "پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`",
+        "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.",
+        "اشتراک یا کانفیگ را Import و سرور را Connect کنید.",
+        "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."
+      ],
+      "category": "client",
+      "links": [
+        {
+          "url": "https://github.com/v2rayA/v2rayA/releases",
+          "file": "",
+          "os": "linux"
+        }
+      ],
+      "icon": ""
     },
     {
       "id": "outline",
       "name": "Outline",
-      "category": "client",
-      "icon": "icons/i-xcpgleoh.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
       "kind": "اتصال با کلید دسترسی",
       "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.",
       "steps": [
@@ -332,616 +194,83 @@
         "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.",
         "روی Connect بزنید."
       ],
+      "category": "client",
       "links": [
         {
-          "url": "https://s3.amazonaws.com/outline-releases/client/android/stable/Outline-Client.apk",
+          "url": "https://getoutline.org/get-started/",
           "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://s3.amazonaws.com/outline-releases/client/windows/stable/Outline-Client.exe",
-          "file": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://s3.amazonaws.com/outline-releases/client/windows/stable/Outline-Client-arm64.exe",
-          "file": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://itunes.apple.com/us/app/outline-app/id1356177741",
-          "file": "",
-          "os": "ios"
-        },
-        {
-          "url": "https://itunes.apple.com/us/app/outline-app/id1356178125",
-          "file": "",
-          "os": "macos"
+          "os": ""
         }
       ],
-      "home": "",
-      "guideUrl": ""
+      "icon": ""
+    },
+    {
+      "id": "psiphon",
+      "name": "Psiphon",
+      "kind": "ابزار آمادهٔ اتصال",
+      "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.",
+      "steps": [
+        "برنامه را باز کنید.",
+        "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.",
+        "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."
+      ],
+      "category": "vpn",
+      "links": [
+        {
+          "url": "https://psiphon.ca/en/download.html",
+          "file": "",
+          "os": ""
+        }
+      ],
+      "icon": ""
     },
     {
       "id": "tor",
       "name": "Tor Browser",
-      "category": "client",
-      "icon": "icons/i-nv5blle6.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "مرورگر",
+      "kind": "مرورگر ناشناس‌ساز",
       "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.",
       "steps": [
         "نصب و اجرا کنید و Connect بزنید.",
         "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.",
         "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."
       ],
+      "category": "vpn",
       "links": [
         {
-          "url": "https://play.google.com/store/apps/details?id=org.torproject.torbrowser",
+          "url": "https://www.torproject.org/download/",
           "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-i686-portable-16.0a13.exe",
-          "file": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-windows-x86_64-portable-16.0a13.exe",
-          "file": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-macos-16.0a13.dmg",
-          "file": "",
-          "os": "macos"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-x86_64-16.0a13.tar.xz",
-          "file": "",
-          "os": "linux"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/16.0a13/tor-browser-linux-aarch64-16.0a13.tar.xz",
-          "file": "",
-          "os": "linux"
-        },
-        {
-          "url": "https://dist.torproject.org/torbrowser/15.0.24/tor-browser-linux-i686-15.0.24.tar.xz",
-          "file": "",
-          "os": "linux"
+          "os": ""
         }
       ],
-      "home": "",
-      "guideUrl": ""
+      "icon": ""
     },
     {
       "id": "wireguard",
       "name": "WireGuard",
-      "category": "client",
-      "icon": "icons/i-amsh4aez.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
       "kind": "تونل VPN",
       "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.",
       "steps": [
         "فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.",
         "تونل را فعال کنید."
       ],
-      "links": [
-        {
-          "url": "https://download.wireguard.com/windows-client/wireguard-installer.exe",
-          "file": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12",
-          "file": "",
-          "os": "ios"
-        },
-        {
-          "url": "https://download.wireguard.com/android-client/com.wireguard.android-1.0.20260315.apk",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.wireguard.android",
-          "file": "",
-          "os": "android"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "aotlwai",
-      "name": "ROKSA VPN",
-      "category": "vpn",
-      "icon": "icons/i-vny3q3nd.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
-        "گزینه \"OK\" و \"متوجه شدم\" را بزنید.",
-        "روی شروع ضربه بزنید و بسته به نیاز 30 دقیقه یا 60 دقیقه را انتخاب کنید. (تبلیغ 30 دقیقه کوتاه تر از 60 دقیقه است)",
-        "چند ثانیه صبر کنید تا تبلیغ برای شما نمایش داده بشود.",
-        "ضربدر گوشه آگهی را بزنید و فیلترشکن شما متصل است."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=roksa.vpn.android",
-          "file": "",
-          "os": "android"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "a9e72ds",
-      "name": "CAREN VPN",
-      "category": "vpn",
-      "icon": "icons/i-hec7navs.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز کنید و درخواست نمایش اعلان را تایید کنید.",
-        "کمی صبر کنید تا سرور برای اینترنت شما پیدا شود. (با زدن روی سرور لیست دیگر سرور ها هم می توانید مشاهده کنید.)",
-        "روی دکمه وسط صفحه کلیک کنید و مجوز های لازم را تایید کنید.",
-        "کمی صبر کنید تا متصل شوید."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.xcodemaster.carenvpn",
-          "file": "",
-          "os": "android"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "a3cfhiw",
-      "name": "OTTER VPN",
-      "category": "vpn",
-      "icon": "icons/i-swa4kvpb.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز و کمی صبر کنید.",
-        "دکمه LET'S GO را بزنید.",
-        "روی یکی از سرور ها ضربه بزنید.",
-        "کمی صبر کنید تا متصل شود."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.otter.vpn",
-          "file": "",
-          "os": "android"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "ab128fb",
-      "name": "LANTERN",
-      "category": "vpn",
-      "icon": "icons/i-wynkdej0.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/getlantern/lantern/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
-          "file": "",
-          "os": "ios"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "a5vuzzw",
-      "name": "DEFYX VPN",
-      "category": "vpn",
-      "icon": "icons/i-7kc4210n.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://github.com/UnboundTechCo/defyxVPN/releases",
-          "file": "",
-          "os": ""
-        },
-        {
-          "url": "https://play.google.com/store/apps/details?id=de.unboundtech.defyxvpn",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/defyx/id6746811872",
-          "file": "",
-          "os": "macos"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/defyx/id6746811872?platform=iphone",
-          "file": "",
-          "os": "ios"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "a93y0iy",
-      "name": "BD NET VPN",
-      "category": "vpn",
-      "icon": "icons/i-50l4jk0z.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=dastan.prince.bdfreevpn",
-          "file": "",
-          "os": "android"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "a4c747a",
-      "name": "AM TUNNUL LITE VPN",
-      "category": "vpn",
-      "icon": "icons/i-8sfo12z0.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [
-        "برنامه را نصب کنید.",
-        "برنامه را باز کنید و درخواست ارسال اعلان را بپذیرید.",
-        "\"FastDNS\" یا \"UDP\" را انتخاب کنید. (همین دو تا متصل می شوند.)",
-        "روی دکمه START ضربه بزنید.(هر چی سریع تر وصل بشه سرعتتون سریع تره!)",
-        "متصل شدید."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=app.vpn.amtunnellite",
-          "file": "",
-          "os": "android"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "a2ag89w",
-      "name": "X VPN",
-      "category": "vpn",
-      "icon": "icons/i-tzofjizk.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.security.xvpn.z35kb",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://xvpn.io/download?isAutoDownload=true&os=win",
-          "file": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://xvpn.io/fa/download/vpn-mac?isAutoDownload=true&os=mac",
-          "file": "",
-          "os": "macos"
-        },
-        {
-          "url": "https://z3d9.com/6ays8gw3vw/X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg",
-          "file": "",
-          "os": "macos"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/x-vpn-super-vpn-best-proxy/id1250312807",
-          "file": "",
-          "os": "ios"
-        },
-        {
-          "url": "https://chromewebstore.google.com/detail/x-vpn-free-vpn-chrome-ext/flaeifplnkmoagonpbjmedjcadegiigl",
-          "file": "",
-          "os": "chrome"
-        },
-        {
-          "url": "",
-          "file": "downloads/linux/X-VPN Linux.txt",
-          "os": "linux"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "anklgk2",
-      "name": "GEPH VPN",
-      "category": "vpn",
-      "icon": "icons/i-i61n0usd.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [
-        "با فیلترشکن دانلود کنید."
-      ],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=io.geph.android",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/us/app/geph/id1638148282?platform=iphone",
-          "file": "",
-          "os": "ios"
-        },
-        {
-          "url": "https://dl.geph.io/geph-releases/macos-stable/5.9.1/geph-macos.pkg",
-          "file": "",
-          "os": "macos"
-        },
-        {
-          "url": "https://dl.geph.io/geph-releases/windows-stable/5.9.1/geph-windows-setup.exe",
-          "file": "",
-          "os": "windows"
-        },
-        {
-          "url": "https://dl.geph.io/geph-releases/android-stable/5.9.1/geph-android.apk",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://dl.geph.io/geph-releases/linux-stable/5.9.1/Geph-x86_64.flatpak",
-          "file": "",
-          "os": "linux"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "auz16iv",
-      "name": "AZADI TUNNUL",
       "category": "client",
-      "icon": "icons/i-dnizpa2y.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "همون شیر و خورشید اما برای ios!",
-      "steps": [],
       "links": [
         {
-          "url": "https://apps.apple.com/au/app/azaditunnel/id6776486891",
-          "file": "",
-          "os": "ios"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "aewwc42",
-      "name": "ROSTAM VPN",
-      "category": "vpn",
-      "icon": "icons/i-u199iglm.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "start",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://play.google.com/store/apps/details?id=com.rostamvpn.android",
-          "file": "",
-          "os": "android"
-        },
-        {
-          "url": "https://apps.apple.com/app/id1487875612",
-          "file": "",
-          "os": "ios"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "atzbmda",
-      "name": "CORE FORGE",
-      "category": "client",
-      "icon": "icons/i-jwhwo0hl.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "DNS & VPN",
-      "desc": "کلاینت white dns برای ios.",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://testflight.apple.com/join/DRkT6zny",
-          "file": "",
-          "os": "ios"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "azwtdad",
-      "name": "BETTERNET UNLIMITED",
-      "category": "browser",
-      "icon": "icons/i-2mt89ex4.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "VPN",
-      "desc": "افزونه VPN نامحدود برای مرورگر.",
-      "steps": [],
-      "links": [
-        {
-          "url": "https://chromewebstore.google.com/detail/gjknjjomckknofjidppipffbpoekiipm?utm_source=item-share-cb",
-          "file": "",
-          "os": "chrome"
-        },
-        {
-          "url": "https://addons.mozilla.org/fa/firefox/addon/vpn-free-betternet-proxy/",
-          "file": "",
-          "os": "firefox"
-        }
-      ],
-      "home": "",
-      "guideUrl": ""
-    },
-    {
-      "id": "atz0tg7",
-      "name": "AETHER",
-      "category": "client",
-      "icon": "icons/i-juw2to4c.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "kind": "کلاینت چندپروتکلی",
-      "desc": "یک کلاینت دور زدن سانسور اینترنت برای شبکه‌های به‌شدت محدود و فیلترشده",
-      "steps": [
-        "https://github.com/CluvexStudio/Aether/blob/main/README.fa.md"
-      ],
-      "links": [
-        {
-          "url": "https://github.com/CluvexStudio/Aether/releases",
+          "url": "https://www.wireguard.com/install/",
           "file": "",
           "os": ""
         }
       ],
-      "home": "",
-      "guideUrl": ""
+      "icon": ""
     }
   ],
   "support": {
     "title": "حمایت از ما",
     "intro": "اگر کار ما برایتان مفید بوده، با ارز دیجیتال از ادامهٔ راه حمایت کنید. هر مبلغی، هرچند کوچک، ارزشمند است.",
-    "wallets": [
-      {
-        "coin": "تتر",
-        "symbol": "USDT",
-        "network": "Polygon",
-        "address": "0x3d76c651ee3f76ac468e2769c9d9fbfcaa545088",
-        "note": "حتما روی شبکه Polygon بفرستید."
-      },
-      {
-        "coin": "بیت کوین",
-        "symbol": "BTC",
-        "network": "Ethereum",
-        "address": "0x3d76c651ee3f76ac468e2769c9d9fbfcaa545088",
-        "note": "حتما روی شبکه Ethereum بفرستید."
-      },
-      {
-        "coin": "ترون",
-        "symbol": "TRX",
-        "network": "Tron",
-        "address": "TFaCWNT4N9wHJ2e1Z9MSuz1waUoMseRGqx",
-        "note": "حتما روی شبکه Tron بفرستید."
-      }
-    ]
+    "wallets": []
   },
   "site": {
-    "url": "https://iwanian.github.io/",
+    "url": "",
     "messagesApi": ""
   }
 }

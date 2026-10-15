@@ -25,7 +25,7 @@ async function githubCands(fetchImpl, owner, repo) {
   const out = [];
   list.forEach((r, ri) => (r.assets || []).forEach(a => {
     const x = D.classifyAsset(a.name); if (!x || !/^https:\/\/github\.com\//.test(a.browser_download_url || '')) return;
-    out.push({ kind: 'asset', src: owner + '/' + repo, ri, plat: x.plat, arch: x.arch, fmt: x.fmt, href: a.browser_download_url, name: a.name, size: a.size || 0, tag: String(r.tag_name || ''), pre: !!r.prerelease });
+    out.push({ kind: 'asset', src: owner + '/' + repo, ri, plat: x.plat, arch: x.arch, fmt: x.fmt, href: a.browser_download_url, name: a.name, size: a.size || 0, tag: String(r.tag_name || ''), pre: !!r.prerelease, date: String(r.published_at || r.created_at || '') });
   }));
   return out;
 }
@@ -105,7 +105,7 @@ export function buildApps(content, links, base, t) {
         if (!c.href || seen.has(c.href)) continue;
         if (l.os && c.plat && l.os !== c.plat && !(['edge', 'opera'].includes(l.os) && c.plat === 'chrome')) continue;
         seen.add(c.href);
-        downloads.push({ platform: c.plat || l.os || '', arch: c.arch || '', format: c.fmt || '', kind: c.kind === 'store' ? 'store' : 'file', store: c.store || '', url: c.href, name: c.name || '', version: c.tag || c.ver || '', prerelease: !!c.pre, size: c.size || 0 });
+        downloads.push({ platform: c.plat || l.os || '', arch: c.arch || '', format: c.fmt || '', kind: c.kind === 'store' ? 'store' : 'file', store: c.store || '', url: c.href, name: c.name || '', version: c.tag || c.ver || '', prerelease: !!c.pre, size: c.size || 0, published: c.date || '' });
       }
     }
     return {
