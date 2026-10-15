@@ -1,5 +1,5 @@
 {
-  "rev": 138,
+  "rev": 139,
   "sections": [
     {
       "id": "vpn",
@@ -79,6 +79,8 @@
         "align": "start",
         "fill": true
       },
+      "home": "https://github.com/hiddify/hiddify-app",
+      "guideUrl": "",
       "kind": "کلاینت چندپروتکلی",
       "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
       "steps": [
@@ -103,9 +105,7 @@
           "file": "",
           "os": "android"
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     },
     {
       "id": "v2rayng",
