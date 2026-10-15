@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:49:06.207Z",
+ "generated": "2026-10-15T16:56:59.447Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -3147,7 +3147,7 @@
    "description": "",
    "icon": "https://iwanian.github.io/icons/i-ep04q1fq.webp",
    "page": "https://iwanian.github.io/#apps",
-   "homepage": "",
+   "homepage": "https://github.com/shirokhorshid/shirokhorshid-android/",
    "guide_url": "",
    "guide_steps": [],
    "version": "v2026.10.14-2c71930",
