@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T16:56:59.447Z",
+ "generated": "2026-10-15T16:57:47.193Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -3282,7 +3282,7 @@
    "description": "کلاینت قدرتمند ویندوز با مدیریت اشتراک و حالت TUN.",
    "icon": "https://iwanian.github.io/icons/i-af7j9181.webp",
    "page": "https://iwanian.github.io/#apps",
-   "homepage": "",
+   "homepage": "https://github.com/2dust/v2rayN",
    "guide_url": "",
    "guide_steps": [
     "از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.",
