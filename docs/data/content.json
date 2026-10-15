@@ -1,5 +1,5 @@
 {
-  "rev": 134,
+  "rev": 135,
   "sections": [
     {
       "id": "vpn",
@@ -964,6 +964,6 @@
   },
   "site": {
     "url": "https://iwanian.github.io/",
-    "messagesApi": "https://late-violet-5ecf.mansoorehnaghibey.workers.dev"
+    "messagesApi": ""
   }
 }
