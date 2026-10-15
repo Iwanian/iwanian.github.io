@@ -1,7 +1,223 @@
 {
- "generated": "2026-10-15T21:56:30.169Z",
- "seq": 82,
+ "generated": "2026-10-15T22:00:00.116Z",
+ "seq": 106,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v4.1.1",
+   "previous": "v4.1.1",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 106
+  },
+  {
+   "app": "aciritu",
+   "name": "SHIROKHORSHID",
+   "type": "new",
+   "version": "v2026.10.14-2c71930",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 105
+  },
+  {
+   "app": "v2rayn",
+   "name": "v2rayN",
+   "type": "update",
+   "version": "7.25.6",
+   "previous": "7.25.6",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 104
+  },
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "new",
+   "version": "1.6.5",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 103
+  },
+  {
+   "app": "ab0nwmg",
+   "name": "V2BOX",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 102
+  },
+  {
+   "app": "ahv3fio",
+   "name": "NPV TUNNEL",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 101
+  },
+  {
+   "app": "singbox",
+   "name": "sing-box",
+   "type": "update",
+   "version": "v1.15.0-alpha.12",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 100
+  },
+  {
+   "app": "outline",
+   "name": "Outline",
+   "type": "update",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 99
+  },
+  {
+   "app": "tor",
+   "name": "Tor Browser",
+   "type": "update",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 98
+  },
+  {
+   "app": "wireguard",
+   "name": "WireGuard",
+   "type": "update",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 97
+  },
+  {
+   "app": "aotlwai",
+   "name": "ROKSA VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 96
+  },
+  {
+   "app": "a9e72ds",
+   "name": "CAREN VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 95
+  },
+  {
+   "app": "a3cfhiw",
+   "name": "OTTER VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 94
+  },
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "new",
+   "version": "v10.0.3-beta-4",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 93
+  },
+  {
+   "app": "a5vuzzw",
+   "name": "DEFYX VPN",
+   "type": "new",
+   "version": "v5.12.4",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 92
+  },
+  {
+   "app": "a93y0iy",
+   "name": "BD NET VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 91
+  },
+  {
+   "app": "a4c747a",
+   "name": "AM TUNNUL LITE VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 90
+  },
+  {
+   "app": "a2ag89w",
+   "name": "X VPN",
+   "type": "new",
+   "version": "79.0.0",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 89
+  },
+  {
+   "app": "anklgk2",
+   "name": "GEPH VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 88
+  },
+  {
+   "app": "auz16iv",
+   "name": "AZADI TUNNUL",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 87
+  },
+  {
+   "app": "aewwc42",
+   "name": "ROSTAM VPN",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 86
+  },
+  {
+   "app": "atzbmda",
+   "name": "CORE FORGE",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 85
+  },
+  {
+   "app": "azwtdad",
+   "name": "BETTERNET UNLIMITED",
+   "type": "new",
+   "version": "",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 84
+  },
+  {
+   "app": "atz0tg7",
+   "name": "AETHER",
+   "type": "new",
+   "version": "v2.3.0",
+   "previous": "",
+   "t": "2026-10-15T22:00:00.116Z",
+   "id": 83
+  },
   {
    "app": "hiddify",
    "name": "Hiddify",
@@ -685,60 +901,6 @@
    "previous": "v4.1.1",
    "t": "2026-10-13T12:53:00.681Z",
    "id": 7
-  },
-  {
-   "app": "v2rayn",
-   "name": "v2rayN",
-   "type": "update",
-   "version": "7.25.6",
-   "previous": "7.25.6",
-   "t": "2026-10-13T12:53:00.681Z",
-   "id": 6
-  },
-  {
-   "app": "clashverge",
-   "name": "Clash Verge Rev",
-   "type": "new",
-   "version": "v2.5.8",
-   "previous": "",
-   "t": "2026-10-13T12:53:00.681Z",
-   "id": 5
-  },
-  {
-   "app": "v2raya",
-   "name": "v2rayA",
-   "type": "new",
-   "version": "v2.5.10",
-   "previous": "",
-   "t": "2026-10-13T12:53:00.681Z",
-   "id": 4
-  },
-  {
-   "app": "outline",
-   "name": "Outline",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T12:53:00.681Z",
-   "id": 3
-  },
-  {
-   "app": "psiphon",
-   "name": "Psiphon",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T12:53:00.681Z",
-   "id": 2
-  },
-  {
-   "app": "wireguard",
-   "name": "WireGuard",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T12:53:00.681Z",
-   "id": 1
   }
  ]
 }
