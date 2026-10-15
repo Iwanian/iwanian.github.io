@@ -1,5 +1,5 @@
 {
-  "rev": 140,
+  "rev": 141,
   "sections": [
     {
       "id": "vpn",
@@ -171,6 +171,8 @@
         "align": "start",
         "fill": true
       },
+      "home": "https://github.com/2dust/v2rayN",
+      "guideUrl": "",
       "kind": "کلاینت Xray/sing-box",
       "desc": "کلاینت قدرتمند ویندوز با مدیریت اشتراک و حالت TUN.",
       "steps": [
@@ -190,9 +192,7 @@
           "file": "",
           "os": ""
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     },
     {
       "id": "a7lmtvl",
