@@ -1,5 +1,5 @@
 {
-  "rev": 139,
+  "rev": 140,
   "sections": [
     {
       "id": "vpn",
@@ -147,6 +147,8 @@
         "align": "center",
         "fill": true
       },
+      "home": "https://github.com/shirokhorshid/shirokhorshid-android/",
+      "guideUrl": "",
       "kind": "برگرفته از سایفون",
       "desc": "",
       "steps": [],
@@ -156,9 +158,7 @@
           "file": "",
           "os": "android"
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     },
     {
       "id": "v2rayn",
