@@ -99,21 +99,21 @@ main{position:relative;z-index:1}
 #boot .tower{position:absolute;left:calc(50% + 46px);bottom:9vh;width:10px;height:150px;background:repeating-linear-gradient(180deg,#2b2780 0 6px,#17135a 6px 12px);border-radius:2px;opacity:.9}
 #boot .tower::after{content:"";position:absolute;left:-34px;top:40px;width:34px;height:6px;background:#2b2780;border-radius:2px;transform-origin:right;animation:arm .9s .5s ease forwards}
 @keyframes arm{to{transform:rotate(-70deg);opacity:0}}
-#boot .rocket{position:absolute;left:50%;bottom:calc(9vh - 6px);width:64px;margin-left:-32px;will-change:transform}
-#boot .rocket svg{display:block;width:64px;height:auto;overflow:visible}
-#boot.go .rocket{animation:rise 3.1s cubic-bezier(.55,.05,.85,.5) forwards}
-@keyframes rise{0%{transform:translateY(0)}12%{transform:translateY(-4px) translateX(-1px)}16%{transform:translateY(-6px) translateX(1px)}100%{transform:translateY(calc(-100vh - 240px))}}
+#boot .rocket{position:absolute;left:50%;bottom:calc(9vh - 14px);width:84px;margin-left:-42px;will-change:transform}
+#boot .rocket svg{display:block;width:84px;height:auto;overflow:visible}
+#boot.go .rocket{animation:rise 1.9s cubic-bezier(.45,0,.85,.45) forwards}
+@keyframes rise{0%{transform:translateY(0)}10%{transform:translateY(-3px) translateX(-1px)}14%{transform:translateY(-5px) translateX(1px)}100%{transform:translateY(calc(-100vh - 300px))}}
 #boot .flame{transform-origin:50% 0;animation:fl .12s infinite alternate}
 @keyframes fl{from{transform:scaleY(.82) scaleX(.95)}to{transform:scaleY(1.12) scaleX(1.05)}}
 #boot .flamebox{opacity:0;transition:opacity .4s}
 #boot.ign .flamebox,#boot.go .flamebox{opacity:1}
 #boot .puff{position:absolute;bottom:calc(9vh - 14px);left:50%;width:46px;height:46px;margin-left:-23px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),rgba(190,180,255,.25) 60%,rgba(190,180,255,0));filter:blur(4px);opacity:0}
-#boot.ign .puff,#boot.go .puff{animation:pf 2.4s ease-out forwards}
+#boot.ign .puff,#boot.go .puff{animation:pf 1.8s ease-out forwards}
 #boot .puff:nth-of-type(odd){--dx:-1}#boot .puff:nth-of-type(even){--dx:1}
 @keyframes pf{0%{opacity:0;transform:translate(0,0) scale(.5)}20%{opacity:.9}100%{opacity:0;transform:translate(calc(var(--dx) * var(--x)),-26px) scale(3.2)}}
-#boot .trail{position:absolute;left:50%;bottom:calc(9vh + 20px);width:10px;margin-left:-5px;height:0;border-radius:6px;background:linear-gradient(180deg,rgba(255,200,120,0),rgba(255,166,61,.55) 40%,rgba(255,255,255,.7));filter:blur(3px);opacity:0}
-#boot.go .trail{animation:tr 3.1s cubic-bezier(.55,.05,.85,.5) forwards}
-@keyframes tr{0%{height:0;opacity:0}16%{opacity:.9;height:60px}100%{height:calc(100vh + 200px);opacity:0;transform:translateY(calc(-100vh - 200px));}}
+#boot .trail{position:absolute;left:50%;bottom:calc(9vh + 10px);width:10px;margin-left:-5px;height:0;border-radius:6px;background:linear-gradient(180deg,rgba(255,200,120,0),rgba(255,166,61,.55) 40%,rgba(255,255,255,.7));filter:blur(3px);opacity:0}
+#boot.go .trail{animation:tr 1.9s cubic-bezier(.45,0,.85,.45) forwards}
+@keyframes tr{0%{height:0;opacity:0}16%{opacity:.9;height:60px}100%{height:calc(100vh + 200px);opacity:0;transform:translateY(calc(-100vh - 200px))}}
 #boot .word{direction:ltr;position:absolute;left:0;right:0;top:42%;text-align:center;font:300 clamp(1.4rem,4vw,2.2rem)/1 var(--f-mark,sans-serif);letter-spacing:.5em;color:#fff;opacity:0;transition:opacity 1s}
 #boot.ign .word{opacity:.85}
 html.booting{overflow:hidden}
@@ -302,18 +302,21 @@ footer .brand b{font-size:1rem}
   <div class="pad"></div><div class="gnd"></div><div class="tower"></div>
   <i class="puff" style="--x:70px"></i><i class="puff" style="--x:120px;animation-delay:.15s"></i><i class="puff" style="--x:95px;animation-delay:.3s"></i><i class="puff" style="--x:150px;animation-delay:.45s"></i>
   <div class="trail"></div>
-  <div class="rocket"><svg viewBox="0 0 64 150" aria-hidden="true">
+  <div class="rocket"><svg viewBox="0 0 80 190" aria-hidden="true">
     <defs>
-      <linearGradient id="rb" x1="0" x2="1"><stop offset="0" stop-color="#cfd0ff"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#a9a6ee"/></linearGradient>
-      <linearGradient id="rf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6d8"/><stop offset=".35" stop-color="#ffb347"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/></linearGradient>
+      <linearGradient id="rb" x1="0" x2="1"><stop offset="0" stop-color="#9c98e6"/><stop offset=".35" stop-color="#ffffff"/><stop offset=".7" stop-color="#e4e2ff"/><stop offset="1" stop-color="#8d89d8"/></linearGradient>
+      <linearGradient id="rn" x1="0" x2="1"><stop offset="0" stop-color="#ff7a2f"/><stop offset=".45" stop-color="#ffd27a"/><stop offset="1" stop-color="#ff7a2f"/></linearGradient>
+      <linearGradient id="rf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".25" stop-color="#ffd27a"/><stop offset=".6" stop-color="#ff8a2b"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/></linearGradient>
+      <radialGradient id="rg" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffb347" stop-opacity=".8"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
     </defs>
-    <g class="flamebox"><path class="flame" d="M24 112 Q32 168 40 112 Z" fill="url(#rf)"/><path class="flame" d="M28 112 Q32 146 36 112 Z" fill="#fff" opacity=".85"/></g>
-    <path d="M14 96 L2 124 L22 112 Z" fill="#ff7a2f"/><path d="M50 96 L62 124 L42 112 Z" fill="#ff7a2f"/>
-    <path d="M32 2 C46 22 50 52 48 104 L16 104 C14 52 18 22 32 2 Z" fill="url(#rb)"/>
-    <path d="M32 2 C39 12 43 22 45 34 L19 34 C21 22 25 12 32 2 Z" fill="#ffa63d"/>
-    <circle cx="32" cy="58" r="10" fill="#1b2a8f" stroke="#8a6dff" stroke-width="3"/><circle cx="29" cy="55" r="3" fill="#9fc2ff" opacity=".9"/>
-    <rect x="16" y="86" width="32" height="6" fill="#8a6dff" opacity=".55"/>
-    <path d="M24 104 h16 l-3 8 h-10 z" fill="#4a3fb5"/>
+    <g class="flamebox"><ellipse cx="40" cy="146" rx="26" ry="26" fill="url(#rg)"/><path class="flame" d="M29 136 Q40 200 51 136 Z" fill="url(#rf)"/><path class="flame" d="M34 136 Q40 176 46 136 Z" fill="#fff" opacity=".9"/></g>
+    <path d="M24 98 C10 112 5 132 5 156 L25 134 Z" fill="#ff6a2a"/><path d="M56 98 C70 112 75 132 75 156 L55 134 Z" fill="#ff6a2a"/>
+    <path d="M36 118 L40 160 L44 118 Z" fill="#d9531f"/>
+    <path d="M40 3 C59 30 63 72 61 134 L19 134 C17 72 21 30 40 3 Z" fill="url(#rb)"/>
+    <path d="M40 3 C49 14 54 27 56 42 L24 42 C26 27 31 14 40 3 Z" fill="url(#rn)"/>
+    <rect x="19.5" y="112" width="41" height="5" fill="#ff7a2f"/><rect x="19.2" y="121" width="41.6" height="2.5" fill="#8a6dff" opacity=".7"/>
+    <circle cx="40" cy="78" r="12.5" fill="#2b2780"/><circle cx="40" cy="78" r="9.5" fill="#0e1a5c"/><path d="M33 74 a8 8 0 0 1 8 -5" stroke="#9fc2ff" stroke-width="2.4" fill="none" stroke-linecap="round"/><circle cx="44" cy="83" r="1.6" fill="#7fa7ff" opacity=".8"/>
+    <path d="M28 134 h24 l-4 9 h-16 z" fill="#3a328f"/><path d="M31 143 h18" stroke="#17135a" stroke-width="2"/>
   </svg></div>
 </div>
 <noscript><style>#boot{display:none}html.booting{overflow:auto}</style></noscript>
@@ -324,10 +327,10 @@ footer .brand b{font-size:1rem}
   function close(){if(closed)return;closed=true;b.classList.add('done');h.classList.remove('booting');setTimeout(function(){if(b.parentNode)b.parentNode.removeChild(b)},900)}
   function check(){if(flown&&loaded)close()}
   if(!loaded)window.addEventListener('load',function(){loaded=true;check()});
-  setTimeout(function(){b.classList.add('ign')},calm?0:250);
-  setTimeout(function(){b.classList.add('go')},calm?60:1000);
-  setTimeout(function(){flown=true;check()},calm?300:3900);
-  setTimeout(close,9000);
+  setTimeout(function(){b.classList.add('ign')},calm?0:100);
+  setTimeout(function(){b.classList.add('go')},calm?60:550);
+  setTimeout(function(){flown=true;check()},calm?300:2350);
+  setTimeout(close,6000);
 })();</script>
 <header class="top" id="top">
   <a class="brand" href="#" aria-label="Iwana">
