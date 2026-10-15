@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:12:26.129Z",
+ "generated": "2026-10-15T15:49:06.207Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -11,7 +11,7 @@
    "description": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.",
    "icon": "https://iwanian.github.io/icons/i-673mfcqa.webp",
    "page": "https://iwanian.github.io/#apps",
-   "homepage": "",
+   "homepage": "https://github.com/hiddify/hiddify-app",
    "guide_url": "",
    "guide_steps": [
     "برنامه را باز کنید و دسترسی VPN را بپذیرید.",
