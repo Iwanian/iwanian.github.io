@@ -2,7 +2,7 @@
 /* Shared by the site and the admin panel (synced by sync_detect.py). DOM-free. */
 var PLATS = {android:'Android', ios:'iOS', windows:'Windows', macos:'macOS', linux:'Linux', chrome:'Chrome', edge:'Edge', firefox:'Firefox', opera:'Opera', safari:'Safari'};
 var OS_IDS = ['android','ios','windows','macos','linux'], BROWSER_IDS = ['chrome','edge','firefox','opera','safari'];
-var FMT_PREF = {windows:['installer','portable'], macos:['dmg','pkg','zip'], linux:['appimage','deb','rpm','archive'], android:['apk'], ios:['ipa'], chrome:['crx','zip'], edge:['crx','zip'], opera:['crx','zip'], firefox:['xpi'], safari:[]};
+var FMT_PREF = {windows:['installer','portable'], macos:['dmg','pkg','zip'], linux:['appimage','deb','rpm','archive'], android:['apk','archive'], ios:['ipa'], chrome:['crx','zip'], edge:['crx','zip'], opera:['crx','zip'], firefox:['xpi'], safari:[]};
 var FMT_NAMES = {apk:'APK', ipa:'IPA', installer:'نصب‌کننده (exe/msi)', portable:'قابل‌حمل (zip)', dmg:'DMG', pkg:'PKG', zip:'ZIP', appimage:'AppImage', deb:'deb (Debian/Ubuntu)', rpm:'rpm (Fedora/openSUSE)', archive:'آرشیو (tar/zip)', crx:'CRX', xpi:'XPI'};
 var FALLBACK = {'windows:arm64':['x64','x86'], 'windows:x64':['x86'], 'macos:arm64':['x64'], 'android:arm64':['armv7'], 'android:x64':['x86'], 'linux:x64':['x86']};
 
@@ -39,6 +39,7 @@ function classifyAsset(name){
     else if (has(['chrome','chromium'])) { plat = 'chrome'; fmt = 'zip'; }
     else if (has(['win','win32','win64','windows','msvc'])) { plat = 'windows'; fmt = 'portable'; }
     else if (has(['mac','macos','darwin','osx'])) { plat = 'macos'; fmt = 'zip'; }
+    else if (has(['android','termux'])) { plat = 'android'; fmt = 'archive'; }
     else if (has(['linux','gnu','musl'])) { plat = 'linux'; fmt = 'archive'; }
     else return null;
   } else return null;

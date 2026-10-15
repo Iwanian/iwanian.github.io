@@ -110,7 +110,7 @@ export function buildApps(content, links, base, t) {
     }
     return {
       id: a.id, name: a.name, category: a.category, kind: a.kind || '', description: a.desc || '',
-      icon: a.icon ? abs(a.icon) : '', page: base + '#apps', guide_steps: a.steps || [],
+      icon: a.icon ? abs(a.icon) : '', page: base + '#apps', homepage: a.home || '', guide_url: a.guideUrl || '', guide_steps: a.steps || [],
       version: bestVer(downloads), downloads,
     };
   });
