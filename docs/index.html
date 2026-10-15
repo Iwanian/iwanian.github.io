@@ -90,6 +90,50 @@ code{font-family:var(--f-mono);font-size:.86em;direction:ltr;unicode-bidi:isolat
 
 /* ---------- hero ---------- */
 main{position:relative;z-index:1}
+#boot{position:fixed;inset:0;z-index:9999;overflow:hidden;background:radial-gradient(120% 90% at 50% 100%,#1a1160 0,#0a0734 55%,#05031f 100%);transition:opacity .7s ease,visibility .7s;display:block}
+#boot.done{opacity:0;visibility:hidden;pointer-events:none}
+#boot .bs{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.7;animation:bt 2.6s ease-in-out infinite}
+@keyframes bt{50%{opacity:.15}}
+#boot .pad{position:absolute;left:50%;bottom:0;width:min(520px,90vw);height:14vh;transform:translateX(-50%);background:radial-gradient(60% 100% at 50% 100%,rgba(255,166,61,.35),rgba(255,166,61,0) 70%)}
+#boot .gnd{position:absolute;left:0;right:0;bottom:0;height:9vh;background:linear-gradient(180deg,#0d0a3d,#05031f);border-top:1px solid rgba(176,166,255,.25)}
+#boot .tower{position:absolute;left:calc(50% + 46px);bottom:9vh;width:10px;height:150px;background:repeating-linear-gradient(180deg,#2b2780 0 6px,#17135a 6px 12px);border-radius:2px;opacity:.9}
+#boot .tower::after{content:"";position:absolute;left:-34px;top:40px;width:34px;height:6px;background:#2b2780;border-radius:2px;transform-origin:right;animation:arm .9s .5s ease forwards}
+@keyframes arm{to{transform:rotate(-70deg);opacity:0}}
+#boot .rocket{position:absolute;left:50%;bottom:calc(9vh - 6px);width:64px;margin-left:-32px;will-change:transform}
+#boot .rocket svg{display:block;width:64px;height:auto;overflow:visible}
+#boot.go .rocket{animation:rise 3.1s cubic-bezier(.55,.05,.85,.5) forwards}
+@keyframes rise{0%{transform:translateY(0)}12%{transform:translateY(-4px) translateX(-1px)}16%{transform:translateY(-6px) translateX(1px)}100%{transform:translateY(calc(-100vh - 240px))}}
+#boot .flame{transform-origin:50% 0;animation:fl .12s infinite alternate}
+@keyframes fl{from{transform:scaleY(.82) scaleX(.95)}to{transform:scaleY(1.12) scaleX(1.05)}}
+#boot .flamebox{opacity:0;transition:opacity .4s}
+#boot.ign .flamebox,#boot.go .flamebox{opacity:1}
+#boot .puff{position:absolute;bottom:calc(9vh - 14px);left:50%;width:46px;height:46px;margin-left:-23px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),rgba(190,180,255,.25) 60%,rgba(190,180,255,0));filter:blur(4px);opacity:0}
+#boot.ign .puff,#boot.go .puff{animation:pf 2.4s ease-out forwards}
+#boot .puff:nth-of-type(odd){--dx:-1}#boot .puff:nth-of-type(even){--dx:1}
+@keyframes pf{0%{opacity:0;transform:translate(0,0) scale(.5)}20%{opacity:.9}100%{opacity:0;transform:translate(calc(var(--dx) * var(--x)),-26px) scale(3.2)}}
+#boot .trail{position:absolute;left:50%;bottom:calc(9vh + 20px);width:10px;margin-left:-5px;height:0;border-radius:6px;background:linear-gradient(180deg,rgba(255,200,120,0),rgba(255,166,61,.55) 40%,rgba(255,255,255,.7));filter:blur(3px);opacity:0}
+#boot.go .trail{animation:tr 3.1s cubic-bezier(.55,.05,.85,.5) forwards}
+@keyframes tr{0%{height:0;opacity:0}16%{opacity:.9;height:60px}100%{height:calc(100vh + 200px);opacity:0;transform:translateY(calc(-100vh - 200px));}}
+#boot .word{direction:ltr;position:absolute;left:0;right:0;top:42%;text-align:center;font:300 clamp(1.4rem,4vw,2.2rem)/1 var(--f-mark,sans-serif);letter-spacing:.5em;color:#fff;opacity:0;transition:opacity 1s}
+#boot.ign .word{opacity:.85}
+html.booting{overflow:hidden}
+@media (prefers-reduced-motion:reduce){#boot.go .rocket,#boot.go .trail{animation-duration:.01s}#boot .flame,#boot .bs{animation:none}}
+
+.foot{position:relative;z-index:1;background:rgba(7,5,36,.9);border-top:1px solid var(--line);padding:44px 20px 22px}
+.foot-in{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1fr 1.2fr;gap:28px;align-items:start}
+.foot h2{margin:0 0 6px;font-size:1.25rem}
+.foot p{margin:0;color:var(--muted,#b9b4e6)}
+.foot form{display:grid;gap:10px}
+.foot textarea{width:100%;min-height:104px;resize:vertical;padding:.7rem .9rem;border-radius:14px;border:1px solid var(--line);background:var(--void);color:var(--text);font:inherit;line-height:1.7}
+.foot textarea:focus{outline:2px solid var(--ember);outline-offset:1px}
+.foot .row{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.foot .cnt{font-size:.8rem;color:var(--muted,#b9b4e6)}
+.foot .st{min-height:1.5em;font-size:.9rem}
+.foot .st.ok{color:#7ee2a8}.foot .st.err{color:#ff9aa2}
+.foot .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.foot-bottom{max-width:1080px;margin:26px auto 0;padding-top:14px;border-top:1px solid var(--line);font-size:.82rem;color:var(--muted,#b9b4e6);text-align:center}
+@media(max-width:760px){.foot-in{grid-template-columns:1fr}}
+
 .hero{min-height:calc(100vh + 70px);min-height:calc(100svh + 70px);padding:104px 20px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;position:relative}
 .wordmark{margin:0;font:200 clamp(3.2rem,12.5vw,8.6rem)/1 var(--f-mark);letter-spacing:.3em;padding-left:.3em;direction:ltr;color:#fff;
   text-shadow:0 0 38px rgba(255,166,61,.4),0 2px 24px rgba(7,5,42,.8)}
@@ -162,6 +206,9 @@ main{position:relative;z-index:1}
 .with-ico{display:flex;align-items:center;gap:8px;flex-wrap:nowrap;margin:0 0 6px;padding:0}
 .with-ico .name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .with-ico span{line-height:1.2}
+.who{display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 auto;color:inherit;text-decoration:none}
+a.who:hover .name{text-decoration:underline;text-underline-offset:4px}
+.guide-link{color:var(--arc,#8aa8ff);font-weight:600}
 .ico{width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 0 0 1px rgba(255,166,61,.45)}
 .dl{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .dl-main{font-weight:700;text-align:center}
@@ -197,7 +244,7 @@ main{position:relative;z-index:1}
 @media (max-width:820px){.picks{grid-template-columns:minmax(0,1fr)}.pick{padding:20px}}
 .apps{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr))}
 .app h3{display:flex;align-items:center;justify-content:flex-start;gap:8px;min-height:36px;margin:0 0 8px}
-.app h3 .name{font:500 1.15rem/1.2 var(--f-mark);letter-spacing:.02em;direction:ltr;unicode-bidi:isolate;flex:1 1 auto;text-align:right}
+.app h3 .name{font:500 1.15rem/1.2 var(--f-mark);letter-spacing:.02em;direction:ltr;unicode-bidi:isolate;text-align:right}
 .app .kind{flex:none;line-height:1.2;font-size:.76rem;color:var(--gold);font-weight:500;white-space:nowrap}
 .meta{font-size:.82rem;color:var(--muted)}
 .hash{display:flex;align-items:center;gap:8px;min-width:0;font-size:.74rem;color:var(--muted)}
@@ -249,6 +296,39 @@ footer .brand b{font-size:1rem}
   </div>
 </div>
 
+<div id="boot" aria-hidden="true">
+  <i class="bs" style="left:8%;top:12%"></i><i class="bs" style="left:22%;top:30%;animation-delay:.6s"></i><i class="bs" style="left:35%;top:8%;animation-delay:1.1s"></i><i class="bs" style="left:51%;top:20%"></i><i class="bs" style="left:63%;top:36%;animation-delay:.3s"></i><i class="bs" style="left:77%;top:10%;animation-delay:.9s"></i><i class="bs" style="left:90%;top:26%;animation-delay:1.5s"></i><i class="bs" style="left:15%;top:55%;animation-delay:.4s"></i><i class="bs" style="left:84%;top:58%;animation-delay:1.2s"></i><i class="bs" style="left:44%;top:62%;animation-delay:.8s"></i>
+  <div class="word">I w a n a ?</div>
+  <div class="pad"></div><div class="gnd"></div><div class="tower"></div>
+  <i class="puff" style="--x:70px"></i><i class="puff" style="--x:120px;animation-delay:.15s"></i><i class="puff" style="--x:95px;animation-delay:.3s"></i><i class="puff" style="--x:150px;animation-delay:.45s"></i>
+  <div class="trail"></div>
+  <div class="rocket"><svg viewBox="0 0 64 150" aria-hidden="true">
+    <defs>
+      <linearGradient id="rb" x1="0" x2="1"><stop offset="0" stop-color="#cfd0ff"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#a9a6ee"/></linearGradient>
+      <linearGradient id="rf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6d8"/><stop offset=".35" stop-color="#ffb347"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/></linearGradient>
+    </defs>
+    <g class="flamebox"><path class="flame" d="M24 112 Q32 168 40 112 Z" fill="url(#rf)"/><path class="flame" d="M28 112 Q32 146 36 112 Z" fill="#fff" opacity=".85"/></g>
+    <path d="M14 96 L2 124 L22 112 Z" fill="#ff7a2f"/><path d="M50 96 L62 124 L42 112 Z" fill="#ff7a2f"/>
+    <path d="M32 2 C46 22 50 52 48 104 L16 104 C14 52 18 22 32 2 Z" fill="url(#rb)"/>
+    <path d="M32 2 C39 12 43 22 45 34 L19 34 C21 22 25 12 32 2 Z" fill="#ffa63d"/>
+    <circle cx="32" cy="58" r="10" fill="#1b2a8f" stroke="#8a6dff" stroke-width="3"/><circle cx="29" cy="55" r="3" fill="#9fc2ff" opacity=".9"/>
+    <rect x="16" y="86" width="32" height="6" fill="#8a6dff" opacity=".55"/>
+    <path d="M24 104 h16 l-3 8 h-10 z" fill="#4a3fb5"/>
+  </svg></div>
+</div>
+<noscript><style>#boot{display:none}html.booting{overflow:auto}</style></noscript>
+<script>(function(){
+  var b=document.getElementById('boot'),h=document.documentElement;if(!b)return;
+  h.classList.add('booting');
+  var calm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,t0=Date.now(),loaded=document.readyState==='complete',flown=false,closed=false;
+  function close(){if(closed)return;closed=true;b.classList.add('done');h.classList.remove('booting');setTimeout(function(){if(b.parentNode)b.parentNode.removeChild(b)},900)}
+  function check(){if(flown&&loaded)close()}
+  if(!loaded)window.addEventListener('load',function(){loaded=true;check()});
+  setTimeout(function(){b.classList.add('ign')},calm?0:250);
+  setTimeout(function(){b.classList.add('go')},calm?60:1000);
+  setTimeout(function(){flown=true;check()},calm?300:3900);
+  setTimeout(close,9000);
+})();</script>
 <header class="top" id="top">
   <a class="brand" href="#" aria-label="Iwana">
     <img class="logo" width="28" height="28" src="data:image/webp;base64,UklGRjIbAABXRUJQVlA4ICYbAACwTwCdASqAAIAAPjkWh0MiIQ2eIvIQAcJbADDZu0AZ8b+V3sMVT++f2v9b/2zhTS7932Ub1O/pr2Bv1k6cPmX/bT1vPR7/m/UZ/sv+06yv0APLv9mH/A/970x+vn0oPiN+W8CfFV7l/cf3Y9gzB313ahHbn/R8xv+L4F/D3/X9QX8k/nX+z8/35XsV9f/v37JewF7N/X/+d4qOo14g9gD9aPSTvRfv3/A9gH+m/6D1aP8H/5/7zzs/VH/y/1/wDf0P+7f+DsP/vH7Qv7nL792USO3HWj1yfqpYdWcGFv+/DmCvIAmGrO56bZ9oplfztL2o9jLb+6vj/2vEIg/ogo8yw/MoZ1QPfOvWvrd9tf6P1zGlq8GgRfRdX7LidBUOMaCnD2La0PyKJYW+6pFjtqQQ+mMjq9Tj8emE2Po+fWAsswC+BTTeW5SKWaAvcHhEPpZ2zm7tJX5X1/Y20klJTb73VN0RaeSFV3tiCTfdq9p8Uj5qUDqk5TviUs7xyzxWqChI+KDuF7k//bOHdEzLGBK3m2bk1cbMtLtN8n3nPs3TAg5xplRzT1LCe5D/10Sje1UOlFZ49R2y33tmZpkw8u/yyYx9cmQfRlHmgKcMP3WX8lwP/YVREx+4DSSjLvXvYeHBTM5p5nw3Wb9liVwJX9ThK4vAlw1LHAzSNOS2STguwtVIMthloSf+x0mUO9rm2vP9epvtGQud9K45OnLYv2wdgn+QM8tXu2y9e5IdFN6VKQdn+ek5RizM1TTSVhmb1oMTbKdENTXpLrhZyhAnYs001HsDpNmri4n4qZSMlW7JG5zF7z6ZwgEZGZWSxlwosJfQ21mNvubGBIoUhQ6IuN1lj32Nxu2AAP7//nzKqe6bLX+xiRYpXQ+5hDdmHr64OPMEvkzoQAdEKhAM9I6fhDGId/Yzhmu3l2Y1H1//5XBMEF2u+glQ7bwXPaZl5QA3gklK3FaYf5heCsX/CBUED3SFKQ4LOMnnLtJZrAhMQfRgsWMMx9YvnHMGT7F8YNSDB5mz5OqAADEWHu8pPdXNFuYJ1QJxsE9lORiYEW3GEa6mXFx4ijGWFl6gB0fPqvnnMgEztZ1P0lcD89pYvvBd9biAtCDUPA6eZqZQHOKSm5PDyzLtn5cLt4hCGky8HhOBFKrdK9GXmnaTODe67cXTRGSCvMcglUn+8PgPTD8zlHkNZd9T5LRUW2A0XCbGiJ+WJjMRDgikcAo7aZeYPF/4Zjhq2awBFz9OxznpsRPPVZY8HSawzA/1NIVxqJ0PhQRBkVbt0nLHsT28GhGZ5cDBc8YmdYCbAtFHILTgK64EIdh2jyWLjNJTepBTYxPITdwdtX99F9OPuoxBXWQBc3ttjBWNf+NdTHO2b1yd5BeWK0cQ6oMPh9Z+JDqztQ6vLvuFJkh2mqFOA4aFJju3TfFZnY9+wBmXbi3hwuFo7hmqUvIH3OHUcsVUC0SL6WKPoXCE3wGk+6V6pMjOBqBK1XGOoOVmE8/JaFOC93bOKQn/cYV+hD/XzdtRHqgZXXQEQiKSILfsvg3nZgNxfdxV6idYKyzqeZnbjqGu7PsrCWYNXPWuSmf6MZIKsokEcsknuJyMxAgm+IRETlQ5SstpqyfBFIADCCkkGPOP7auMuBCCkNVGuBxkxBpeZHktPVxkycBP7YVsYXv5S8tyNmoRo014XkRNeP4BUv3AqWoNZKEDJivZXXPpEVrzdMSH/BwaQX6qq0PYGXZVgfc/vvZIwXQA+ivTcuo2UOkPDje7pVMbfnYZH6QgAiCVAA5XxdVEJrLZylcUTR3sECc5znj9V1g89ujXBARkwf+Q98/0U7mljh0WCkuuYvGico6M08kZYCWL78AZZk0D4iype4TM0SKRgBLSlv7TxRNqjxW2YTdqwO7GMZIHLh5uqbDAaL+Z+RFiRw2gRuSlMrr+nzdg0rK2YtoWOXjffqo15rc3TfeJffJ1BlMQdgK+f87pt4WLtG+I3bLDacgIFZT9QXT/jBwqHhNPsyn0W2t+sWptHkTepAzrxUs2dOr4d1d2Re8S99kt65XWSBarIqakuDoThYJcWMp/s7hqhdIaG/dDT50sJEA5zKXY1E/2bW8ndE1/JMKEF6acsCfzUm+CEhDiwtPnGCa0Ysdq0nal2ipmyL2D1id3K9Fv+vfOfhR3WMEJ6B9tKEq1EH3TreP9B4vxprMBm6CnJGOfatZoQJdM/JRKiHbcHYpkIAtXG/mvjMVjHe+j86wOGs+ZbNMbx6DjODV8k2GskKHVMhE0AUOLJMq78Aej7P3YaQr6lJmgBpzrNFPKJdV2YYCnszLQGixukY+RriYRvzkemdpIVTsWz3qHU1u+jEKSCMKxWzgnadd936wBZ/dw3Db92fROXCo818tl66vFlpF6Ott7fR49fBLE5nUIgvlYirOpY2C5zxQfGW7otRkeIyABMgUBAHSEMeIKrIw6RQUnLghsyBa6ay7+F8O0I7IktMF54+XsrakFWGW6z9zhkW2GA63SKmqbxhVyyUpsA2T1TCm86sCzKVhrH/vdBM37iRfo2L9mEi9jfY28WiLKlcySGKRurlsf9RTYSTJZRVIQtHdHkYJiLyDbVKU17Y/jt/ozO9/Pk1F4EaYHxoXuxuSBw+kKJUbFstaTXALG3D1WyTCEFmSFb3/wjr1jnIIYZThQ62ptUzpgoXehIhCJbSUIbHNfHL/Ap/Cl2vB1nopLeZ2fVscjgJciUA/tC7S/KZZeXp7DJN1LEWg4Sts3zmXbm+cokV1LGfAHV4Zz7u9CEDitVmWpy0bO/ZqQ815hKDgxWI/D0fMCFy1rW392a12HZKs0W3cdkpFT/xsOktTCGbLurnIeZ0RbPXAVkgXL8WxICzqdd9S2Kdsex2P7TkRoSzK4esVT/BvEumMxfRqhYNSngNu2YhcWD1BjmllLVrtv/1SDQ4aM2GwVeC+cir4cG+wLpTo6h2jiOODZqEj9l9aCGhO6qdKbAlYSs3e8xxz0zD3vCxh36If/3i+IU9J4YoL6rZzhN4wHoFKgWAabWaWSZyPj8WwhpkciPuLjD/+SPsPlL8yE9T4I6deBxEFtKcgWxdXYzVGHkRW2oh0EAciVFePxtdCMrEwfISnQ6SHvwUx8C2aphsXq7nbFHCz8fMMlq7HB5fAYNTwMPjJH4waLWB9Yiyt+KGbucfGLmsB0NYDWkwgUxDL93o663d4PMfbDFz3PrGlRIdX6IioHvPDNPRE2+0shzeh1dwJWIPmBQ0/gBs1Q/B2KPvI6j/0NSZswRiiKOAKkXPLnjphlMNfiEynpeVqdl29Z2Zigh3Y0JqefYV9RQm1/PjA19nGfHvSyK+skFDxW5gbrGYIYNpRusAW5MsMqf00ipQX5V0dET7+vlVSPNgpIdNziqGvPGHQa5tQ4szmjydoq4mxYXjRCj38sSUIDuX2ptG9yRPbGWSDnSdpzuXq2t+o5NuTbw3wsyCQNulHv/kyn8fCQ+7L/dYg1/6r4iTofBI2lXQM5I3tCwfQTRnXNtRCiRZmicBYpPqJ4qwstoOEhSQrRTT0BD/RYI6W4vUx27MtNKBEdhchKUMGLjfDKDqNAEHV4DI1ObvTcWljAF6TgCJrOdLMDUGPqNA4N0ywdxUKnVgMQiL6mkAuS4s3FPakIIQNWimh11PXh+I8ctyTPDzKBfebUoVV32Q/RuP94qXiBmMy9+WcrUkSWwAxc6z+KYBDVML5dQS77R0SLz+MUv9BrTNiQr0S2pNwox5SFUy2tUpsZWMJYxE65kTFixDzj/J4Jo2recxMXYRIbrWzUVAdvyER+7b2N6dA7n2Q07wa7hmph1rv2V6s4k7S/XXBwfC1tTggE5+yK9KPGi3u4R5ITbfV63c2WJ7uDf/wL3rY3z3RKqH6Jmz8QqPX0PR9sS+TD2udWHhXjwB8lV5shVtitVoQ7k+flSPZpLeixPhBjP35vA9LNMjtMT26Cv6GgvOzv6/wz8zmcLe9VcD0nOKIXjFpDPz9DJO75TWnm+uewuSs0DJcj59V0d6fhDy7h4cIyd3YQ8DueC1TKSABcJYyYEh5qVhpxkXjjp/UAo6wLbNOXmfSTUxsjGd0wDc6UJ+G3loLuUz1YWIgWcVoVXM1kLthYbDKB66bxIMfsBeRvoXh5Sg7r9nXj5iY22FarNl94xuVdzmzdUVDscxvyW6AhO82xA0IZDIy0L3BCOo3fo8a2OKMJBh8WCExl2qAd95hEbLFx2XOTYDjLUav/UZwlYV4wUHQozslcKdJ9d//mhI995Ujd76M0TBIkJkuhhEoCNXZLoxkO2bXxpE4eZEuSoiwLR37WKwjl8eDPPUTQ4qlIN93paWc6EJQ72IzYw4T/Ag51U78ggDT+7kLZNlb1y0p/IxdkkuZydz0Rv5Hd6z0STTOsT5Ojic3Yhrclg1MPtD1KLy9AsX9wUY7yBsljQ5LWodJnyRlk95VR/UBeQWnMydjMEOdEoQEppdvQluYIoQJG4eBj9ScqeLxKQcZ0fpsE/4Ve/W975fJfzrnACBwtrvcArg6D2JhP8xTvq5J9zaQpZkqAu1Q8AIaUc4ZCx1/3VTsK2PsVqytsuJ/pCAx40kEvMJz/5ocGxhjNMab8VG09nvLQnPVOamLitc/QF22XvUOCdq8rNRD/39aRDj0CMS2Gbzv/DpPzEduFyNiRVZ0IqFlD/AWU+rQUzmWWBL9YlgYElTg31UFIbCBKWuJJrdgjVcHpNfaZ+PMU9vez18yKcp51ZvsLedw0RxOCKh/C+TTi26Tkdfw5p8pHdCgzAThiMth5Sb09x5dGFdzliI4hDXvlNfYPCyDYbH2jOp/Bp9d0mnYfX7gTqwsI6J7q9/HPS2VL28q7IS5dl43fikaSnsY7mO+AzHXDgMoxQI0FNDxCeFVASr6eJUTfUU9XYhyLZMsCMBQVkIg+8Zu5oWDuWSi6L4UVept9nuin6w7bdX/73iDW70Q6hVnrwPoVd6uz6Mgq/W22knVQAf+aaqj27FotlD9gm3HLFMrR1HJXIQVAJ5Ec9A1iaxRJ8mUmzofCJk5TI6W//DHe3gfFCN7KxHRq0/cYz/K3S1qlWn/odNPfOeA5Q4RMN8YHe0CRIV3OYOZljxZWlbs0knXpukDHw/dsiAHL2gLzgr9wlFlgKvPyquAWnhd1JxLykybox+jB7zvTPZGoWtMnPwpp3N1J7PwuSFw9gK3jZWdzz0xpTjuFlq9acHKFUT16WRZhYZVoR+kXSMpVhK4fjgLYmAaNtmY8jAI2/ife7LMECaG7xnG460rWV6E/dzrRxZ8cwuttfEvNTvv/8AIaYOzfMkBRzCNixatmpskSHGuIl/4b1WPa6R62L2ALfTrv8jPbqkvsEAkoWVnM94bVuhHHODL7jDd54ItCwYFxYp7Wb8SAZXUqbTkAFu0m6mIr7P6zo38DEqRzIVyTH6Lo4Ir/zcyA1UectLEp0eYVTxp7/hFhf7ct33PjD+EU+sii3nWo0YzWLK/743kAxl4TvZSnD5dcZQeULSmB7wrkNQ4BvqjX/V7uEoU3Lo2hgW1zrV7RYKxn3tUTrhjbNnz1fCGL7ygkK4cBOS3uiK40z/hAIG/4FLPOU4V2ZrS2PF2PUD4ef1u9/NoPsIIvfEfmrdKsiZQezdu0vCJcN0/cyjPFg9fhnF4AeMZCTboAv7OlHb04+PpWW+irghX1BK5cOLLzxiRqf3GvdnssLxaqmNwwGMYIrQtzERzq9R0nfhRxne+xlp1MofqZlkktSHPATlT0AxZnr57bORHDKIhs7ldlzEJiUL89geVda+Rsgx5UwRIGZZru9awpnnvxTloxHlBt++dE3EBi+trPYQQ0PLt4o/Cds22QU+Fiu8j/Qxk0ckmjO7ERMkGQfs/IGgW0vOOpLzQZjEjlWTCmAIHKOJ9DKLC627qLJFxz2pgNAvGl/wPLtWJY2vpf3T+bOyWb0s0PyxZIxPev6jmxuwqx2L+Sjx/fXOCxytLEl5+JL/GZ0XI7cCuu6zt7gUOrjS1gfCTboiXYgpb6jD8+K1VQmVCq3DhS/HrnPq2ZmV5HeVrU3m1+y4iJJM81ra6l8yWWOwaefedxqs4yCE2/jToW7Bzde4UDG9/I38S/JM98FuAC6pRlL83O/CYNe8lV6sD5fCjF9SJCqsAoPAR5VAgJ4nOAFNqFcZcjyK9Vw9Q2QcOpjIS6tEhwntpwYURrEfGQXBjcD4AkNNu5xT9++4e4K6yKXgqZ3/5+LxWKbu2aSTHEc0Q7PO+UzoE2fEWOp4sAjlzmlIY4CG5D/CbaV//xf03X9QTJmtGU9AqWq/O89jMBh3kdWD2p96ourCwk5FruvdK/+Jqnq2wessq1IYeIb4H/u3cA5tOt0+3eZbg3N4ShCFXBZN6rmCx/O8C963rbryTdzKgWNtFAJPECkguevnl4wDCEcLRAv/vBVQ3MXlVmDMq9kV6YylZPKi/VPCGPbdXm/6Hoy6GYeODkqMBJOqPIMWGhVlrRo0pQcN3xQlyEsdKQ3QWEOX/+TkCFSSs6r+5RvQ/9O5DZqyfJ9w+mLfqpQHj5gyPb57+xIPy8fBOjrwF+2IHCA//SR9ttD2KxI96COYP3NeS29JO6E7NcmABZFIZbm7XLVjdYf8ECC9afENdoDqDwje62WLtXPUVNn02pRvOic53pdaVaAzVbtiaAls3xI+EeSC2gT0TrDOR5DHGh//m3BRsw/9NlApWCdnC4lPPYgXVsboo5BcXSB81b1FsAP/CfcE3KV7NcfwNaWDBBxPqIlUWDn8glRuFPE/CNq9tyi9sjw2HjYQGeCzoAUgqaUT0pArIiD44NPpmG9OftX5xzLF+OFgau0YsvGaoY/gniAVWRP8PoAAAOrMObMIPwPwdA3lxZlr+CsgUoGbpMUouMUOeCUuNtT4KQeeCIrW8yIbl18A1dJ2Odu1K94LDIE+AkQqZc+pin6fcFZpEFE8k3vOsBkUiGBRGQAVk4w4IA4bKsVrXPhdVIfOQ6pbfgcTAySNzSEJJ7XY92b0x3oe6uPt0L3hHUiAZ2epTuz/tWHSceMBF7RFPobPP1sSVTlmL9sBPHWFZ7G5jrxbFdGidhMg9z+YcLgmwZ8erzxCbvT95SBQDhs2CA3gsZF4ZZqcwXWkPPy1KX0CT/nlSGA6D+S9p+gXQcKxY1MGZ3cVxlpKDJkNQ6yzcW9gVrUqpGUBeyfFRVMDaHKc9aCrPPeo64mvxcjLMzamNr4yc7cqCmHFspklBxuBx3G9mXPb+iy4bZK4obkbwRLtmMZUi9oZSb2qIsVJh0xzg1lsBw+pmZB0Ono5pblmWFNpfs9tlg8IKkFi/mmTCgd27mfbnmqYNNsHMYcLW5OLmNvo6jpoDQa5uYnJVv6P3YxmGb25SNemInH3ALq5xtx3r3Ks2EWiSZV3xwPJq6HOIv3IveRnphakX+QEWY8Snb2Cvp6cqVtkDipVcV9b+TJ39C0Vj93YugsodjnUk9qanMiGBxrmKAtZD6pSBoEMYHYE653zJcY9Iu+iUHW5YkA+Va/BipfGEHtrc5vq2rjCLkvF1TheQ6PDe28+L6hdOTmGAzaRuPONHDmhcm4w2SPZwmkFvserQJ28l8h1WckBLZQm133xbvndv0l6f36m/4Nu0idYnDNyUKPlB0atzOEIMqCpGbmcDkeZLvpPovxcvQTKoDdkhTvlj4vLJczmpgogAXI+QEDLuIoeF22Imgjz3egYOz5k/TjAV+xaaL9698vPte9TnENRg7ORQZhUfihipWWe3Mm8LiAbySt5mjpF5td34xeoyXYOylbSvM+kO0+1baYDGVXmKAbuoKbKKZ84EEXP8d88LfKbg1s2KPC48Fko1/5u1Tg/y+Cm1KeJDuJ7k4Or/Us5XNb0XrTmGG2xHsEWO19hVkc0a9FLvg9J6V1fvcZ85mUF0z+FgD1DOOc5iqQXq3S7E+H0XV5NlXTJImyLIVgC+Cz5jNzIw2Aj+8rBYoyn0ksgB+1cLpxTded1z0KwzUyT1ijJGDvm/IqHa2QbzhWSfGKi6vd1X+RX5BZf+lwi5oun2LSIpxXRkuZTvVSEe5MI89zSDCbf/hmlG9voHxt44zayE1mJGX/SDMyY1ieSWWGlvsIkTyjTiUd19c90vQImpMpUFevbp182fr1Acco9Csq8gp/6teQMurEUgFcNNAzyErAIh4WLwpUlgQrM6ANg9zgTfQGpkru3PMVnapBB7U9i37EglG5dCW5o794Ie9oXo4KsMPwK0y4lO6gVf3PzQp/VjixfNlhoGDzoHR/IZGmKLGJfhV6/hYI9tWb0MtblQ6EqCsfs9t4uvEr4PK14oRBbtbDZqEEmP0xm3/o/P0r8FjFuPdQegsQJu2t9tZWy9zFLxusT0hU0Ftuh6ySrBh4rlnJ/NK4HS7Ye1YIn7nu5X0yoCeo53ivNR2YIGo1kPDWbwod/jHtLnGAeFCTJqcKYhP90/aDL1xqgkpFQhb2hmynDeRFM/bBXardyiJrrR/sWUZTBMzwmISclZPdx4uQP54C3rTa0vstCeQSj2WnghV6o8s9b0zb5Csf7eJmWqhGWr3GQKV5ZZIbKV4QCA+V4zt4oviQbWc/zoqw6irPXBLMm6C1J78C0DFxgiT38mmEFExwbwn8FpFLSFCe3tVThXhO1NA1tYH9rGOXDljFXIfb/M3CMvgMru47vOAf9/yYCY03SR3hv/PtpAerzvkWAmqmEmrz/0se1Xnzp3O+tutmKCFCeTcwIyki29qD7NNQL58GasibhQHnB8IHB56854hvgYfBxVhweaitu6VxPTAEz5vfskzlgBiSBIoH7cBYqItDe/xec916bcXifTGuga2Xl8SsFeNVM14OjWwDl6WPNMHUOX/bfrqVcp7PO3+7UOp+SDrPmdwQSk/kAmYHGAiSCZ6XBGNgrbfHROWfdPs6wP1vXj1x5gC0NU8b3gkDdtC9DPMGz49hW33EWJQZjEkodOnwQotLhQye0gZHjLgydBXbWNzlYqf34+KGZTP6ODnRUex7+Grb/un44fubvg3DvbPzRhyix7DSQaC3IYeNoAya2ExSUHgqAO+BQdPa0Crh2wVxLe4bo7zEpw4iFRCBnbANtkJ9lcUDPJhUyZPuUun1JfwMj/jYdB0KA+woPs0X3Be2ypFBUMo2N8HDjO4DSfUxld2RcXXjK6lXUjXw66vmLhXHq4lWW5yYvR6U4ZjlyOk/cNP9eC044PGkkOqON9MF5zkCT0FpDT6f/sKq5ROpBXAdAAAAA==" alt="">
@@ -329,12 +409,54 @@ footer .brand b{font-size:1rem}
     </div>
   </section>
 </main>
+<footer class="foot" id="contact">
+  <div class="foot-in">
+    <div>
+      <h2>با ما در ارتباط باشید</h2>
+      <p>اگر نظری دارید یا قصد معرفی فیلترشکن، کلاینت و ... دارید همین الان برامون پیام بزارید.</p>
+    </div>
+    <form id="msgForm" novalidate hidden>
+      <label for="msgText" class="sr" style="position:absolute;left:-9999px">پیام شما</label>
+      <textarea id="msgText" maxlength="2000" placeholder="پیام خود را اینجا بنویسید…" required></textarea>
+      <input class="hp" type="text" name="website" id="msgHp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="row"><span class="cnt" id="msgCnt">۰ / ۲۰۰۰</span><button class="btn btn-primary" type="submit" id="msgBtn">ارسال پیام</button></div>
+      <div class="st" id="msgSt" role="status" aria-live="polite"></div>
+    </form>
+    <div id="msgOff" hidden><a class="btn btn-primary" href="https://t.me/I_w_a_n_a" target="_blank" rel="noopener">پیام در تلگرام</a></div>
+  </div>
+  <div class="foot-bottom">Iwana? · اینترنت برای همه یا هیچ‌کس</div>
+</footer>
+<script>(function(){
+  var f=document.getElementById('msgForm'),off=document.getElementById('msgOff');if(!f)return;
+  var ta=document.getElementById('msgText'),btn=document.getElementById('msgBtn'),st=document.getElementById('msgSt'),cnt=document.getElementById('msgCnt'),shown=Date.now(),api='';
+  function say(t,c){st.textContent=t;st.className='st '+(c||'')}
+  function fa(n){return String(n).replace(/\d/g,function(d){return '۰۱۲۳۴۵۶۷۸۹'[d]})}
+  ta.addEventListener('input',function(){cnt.textContent=fa(ta.value.length)+' / '+fa(2000)});
+  fetch('data/content.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null}).then(function(j){
+    api=j&&j.site&&/^https:\/\//.test(j.site.messagesApi||'')?j.site.messagesApi.replace(/\/+$/,''):'';
+    if(api)f.hidden=false;else off.hidden=false;
+  });
+  function sha(s){return crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)).then(function(b){return Array.prototype.map.call(new Uint8Array(b),function(x){return ('0'+x.toString(16)).slice(-2)}).join('')})}
+  function pow(ch){var n=0,z=new Array((ch.zeros||3)+1).join('0');return new Promise(function(res,rej){(function step(){var tries=0;(function one(){if(tries++>=400)return setTimeout(step,0);sha(ch.c+':'+n).then(function(h){if(h.indexOf(z)===0)res(n);else{n++;one()}},rej)})()})()})}
+  f.addEventListener('submit',function(e){
+    e.preventDefault();var m=ta.value.trim();
+    if(m.length<5){say('پیام خیلی کوتاه است.','err');return}
+    if(!(window.crypto&&crypto.subtle)){say('مرورگر شما از این فرم پشتیبانی نمی‌کند؛ از تلگرام پیام بدهید.','err');return}
+    btn.disabled=true;say('در حال بررسی…');var fill=Date.now()-shown;
+    fetch(api+'/challenge').then(function(r){return r.json()}).then(function(ch){
+      return pow(ch).then(function(n){return fetch(api+'/send',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({message:m,hp:document.getElementById('msgHp').value,c:ch.c,ts:ch.ts,sig:ch.sig,nonce:n,fill:fill})})});
+    }).then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j}})}).then(function(x){
+      if(x.ok){say('پیام شما فرستاده شد. ممنون!','ok');ta.value='';cnt.textContent=fa(0)+' / '+fa(2000);shown=Date.now();setTimeout(function(){btn.disabled=false},20000)}
+      else{say((x.j&&x.j.error)||'ارسال نشد.','err');btn.disabled=false}
+    }).catch(function(){say('اتصال برقرار نشد. کمی بعد دوباره تلاش کنید.','err');btn.disabled=false});
+  });
+})();</script>
 <script src="assets/three.min.js"></script>
 <script>
 /* Content (projects and apps) lives in data/content.json.
    DEFAULT_CONTENT below is a copy used only when that file cannot be fetched. */
 /*CONTENT:START*/
-var DEFAULT_CONTENT = {"rev": 1, "sections": [{"id": "vpn", "title": "فیلترشکن‌ها", "desc": "آماده و ساده؛ نصب می‌کنید و وصل می‌شوید."}, {"id": "client", "title": "کلاینت‌ها", "desc": "برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر."}, {"id": "browser", "title": "مرورگر", "desc": "افزونه‌ها و ابزارهای مرورگر؛ نسخهٔ مرورگر شما خودکار تشخیص داده می‌شود."}], "projects": [{"title": "راهنمای گام‌به‌گام اتصال", "tags": ["آموزش"], "sample": true, "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.", "links": [], "id": "p1", "icon": ""}, {"title": "مخزن کانفیگ‌های آزمایش‌شده", "tags": ["ابزار", "کانفیگ"], "sample": true, "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.", "links": [], "id": "p2", "icon": ""}, {"title": "ابزار بررسی سلامت اتصال", "tags": ["ابزار"], "sample": true, "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.", "links": [], "id": "p3", "icon": ""}], "apps": [{"id": "hiddify", "name": "Hiddify", "kind": "کلاینت چندپروتکلی", "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.", "steps": ["برنامه را باز کنید و دسترسی VPN را بپذیرید.", "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.", "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.", "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."], "category": "client", "links": [{"url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "os": ""}, {"url": "https://hiddify.com", "file": "", "os": "ios"}], "icon": ""}, {"id": "v2rayng", "name": "v2rayNG", "kind": "کلاینت Xray/V2Ray", "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.", "steps": ["دکمهٔ + بالای صفحه را بزنید.", "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.", "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.", "با گزینهٔ تست تأخیر اتصال را بسنجید."], "category": "client", "links": [{"url": "https://github.com/2dust/v2rayNG/releases", "file": "", "os": "android"}], "icon": ""}, {"id": "v2rayn", "name": "v2rayN", "kind": "کلاینت Xray/sing-box", "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.", "steps": ["از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.", "سرور را انتخاب و فعال کنید.", "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.", "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."], "category": "client", "links": [{"url": "https://github.com/2dust/v2rayN/releases", "file": "", "os": "windows"}], "icon": ""}, {"id": "clashverge", "name": "Clash Verge Rev", "kind": "کلاینت Clash/Mihomo", "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.", "steps": ["به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.", "پروفایل را فعال کنید.", "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).", "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."], "category": "client", "links": [{"url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "os": ""}], "icon": ""}, {"id": "singbox", "name": "sing-box", "kind": "هستهٔ جهانی و کلاینت رسمی", "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.", "steps": ["برنامه را نصب کنید.", "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.", "پروفایل را فعال و سرویس را روشن کنید."], "category": "client", "links": [{"url": "https://sing-box.sagernet.org/clients/", "file": "", "os": ""}], "icon": ""}, {"id": "v2raya", "name": "v2rayA", "kind": "کلاینت وب برای Linux", "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.", "steps": ["پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`", "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.", "اشتراک یا کانفیگ را Import و سرور را Connect کنید.", "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."], "category": "client", "links": [{"url": "https://github.com/v2rayA/v2rayA/releases", "file": "", "os": "linux"}], "icon": ""}, {"id": "outline", "name": "Outline", "kind": "اتصال با کلید دسترسی", "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.", "steps": ["کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.", "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.", "روی Connect بزنید."], "category": "client", "links": [{"url": "https://getoutline.org/get-started/", "file": "", "os": ""}], "icon": ""}, {"id": "psiphon", "name": "Psiphon", "kind": "ابزار آمادهٔ اتصال", "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.", "steps": ["برنامه را باز کنید.", "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.", "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."], "category": "vpn", "links": [{"url": "https://psiphon.ca/en/download.html", "file": "", "os": ""}], "icon": ""}, {"id": "tor", "name": "Tor Browser", "kind": "مرورگر ناشناس‌ساز", "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.", "steps": ["نصب و اجرا کنید و Connect بزنید.", "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.", "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."], "category": "vpn", "links": [{"url": "https://www.torproject.org/download/", "file": "", "os": ""}], "icon": ""}, {"id": "wireguard", "name": "WireGuard", "kind": "تونل VPN", "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.", "steps": ["فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.", "تونل را فعال کنید."], "category": "client", "links": [{"url": "https://www.wireguard.com/install/", "file": "", "os": ""}], "icon": ""}], "support": {"title": "حمایت از ما", "intro": "اگر کار ما برایتان مفید بوده، با ارز دیجیتال از ادامهٔ راه حمایت کنید. هر مبلغی، هرچند کوچک، ارزشمند است.", "wallets": []}, "site": {"url": ""}};
+var DEFAULT_CONTENT = {"rev": 1, "sections": [{"id": "vpn", "title": "فیلترشکن‌ها", "desc": "آماده و ساده؛ نصب می‌کنید و وصل می‌شوید."}, {"id": "client", "title": "کلاینت‌ها", "desc": "برای لینک اشتراک و کانفیگ شخصی؛ انعطاف بیشتر."}, {"id": "browser", "title": "مرورگر", "desc": "افزونه‌ها و ابزارهای مرورگر؛ نسخهٔ مرورگر شما خودکار تشخیص داده می‌شود."}], "projects": [{"title": "راهنمای گام‌به‌گام اتصال", "tags": ["آموزش"], "sample": true, "desc": "آموزش متنی و تصویری نصب و اتصال برای هر سیستم‌عامل، با زبان ساده.", "links": [], "id": "p1", "icon": ""}, {"title": "مخزن کانفیگ‌های آزمایش‌شده", "tags": ["ابزار", "کانفیگ"], "sample": true, "desc": "فهرستی از پیکربندی‌های تست‌شده که به‌طور مرتب بررسی و به‌روز می‌شوند.", "links": [], "id": "p2", "icon": ""}, {"title": "ابزار بررسی سلامت اتصال", "tags": ["ابزار"], "sample": true, "desc": "تشخیص سریع اینکه مشکل از کانفیگ، شبکه یا برنامه است.", "links": [], "id": "p3", "icon": ""}], "apps": [{"id": "hiddify", "name": "Hiddify", "kind": "کلاینت چندپروتکلی", "desc": "کلاینت متن‌باز با رابط ساده و پشتیبانی از لینک اشتراک؛ مناسب شروع.", "steps": ["برنامه را باز کنید و دسترسی VPN را بپذیرید.", "گزینهٔ افزودن پروفایل را بزنید و لینک اشتراک را از کلیپ‌بورد بچسبانید یا QR را اسکن کنید.", "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.", "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."], "category": "client", "links": [{"url": "https://github.com/hiddify/hiddify-app/releases", "file": "", "os": ""}, {"url": "https://hiddify.com", "file": "", "os": "ios"}], "icon": ""}, {"id": "v2rayng", "name": "v2rayNG", "kind": "کلاینت Xray/V2Ray", "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.", "steps": ["دکمهٔ + بالای صفحه را بزنید.", "«Import config from Clipboard» را انتخاب کنید، یا QR را اسکن کنید.", "کانفیگ واردشده را انتخاب و دکمهٔ شروع پایین صفحه را بزنید.", "با گزینهٔ تست تأخیر اتصال را بسنجید."], "category": "client", "links": [{"url": "https://github.com/2dust/v2rayNG/releases", "file": "", "os": "android"}], "icon": ""}, {"id": "v2rayn", "name": "v2rayN", "kind": "کلاینت Xray/sing-box", "desc": "کلاینت قدرتمند Windows با مدیریت اشتراک و حالت TUN.", "steps": ["از منوی Servers گزینهٔ «Import bulk URL from clipboard» را بزنید.", "سرور را انتخاب و فعال کنید.", "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.", "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."], "category": "client", "links": [{"url": "https://github.com/2dust/v2rayN/releases", "file": "", "os": "windows"}], "icon": ""}, {"id": "clashverge", "name": "Clash Verge Rev", "kind": "کلاینت Clash/Mihomo", "desc": "رابط گرافیکی بر پایهٔ هستهٔ Mihomo؛ قوانین مسیریابی انعطاف‌پذیر.", "steps": ["به بخش Profiles بروید، لینک اشتراک را بچسبانید و Import بزنید.", "پروفایل را فعال کنید.", "در Settings، System Proxy یا TUN Mode را روشن کنید (TUN به نصب Service Mode نیاز دارد).", "از بخش Proxies گرهٔ دلخواه را انتخاب کنید."], "category": "client", "links": [{"url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "file": "", "os": ""}], "icon": ""}, {"id": "singbox", "name": "sing-box", "kind": "هستهٔ جهانی و کلاینت رسمی", "desc": "کلاینت رسمی sing-box برای Android و دستگاه‌های اپل.", "steps": ["برنامه را نصب کنید.", "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.", "پروفایل را فعال و سرویس را روشن کنید."], "category": "client", "links": [{"url": "https://sing-box.sagernet.org/clients/", "file": "", "os": ""}], "icon": ""}, {"id": "v2raya", "name": "v2rayA", "kind": "کلاینت وب برای Linux", "desc": "سرویس پس‌زمینه با پنل وب محلی؛ مناسب سرور و دسکتاپ Linux.", "steps": ["پس از نصب، سرویس را فعال کنید: `sudo systemctl enable --now v2raya`", "آدرس `http://localhost:2017` را در مرورگر باز کنید و حساب بسازید.", "اشتراک یا کانفیگ را Import و سرور را Connect کنید.", "در تنظیمات، حالت پراکسی شفاف را انتخاب کنید."], "category": "client", "links": [{"url": "https://github.com/v2rayA/v2rayA/releases", "file": "", "os": "linux"}], "icon": ""}, {"id": "outline", "name": "Outline", "kind": "اتصال با کلید دسترسی", "desc": "ساده‌ترین راه برای اتصال با یک کلید؛ مناسب کسانی که کانفیگ پیچیده نمی‌خواهند.", "steps": ["کلید دسترسی را که با `ss://` شروع می‌شود کپی کنید.", "برنامه معمولاً کلید را از کلیپ‌بورد تشخیص می‌دهد؛ وگرنه «افزودن سرور» را بزنید و بچسبانید.", "روی Connect بزنید."], "category": "client", "links": [{"url": "https://getoutline.org/get-started/", "file": "", "os": ""}], "icon": ""}, {"id": "psiphon", "name": "Psiphon", "kind": "ابزار آمادهٔ اتصال", "desc": "بدون کانفیگ و ثبت‌نام؛ باز می‌کنید و خودش مسیر را پیدا می‌کند.", "steps": ["برنامه را باز کنید.", "صبر کنید تا اتصال برقرار شود؛ کانفیگی لازم نیست.", "اگر وصل نشد، چند دقیقه بعد یا روی شبکهٔ دیگر دوباره امتحان کنید."], "category": "vpn", "links": [{"url": "https://psiphon.ca/en/download.html", "file": "", "os": ""}], "icon": ""}, {"id": "tor", "name": "Tor Browser", "kind": "مرورگر ناشناس‌ساز", "desc": "مرورگری که ترافیک را از شبکهٔ Tor می‌گذراند. فقط ترافیک خود مرورگر محافظت می‌شود.", "steps": ["نصب و اجرا کنید و Connect بزنید.", "اگر اتصال مستقیم بسته بود، Configure Connection را بزنید و Snowflake یا obfs4 را انتخاب کنید.", "به یاد داشته باشید که فقط ترافیک مرورگر تور از این شبکه عبور می‌کند، نه کل دستگاه."], "category": "vpn", "links": [{"url": "https://www.torproject.org/download/", "file": "", "os": ""}], "icon": ""}, {"id": "wireguard", "name": "WireGuard", "kind": "تونل VPN", "desc": "تونل سریع و سبک برای زمانی که سرور WireGuard دارید.", "steps": ["فایل `.conf` یا QR تونل را که از ارائه‌دهنده گرفته‌اید وارد کنید.", "تونل را فعال کنید."], "category": "client", "links": [{"url": "https://www.wireguard.com/install/", "file": "", "os": ""}], "icon": ""}], "support": {"title": "حمایت از ما", "intro": "اگر کار ما برایتان مفید بوده، با ارز دیجیتال از ادامهٔ راه حمایت کنید. هر مبلغی، هرچند کوچک، ارزشمند است.", "wallets": []}, "site": {"url": "", "messagesApi": ""}};
 /*CONTENT:END*/
 
 const OS = [
@@ -423,7 +545,7 @@ const OS = [
 /* Shared by the site and the admin panel (synced by sync_detect.py). DOM-free. */
 var PLATS = {android:'Android', ios:'iOS', windows:'Windows', macos:'macOS', linux:'Linux', chrome:'Chrome', edge:'Edge', firefox:'Firefox', opera:'Opera', safari:'Safari'};
 var OS_IDS = ['android','ios','windows','macos','linux'], BROWSER_IDS = ['chrome','edge','firefox','opera','safari'];
-var FMT_PREF = {windows:['installer','portable'], macos:['dmg','pkg','zip'], linux:['appimage','deb','rpm','archive'], android:['apk'], ios:['ipa'], chrome:['crx','zip'], edge:['crx','zip'], opera:['crx','zip'], firefox:['xpi'], safari:[]};
+var FMT_PREF = {windows:['installer','portable'], macos:['dmg','pkg','zip'], linux:['appimage','deb','rpm','archive'], android:['apk','archive'], ios:['ipa'], chrome:['crx','zip'], edge:['crx','zip'], opera:['crx','zip'], firefox:['xpi'], safari:[]};
 var FMT_NAMES = {apk:'APK', ipa:'IPA', installer:'نصب‌کننده (exe/msi)', portable:'قابل‌حمل (zip)', dmg:'DMG', pkg:'PKG', zip:'ZIP', appimage:'AppImage', deb:'deb (Debian/Ubuntu)', rpm:'rpm (Fedora/openSUSE)', archive:'آرشیو (tar/zip)', crx:'CRX', xpi:'XPI'};
 var FALLBACK = {'windows:arm64':['x64','x86'], 'windows:x64':['x86'], 'macos:arm64':['x64'], 'android:arm64':['armv7'], 'android:x64':['x86'], 'linux:x64':['x86']};
 
@@ -460,6 +582,7 @@ function classifyAsset(name){
     else if (has(['chrome','chromium'])) { plat = 'chrome'; fmt = 'zip'; }
     else if (has(['win','win32','win64','windows','msvc'])) { plat = 'windows'; fmt = 'portable'; }
     else if (has(['mac','macos','darwin','osx'])) { plat = 'macos'; fmt = 'zip'; }
+    else if (has(['android','termux'])) { plat = 'android'; fmt = 'archive'; }
     else if (has(['linux','gnu','musl'])) { plat = 'linux'; fmt = 'archive'; }
     else return null;
   } else return null;
@@ -645,7 +768,7 @@ function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1)
     arr(list).forEach(function(a){
       if (!a || typeof a !== 'object' || !a.name) return;
       out.push({id:String(a.id || ''), name:String(a.name), icon:safeIcon(a.icon), category:CATS.indexOf(a.category) >= 0 ? a.category : 'client', kind:String(a.kind || ''),
-        desc:String(a.desc || ''), steps:arr(a.steps).map(String), links:normLinks(a), layout:normLayout(a.layout)});
+        desc:String(a.desc || ''), steps:arr(a.steps).map(String), links:normLinks(a), layout:normLayout(a.layout), home:safeHref(a.home), guideUrl:safeHref(a.guideUrl)});
     });
     return out;
   }
@@ -780,10 +903,12 @@ function fmtBytes(n){ n = +n || 0; return n > 1048576 ? (n / 1048576).toFixed(1)
   function appCard(a, list, T){
     var resultHost = el('div', {class:'dl'}); applyLayout(resultHost, a.layout);
     paintResults(resultHost, list, T);
-    var head = el('h3', {class:'with-ico'}, [a.icon ? el('img', {class:'ico', src:a.icon, alt:'', width:'36', height:'36', loading:'lazy'}) : null, el('span', {class:'name', text:a.name}), el('span', {class:'kind', text:a.kind || ''})]);
+    var whoKids = [a.icon ? el('img', {class:'ico', src:a.icon, alt:'', width:'36', height:'36', loading:'lazy'}) : null, el('span', {class:'name', text:a.name})];
+    var who = a.home ? el('a', {class:'who', href:a.home, target:'_blank', rel:'noopener', title:'صفحهٔ رسمی ' + a.name}, whoKids) : el('span', {class:'who'}, whoKids);
+    var head = el('h3', {class:'with-ico'}, [who, el('span', {class:'kind', text:a.kind || ''})]);
     var card = el('article', {class:'card app'}, [head, a.desc ? el('p', {text:a.desc}) : null, resultHost]);
-    if (a.steps.length || a.category !== 'browser'){
-      var inner = el('div', {}, [a.steps.length ? steps(a.steps) : null, a.category !== 'browser' ? osGuide(T.plat) : null]);
+    if (a.steps.length || a.guideUrl || a.category !== 'browser'){
+      var inner = el('div', {}, [a.steps.length ? steps(a.steps) : null, a.guideUrl ? el('p', {}, [el('a', {class:'guide-link', href:a.guideUrl, target:'_blank', rel:'noopener', text:'آموزش کامل این برنامه ↗'})]) : null, a.category !== 'browser' ? osGuide(T.plat) : null]);
       card.appendChild(el('details', {class:'how'}, [el('summary', {text:'آموزش نصب و اتصال'}), inner]));
     }
     return card;
