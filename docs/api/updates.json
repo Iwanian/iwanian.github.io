@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-15T22:00:00.116Z",
- "seq": 106,
+ "generated": "2026-10-16T18:06:21.309Z",
+ "seq": 107,
  "updates": [
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "update",
+   "version": "v10.0.3-beta-5",
+   "previous": "v10.0.3-beta-4",
+   "t": "2026-10-16T18:06:21.309Z",
+   "id": 107
+  },
   {
    "app": "hiddify",
    "name": "Hiddify",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T12:54:47.170Z",
    "id": 8
-  },
-  {
-   "app": "hiddify",
-   "name": "Hiddify",
-   "type": "update",
-   "version": "v4.1.1",
-   "previous": "v4.1.1",
-   "t": "2026-10-13T12:53:00.681Z",
-   "id": 7
   }
  ]
 }

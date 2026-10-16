@@ -1,5 +1,5 @@
 {
- "t": "2026-10-15T22:00:00.116Z",
+ "t": "2026-10-16T18:06:21.309Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -55843,6 +55843,118 @@
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-5/lantern-installer-beta-arm64.deb",
+    "name": "lantern-installer-beta-arm64.deb",
+    "size": 89435720,
+    "tag": "v10.0.3-beta-5",
+    "pre": true,
+    "date": "2026-10-16T16:10:17Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "rpm",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-5/lantern-installer-beta-arm64.rpm",
+    "name": "lantern-installer-beta-arm64.rpm",
+    "size": 92272919,
+    "tag": "v10.0.3-beta-5",
+    "pre": true,
+    "date": "2026-10-16T16:10:17Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-5/lantern-installer-beta.apk",
+    "name": "lantern-installer-beta.apk",
+    "size": 48733437,
+    "tag": "v10.0.3-beta-5",
+    "pre": true,
+    "date": "2026-10-16T16:10:17Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-5/lantern-installer-beta.deb",
+    "name": "lantern-installer-beta.deb",
+    "size": 95292990,
+    "tag": "v10.0.3-beta-5",
+    "pre": true,
+    "date": "2026-10-16T16:10:17Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-5/lantern-installer-beta.dmg",
+    "name": "lantern-installer-beta.dmg",
+    "size": 130417508,
+    "tag": "v10.0.3-beta-5",
+    "pre": true,
+    "date": "2026-10-16T16:10:17Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-5/lantern-installer-beta.exe",
+    "name": "lantern-installer-beta.exe",
+    "size": 119458512,
+    "tag": "v10.0.3-beta-5",
+    "pre": true,
+    "date": "2026-10-16T16:10:17Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "ios",
+    "arch": "",
+    "fmt": "ipa",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-5/lantern-installer-beta.ipa",
+    "name": "lantern-installer-beta.ipa",
+    "size": 90663309,
+    "tag": "v10.0.3-beta-5",
+    "pre": true,
+    "date": "2026-10-16T16:10:17Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-5/lantern-installer-beta.rpm",
+    "name": "lantern-installer-beta.rpm",
+    "size": 98648069,
+    "tag": "v10.0.3-beta-5",
+    "pre": true,
+    "date": "2026-10-16T16:10:17Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "deb",
     "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-4/lantern-installer-beta-arm64.deb",
     "name": "lantern-installer-beta-arm64.deb",
     "size": 89389748,
@@ -55853,7 +55965,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -55867,7 +55979,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -55881,7 +55993,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -55895,7 +56007,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -55909,7 +56021,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -55923,7 +56035,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -55937,7 +56049,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -55951,7 +56063,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -55965,7 +56077,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -55979,7 +56091,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -55993,7 +56105,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56007,7 +56119,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56021,7 +56133,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56035,7 +56147,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56049,7 +56161,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56063,7 +56175,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56077,7 +56189,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56091,7 +56203,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56105,7 +56217,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56119,7 +56231,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56133,7 +56245,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56147,7 +56259,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56161,7 +56273,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56175,7 +56287,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56189,7 +56301,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56203,7 +56315,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56217,7 +56329,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56231,7 +56343,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56245,7 +56357,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56259,7 +56371,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56273,7 +56385,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56287,7 +56399,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56301,7 +56413,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56315,7 +56427,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56329,7 +56441,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56343,7 +56455,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56357,7 +56469,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56371,7 +56483,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56385,7 +56497,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56399,7 +56511,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56413,7 +56525,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56427,7 +56539,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56441,7 +56553,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56455,7 +56567,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56469,7 +56581,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56483,7 +56595,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56497,7 +56609,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56511,7 +56623,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56525,7 +56637,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56539,7 +56651,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56553,7 +56665,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56567,7 +56679,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56581,7 +56693,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56595,7 +56707,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56609,7 +56721,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56623,7 +56735,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56637,7 +56749,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56651,7 +56763,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56665,7 +56777,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56679,7 +56791,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56693,7 +56805,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56707,7 +56819,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56721,7 +56833,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56735,7 +56847,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56749,7 +56861,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56763,7 +56875,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56777,7 +56889,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56791,7 +56903,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56805,7 +56917,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56819,7 +56931,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56833,7 +56945,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56843,118 +56955,6 @@
     "tag": "v10.0.1-beta",
     "pre": true,
     "date": "2026-10-05T23:32:47Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "deb",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.0/lantern-installer-arm64.deb",
-    "name": "lantern-installer-arm64.deb",
-    "size": 88789658,
-    "tag": "v10.0.0",
-    "pre": false,
-    "date": "2026-09-18T19:20:52Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "rpm",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.0/lantern-installer-arm64.rpm",
-    "name": "lantern-installer-arm64.rpm",
-    "size": 91740212,
-    "tag": "v10.0.0",
-    "pre": false,
-    "date": "2026-09-18T19:20:52Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.0/lantern-installer.apk",
-    "name": "lantern-installer.apk",
-    "size": 48673586,
-    "tag": "v10.0.0",
-    "pre": false,
-    "date": "2026-09-18T19:20:52Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "deb",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.0/lantern-installer.deb",
-    "name": "lantern-installer.deb",
-    "size": 94715658,
-    "tag": "v10.0.0",
-    "pre": false,
-    "date": "2026-09-18T19:20:52Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "",
-    "fmt": "dmg",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.0/lantern-installer.dmg",
-    "name": "lantern-installer.dmg",
-    "size": 130377373,
-    "tag": "v10.0.0",
-    "pre": false,
-    "date": "2026-09-18T19:20:52Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "",
-    "fmt": "installer",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.0/lantern-installer.exe",
-    "name": "lantern-installer.exe",
-    "size": 100916632,
-    "tag": "v10.0.0",
-    "pre": false,
-    "date": "2026-09-18T19:20:52Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "ios",
-    "arch": "",
-    "fmt": "ipa",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.0/lantern-installer.ipa",
-    "name": "lantern-installer.ipa",
-    "size": 90357983,
-    "tag": "v10.0.0",
-    "pre": false,
-    "date": "2026-09-18T19:20:52Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.0/lantern-installer.rpm",
-    "name": "lantern-installer.rpm",
-    "size": 98138992,
-    "tag": "v10.0.0",
-    "pre": false,
-    "date": "2026-09-18T19:20:52Z"
    }
   ],
   "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa": [
@@ -56979,7 +56979,7 @@
     "name": "DefyxVPN-Android-arm64-v8a.apk",
     "size": 111692232,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
@@ -56993,7 +56993,7 @@
     "name": "DefyxVPN-Android-armeabi-v7a.apk",
     "size": 104895430,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
@@ -57007,7 +57007,7 @@
     "name": "DefyxVPN-Android-universal.apk",
     "size": 305542699,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
@@ -57021,7 +57021,7 @@
     "name": "DefyxVPN-Android-x86_64.apk",
     "size": 118911793,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
@@ -57035,7 +57035,7 @@
     "name": "DefyxVPN-Linux.AppImage",
     "size": 49998328,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
@@ -57049,7 +57049,7 @@
     "name": "DefyxVPN-Linux.deb",
     "size": 56407058,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
@@ -57063,7 +57063,7 @@
     "name": "DefyxVPN-Linux.rpm",
     "size": 72291915,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
@@ -57077,7 +57077,7 @@
     "name": "DefyxVPN-Windows-Installer-x64.exe",
     "size": 50911136,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
@@ -57091,7 +57091,7 @@
     "name": "DefyxVPN-Windows-Portable-x64.zip",
     "size": 44331499,
     "tag": "v5.12.4",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-14T08:18:41Z"
    },
    {
