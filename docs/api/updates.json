@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-16T18:06:21.309Z",
- "seq": 107,
+ "generated": "2026-10-17T09:42:16.002Z",
+ "seq": 108,
  "updates": [
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.6",
+   "previous": "1.6.5",
+   "t": "2026-10-17T09:42:16.002Z",
+   "id": 108
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T12:54:47.170Z",
    "id": 9
-  },
-  {
-   "app": "a4c747a",
-   "name": "AM TUNNUL LITE VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T12:54:47.170Z",
-   "id": 8
   }
  ]
 }
