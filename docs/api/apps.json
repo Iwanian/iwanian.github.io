@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T09:42:16.002Z",
+ "generated": "2026-10-17T13:14:19.347Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -31,7 +31,7 @@
      "name": "Hiddify-Android-arm64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 54376006,
+     "size": 54409997,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -44,7 +44,7 @@
      "name": "Hiddify-Android-arm7.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 52496740,
+     "size": 52536783,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -57,7 +57,7 @@
      "name": "Hiddify-Android-universal.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 148713267,
+     "size": 148819554,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -70,7 +70,7 @@
      "name": "Hiddify-Android-x86_64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 56961237,
+     "size": 56991372,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -83,7 +83,7 @@
      "name": "Hiddify-Debian-x64.deb",
      "version": "draft",
      "prerelease": true,
-     "size": 48000260,
+     "size": 47962848,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -96,7 +96,7 @@
      "name": "Hiddify-Linux-x64-AppImage.AppImage",
      "version": "draft",
      "prerelease": true,
-     "size": 61487608,
+     "size": 61532664,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -109,7 +109,7 @@
      "name": "Hiddify-Linux-x64-AppImage.tar.gz",
      "version": "draft",
      "prerelease": true,
-     "size": 60951801,
+     "size": 60994447,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -122,7 +122,7 @@
      "name": "Hiddify-MacOS-Installer.pkg",
      "version": "draft",
      "prerelease": true,
-     "size": 98251603,
+     "size": 98322612,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -135,7 +135,7 @@
      "name": "Hiddify-MacOS.dmg",
      "version": "draft",
      "prerelease": true,
-     "size": 98071064,
+     "size": 98125684,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -148,7 +148,7 @@
      "name": "Hiddify-Windows-Portable-x64.zip",
      "version": "draft",
      "prerelease": true,
-     "size": 53455827,
+     "size": 53490179,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -161,7 +161,7 @@
      "name": "Hiddify-Windows-Setup-x64.exe",
      "version": "draft",
      "prerelease": true,
-     "size": 41374064,
+     "size": 41395672,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -174,7 +174,7 @@
      "name": "Hiddify-Windows-x64.msix",
      "version": "draft",
      "prerelease": true,
-     "size": 57403961,
+     "size": 57429383,
      "published": "2026-10-04T22:55:29Z"
     },
     {
