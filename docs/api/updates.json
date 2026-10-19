@@ -1,7 +1,25 @@
 {
- "generated": "2026-10-18T23:04:09.753Z",
- "seq": 113,
+ "generated": "2026-10-19T18:54:23.372Z",
+ "seq": 115,
  "updates": [
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "update",
+   "version": "v10.0.3-beta-8",
+   "previous": "v10.0.3-beta-6",
+   "t": "2026-10-19T18:54:23.372Z",
+   "id": 115
+  },
+  {
+   "app": "a5vuzzw",
+   "name": "DEFYX VPN",
+   "type": "update",
+   "version": "v5.12.5",
+   "previous": "v5.12.4",
+   "t": "2026-10-19T18:54:23.372Z",
+   "id": 114
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -883,24 +901,6 @@
    "previous": "7.25.6",
    "t": "2026-10-13T12:54:47.170Z",
    "id": 16
-  },
-  {
-   "app": "singbox",
-   "name": "sing-box",
-   "type": "update",
-   "version": "v1.15.0-alpha.12",
-   "previous": "",
-   "t": "2026-10-13T12:54:47.170Z",
-   "id": 15
-  },
-  {
-   "app": "outline",
-   "name": "Outline",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T12:54:47.170Z",
-   "id": 14
   }
  ]
 }
