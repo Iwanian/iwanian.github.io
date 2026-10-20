@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-19T18:54:23.372Z",
- "seq": 115,
+ "generated": "2026-10-20T06:05:05.312Z",
+ "seq": 116,
  "updates": [
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "update",
+   "version": "v10.0.3-beta-10",
+   "previous": "v10.0.3-beta-8",
+   "t": "2026-10-20T06:05:05.312Z",
+   "id": 116
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -892,15 +901,6 @@
    "previous": "v4.1.1",
    "t": "2026-10-13T12:54:47.170Z",
    "id": 17
-  },
-  {
-   "app": "v2rayn",
-   "name": "v2rayN",
-   "type": "update",
-   "version": "7.25.6",
-   "previous": "7.25.6",
-   "t": "2026-10-13T12:54:47.170Z",
-   "id": 16
   }
  ]
 }
