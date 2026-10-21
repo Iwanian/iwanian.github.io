@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T06:05:05.312Z",
+ "generated": "2026-10-21T22:31:45.309Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -83,7 +83,7 @@
      "name": "Hiddify-Debian-x64.deb",
      "version": "draft",
      "prerelease": true,
-     "size": 47962848,
+     "size": 51076446,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -96,7 +96,7 @@
      "name": "Hiddify-Linux-x64-AppImage.AppImage",
      "version": "draft",
      "prerelease": true,
-     "size": 61532664,
+     "size": 65358328,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -109,7 +109,7 @@
      "name": "Hiddify-Linux-x64-AppImage.tar.gz",
      "version": "draft",
      "prerelease": true,
-     "size": 60994447,
+     "size": 64819843,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -122,7 +122,7 @@
      "name": "Hiddify-MacOS-Installer.pkg",
      "version": "draft",
      "prerelease": true,
-     "size": 98322612,
+     "size": 106105422,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -135,7 +135,7 @@
      "name": "Hiddify-MacOS.dmg",
      "version": "draft",
      "prerelease": true,
-     "size": 98125684,
+     "size": 105868312,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -148,7 +148,7 @@
      "name": "Hiddify-Windows-Portable-x64.zip",
      "version": "draft",
      "prerelease": true,
-     "size": 53490179,
+     "size": 57084468,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -161,7 +161,7 @@
      "name": "Hiddify-Windows-Setup-x64.exe",
      "version": "draft",
      "prerelease": true,
-     "size": 41395672,
+     "size": 43753848,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -174,7 +174,7 @@
      "name": "Hiddify-Windows-x64.msix",
      "version": "draft",
      "prerelease": true,
-     "size": 57429383,
+     "size": 61260898,
      "published": "2026-10-04T22:55:29Z"
     },
     {
