@@ -1,7 +1,25 @@
 {
- "generated": "2026-10-22T15:34:12.010Z",
- "seq": 119,
+ "generated": "2026-10-22T19:25:09.766Z",
+ "seq": 121,
  "updates": [
+  {
+   "app": "v2rayng",
+   "name": "v2rayNG",
+   "type": "update",
+   "version": "2.3.13",
+   "previous": "",
+   "t": "2026-10-22T19:25:09.766Z",
+   "id": 121
+  },
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.10-beta1",
+   "previous": "1.6.10-beta1",
+   "t": "2026-10-22T19:25:09.766Z",
+   "id": 120
+  },
   {
    "app": "a7lmtvl",
    "name": "WHITE DNS",
@@ -883,24 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:24:51.292Z",
    "id": 22
-  },
-  {
-   "app": "v2raya",
-   "name": "v2rayA",
-   "type": "new",
-   "version": "v2.5.10",
-   "previous": "",
-   "t": "2026-10-13T17:24:51.292Z",
-   "id": 21
-  },
-  {
-   "app": "outline",
-   "name": "Outline",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:24:51.292Z",
-   "id": 20
   }
  ]
 }
