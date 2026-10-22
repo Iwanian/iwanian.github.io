@@ -1,5 +1,5 @@
 {
- "t": "2026-10-21T22:31:45.309Z",
+ "t": "2026-10-22T05:32:43.223Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -1959,6 +1959,146 @@
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13-fdroid_arm64-v8a.apk",
+    "name": "v2rayNG_2.3.13-fdroid_arm64-v8a.apk",
+    "size": 32466628,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13-fdroid_armeabi-v7a.apk",
+    "name": "v2rayNG_2.3.13-fdroid_armeabi-v7a.apk",
+    "size": 33004846,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13-fdroid_universal.apk",
+    "name": "v2rayNG_2.3.13-fdroid_universal.apk",
+    "size": 71737429,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x86",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13-fdroid_x86.apk",
+    "name": "v2rayNG_2.3.13-fdroid_x86.apk",
+    "size": 34034270,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13-fdroid_x86_64.apk",
+    "name": "v2rayNG_2.3.13-fdroid_x86_64.apk",
+    "size": 33514651,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13_arm64-v8a.apk",
+    "name": "v2rayNG_2.3.13_arm64-v8a.apk",
+    "size": 32466572,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13_armeabi-v7a.apk",
+    "name": "v2rayNG_2.3.13_armeabi-v7a.apk",
+    "size": 33004790,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13_universal.apk",
+    "name": "v2rayNG_2.3.13_universal.apk",
+    "size": 71737373,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x86",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13_x86.apk",
+    "name": "v2rayNG_2.3.13_x86.apk",
+    "size": 34034214,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.13/v2rayNG_2.3.13_x86_64.apk",
+    "name": "v2rayNG_2.3.13_x86_64.apk",
+    "size": 33514595,
+    "tag": "2.3.13",
+    "pre": true,
+    "date": "2026-10-22T02:29:02Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
     "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.12/v2rayNG_2.3.12-fdroid_arm64-v8a.apk",
     "name": "v2rayNG_2.3.12-fdroid_arm64-v8a.apk",
     "size": 32359296,
@@ -1969,7 +2109,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -1983,7 +2123,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1997,7 +2137,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2011,7 +2151,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2025,7 +2165,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2039,7 +2179,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2053,7 +2193,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2067,7 +2207,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2081,7 +2221,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2095,7 +2235,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2109,7 +2249,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2123,7 +2263,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2137,7 +2277,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2151,7 +2291,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2165,7 +2305,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2179,7 +2319,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2193,7 +2333,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2207,7 +2347,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2221,7 +2361,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2235,7 +2375,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2249,7 +2389,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2263,7 +2403,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2277,7 +2417,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2291,7 +2431,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2305,7 +2445,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2319,7 +2459,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2333,7 +2473,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2347,7 +2487,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2361,7 +2501,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2375,7 +2515,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2389,7 +2529,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2403,7 +2543,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2417,7 +2557,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2431,7 +2571,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2445,7 +2585,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2459,7 +2599,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2473,7 +2613,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2487,7 +2627,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2501,7 +2641,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2515,7 +2655,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2529,7 +2669,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2543,7 +2683,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2557,7 +2697,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2571,7 +2711,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2585,7 +2725,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2599,7 +2739,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2613,7 +2753,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2627,7 +2767,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2641,7 +2781,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2655,7 +2795,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2669,7 +2809,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2683,7 +2823,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2697,7 +2837,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2711,7 +2851,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2725,7 +2865,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2739,7 +2879,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2753,7 +2893,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2767,7 +2907,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2781,7 +2921,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2795,7 +2935,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2809,7 +2949,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2823,7 +2963,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2837,7 +2977,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2851,7 +2991,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2865,7 +3005,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2879,7 +3019,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2893,7 +3033,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2907,7 +3047,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2921,7 +3061,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2935,7 +3075,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2949,7 +3089,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2963,7 +3103,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2977,7 +3117,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2991,7 +3131,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3005,7 +3145,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3019,7 +3159,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3033,7 +3173,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3047,7 +3187,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3061,7 +3201,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3075,7 +3215,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3089,7 +3229,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3103,7 +3243,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3117,7 +3257,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3131,7 +3271,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3145,7 +3285,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3159,7 +3299,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3173,7 +3313,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3187,7 +3327,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3201,7 +3341,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3215,7 +3355,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3229,7 +3369,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3243,7 +3383,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3257,7 +3397,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3271,7 +3411,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3285,7 +3425,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3299,7 +3439,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3313,7 +3453,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3327,7 +3467,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3341,7 +3481,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3355,7 +3495,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3369,7 +3509,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3383,7 +3523,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3397,7 +3537,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3411,7 +3551,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3425,7 +3565,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3439,7 +3579,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3453,7 +3593,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3467,7 +3607,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3481,7 +3621,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3491,146 +3631,6 @@
     "tag": "2.3.2",
     "pre": true,
     "date": "2026-08-02T07:24:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1-fdroid_arm64-v8a.apk",
-    "name": "v2rayNG_2.3.1-fdroid_arm64-v8a.apk",
-    "size": 31955362,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1-fdroid_armeabi-v7a.apk",
-    "name": "v2rayNG_2.3.1-fdroid_armeabi-v7a.apk",
-    "size": 32347792,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1-fdroid_universal.apk",
-    "name": "v2rayNG_2.3.1-fdroid_universal.apk",
-    "size": 71751847,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x86",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1-fdroid_x86.apk",
-    "name": "v2rayNG_2.3.1-fdroid_x86.apk",
-    "size": 33416348,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1-fdroid_x86_64.apk",
-    "name": "v2rayNG_2.3.1-fdroid_x86_64.apk",
-    "size": 32932901,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1_arm64-v8a.apk",
-    "name": "v2rayNG_2.3.1_arm64-v8a.apk",
-    "size": 31955654,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1_armeabi-v7a.apk",
-    "name": "v2rayNG_2.3.1_armeabi-v7a.apk",
-    "size": 32348088,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1_universal.apk",
-    "name": "v2rayNG_2.3.1_universal.apk",
-    "size": 71752143,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x86",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1_x86.apk",
-    "name": "v2rayNG_2.3.1_x86.apk",
-    "size": 33416640,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.1/v2rayNG_2.3.1_x86_64.apk",
-    "name": "v2rayNG_2.3.1_x86_64.apk",
-    "size": 32933197,
-    "tag": "2.3.1",
-    "pre": true,
-    "date": "2026-08-01T07:26:56Z"
    }
   ],
   "https://github.com/shirokhorshid/shirokhorshid-android/releases": [
@@ -12217,6 +12217,76 @@
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.9/WhiteDNS-1.6.9-arm64-v8a.apk",
+    "name": "WhiteDNS-1.6.9-arm64-v8a.apk",
+    "size": 12036719,
+    "tag": "1.6.9",
+    "pre": false,
+    "date": "2026-10-22T04:04:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.9/WhiteDNS-1.6.9-armeabi-v7a.apk",
+    "name": "WhiteDNS-1.6.9-armeabi-v7a.apk",
+    "size": 12249721,
+    "tag": "1.6.9",
+    "pre": false,
+    "date": "2026-10-22T04:04:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.9/WhiteDNS-1.6.9-universal.apk",
+    "name": "WhiteDNS-1.6.9-universal.apk",
+    "size": 43806469,
+    "tag": "1.6.9",
+    "pre": false,
+    "date": "2026-10-22T04:04:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x86",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.9/WhiteDNS-1.6.9-x86.apk",
+    "name": "WhiteDNS-1.6.9-x86.apk",
+    "size": 13371985,
+    "tag": "1.6.9",
+    "pre": false,
+    "date": "2026-10-22T04:04:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.9/WhiteDNS-1.6.9-x86_64.apk",
+    "name": "WhiteDNS-1.6.9-x86_64.apk",
+    "size": 12991072,
+    "tag": "1.6.9",
+    "pre": false,
+    "date": "2026-10-22T04:04:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
     "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.8/WhiteDNS-1.6.8-arm64-v8a.apk",
     "name": "WhiteDNS-1.6.8-arm64-v8a.apk",
     "size": 12028289,
@@ -12227,7 +12297,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12241,7 +12311,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12255,7 +12325,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12269,7 +12339,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12283,7 +12353,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12297,7 +12367,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12311,7 +12381,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12325,7 +12395,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12339,7 +12409,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12353,7 +12423,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12367,7 +12437,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12381,7 +12451,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12395,7 +12465,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12409,7 +12479,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12423,7 +12493,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12437,7 +12507,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12451,7 +12521,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12465,7 +12535,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12479,7 +12549,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12493,7 +12563,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12507,7 +12577,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12521,7 +12591,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12535,7 +12605,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12549,7 +12619,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12563,7 +12633,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12577,7 +12647,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12591,7 +12661,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12605,7 +12675,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12619,7 +12689,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12633,7 +12703,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12647,7 +12717,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12661,7 +12731,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12675,7 +12745,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12689,7 +12759,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12703,7 +12773,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12717,7 +12787,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12731,7 +12801,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12745,7 +12815,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12759,7 +12829,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12773,7 +12843,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12787,7 +12857,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12801,7 +12871,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12815,7 +12885,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12829,7 +12899,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12843,7 +12913,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12857,7 +12927,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12871,7 +12941,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12885,7 +12955,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12899,7 +12969,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12913,7 +12983,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12927,7 +12997,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12941,7 +13011,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12955,7 +13025,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12969,7 +13039,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12979,76 +13049,6 @@
     "tag": "v1.5.1c-rc13",
     "pre": true,
     "date": "2026-07-22T19:29:01Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.5.1/WhiteDNS-1.5.1-arm64-v8a.apk",
-    "name": "WhiteDNS-1.5.1-arm64-v8a.apk",
-    "size": 5957777,
-    "tag": "1.5.1",
-    "pre": false,
-    "date": "2026-05-19T08:40:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.5.1/WhiteDNS-1.5.1-armeabi-v7a.apk",
-    "name": "WhiteDNS-1.5.1-armeabi-v7a.apk",
-    "size": 5793943,
-    "tag": "1.5.1",
-    "pre": false,
-    "date": "2026-05-19T08:40:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.5.1/WhiteDNS-1.5.1-universal.apk",
-    "name": "WhiteDNS-1.5.1-universal.apk",
-    "size": 17738584,
-    "tag": "1.5.1",
-    "pre": false,
-    "date": "2026-05-19T08:40:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x86",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.5.1/WhiteDNS-1.5.1-x86.apk",
-    "name": "WhiteDNS-1.5.1-x86.apk",
-    "size": 6445183,
-    "tag": "1.5.1",
-    "pre": false,
-    "date": "2026-05-19T08:40:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.5.1/WhiteDNS-1.5.1-x86_64.apk",
-    "name": "WhiteDNS-1.5.1-x86_64.apk",
-    "size": 6224008,
-    "tag": "1.5.1",
-    "pre": false,
-    "date": "2026-05-19T08:40:57Z"
    }
   ],
   "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box": [

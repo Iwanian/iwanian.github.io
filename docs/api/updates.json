@@ -1,7 +1,25 @@
 {
- "generated": "2026-10-20T06:05:05.312Z",
- "seq": 116,
+ "generated": "2026-10-22T05:32:43.223Z",
+ "seq": 118,
  "updates": [
+  {
+   "app": "v2rayng",
+   "name": "v2rayNG",
+   "type": "update",
+   "version": "2.3.13",
+   "previous": "2.3.12",
+   "t": "2026-10-22T05:32:43.223Z",
+   "id": 118
+  },
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.9",
+   "previous": "1.6.8",
+   "t": "2026-10-22T05:32:43.223Z",
+   "id": 117
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -883,24 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:24:51.292Z",
    "id": 19
-  },
-  {
-   "app": "wireguard",
-   "name": "WireGuard",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:24:51.292Z",
-   "id": 18
-  },
-  {
-   "app": "hiddify",
-   "name": "Hiddify",
-   "type": "update",
-   "version": "v4.1.1",
-   "previous": "v4.1.1",
-   "t": "2026-10-13T12:54:47.170Z",
-   "id": 17
   }
  ]
 }
