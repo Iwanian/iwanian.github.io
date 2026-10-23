@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T05:30:33.313Z",
+ "generated": "2026-10-23T19:19:43.444Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -31,7 +31,7 @@
      "name": "Hiddify-Android-arm64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 54409997,
+     "size": 54460753,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -44,7 +44,7 @@
      "name": "Hiddify-Android-arm7.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 52536783,
+     "size": 52603143,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -57,7 +57,7 @@
      "name": "Hiddify-Android-universal.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 148819554,
+     "size": 148986098,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -70,7 +70,7 @@
      "name": "Hiddify-Android-x86_64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 56991372,
+     "size": 57041312,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -83,7 +83,7 @@
      "name": "Hiddify-Debian-x64.deb",
      "version": "draft",
      "prerelease": true,
-     "size": 51076446,
+     "size": 51048444,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -96,7 +96,7 @@
      "name": "Hiddify-Linux-x64-AppImage.AppImage",
      "version": "draft",
      "prerelease": true,
-     "size": 65358328,
+     "size": 65419768,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -109,7 +109,7 @@
      "name": "Hiddify-Linux-x64-AppImage.tar.gz",
      "version": "draft",
      "prerelease": true,
-     "size": 64819843,
+     "size": 64882495,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -122,7 +122,7 @@
      "name": "Hiddify-MacOS-Installer.pkg",
      "version": "draft",
      "prerelease": true,
-     "size": 106105422,
+     "size": 106189624,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -135,7 +135,7 @@
      "name": "Hiddify-MacOS.dmg",
      "version": "draft",
      "prerelease": true,
-     "size": 105868312,
+     "size": 105948769,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -148,7 +148,7 @@
      "name": "Hiddify-Windows-Portable-x64.zip",
      "version": "draft",
      "prerelease": true,
-     "size": 57084468,
+     "size": 57128876,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -161,7 +161,7 @@
      "name": "Hiddify-Windows-Setup-x64.exe",
      "version": "draft",
      "prerelease": true,
-     "size": 43753848,
+     "size": 43788920,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -174,7 +174,7 @@
      "name": "Hiddify-Windows-x64.msix",
      "version": "draft",
      "prerelease": true,
-     "size": 61260898,
+     "size": 61293959,
      "published": "2026-10-04T22:55:29Z"
     },
     {
@@ -29471,8 +29471,125 @@
    "homepage": "",
    "guide_url": "",
    "guide_steps": [],
-   "version": "v10.0.4-beta.1",
+   "version": "v10.0.4-beta.2",
    "downloads": [
+    {
+     "platform": "linux",
+     "arch": "arm64",
+     "format": "deb",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta-arm64.deb",
+     "name": "lantern-installer-beta-arm64.deb",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 90039226,
+     "published": "2026-10-23T18:07:25Z"
+    },
+    {
+     "platform": "linux",
+     "arch": "arm64",
+     "format": "rpm",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta-arm64.rpm",
+     "name": "lantern-installer-beta-arm64.rpm",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 92915412,
+     "published": "2026-10-23T18:07:25Z"
+    },
+    {
+     "platform": "android",
+     "arch": "armv7",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta-armv7.apk",
+     "name": "lantern-installer-beta-armv7.apk",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 48925937,
+     "published": "2026-10-23T18:07:25Z"
+    },
+    {
+     "platform": "android",
+     "arch": "",
+     "format": "apk",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta.apk",
+     "name": "lantern-installer-beta.apk",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 48997913,
+     "published": "2026-10-23T18:07:25Z"
+    },
+    {
+     "platform": "linux",
+     "arch": "",
+     "format": "deb",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta.deb",
+     "name": "lantern-installer-beta.deb",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 95925260,
+     "published": "2026-10-23T18:07:25Z"
+    },
+    {
+     "platform": "macos",
+     "arch": "",
+     "format": "dmg",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta.dmg",
+     "name": "lantern-installer-beta.dmg",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 130758796,
+     "published": "2026-10-23T18:07:25Z"
+    },
+    {
+     "platform": "windows",
+     "arch": "",
+     "format": "installer",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta.exe",
+     "name": "lantern-installer-beta.exe",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 120301144,
+     "published": "2026-10-23T18:07:25Z"
+    },
+    {
+     "platform": "ios",
+     "arch": "",
+     "format": "ipa",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta.ipa",
+     "name": "lantern-installer-beta.ipa",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 91210159,
+     "published": "2026-10-23T18:07:25Z"
+    },
+    {
+     "platform": "linux",
+     "arch": "",
+     "format": "rpm",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.2/lantern-installer-beta.rpm",
+     "name": "lantern-installer-beta.rpm",
+     "version": "v10.0.4-beta.2",
+     "prerelease": true,
+     "size": 99408250,
+     "published": "2026-10-23T18:07:25Z"
+    },
     {
      "platform": "linux",
      "arch": "arm64",
