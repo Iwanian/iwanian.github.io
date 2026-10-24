@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-24T16:45:55.430Z",
- "seq": 129,
+ "generated": "2026-10-24T19:02:34.088Z",
+ "seq": 130,
  "updates": [
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.12-beta1",
+   "previous": "1.6.12",
+   "t": "2026-10-24T19:02:34.088Z",
+   "id": 130
+  },
   {
    "app": "atz0tg7",
    "name": "AETHER",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:26:17.908Z",
    "id": 31
-  },
-  {
-   "app": "tor",
-   "name": "Tor Browser",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:26:17.908Z",
-   "id": 30
   }
  ]
 }
