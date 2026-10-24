@@ -1,7 +1,34 @@
 {
- "generated": "2026-10-24T00:47:00.550Z",
- "seq": 125,
+ "generated": "2026-10-24T05:05:00.884Z",
+ "seq": 128,
  "updates": [
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.12",
+   "previous": "1.6.11",
+   "t": "2026-10-24T05:05:00.884Z",
+   "id": 128
+  },
+  {
+   "app": "singbox",
+   "name": "sing-box",
+   "type": "update",
+   "version": "v1.15.0-alpha.13",
+   "previous": "v1.15.0-alpha.12",
+   "t": "2026-10-24T05:05:00.884Z",
+   "id": 127
+  },
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "update",
+   "version": "v10.0.4-beta.4",
+   "previous": "v10.0.4-beta.3",
+   "t": "2026-10-24T05:05:00.884Z",
+   "id": 126
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -874,33 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:26:17.908Z",
    "id": 29
-  },
-  {
-   "app": "a3cfhiw",
-   "name": "OTTER VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:26:17.908Z",
-   "id": 28
-  },
-  {
-   "app": "a9e72ds",
-   "name": "CAREN VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:26:17.908Z",
-   "id": 27
-  },
-  {
-   "app": "aotlwai",
-   "name": "ROKSA VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:26:17.908Z",
-   "id": 26
   }
  ]
 }
