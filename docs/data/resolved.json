@@ -1,5 +1,5 @@
 {
- "t": "2026-10-24T05:05:00.884Z",
+ "t": "2026-10-24T16:45:55.430Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -59058,6 +59058,174 @@
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-android-arm64.tar.gz",
+    "name": "aether-android-arm64.tar.gz",
+    "size": 22323330,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-android-armv7.tar.gz",
+    "name": "aether-android-armv7.tar.gz",
+    "size": 21714620,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-android-x86_64.tar.gz",
+    "name": "aether-android-x86_64.tar.gz",
+    "size": 24479052,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-linux-aarch64-musl.tar.gz",
+    "name": "aether-linux-aarch64-musl.tar.gz",
+    "size": 22413092,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-linux-arm64.tar.gz",
+    "name": "aether-linux-arm64.tar.gz",
+    "size": 22796661,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "armv7",
+    "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-linux-armv7-musl.tar.gz",
+    "name": "aether-linux-armv7-musl.tar.gz",
+    "size": 22508217,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "armv7",
+    "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-linux-armv7.tar.gz",
+    "name": "aether-linux-armv7.tar.gz",
+    "size": 22325285,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-linux-x86_64-musl.tar.gz",
+    "name": "aether-linux-x86_64-musl.tar.gz",
+    "size": 24578278,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-linux-x86_64.tar.gz",
+    "name": "aether-linux-x86_64.tar.gz",
+    "size": 25165330,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "zip",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-macos-arm64.tar.gz",
+    "name": "aether-macos-arm64.tar.gz",
+    "size": 22158151,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "zip",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-macos-x86_64.tar.gz",
+    "name": "aether-macos-x86_64.tar.gz",
+    "size": 24000379,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.4.0/aether-windows-x86_64.zip",
+    "name": "aether-windows-x86_64.zip",
+    "size": 25573679,
+    "tag": "v2.4.0",
+    "pre": false,
+    "date": "2026-10-24T16:05:43Z"
+   },
+   {
+    "kind": "asset",
+    "src": "CluvexStudio/Aether",
+    "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "archive",
     "href": "https://github.com/CluvexStudio/Aether/releases/download/v2.3.0/aether-android-arm64.tar.gz",
     "name": "aether-android-arm64.tar.gz",
     "size": 22096188,
@@ -59068,7 +59236,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -59082,7 +59250,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -59096,7 +59264,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59110,7 +59278,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59124,7 +59292,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59138,7 +59306,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59152,7 +59320,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59166,7 +59334,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59180,7 +59348,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -59194,7 +59362,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -59208,7 +59376,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59222,7 +59390,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -59236,7 +59404,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -59250,7 +59418,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -59264,7 +59432,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59278,7 +59446,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59292,7 +59460,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59306,7 +59474,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59320,7 +59488,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59334,7 +59502,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59348,7 +59516,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -59362,7 +59530,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -59376,7 +59544,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59390,7 +59558,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -59404,7 +59572,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -59418,7 +59586,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -59432,7 +59600,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59446,7 +59614,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59460,7 +59628,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59474,7 +59642,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59488,7 +59656,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59502,7 +59670,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59516,7 +59684,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -59530,7 +59698,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -59544,7 +59712,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59558,7 +59726,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -59572,7 +59740,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -59586,7 +59754,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -59600,7 +59768,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59614,7 +59782,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59628,7 +59796,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59642,7 +59810,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59656,7 +59824,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59670,7 +59838,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59684,7 +59852,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -59698,7 +59866,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -59712,7 +59880,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59726,7 +59894,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -59740,7 +59908,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -59754,7 +59922,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -59768,7 +59936,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59782,7 +59950,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59796,7 +59964,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59810,7 +59978,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59824,7 +59992,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59838,7 +60006,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -59852,7 +60020,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -59866,7 +60034,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -59880,7 +60048,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59894,7 +60062,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -59908,7 +60076,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -59922,7 +60090,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -59936,7 +60104,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59950,7 +60118,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -59964,7 +60132,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59978,7 +60146,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -59992,7 +60160,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60006,7 +60174,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60020,7 +60188,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -60034,7 +60202,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -60048,7 +60216,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60062,7 +60230,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -60076,7 +60244,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -60090,7 +60258,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -60104,7 +60272,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -60118,7 +60286,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -60132,7 +60300,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60146,7 +60314,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60160,7 +60328,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60174,7 +60342,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60188,7 +60356,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -60202,7 +60370,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -60216,7 +60384,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60230,7 +60398,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -60244,7 +60412,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -60258,7 +60426,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -60272,7 +60440,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -60286,7 +60454,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -60300,7 +60468,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60314,7 +60482,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60328,7 +60496,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60342,7 +60510,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60356,7 +60524,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -60370,7 +60538,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -60384,7 +60552,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60398,7 +60566,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -60412,7 +60580,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -60426,7 +60594,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -60440,7 +60608,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -60454,7 +60622,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -60468,7 +60636,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60482,7 +60650,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60496,7 +60664,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60510,7 +60678,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60524,7 +60692,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -60538,7 +60706,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -60552,7 +60720,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60566,7 +60734,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -60580,7 +60748,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -60594,7 +60762,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -60608,7 +60776,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -60622,7 +60790,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60636,7 +60804,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60650,7 +60818,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60664,7 +60832,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -60678,7 +60846,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -60692,7 +60860,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60706,7 +60874,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "archive",
@@ -60720,7 +60888,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "archive",
@@ -60734,7 +60902,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "archive",
@@ -60748,7 +60916,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -60762,7 +60930,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "armv7",
     "fmt": "archive",
@@ -60776,7 +60944,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -60790,7 +60958,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -60804,7 +60972,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -60818,7 +60986,7 @@
    {
     "kind": "asset",
     "src": "CluvexStudio/Aether",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60828,132 +60996,6 @@
     "tag": "v1.2.0",
     "pre": false,
     "date": "2026-07-16T17:24:29Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "archive",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-android-arm64.tar.gz",
-    "name": "aether-android-arm64.tar.gz",
-    "size": 3517598,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "archive",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-android-armv7.tar.gz",
-    "name": "aether-android-armv7.tar.gz",
-    "size": 2929718,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "archive",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-android-x86_64.tar.gz",
-    "name": "aether-android-x86_64.tar.gz",
-    "size": 3820170,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "archive",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-linux-arm64.tar.gz",
-    "name": "aether-linux-arm64.tar.gz",
-    "size": 3638673,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "armv7",
-    "fmt": "archive",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-linux-armv7.tar.gz",
-    "name": "aether-linux-armv7.tar.gz",
-    "size": 3275468,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "archive",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-linux-x86_64.tar.gz",
-    "name": "aether-linux-x86_64.tar.gz",
-    "size": 3918216,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "arm64",
-    "fmt": "zip",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-macos-arm64.tar.gz",
-    "name": "aether-macos-arm64.tar.gz",
-    "size": 3365647,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "x64",
-    "fmt": "zip",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-macos-x86_64.tar.gz",
-    "name": "aether-macos-x86_64.tar.gz",
-    "size": 3655227,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "CluvexStudio/Aether",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/CluvexStudio/Aether/releases/download/v1.1.1/aether-windows-x86_64.zip",
-    "name": "aether-windows-x86_64.zip",
-    "size": 4094128,
-    "tag": "v1.1.1",
-    "pre": false,
-    "date": "2026-07-15T19:25:22Z"
    }
   ]
  }
