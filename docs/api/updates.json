@@ -1,7 +1,25 @@
 {
- "generated": "2026-10-24T19:02:34.088Z",
- "seq": 130,
+ "generated": "2026-10-24T23:37:45.967Z",
+ "seq": 132,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v4.1.1",
+   "previous": "v4.1.1",
+   "t": "2026-10-24T23:37:45.967Z",
+   "id": 132
+  },
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.13",
+   "previous": "1.6.12-beta1",
+   "t": "2026-10-24T23:37:45.967Z",
+   "id": 131
+  },
   {
    "app": "a7lmtvl",
    "name": "WHITE DNS",
@@ -883,24 +901,6 @@
    "previous": "7.25.6",
    "t": "2026-10-13T17:26:17.908Z",
    "id": 33
-  },
-  {
-   "app": "singbox",
-   "name": "sing-box",
-   "type": "update",
-   "version": "v1.15.0-alpha.12",
-   "previous": "",
-   "t": "2026-10-13T17:26:17.908Z",
-   "id": 32
-  },
-  {
-   "app": "outline",
-   "name": "Outline",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:26:17.908Z",
-   "id": 31
   }
  ]
 }
