@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-23T19:19:43.444Z",
- "seq": 124,
+ "generated": "2026-10-24T00:47:00.550Z",
+ "seq": 125,
  "updates": [
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "update",
+   "version": "v10.0.4-beta.3",
+   "previous": "v10.0.4-beta.2",
+   "t": "2026-10-24T00:47:00.550Z",
+   "id": 125
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:26:17.908Z",
    "id": 26
-  },
-  {
-   "app": "a4c747a",
-   "name": "AM TUNNUL LITE VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:26:17.908Z",
-   "id": 25
   }
  ]
 }
