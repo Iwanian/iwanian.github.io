@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T18:55:31.392Z",
+ "generated": "2026-10-25T21:18:02.159Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -31,8 +31,8 @@
      "name": "Hiddify-Android-arm64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 54628102,
-     "published": "2026-10-25T18:32:40Z"
+     "size": 54629894,
+     "published": "2026-10-25T19:43:06Z"
     },
     {
      "platform": "android",
@@ -44,8 +44,8 @@
      "name": "Hiddify-Android-arm7.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 52813456,
-     "published": "2026-10-25T18:32:40Z"
+     "size": 52813188,
+     "published": "2026-10-25T19:43:06Z"
     },
     {
      "platform": "android",
@@ -57,8 +57,8 @@
      "name": "Hiddify-Android-universal.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 149470415,
-     "published": "2026-10-25T18:32:40Z"
+     "size": 149471095,
+     "published": "2026-10-25T19:43:06Z"
     },
     {
      "platform": "android",
@@ -70,8 +70,8 @@
      "name": "Hiddify-Android-x86_64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 57196269,
-     "published": "2026-10-25T18:32:40Z"
+     "size": 57195433,
+     "published": "2026-10-25T19:43:06Z"
     },
     {
      "platform": "linux",
@@ -83,8 +83,8 @@
      "name": "Hiddify-Debian-x64.deb",
      "version": "draft",
      "prerelease": true,
-     "size": 51427302,
-     "published": "2026-10-25T18:32:40Z"
+     "size": 51430000,
+     "published": "2026-10-25T19:43:06Z"
     },
     {
      "platform": "macos",
@@ -96,8 +96,8 @@
      "name": "Hiddify-MacOS.dmg",
      "version": "draft",
      "prerelease": true,
-     "size": 106810531,
-     "published": "2026-10-25T18:32:40Z"
+     "size": 106814875,
+     "published": "2026-10-25T19:43:06Z"
     },
     {
      "platform": "windows",
@@ -109,8 +109,8 @@
      "name": "Hiddify-Windows-Setup-x64.exe",
      "version": "draft",
      "prerelease": true,
-     "size": 44078008,
-     "published": "2026-10-25T18:32:40Z"
+     "size": 44073304,
+     "published": "2026-10-25T19:43:06Z"
     },
     {
      "platform": "android",

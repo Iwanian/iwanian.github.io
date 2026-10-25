@@ -1,5 +1,5 @@
 {
- "t": "2026-10-25T18:55:31.392Z",
+ "t": "2026-10-25T21:18:02.159Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -11,10 +11,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-arm64.apk",
     "name": "Hiddify-Android-arm64.apk",
-    "size": 54628102,
+    "size": 54629894,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-25T18:32:40Z"
+    "date": "2026-10-25T19:43:06Z"
    },
    {
     "kind": "asset",
@@ -25,10 +25,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-arm7.apk",
     "name": "Hiddify-Android-arm7.apk",
-    "size": 52813456,
+    "size": 52813188,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-25T18:32:40Z"
+    "date": "2026-10-25T19:43:06Z"
    },
    {
     "kind": "asset",
@@ -39,10 +39,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-universal.apk",
     "name": "Hiddify-Android-universal.apk",
-    "size": 149470415,
+    "size": 149471095,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-25T18:32:40Z"
+    "date": "2026-10-25T19:43:06Z"
    },
    {
     "kind": "asset",
@@ -53,10 +53,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-x86_64.apk",
     "name": "Hiddify-Android-x86_64.apk",
-    "size": 57196269,
+    "size": 57195433,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-25T18:32:40Z"
+    "date": "2026-10-25T19:43:06Z"
    },
    {
     "kind": "asset",
@@ -67,10 +67,10 @@
     "fmt": "deb",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Debian-x64.deb",
     "name": "Hiddify-Debian-x64.deb",
-    "size": 51427302,
+    "size": 51430000,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-25T18:32:40Z"
+    "date": "2026-10-25T19:43:06Z"
    },
    {
     "kind": "asset",
@@ -81,10 +81,10 @@
     "fmt": "dmg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS.dmg",
     "name": "Hiddify-MacOS.dmg",
-    "size": 106810531,
+    "size": 106814875,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-25T18:32:40Z"
+    "date": "2026-10-25T19:43:06Z"
    },
    {
     "kind": "asset",
@@ -95,10 +95,10 @@
     "fmt": "installer",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Setup-x64.exe",
     "name": "Hiddify-Windows-Setup-x64.exe",
-    "size": 44078008,
+    "size": 44073304,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-25T18:32:40Z"
+    "date": "2026-10-25T19:43:06Z"
    },
    {
     "kind": "asset",
