@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-25T06:43:53.491Z",
- "seq": 134,
+ "generated": "2026-10-25T18:55:31.392Z",
+ "seq": 135,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v4.1.1",
+   "previous": "v4.1.1",
+   "t": "2026-10-25T18:55:31.392Z",
+   "id": 135
+  },
   {
    "app": "a7lmtvl",
    "name": "WHITE DNS",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:42:31.496Z",
    "id": 36
-  },
-  {
-   "app": "wireguard",
-   "name": "WireGuard",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:42:31.496Z",
-   "id": 35
   }
  ]
 }
