@@ -1,5 +1,5 @@
 {
- "t": "2026-10-25T23:18:57.606Z",
+ "t": "2026-10-26T06:17:25.953Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -10297,6 +10297,160 @@
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-linux-amd64.AppImage",
+    "name": "WhiteDNS-Desktop-1.4.7-linux-amd64.AppImage",
+    "size": 103635448,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "deb",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-linux-amd64.deb",
+    "name": "WhiteDNS-Desktop-1.4.7-linux-amd64.deb",
+    "size": 28155026,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "rpm",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-linux-amd64.rpm",
+    "name": "WhiteDNS-Desktop-1.4.7-linux-amd64.rpm",
+    "size": 36817144,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-linux-amd64.tar.gz",
+    "name": "WhiteDNS-Desktop-1.4.7-linux-amd64.tar.gz",
+    "size": 37144388,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "deb",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-linux-arm64.deb",
+    "name": "WhiteDNS-Desktop-1.4.7-linux-arm64.deb",
+    "size": 25342286,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "rpm",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-linux-arm64.rpm",
+    "name": "WhiteDNS-Desktop-1.4.7-linux-arm64.rpm",
+    "size": 33841273,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-linux-arm64.tar.gz",
+    "name": "WhiteDNS-Desktop-1.4.7-linux-arm64.tar.gz",
+    "size": 34104446,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "zip",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-macos-amd64.zip",
+    "name": "WhiteDNS-Desktop-1.4.7-macos-amd64.zip",
+    "size": 36636963,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "zip",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-macos-arm64.zip",
+    "name": "WhiteDNS-Desktop-1.4.7-macos-arm64.zip",
+    "size": 34936010,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-windows-arm64-windows-on-arm.zip",
+    "name": "WhiteDNS-Desktop-1.4.7-windows-arm64-windows-on-arm.zip",
+    "size": 33983079,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.7/WhiteDNS-Desktop-1.4.7-windows-x64.zip",
+    "name": "WhiteDNS-Desktop-1.4.7-windows-x64.zip",
+    "size": 37386031,
+    "tag": "desktop-v1.4.7",
+    "pre": true,
+    "date": "2026-10-26T03:43:34Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "appimage",
     "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.6/WhiteDNS-Desktop-1.4.6-linux-amd64.AppImage",
     "name": "WhiteDNS-Desktop-1.4.6-linux-amd64.AppImage",
     "size": 103623160,
@@ -10307,7 +10461,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10321,7 +10475,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10335,7 +10489,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10349,7 +10503,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10363,7 +10517,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10377,7 +10531,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10391,7 +10545,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10405,7 +10559,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10419,7 +10573,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10433,7 +10587,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10447,7 +10601,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -10461,7 +10615,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10475,7 +10629,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10489,7 +10643,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10503,7 +10657,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10517,7 +10671,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10531,7 +10685,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10545,7 +10699,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10559,7 +10713,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10573,7 +10727,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10587,7 +10741,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10601,7 +10755,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -10615,7 +10769,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10629,7 +10783,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10643,7 +10797,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10657,7 +10811,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10671,7 +10825,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10685,7 +10839,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10699,7 +10853,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10713,7 +10867,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10727,7 +10881,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10741,7 +10895,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10755,7 +10909,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -10769,7 +10923,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10783,7 +10937,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10797,7 +10951,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10811,7 +10965,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10825,7 +10979,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10839,7 +10993,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10853,7 +11007,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10867,7 +11021,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10881,7 +11035,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10895,7 +11049,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10909,7 +11063,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -10923,7 +11077,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10937,7 +11091,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10951,7 +11105,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10965,7 +11119,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10979,7 +11133,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10993,7 +11147,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11007,7 +11161,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11021,7 +11175,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11035,7 +11189,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11049,7 +11203,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11063,7 +11217,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11077,7 +11231,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11091,7 +11245,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11105,7 +11259,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11119,7 +11273,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11133,7 +11287,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11147,7 +11301,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11161,7 +11315,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11175,7 +11329,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11189,7 +11343,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11203,7 +11357,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11217,7 +11371,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11231,7 +11385,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11245,7 +11399,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11259,7 +11413,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11273,7 +11427,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11287,7 +11441,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11301,7 +11455,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11315,7 +11469,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11329,7 +11483,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11343,7 +11497,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11357,7 +11511,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11371,7 +11525,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11385,7 +11539,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11399,7 +11553,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11413,7 +11567,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11427,7 +11581,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11441,7 +11595,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11455,7 +11609,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11469,7 +11623,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11483,7 +11637,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11497,7 +11651,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11511,7 +11665,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11525,7 +11679,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11539,7 +11693,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11553,7 +11707,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11567,7 +11721,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11581,7 +11735,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11595,7 +11749,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11609,7 +11763,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11623,7 +11777,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11637,7 +11791,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11651,7 +11805,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11665,7 +11819,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11679,7 +11833,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11693,7 +11847,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11707,7 +11861,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11721,7 +11875,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11735,7 +11889,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11749,7 +11903,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11763,7 +11917,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11777,7 +11931,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11791,7 +11945,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11805,7 +11959,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11819,7 +11973,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11833,7 +11987,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11847,7 +12001,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11861,7 +12015,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11875,7 +12029,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11889,7 +12043,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11903,7 +12057,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11917,7 +12071,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11931,7 +12085,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11945,7 +12099,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11959,7 +12113,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11973,7 +12127,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11983,160 +12137,6 @@
     "tag": "desktop-v1.2.2",
     "pre": false,
     "date": "2026-09-28T08:01:34Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "appimage",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-linux-amd64.AppImage",
-    "name": "WhiteDNS-Desktop-1.2.1-linux-amd64.AppImage",
-    "size": 99932664,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "deb",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-linux-amd64.deb",
-    "name": "WhiteDNS-Desktop-1.2.1-linux-amd64.deb",
-    "size": 24883812,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "rpm",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-linux-amd64.rpm",
-    "name": "WhiteDNS-Desktop-1.2.1-linux-amd64.rpm",
-    "size": 32763008,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "archive",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-linux-amd64.tar.gz",
-    "name": "WhiteDNS-Desktop-1.2.1-linux-amd64.tar.gz",
-    "size": 33053470,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "deb",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-linux-arm64.deb",
-    "name": "WhiteDNS-Desktop-1.2.1-linux-arm64.deb",
-    "size": 22117520,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "rpm",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-linux-arm64.rpm",
-    "name": "WhiteDNS-Desktop-1.2.1-linux-arm64.rpm",
-    "size": 30233241,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "archive",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-linux-arm64.tar.gz",
-    "name": "WhiteDNS-Desktop-1.2.1-linux-arm64.tar.gz",
-    "size": 30469524,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "x64",
-    "fmt": "zip",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-macos-amd64.zip",
-    "name": "WhiteDNS-Desktop-1.2.1-macos-amd64.zip",
-    "size": 32485978,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "arm64",
-    "fmt": "zip",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-macos-arm64.zip",
-    "name": "WhiteDNS-Desktop-1.2.1-macos-arm64.zip",
-    "size": 31092821,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "arm64",
-    "fmt": "portable",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-windows-arm64-windows-on-arm.zip",
-    "name": "WhiteDNS-Desktop-1.2.1-windows-arm64-windows-on-arm.zip",
-    "size": 30341339,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.1/WhiteDNS-Desktop-1.2.1-windows-x64.zip",
-    "name": "WhiteDNS-Desktop-1.2.1-windows-x64.zip",
-    "size": 33250626,
-    "tag": "desktop-v1.2.1",
-    "pre": false,
-    "date": "2026-09-01T21:47:14Z"
    }
   ],
   "https://github.com/WhiteDNS/WhiteDNS-Android/releases/": [

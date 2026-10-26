@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-25T23:18:57.606Z",
- "seq": 136,
+ "generated": "2026-10-26T06:17:25.953Z",
+ "seq": 137,
  "updates": [
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.14",
+   "previous": "1.6.14",
+   "t": "2026-10-26T06:17:25.953Z",
+   "id": 137
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:42:31.496Z",
    "id": 38
-  },
-  {
-   "app": "outline",
-   "name": "Outline",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:42:31.496Z",
-   "id": 37
   }
  ]
 }
