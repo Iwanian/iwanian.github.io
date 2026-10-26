@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T06:17:25.953Z",
+ "generated": "2026-10-26T19:14:11.275Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -31,8 +31,8 @@
      "name": "Hiddify-Android-arm64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 54629894,
-     "published": "2026-10-25T19:43:06Z"
+     "size": 54643726,
+     "published": "2026-10-26T16:02:37Z"
     },
     {
      "platform": "android",
@@ -44,8 +44,8 @@
      "name": "Hiddify-Android-arm7.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 52813188,
-     "published": "2026-10-25T19:43:06Z"
+     "size": 52820276,
+     "published": "2026-10-26T16:02:37Z"
     },
     {
      "platform": "android",
@@ -57,8 +57,8 @@
      "name": "Hiddify-Android-universal.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 149471095,
-     "published": "2026-10-25T19:43:06Z"
+     "size": 149500631,
+     "published": "2026-10-26T16:02:37Z"
     },
     {
      "platform": "android",
@@ -70,8 +70,8 @@
      "name": "Hiddify-Android-x86_64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 57195433,
-     "published": "2026-10-25T19:43:06Z"
+     "size": 57208885,
+     "published": "2026-10-26T16:02:37Z"
     },
     {
      "platform": "linux",
@@ -83,8 +83,47 @@
      "name": "Hiddify-Debian-x64.deb",
      "version": "draft",
      "prerelease": true,
-     "size": 51430000,
-     "published": "2026-10-25T19:43:06Z"
+     "size": 51385148,
+     "published": "2026-10-26T16:02:37Z"
+    },
+    {
+     "platform": "linux",
+     "arch": "x64",
+     "format": "appimage",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-x64-AppImage.AppImage",
+     "name": "Hiddify-Linux-x64-AppImage.AppImage",
+     "version": "draft",
+     "prerelease": true,
+     "size": 65837560,
+     "published": "2026-10-26T16:02:37Z"
+    },
+    {
+     "platform": "linux",
+     "arch": "x64",
+     "format": "archive",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-x64-AppImage.tar.gz",
+     "name": "Hiddify-Linux-x64-AppImage.tar.gz",
+     "version": "draft",
+     "prerelease": true,
+     "size": 65298662,
+     "published": "2026-10-26T16:02:37Z"
+    },
+    {
+     "platform": "macos",
+     "arch": "",
+     "format": "pkg",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS-Installer.pkg",
+     "name": "Hiddify-MacOS-Installer.pkg",
+     "version": "draft",
+     "prerelease": true,
+     "size": 107063477,
+     "published": "2026-10-26T16:02:37Z"
     },
     {
      "platform": "macos",
@@ -96,8 +135,21 @@
      "name": "Hiddify-MacOS.dmg",
      "version": "draft",
      "prerelease": true,
-     "size": 106814875,
-     "published": "2026-10-25T19:43:06Z"
+     "size": 106831602,
+     "published": "2026-10-26T16:02:37Z"
+    },
+    {
+     "platform": "windows",
+     "arch": "x64",
+     "format": "portable",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Portable-x64.zip",
+     "name": "Hiddify-Windows-Portable-x64.zip",
+     "version": "draft",
+     "prerelease": true,
+     "size": 57555884,
+     "published": "2026-10-26T16:02:37Z"
     },
     {
      "platform": "windows",
@@ -109,8 +161,21 @@
      "name": "Hiddify-Windows-Setup-x64.exe",
      "version": "draft",
      "prerelease": true,
-     "size": 44073304,
-     "published": "2026-10-25T19:43:06Z"
+     "size": 44082960,
+     "published": "2026-10-26T16:02:37Z"
+    },
+    {
+     "platform": "windows",
+     "arch": "x64",
+     "format": "installer",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Setup-x64.Msix",
+     "name": "Hiddify-Windows-Setup-x64.Msix",
+     "version": "draft",
+     "prerelease": true,
+     "size": 61750165,
+     "published": "2026-10-26T16:02:37Z"
     },
     {
      "platform": "android",

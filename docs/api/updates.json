@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-26T06:17:25.953Z",
- "seq": 137,
+ "generated": "2026-10-26T19:14:11.275Z",
+ "seq": 138,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v4.1.1",
+   "previous": "v4.1.1",
+   "t": "2026-10-26T19:14:11.275Z",
+   "id": 138
+  },
   {
    "app": "a7lmtvl",
    "name": "WHITE DNS",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:42:31.496Z",
    "id": 39
-  },
-  {
-   "app": "v2raya",
-   "name": "v2rayA",
-   "type": "new",
-   "version": "v2.5.10",
-   "previous": "",
-   "t": "2026-10-13T17:42:31.496Z",
-   "id": 38
   }
  ]
 }
