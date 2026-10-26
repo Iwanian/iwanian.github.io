@@ -1,5 +1,5 @@
 {
- "t": "2026-10-26T19:14:11.275Z",
+ "t": "2026-10-26T23:07:53.285Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -12217,6 +12217,76 @@
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.15/WhiteDNS-1.6.15-arm64-v8a.apk",
+    "name": "WhiteDNS-1.6.15-arm64-v8a.apk",
+    "size": 12950679,
+    "tag": "1.6.15",
+    "pre": false,
+    "date": "2026-10-26T22:09:50Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.15/WhiteDNS-1.6.15-armeabi-v7a.apk",
+    "name": "WhiteDNS-1.6.15-armeabi-v7a.apk",
+    "size": 13225121,
+    "tag": "1.6.15",
+    "pre": false,
+    "date": "2026-10-26T22:09:50Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.15/WhiteDNS-1.6.15-universal.apk",
+    "name": "WhiteDNS-1.6.15-universal.apk",
+    "size": 47616301,
+    "tag": "1.6.15",
+    "pre": false,
+    "date": "2026-10-26T22:09:50Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x86",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.15/WhiteDNS-1.6.15-x86.apk",
+    "name": "WhiteDNS-1.6.15-x86.apk",
+    "size": 14400633,
+    "tag": "1.6.15",
+    "pre": false,
+    "date": "2026-10-26T22:09:50Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.15/WhiteDNS-1.6.15-x86_64.apk",
+    "name": "WhiteDNS-1.6.15-x86_64.apk",
+    "size": 13999240,
+    "tag": "1.6.15",
+    "pre": false,
+    "date": "2026-10-26T22:09:50Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
     "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.14/WhiteDNS-1.6.14-arm64-v8a.apk",
     "name": "WhiteDNS-1.6.14-arm64-v8a.apk",
     "size": 12926103,
@@ -12227,7 +12297,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12241,7 +12311,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12255,7 +12325,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12269,7 +12339,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12283,7 +12353,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12297,7 +12367,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12311,7 +12381,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12325,7 +12395,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12339,7 +12409,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12353,7 +12423,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12367,7 +12437,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12381,7 +12451,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12395,7 +12465,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12409,7 +12479,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12423,7 +12493,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12437,7 +12507,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12451,7 +12521,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12465,7 +12535,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12479,7 +12549,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12493,7 +12563,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12507,7 +12577,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12521,7 +12591,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12535,7 +12605,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12549,7 +12619,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12563,7 +12633,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12577,7 +12647,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12591,7 +12661,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12605,7 +12675,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12619,7 +12689,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12633,7 +12703,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12647,7 +12717,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12661,7 +12731,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12675,7 +12745,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12689,7 +12759,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12703,7 +12773,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12717,7 +12787,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12731,7 +12801,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12745,7 +12815,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12759,7 +12829,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12773,7 +12843,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12787,7 +12857,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12801,7 +12871,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12815,7 +12885,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12829,7 +12899,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12843,7 +12913,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12857,7 +12927,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12871,7 +12941,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12885,7 +12955,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12899,7 +12969,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12913,7 +12983,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12927,7 +12997,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12941,7 +13011,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12955,7 +13025,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12969,7 +13039,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12979,76 +13049,6 @@
     "tag": "1.6.7-beta2",
     "pre": true,
     "date": "2026-10-18T07:48:15Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.6/WhiteDNS-1.6.6-arm64-v8a.apk",
-    "name": "WhiteDNS-1.6.6-arm64-v8a.apk",
-    "size": 12011905,
-    "tag": "1.6.6",
-    "pre": false,
-    "date": "2026-10-17T07:24:24Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.6/WhiteDNS-1.6.6-armeabi-v7a.apk",
-    "name": "WhiteDNS-1.6.6-armeabi-v7a.apk",
-    "size": 12224907,
-    "tag": "1.6.6",
-    "pre": false,
-    "date": "2026-10-17T07:24:24Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.6/WhiteDNS-1.6.6-universal.apk",
-    "name": "WhiteDNS-1.6.6-universal.apk",
-    "size": 43761175,
-    "tag": "1.6.6",
-    "pre": false,
-    "date": "2026-10-17T07:24:24Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x86",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.6/WhiteDNS-1.6.6-x86.apk",
-    "name": "WhiteDNS-1.6.6-x86.apk",
-    "size": 13347171,
-    "tag": "1.6.6",
-    "pre": false,
-    "date": "2026-10-17T07:24:24Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.6/WhiteDNS-1.6.6-x86_64.apk",
-    "name": "WhiteDNS-1.6.6-x86_64.apk",
-    "size": 12966258,
-    "tag": "1.6.6",
-    "pre": false,
-    "date": "2026-10-17T07:24:24Z"
    }
   ],
   "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box": [

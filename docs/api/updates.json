@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-26T19:14:11.275Z",
- "seq": 138,
+ "generated": "2026-10-26T23:07:53.285Z",
+ "seq": 139,
  "updates": [
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.15",
+   "previous": "1.6.14",
+   "t": "2026-10-26T23:07:53.285Z",
+   "id": 139
+  },
   {
    "app": "hiddify",
    "name": "Hiddify",
@@ -892,15 +901,6 @@
    "previous": "7.25.6",
    "t": "2026-10-13T17:42:31.496Z",
    "id": 40
-  },
-  {
-   "app": "clashverge",
-   "name": "Clash Verge Rev",
-   "type": "new",
-   "version": "v2.5.8",
-   "previous": "",
-   "t": "2026-10-13T17:42:31.496Z",
-   "id": 39
   }
  ]
 }
