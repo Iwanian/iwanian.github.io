@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-27T18:54:23.822Z",
- "seq": 143,
+ "generated": "2026-10-27T22:42:00.038Z",
+ "seq": 144,
  "updates": [
+  {
+   "app": "a5vuzzw",
+   "name": "DEFYX VPN",
+   "type": "update",
+   "version": "v5.12.7",
+   "previous": "v5.12.5",
+   "t": "2026-10-27T22:42:00.038Z",
+   "id": 144
+  },
   {
    "app": "hiddify",
    "name": "Hiddify",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:43:56.491Z",
    "id": 45
-  },
-  {
-   "app": "a9e72ds",
-   "name": "CAREN VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:43:56.491Z",
-   "id": 44
   }
  ]
 }
