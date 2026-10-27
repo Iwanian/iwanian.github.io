@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-26T23:07:53.285Z",
- "seq": 139,
+ "generated": "2026-10-27T07:41:41.873Z",
+ "seq": 140,
  "updates": [
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.15",
+   "previous": "1.6.15",
+   "t": "2026-10-27T07:41:41.873Z",
+   "id": 140
+  },
   {
    "app": "a7lmtvl",
    "name": "WHITE DNS",
@@ -892,15 +901,6 @@
    "previous": "v4.1.1",
    "t": "2026-10-13T17:42:31.496Z",
    "id": 41
-  },
-  {
-   "app": "v2rayn",
-   "name": "v2rayN",
-   "type": "update",
-   "version": "7.25.6",
-   "previous": "7.25.6",
-   "t": "2026-10-13T17:42:31.496Z",
-   "id": 40
   }
  ]
 }
