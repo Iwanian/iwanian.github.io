@@ -1,179 +1,11 @@
 {
- "t": "2026-10-27T13:36:19.035Z",
+ "t": "2026-10-27T18:54:23.822Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
     "ri": 0,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-arm64.apk",
-    "name": "Hiddify-Android-arm64.apk",
-    "size": 54643726,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-arm7.apk",
-    "name": "Hiddify-Android-arm7.apk",
-    "size": 52820276,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-universal.apk",
-    "name": "Hiddify-Android-universal.apk",
-    "size": 149500631,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-x86_64.apk",
-    "name": "Hiddify-Android-x86_64.apk",
-    "size": 57208885,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "deb",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Debian-x64.deb",
-    "name": "Hiddify-Debian-x64.deb",
-    "size": 51385148,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "appimage",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-x64-AppImage.AppImage",
-    "name": "Hiddify-Linux-x64-AppImage.AppImage",
-    "size": 65837560,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "archive",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-x64-AppImage.tar.gz",
-    "name": "Hiddify-Linux-x64-AppImage.tar.gz",
-    "size": 65298662,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "macos",
-    "arch": "",
-    "fmt": "pkg",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS-Installer.pkg",
-    "name": "Hiddify-MacOS-Installer.pkg",
-    "size": 107063477,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "macos",
-    "arch": "",
-    "fmt": "dmg",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS.dmg",
-    "name": "Hiddify-MacOS.dmg",
-    "size": 106831602,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Portable-x64.zip",
-    "name": "Hiddify-Windows-Portable-x64.zip",
-    "size": 57555884,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "installer",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Setup-x64.exe",
-    "name": "Hiddify-Windows-Setup-x64.exe",
-    "size": 44082960,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 0,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "installer",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Setup-x64.Msix",
-    "name": "Hiddify-Windows-Setup-x64.Msix",
-    "size": 61750165,
-    "tag": "draft",
-    "pre": true,
-    "date": "2026-10-26T16:02:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 1,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -187,7 +19,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -201,7 +33,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -215,7 +47,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -229,7 +61,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -243,7 +75,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -257,7 +89,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -271,7 +103,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -285,7 +117,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -299,7 +131,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -313,7 +145,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -327,7 +159,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 0,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -341,7 +173,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -355,7 +187,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -369,7 +201,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -383,7 +215,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -397,7 +229,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -411,7 +243,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -425,7 +257,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -439,7 +271,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -453,7 +285,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -467,7 +299,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -481,7 +313,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -495,7 +327,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -509,7 +341,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -523,7 +355,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -537,7 +369,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -551,7 +383,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -565,7 +397,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -579,7 +411,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -593,7 +425,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -607,7 +439,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -621,7 +453,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -635,7 +467,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -649,7 +481,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -663,7 +495,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -677,7 +509,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -691,7 +523,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -705,7 +537,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -719,7 +551,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -733,7 +565,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -747,7 +579,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -761,7 +593,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -775,7 +607,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -789,7 +621,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -803,7 +635,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -817,7 +649,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -831,7 +663,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -845,7 +677,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -859,7 +691,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -873,7 +705,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -887,7 +719,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -901,7 +733,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -915,7 +747,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -929,7 +761,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -943,7 +775,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -957,7 +789,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -971,7 +803,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -985,7 +817,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -999,7 +831,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1013,7 +845,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1027,7 +859,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1041,7 +873,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1055,7 +887,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1069,7 +901,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1083,7 +915,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1097,7 +929,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1111,7 +943,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1125,7 +957,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1139,7 +971,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -1153,7 +985,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1167,7 +999,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1181,7 +1013,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1195,7 +1027,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1209,7 +1041,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1223,7 +1055,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1237,7 +1069,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1251,7 +1083,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1265,7 +1097,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1279,7 +1111,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1293,7 +1125,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1307,7 +1139,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1321,7 +1153,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1335,7 +1167,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1349,7 +1181,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1363,7 +1195,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1377,7 +1209,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1391,7 +1223,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1405,7 +1237,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1419,7 +1251,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1433,7 +1265,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1447,7 +1279,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1461,7 +1293,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1475,7 +1307,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1489,7 +1321,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1503,7 +1335,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1517,7 +1349,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1531,7 +1363,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1545,7 +1377,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1559,7 +1391,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1573,7 +1405,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1587,7 +1419,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1601,7 +1433,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1615,7 +1447,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1629,7 +1461,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1643,7 +1475,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -1657,7 +1489,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1671,7 +1503,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1685,7 +1517,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1699,7 +1531,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1713,7 +1545,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1727,7 +1559,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1741,7 +1573,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1755,7 +1587,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1769,7 +1601,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1783,7 +1615,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1797,7 +1629,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1811,7 +1643,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1825,7 +1657,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -1839,7 +1671,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1853,7 +1685,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1867,7 +1699,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1881,7 +1713,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1895,7 +1727,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1909,7 +1741,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1923,7 +1755,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 11,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1933,6 +1765,174 @@
     "tag": "v2.0.4",
     "pre": true,
     "date": "2024-07-31T01:25:28Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-Android-arm64.apk",
+    "name": "Hiddify-Android-arm64.apk",
+    "size": 49384430,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-Android-arm7.apk",
+    "name": "Hiddify-Android-arm7.apk",
+    "size": 47782750,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-Android-universal.apk",
+    "name": "Hiddify-Android-universal.apk",
+    "size": 133205696,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-Android-x86_64.apk",
+    "name": "Hiddify-Android-x86_64.apk",
+    "size": 51549598,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "deb",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-Debian-x64.deb",
+    "name": "Hiddify-Debian-x64.deb",
+    "size": 27831780,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "ios",
+    "arch": "",
+    "fmt": "ipa",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-iOS.ipa",
+    "name": "Hiddify-iOS.ipa",
+    "size": 55998126,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "appimage",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-Linux-x64.AppImage",
+    "name": "Hiddify-Linux-x64.AppImage",
+    "size": 35898560,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "pkg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-MacOS-Installer.pkg",
+    "name": "Hiddify-MacOS-Installer.pkg",
+    "size": 59396684,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-MacOS.dmg",
+    "name": "Hiddify-MacOS.dmg",
+    "size": 59188198,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "rpm",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-rpm-x64.rpm",
+    "name": "Hiddify-rpm-x64.rpm",
+    "size": 34346910,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-Windows-Portable-x64.zip",
+    "name": "Hiddify-Windows-Portable-x64.zip",
+    "size": 36173611,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 11,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.0.3/Hiddify-Windows-Setup-x64.exe",
+    "name": "Hiddify-Windows-Setup-x64.exe",
+    "size": 27447784,
+    "tag": "v2.0.3",
+    "pre": true,
+    "date": "2024-07-30T20:00:35Z"
    }
   ],
   "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone": [
@@ -56081,6 +56081,132 @@
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer-arm64.deb",
+    "name": "lantern-installer-arm64.deb",
+    "size": 90694958,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "rpm",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer-arm64.rpm",
+    "name": "lantern-installer-arm64.rpm",
+    "size": 93770502,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer-armv7.apk",
+    "name": "lantern-installer-armv7.apk",
+    "size": 49145549,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer.apk",
+    "name": "lantern-installer.apk",
+    "size": 49206333,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer.deb",
+    "name": "lantern-installer.deb",
+    "size": 96653412,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer.dmg",
+    "name": "lantern-installer.dmg",
+    "size": 131684497,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer.exe",
+    "name": "lantern-installer.exe",
+    "size": 121297072,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "ios",
+    "arch": "",
+    "fmt": "ipa",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer.ipa",
+    "name": "lantern-installer.ipa",
+    "size": 91665352,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4/lantern-installer.rpm",
+    "name": "lantern-installer.rpm",
+    "size": 100173482,
+    "tag": "v10.0.4",
+    "pre": false,
+    "date": "2026-10-27T16:31:48Z"
+   },
+   {
+    "kind": "asset",
+    "src": "getlantern/lantern",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "deb",
     "href": "https://github.com/getlantern/lantern/releases/download/v10.0.4-beta.5/lantern-installer-beta-arm64.deb",
     "name": "lantern-installer-beta-arm64.deb",
     "size": 90695100,
@@ -56091,7 +56217,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56105,7 +56231,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -56119,7 +56245,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56133,7 +56259,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56147,7 +56273,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56161,7 +56287,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56175,7 +56301,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56189,7 +56315,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56203,7 +56329,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56217,7 +56343,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56231,7 +56357,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -56245,7 +56371,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56259,7 +56385,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56273,7 +56399,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56287,7 +56413,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56301,7 +56427,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56315,7 +56441,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56329,7 +56455,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56343,7 +56469,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56357,7 +56483,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -56371,7 +56497,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56385,7 +56511,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56399,7 +56525,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56413,7 +56539,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56427,7 +56553,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56441,7 +56567,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56455,7 +56581,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56469,7 +56595,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56483,7 +56609,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -56497,7 +56623,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56511,7 +56637,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56525,7 +56651,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56539,7 +56665,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56553,7 +56679,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56567,7 +56693,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56581,7 +56707,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56595,7 +56721,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56609,7 +56735,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -56623,7 +56749,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56637,7 +56763,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56651,7 +56777,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56665,7 +56791,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56679,7 +56805,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56693,7 +56819,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56707,7 +56833,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56721,7 +56847,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56735,7 +56861,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -56749,7 +56875,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56763,7 +56889,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56777,7 +56903,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56791,7 +56917,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56805,7 +56931,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56819,7 +56945,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56833,7 +56959,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56847,7 +56973,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56861,7 +56987,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -56875,7 +57001,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -56889,7 +57015,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -56903,7 +57029,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -56917,7 +57043,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -56931,7 +57057,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -56945,7 +57071,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -56959,7 +57085,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -56973,7 +57099,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -56987,7 +57113,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -57001,7 +57127,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -57015,7 +57141,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -57029,7 +57155,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -57043,7 +57169,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -57057,7 +57183,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -57071,7 +57197,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -57085,7 +57211,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -57099,7 +57225,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -57113,7 +57239,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -57127,7 +57253,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -57141,7 +57267,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -57155,7 +57281,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -57169,7 +57295,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -57183,7 +57309,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -57197,7 +57323,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -57211,7 +57337,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -57225,7 +57351,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -57239,7 +57365,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -57253,7 +57379,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -57267,7 +57393,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -57281,7 +57407,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -57295,7 +57421,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -57309,7 +57435,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -57323,7 +57449,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -57337,7 +57463,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -57351,7 +57477,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -57365,7 +57491,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -57379,7 +57505,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -57393,7 +57519,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
@@ -57407,7 +57533,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -57421,7 +57547,7 @@
    {
     "kind": "asset",
     "src": "getlantern/lantern",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -57431,118 +57557,6 @@
     "tag": "v10.0.3-beta-4",
     "pre": true,
     "date": "2026-10-14T22:16:13Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "deb",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-3/lantern-installer-beta-arm64.deb",
-    "name": "lantern-installer-beta-arm64.deb",
-    "size": 89368312,
-    "tag": "v10.0.3-beta-3",
-    "pre": true,
-    "date": "2026-10-14T19:39:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "rpm",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-3/lantern-installer-beta-arm64.rpm",
-    "name": "lantern-installer-beta-arm64.rpm",
-    "size": 92283971,
-    "tag": "v10.0.3-beta-3",
-    "pre": true,
-    "date": "2026-10-14T19:39:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-3/lantern-installer-beta.apk",
-    "name": "lantern-installer-beta.apk",
-    "size": 48710069,
-    "tag": "v10.0.3-beta-3",
-    "pre": true,
-    "date": "2026-10-14T19:39:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "deb",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-3/lantern-installer-beta.deb",
-    "name": "lantern-installer-beta.deb",
-    "size": 95224856,
-    "tag": "v10.0.3-beta-3",
-    "pre": true,
-    "date": "2026-10-14T19:39:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "",
-    "fmt": "dmg",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-3/lantern-installer-beta.dmg",
-    "name": "lantern-installer-beta.dmg",
-    "size": 130336219,
-    "tag": "v10.0.3-beta-3",
-    "pre": true,
-    "date": "2026-10-14T19:39:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "",
-    "fmt": "installer",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-3/lantern-installer-beta.exe",
-    "name": "lantern-installer-beta.exe",
-    "size": 119267632,
-    "tag": "v10.0.3-beta-3",
-    "pre": true,
-    "date": "2026-10-14T19:39:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "ios",
-    "arch": "",
-    "fmt": "ipa",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-3/lantern-installer-beta.ipa",
-    "name": "lantern-installer-beta.ipa",
-    "size": 90603279,
-    "tag": "v10.0.3-beta-3",
-    "pre": true,
-    "date": "2026-10-14T19:39:22Z"
-   },
-   {
-    "kind": "asset",
-    "src": "getlantern/lantern",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://github.com/getlantern/lantern/releases/download/v10.0.3-beta-3/lantern-installer-beta.rpm",
-    "name": "lantern-installer-beta.rpm",
-    "size": 98658424,
-    "tag": "v10.0.3-beta-3",
-    "pre": true,
-    "date": "2026-10-14T19:39:22Z"
    }
   ],
   "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa": [
