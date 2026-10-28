@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-27T22:42:00.038Z",
- "seq": 144,
+ "generated": "2026-10-28T07:28:24.041Z",
+ "seq": 145,
  "updates": [
+  {
+   "app": "v2rayng",
+   "name": "v2rayNG",
+   "type": "update",
+   "version": "2.3.14",
+   "previous": "2.3.13",
+   "t": "2026-10-28T07:28:24.041Z",
+   "id": 145
+  },
   {
    "app": "a5vuzzw",
    "name": "DEFYX VPN",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:43:56.491Z",
    "id": 46
-  },
-  {
-   "app": "a3cfhiw",
-   "name": "OTTER VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:43:56.491Z",
-   "id": 45
   }
  ]
 }
