@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-28T07:28:24.041Z",
- "seq": 145,
+ "generated": "2026-10-28T23:29:01.019Z",
+ "seq": 146,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v4.1.1",
+   "previous": "v4.1.1",
+   "t": "2026-10-28T23:29:01.019Z",
+   "id": 146
+  },
   {
    "app": "v2rayng",
    "name": "v2rayNG",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T17:43:56.491Z",
    "id": 47
-  },
-  {
-   "app": "wireguard",
-   "name": "WireGuard",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T17:43:56.491Z",
-   "id": 46
   }
  ]
 }
