@@ -1,5 +1,5 @@
 {
- "t": "2026-10-28T07:28:24.041Z",
+ "t": "2026-10-28T19:35:15.831Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -57581,7 +57581,7 @@
     "name": "DefyxVPN-Android-arm64-v8a.apk",
     "size": 112302443,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
@@ -57595,7 +57595,7 @@
     "name": "DefyxVPN-Android-armeabi-v7a.apk",
     "size": 105555065,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
@@ -57609,7 +57609,7 @@
     "name": "DefyxVPN-Android-universal.apk",
     "size": 306693550,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
@@ -57623,7 +57623,7 @@
     "name": "DefyxVPN-Android-x86_64.apk",
     "size": 119521972,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
@@ -57637,7 +57637,7 @@
     "name": "DefyxVPN-Linux.AppImage",
     "size": 52070904,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
@@ -57651,7 +57651,7 @@
     "name": "DefyxVPN-Linux.deb",
     "size": 55964876,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
@@ -57665,7 +57665,7 @@
     "name": "DefyxVPN-Linux.rpm",
     "size": 55990253,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
@@ -57679,7 +57679,7 @@
     "name": "DefyxVPN-Windows-Installer-x64.exe",
     "size": 50813877,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
@@ -57693,7 +57693,7 @@
     "name": "DefyxVPN-Windows-Portable-x64.zip",
     "size": 44301813,
     "tag": "v5.12.7",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T20:51:45Z"
    },
    {
