@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T23:29:01.019Z",
+ "generated": "2026-10-29T15:41:43.002Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -32284,13 +32284,13 @@
     },
     {
      "platform": "macos",
-     "arch": "",
+     "arch": "arm64",
      "format": "dmg",
      "kind": "file",
      "store": "",
-     "url": "https://z3d9.com/6ays8gw3vw/X-VPN_78.2.0_6054_7695194c7_2026-09-09-01-44-32.dmg",
-     "name": "X-VPN_78.2.0_6054_7695194c7_2026-09-09-01-44-32.dmg",
-     "version": "78.2.0",
+     "url": "https://z3d9.com/6ays8gw3vw/X-VPN_78.3.0_6402_6ea88f025_arm64_2026-10-28-10-53-45.dmg",
+     "name": "X-VPN_78.3.0_6402_6ea88f025_arm64_2026-10-28-10-53-45.dmg",
+     "version": "78.3.0",
      "prerelease": false,
      "size": 0,
      "published": ""
