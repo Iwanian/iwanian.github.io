@@ -1,5 +1,5 @@
 {
- "t": "2026-10-30T11:45:11.760Z",
+ "t": "2026-10-30T17:13:54.493Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -10371,7 +10371,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-linux-amd64.AppImage",
     "size": 103713272,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10385,7 +10385,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-linux-amd64.deb",
     "size": 28194670,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10399,7 +10399,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-linux-amd64.rpm",
     "size": 36878343,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10413,7 +10413,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-linux-amd64.tar.gz",
     "size": 37212599,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10427,7 +10427,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-linux-arm64.deb",
     "size": 25395134,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10441,7 +10441,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-linux-arm64.rpm",
     "size": 33896162,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10455,7 +10455,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-linux-arm64.tar.gz",
     "size": 34154542,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10469,7 +10469,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-macos-amd64.zip",
     "size": 36698227,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10483,7 +10483,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-macos-arm64.zip",
     "size": 34989347,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10497,7 +10497,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-windows-arm64-windows-on-arm.zip",
     "size": 34038518,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -10511,7 +10511,7 @@
     "name": "WhiteDNS-Desktop-1.4.9-windows-x64.zip",
     "size": 37453948,
     "tag": "desktop-v1.4.9",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-27T11:49:54Z"
    },
    {
@@ -59011,9 +59011,9 @@
     "plat": "windows",
     "arch": "",
     "fmt": "installer",
-    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_79.0.0_6250_0e5ca9203_2026-10-12-10-06-16.exe",
-    "name": "X-VPN_79.0.0_6250_0e5ca9203_2026-10-12-10-06-16.exe",
-    "ver": "79.0.0"
+    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_79.1.0_6421_4dbe5e80a_2026-10-30-09-13-06.exe",
+    "name": "X-VPN_79.1.0_6421_4dbe5e80a_2026-10-30-09-13-06.exe",
+    "ver": "79.1.0"
    }
   ],
   "https://xvpn.io/fa/download/vpn-mac?isAutoDownload=true&os=mac": [
