@@ -1,7 +1,16 @@
 {
- "generated": "2026-10-29T20:38:04.125Z",
- "seq": 148,
+ "generated": "2026-10-30T00:17:19.538Z",
+ "seq": 149,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v4.1.1",
+   "previous": "v4.1.1",
+   "t": "2026-10-30T00:17:19.538Z",
+   "id": 149
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -892,15 +901,6 @@
    "previous": "7.25.6",
    "t": "2026-10-13T17:43:56.491Z",
    "id": 50
-  },
-  {
-   "app": "singbox",
-   "name": "sing-box",
-   "type": "update",
-   "version": "v1.15.0-alpha.12",
-   "previous": "",
-   "t": "2026-10-13T17:43:56.491Z",
-   "id": 49
   }
  ]
 }
