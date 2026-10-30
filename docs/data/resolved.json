@@ -1,5 +1,5 @@
 {
- "t": "2026-10-30T00:17:19.538Z",
+ "t": "2026-10-30T11:45:11.760Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -1963,7 +1963,7 @@
     "name": "v2rayNG_2.3.14-fdroid_arm64-v8a.apk",
     "size": 32471040,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -1977,7 +1977,7 @@
     "name": "v2rayNG_2.3.14-fdroid_armeabi-v7a.apk",
     "size": 33008894,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -1991,7 +1991,7 @@
     "name": "v2rayNG_2.3.14-fdroid_universal.apk",
     "size": 71750461,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -2005,7 +2005,7 @@
     "name": "v2rayNG_2.3.14-fdroid_x86.apk",
     "size": 34038486,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -2019,7 +2019,7 @@
     "name": "v2rayNG_2.3.14-fdroid_x86_64.apk",
     "size": 33518867,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -2033,7 +2033,7 @@
     "name": "v2rayNG_2.3.14_arm64-v8a.apk",
     "size": 32470932,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -2047,7 +2047,7 @@
     "name": "v2rayNG_2.3.14_armeabi-v7a.apk",
     "size": 33008790,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -2061,7 +2061,7 @@
     "name": "v2rayNG_2.3.14_universal.apk",
     "size": 71750357,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -2075,7 +2075,7 @@
     "name": "v2rayNG_2.3.14_x86.apk",
     "size": 34038386,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
@@ -2089,7 +2089,7 @@
     "name": "v2rayNG_2.3.14_x86_64.apk",
     "size": 33518759,
     "tag": "2.3.14",
-    "pre": true,
+    "pre": false,
     "date": "2026-10-28T03:06:38Z"
    },
    {
