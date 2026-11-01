@@ -1,5 +1,5 @@
 {
- "t": "2026-10-31T23:46:37.959Z",
+ "t": "2026-11-01T09:40:46.175Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -2099,6 +2099,146 @@
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_arm64-v8a.apk",
+    "name": "v2rayNG_2.3.15-fdroid_arm64-v8a.apk",
+    "size": 32462388,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_armeabi-v7a.apk",
+    "name": "v2rayNG_2.3.15-fdroid_armeabi-v7a.apk",
+    "size": 33004234,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_universal.apk",
+    "name": "v2rayNG_2.3.15-fdroid_universal.apk",
+    "size": 71869421,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x86",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_x86.apk",
+    "name": "v2rayNG_2.3.15-fdroid_x86.apk",
+    "size": 34031118,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_x86_64.apk",
+    "name": "v2rayNG_2.3.15-fdroid_x86_64.apk",
+    "size": 33514211,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_arm64-v8a.apk",
+    "name": "v2rayNG_2.3.15_arm64-v8a.apk",
+    "size": 32462468,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_armeabi-v7a.apk",
+    "name": "v2rayNG_2.3.15_armeabi-v7a.apk",
+    "size": 33004314,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_universal.apk",
+    "name": "v2rayNG_2.3.15_universal.apk",
+    "size": 71869497,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x86",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_x86.apk",
+    "name": "v2rayNG_2.3.15_x86.apk",
+    "size": 34031194,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_x86_64.apk",
+    "name": "v2rayNG_2.3.15_x86_64.apk",
+    "size": 33514283,
+    "tag": "2.3.15",
+    "pre": true,
+    "date": "2026-11-01T06:59:32Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayNG",
+    "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
     "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.14/v2rayNG_2.3.14-fdroid_arm64-v8a.apk",
     "name": "v2rayNG_2.3.14-fdroid_arm64-v8a.apk",
     "size": 32471040,
@@ -2109,7 +2249,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2123,7 +2263,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2137,7 +2277,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2151,7 +2291,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2165,7 +2305,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2179,7 +2319,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2193,7 +2333,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2207,7 +2347,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2221,7 +2361,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2235,7 +2375,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2249,7 +2389,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2263,7 +2403,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2277,7 +2417,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2291,7 +2431,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2305,7 +2445,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2319,7 +2459,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2333,7 +2473,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2347,7 +2487,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2361,7 +2501,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2375,7 +2515,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2389,7 +2529,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2403,7 +2543,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2417,7 +2557,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2431,7 +2571,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2445,7 +2585,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2459,7 +2599,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2473,7 +2613,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2487,7 +2627,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2501,7 +2641,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2515,7 +2655,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2529,7 +2669,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2543,7 +2683,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2557,7 +2697,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2571,7 +2711,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2585,7 +2725,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2599,7 +2739,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2613,7 +2753,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2627,7 +2767,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2641,7 +2781,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2655,7 +2795,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2669,7 +2809,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2683,7 +2823,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2697,7 +2837,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2711,7 +2851,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2725,7 +2865,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2739,7 +2879,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2753,7 +2893,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2767,7 +2907,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2781,7 +2921,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2795,7 +2935,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2809,7 +2949,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2823,7 +2963,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2837,7 +2977,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2851,7 +2991,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2865,7 +3005,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2879,7 +3019,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2893,7 +3033,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2907,7 +3047,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2921,7 +3061,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -2935,7 +3075,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -2949,7 +3089,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -2963,7 +3103,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -2977,7 +3117,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -2991,7 +3131,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3005,7 +3145,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3019,7 +3159,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3033,7 +3173,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3047,7 +3187,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3061,7 +3201,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3075,7 +3215,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3089,7 +3229,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3103,7 +3243,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3117,7 +3257,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3131,7 +3271,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3145,7 +3285,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3159,7 +3299,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3173,7 +3313,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3187,7 +3327,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3201,7 +3341,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3215,7 +3355,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3229,7 +3369,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3243,7 +3383,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3257,7 +3397,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3271,7 +3411,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3285,7 +3425,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3299,7 +3439,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3313,7 +3453,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3327,7 +3467,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3341,7 +3481,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3355,7 +3495,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3369,7 +3509,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3383,7 +3523,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3397,7 +3537,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3411,7 +3551,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3425,7 +3565,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3439,7 +3579,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3453,7 +3593,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3467,7 +3607,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3481,7 +3621,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3495,7 +3635,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3509,7 +3649,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3523,7 +3663,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3537,7 +3677,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3551,7 +3691,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3565,7 +3705,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -3579,7 +3719,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -3593,7 +3733,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -3607,7 +3747,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -3621,7 +3761,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayNG",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -3631,146 +3771,6 @@
     "tag": "2.3.4",
     "pre": true,
     "date": "2026-08-14T12:39:37Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3-fdroid_arm64-v8a.apk",
-    "name": "v2rayNG_2.3.3-fdroid_arm64-v8a.apk",
-    "size": 32256106,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3-fdroid_armeabi-v7a.apk",
-    "name": "v2rayNG_2.3.3-fdroid_armeabi-v7a.apk",
-    "size": 32648536,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3-fdroid_universal.apk",
-    "name": "v2rayNG_2.3.3-fdroid_universal.apk",
-    "size": 72052591,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x86",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3-fdroid_x86.apk",
-    "name": "v2rayNG_2.3.3-fdroid_x86.apk",
-    "size": 33717092,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3-fdroid_x86_64.apk",
-    "name": "v2rayNG_2.3.3-fdroid_x86_64.apk",
-    "size": 33233645,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3_arm64-v8a.apk",
-    "name": "v2rayNG_2.3.3_arm64-v8a.apk",
-    "size": 32256186,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3_armeabi-v7a.apk",
-    "name": "v2rayNG_2.3.3_armeabi-v7a.apk",
-    "size": 32648616,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3_universal.apk",
-    "name": "v2rayNG_2.3.3_universal.apk",
-    "size": 72052671,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x86",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3_x86.apk",
-    "name": "v2rayNG_2.3.3_x86.apk",
-    "size": 33717172,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayNG",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/2dust/v2rayNG/releases/download/2.3.3/v2rayNG_2.3.3_x86_64.apk",
-    "name": "v2rayNG_2.3.3_x86_64.apk",
-    "size": 33233725,
-    "tag": "2.3.3",
-    "pre": true,
-    "date": "2026-08-07T08:41:39Z"
    }
   ],
   "https://github.com/shirokhorshid/shirokhorshid-android/releases": [
