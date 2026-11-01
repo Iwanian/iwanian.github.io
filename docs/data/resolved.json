@@ -1,5 +1,5 @@
 {
- "t": "2026-11-01T09:40:46.175Z",
+ "t": "2026-11-01T23:52:08.643Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -11,10 +11,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-arm64.apk",
     "name": "Hiddify-Android-arm64.apk",
-    "size": 62813606,
+    "size": 62871466,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -25,10 +25,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-arm7.apk",
     "name": "Hiddify-Android-arm7.apk",
-    "size": 60845188,
+    "size": 60908328,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -39,10 +39,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-universal.apk",
     "name": "Hiddify-Android-universal.apk",
-    "size": 174401507,
+    "size": 174579131,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -53,10 +53,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-x86_64.apk",
     "name": "Hiddify-Android-x86_64.apk",
-    "size": 65920509,
+    "size": 65977129,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -67,10 +67,10 @@
     "fmt": "deb",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Debian-x64.deb",
     "name": "Hiddify-Debian-x64.deb",
-    "size": 54400258,
+    "size": 54416138,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -81,10 +81,10 @@
     "fmt": "ipa",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-iOS.ipa",
     "name": "Hiddify-iOS.ipa",
-    "size": 102604942,
+    "size": 102688554,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -95,10 +95,10 @@
     "fmt": "appimage",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-x64-AppImage.AppImage",
     "name": "Hiddify-Linux-x64-AppImage.AppImage",
-    "size": 69175800,
+    "size": 69245432,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -109,10 +109,10 @@
     "fmt": "archive",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-x64-AppImage.tar.gz",
     "name": "Hiddify-Linux-x64-AppImage.tar.gz",
-    "size": 68639641,
+    "size": 68707768,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -123,10 +123,10 @@
     "fmt": "dmg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS-AppStore.dmg",
     "name": "Hiddify-MacOS-AppStore.dmg",
-    "size": 204436864,
+    "size": 205887804,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -137,10 +137,10 @@
     "fmt": "pkg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS-AppStore.pkg",
     "name": "Hiddify-MacOS-AppStore.pkg",
-    "size": 182304930,
+    "size": 182443484,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -151,10 +151,10 @@
     "fmt": "pkg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS-Installer.pkg",
     "name": "Hiddify-MacOS-Installer.pkg",
-    "size": 114327392,
+    "size": 114464803,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -165,10 +165,10 @@
     "fmt": "dmg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS.dmg",
     "name": "Hiddify-MacOS.dmg",
-    "size": 114042082,
+    "size": 114174170,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -179,10 +179,10 @@
     "fmt": "portable",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Portable-x64.zip",
     "name": "Hiddify-Windows-Portable-x64.zip",
-    "size": 65386740,
+    "size": 65456100,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -193,10 +193,10 @@
     "fmt": "installer",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Setup-x64.exe",
     "name": "Hiddify-Windows-Setup-x64.exe",
-    "size": 47957240,
+    "size": 47994592,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
@@ -207,15 +207,225 @@
     "fmt": "installer",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Setup-x64.Msix",
     "name": "Hiddify-Windows-Setup-x64.Msix",
-    "size": 66623482,
+    "size": 66690463,
     "tag": "draft",
     "pre": true,
-    "date": "2026-10-31T21:51:07Z"
+    "date": "2026-11-01T22:43:39Z"
    },
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
     "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Android-arm64.apk",
+    "name": "Hiddify-Android-arm64.apk",
+    "size": 62871466,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Android-arm7.apk",
+    "name": "Hiddify-Android-arm7.apk",
+    "size": 60908328,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Android-universal.apk",
+    "name": "Hiddify-Android-universal.apk",
+    "size": 174579131,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Android-x86_64.apk",
+    "name": "Hiddify-Android-x86_64.apk",
+    "size": 65977129,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "deb",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Debian-x64.deb",
+    "name": "Hiddify-Debian-x64.deb",
+    "size": 54416138,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "ios",
+    "arch": "",
+    "fmt": "ipa",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-iOS.ipa",
+    "name": "Hiddify-iOS.ipa",
+    "size": 102688554,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "appimage",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Linux-x64-AppImage.AppImage",
+    "name": "Hiddify-Linux-x64-AppImage.AppImage",
+    "size": 69245432,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Linux-x64-AppImage.tar.gz",
+    "name": "Hiddify-Linux-x64-AppImage.tar.gz",
+    "size": 68707768,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-MacOS-AppStore.dmg",
+    "name": "Hiddify-MacOS-AppStore.dmg",
+    "size": 205887804,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "pkg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-MacOS-AppStore.pkg",
+    "name": "Hiddify-MacOS-AppStore.pkg",
+    "size": 182443484,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "pkg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-MacOS-Installer.pkg",
+    "name": "Hiddify-MacOS-Installer.pkg",
+    "size": 114464803,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-MacOS.dmg",
+    "name": "Hiddify-MacOS.dmg",
+    "size": 114174170,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Windows-Portable-x64.zip",
+    "name": "Hiddify-Windows-Portable-x64.zip",
+    "size": 65456100,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Windows-Setup-x64.exe",
+    "name": "Hiddify-Windows-Setup-x64.exe",
+    "size": 47994592,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.4.0/Hiddify-Windows-Setup-x64.Msix",
+    "name": "Hiddify-Windows-Setup-x64.Msix",
+    "size": 66690463,
+    "tag": "v5.4.0",
+    "pre": true,
+    "date": "2026-11-01T22:42:47Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -229,7 +439,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -243,7 +453,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -257,7 +467,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -271,7 +481,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -285,7 +495,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -299,7 +509,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -313,7 +523,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -327,7 +537,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -341,7 +551,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -355,7 +565,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -369,7 +579,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -383,7 +593,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -397,7 +607,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -411,7 +621,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -425,7 +635,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -439,7 +649,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -453,7 +663,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -467,7 +677,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -481,7 +691,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -495,7 +705,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -509,7 +719,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -523,7 +733,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -537,7 +747,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -551,7 +761,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -565,7 +775,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -579,7 +789,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -593,7 +803,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -607,7 +817,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -621,7 +831,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -635,7 +845,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -649,7 +859,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -663,7 +873,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -677,7 +887,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -691,7 +901,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -705,7 +915,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -719,7 +929,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -733,7 +943,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -747,7 +957,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -761,7 +971,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -775,7 +985,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -789,7 +999,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -803,7 +1013,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -817,7 +1027,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -831,7 +1041,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -845,7 +1055,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -859,7 +1069,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -873,7 +1083,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -887,7 +1097,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -901,7 +1111,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -915,7 +1125,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -929,7 +1139,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -943,7 +1153,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -957,7 +1167,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -971,7 +1181,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -985,7 +1195,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -999,7 +1209,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1013,7 +1223,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1027,7 +1237,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1041,7 +1251,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1055,7 +1265,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1069,7 +1279,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1083,7 +1293,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -1097,7 +1307,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1111,7 +1321,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1125,7 +1335,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1139,7 +1349,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1153,7 +1363,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1167,7 +1377,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1181,7 +1391,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1195,7 +1405,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1209,7 +1419,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1223,7 +1433,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1237,7 +1447,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1251,7 +1461,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1265,7 +1475,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1279,7 +1489,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1293,7 +1503,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1307,7 +1517,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1321,7 +1531,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1335,7 +1545,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1349,7 +1559,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1363,7 +1573,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1377,7 +1587,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1391,7 +1601,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1405,7 +1615,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1419,7 +1629,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1433,7 +1643,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1447,7 +1657,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1461,7 +1671,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1475,7 +1685,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1489,7 +1699,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1503,7 +1713,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -1517,7 +1727,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1531,7 +1741,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1545,7 +1755,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1559,7 +1769,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1573,7 +1783,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1587,7 +1797,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1601,7 +1811,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1615,7 +1825,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1629,7 +1839,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -1643,7 +1853,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1657,7 +1867,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1671,7 +1881,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1685,7 +1895,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1699,7 +1909,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1713,7 +1923,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1727,7 +1937,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1741,7 +1951,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1755,7 +1965,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1769,7 +1979,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1783,7 +1993,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1797,7 +2007,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1811,7 +2021,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -1825,7 +2035,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1839,7 +2049,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1853,7 +2063,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1867,7 +2077,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1881,7 +2091,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1895,7 +2105,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1905,174 +2115,6 @@
     "tag": "v2.1.5",
     "pre": true,
     "date": "2024-08-05T21:39:48Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Android-arm64.apk",
-    "name": "Hiddify-Android-arm64.apk",
-    "size": 49407463,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "android",
-    "arch": "",
-    "fmt": "apk",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Android-arm7.apk",
-    "name": "Hiddify-Android-arm7.apk",
-    "size": 47796314,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Android-universal.apk",
-    "name": "Hiddify-Android-universal.apk",
-    "size": 133250651,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Android-x86_64.apk",
-    "name": "Hiddify-Android-x86_64.apk",
-    "size": 51558541,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "deb",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Debian-x64.deb",
-    "name": "Hiddify-Debian-x64.deb",
-    "size": 27818054,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "appimage",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Linux-x64.AppImage",
-    "name": "Hiddify-Linux-x64.AppImage",
-    "size": 35910848,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "",
-    "fmt": "pkg",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-MacOS-Installer.pkg",
-    "name": "Hiddify-MacOS-Installer.pkg",
-    "size": 59424314,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "",
-    "fmt": "dmg",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-MacOS.dmg",
-    "name": "Hiddify-MacOS.dmg",
-    "size": 59220551,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "rpm",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-rpm-x64.rpm",
-    "name": "Hiddify-rpm-x64.rpm",
-    "size": 34357095,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Windows-Portable-x64.zip",
-    "name": "Hiddify-Windows-Portable-x64.zip",
-    "size": 36188384,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "installer",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Windows-Setup-x64.exe",
-    "name": "Hiddify-Windows-Setup-x64.exe",
-    "size": 27457280,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "installer",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.1.1/Hiddify-Windows-Setup-x64.Msix",
-    "name": "Hiddify-Windows-Setup-x64.Msix",
-    "size": 37752311,
-    "tag": "v2.1.1",
-    "pre": true,
-    "date": "2024-08-02T14:28:57Z"
    }
   ],
   "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone": [
