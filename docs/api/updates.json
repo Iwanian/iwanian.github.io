@@ -1,7 +1,16 @@
 {
- "generated": "2026-11-02T20:23:13.476Z",
- "seq": 156,
+ "generated": "2026-11-03T02:29:55.869Z",
+ "seq": 157,
  "updates": [
+  {
+   "app": "a5vuzzw",
+   "name": "DEFYX VPN",
+   "type": "update",
+   "version": "v5.13.0",
+   "previous": "v5.12.7",
+   "t": "2026-11-03T02:29:55.869Z",
+   "id": 157
+  },
   {
    "app": "ab128fb",
    "name": "LANTERN",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-13T21:07:15.017Z",
    "id": 58
-  },
-  {
-   "app": "aewwc42",
-   "name": "ROSTAM VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T20:36:34.685Z",
-   "id": 57
   }
  ]
 }
