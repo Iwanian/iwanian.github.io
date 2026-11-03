@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T17:24:32.975Z",
+ "generated": "2026-11-03T22:24:23.385Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -19,7 +19,7 @@
     "پروفایل را انتخاب و دکمهٔ اتصال را بزنید.",
     "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
    ],
-   "version": "v5.5.0",
+   "version": "v5.5.1",
    "downloads": [
     {
      "platform": "android",
@@ -31,8 +31,8 @@
      "name": "Hiddify-Android-arm64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 63118646,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 63768666,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "android",
@@ -44,8 +44,8 @@
      "name": "Hiddify-Android-arm7.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 61179624,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 61868740,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "android",
@@ -57,8 +57,8 @@
      "name": "Hiddify-Android-universal.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 175327935,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 177379947,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "android",
@@ -70,8 +70,8 @@
      "name": "Hiddify-Android-x86_64.apk",
      "version": "draft",
      "prerelease": true,
-     "size": 66219741,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 66932605,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "linux",
@@ -83,8 +83,8 @@
      "name": "Hiddify-Debian-x64.deb",
      "version": "draft",
      "prerelease": true,
-     "size": 54632118,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 55160260,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "ios",
@@ -96,8 +96,8 @@
      "name": "Hiddify-iOS.ipa",
      "version": "draft",
      "prerelease": true,
-     "size": 103073723,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 104314413,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "linux",
@@ -109,8 +109,8 @@
      "name": "Hiddify-Linux-x64-AppImage.AppImage",
      "version": "draft",
      "prerelease": true,
-     "size": 69462520,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 70199800,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "linux",
@@ -122,8 +122,8 @@
      "name": "Hiddify-Linux-x64-AppImage.tar.gz",
      "version": "draft",
      "prerelease": true,
-     "size": 68923969,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 69658330,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "macos",
@@ -135,8 +135,8 @@
      "name": "Hiddify-MacOS-AppStore.dmg",
      "version": "draft",
      "prerelease": true,
-     "size": 204920659,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 220028000,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "macos",
@@ -148,8 +148,8 @@
      "name": "Hiddify-MacOS-AppStore.pkg",
      "version": "draft",
      "prerelease": true,
-     "size": 183002960,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 196749005,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "macos",
@@ -161,8 +161,8 @@
      "name": "Hiddify-MacOS-Installer.pkg",
      "version": "draft",
      "prerelease": true,
-     "size": 115025854,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 116495839,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "macos",
@@ -174,8 +174,8 @@
      "name": "Hiddify-MacOS.dmg",
      "version": "draft",
      "prerelease": true,
-     "size": 114756351,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 116207403,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "windows",
@@ -187,8 +187,8 @@
      "name": "Hiddify-Windows-Portable-x64.zip",
      "version": "draft",
      "prerelease": true,
-     "size": 65708922,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 66517396,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "windows",
@@ -200,8 +200,8 @@
      "name": "Hiddify-Windows-Setup-x64.exe",
      "version": "draft",
      "prerelease": true,
-     "size": 48152632,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 48769184,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "windows",
@@ -213,8 +213,8 @@
      "name": "Hiddify-Windows-Setup-x64.Msix",
      "version": "draft",
      "prerelease": true,
-     "size": 66954241,
-     "published": "2026-11-03T17:07:39Z"
+     "size": 67769112,
+     "published": "2026-11-03T18:06:16Z"
     },
     {
      "platform": "android",
@@ -222,12 +222,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Android-arm64.apk",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Android-arm64.apk",
      "name": "Hiddify-Android-arm64.apk",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 63118646,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 63768666,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "android",
@@ -235,12 +235,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Android-arm7.apk",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Android-arm7.apk",
      "name": "Hiddify-Android-arm7.apk",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 61179624,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 61868740,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "android",
@@ -248,12 +248,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Android-universal.apk",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Android-universal.apk",
      "name": "Hiddify-Android-universal.apk",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 175327935,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 177379947,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "android",
@@ -261,12 +261,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Android-x86_64.apk",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Android-x86_64.apk",
      "name": "Hiddify-Android-x86_64.apk",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 66219741,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 66932605,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "linux",
@@ -274,12 +274,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Debian-x64.deb",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Debian-x64.deb",
      "name": "Hiddify-Debian-x64.deb",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 54632118,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 55160260,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "ios",
@@ -287,12 +287,12 @@
      "format": "ipa",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-iOS.ipa",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-iOS.ipa",
      "name": "Hiddify-iOS.ipa",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 103073723,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 104314413,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "linux",
@@ -300,12 +300,12 @@
      "format": "appimage",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Linux-x64-AppImage.AppImage",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Linux-x64-AppImage.AppImage",
      "name": "Hiddify-Linux-x64-AppImage.AppImage",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 69462520,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 70199800,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "linux",
@@ -313,12 +313,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Linux-x64-AppImage.tar.gz",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Linux-x64-AppImage.tar.gz",
      "name": "Hiddify-Linux-x64-AppImage.tar.gz",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 68923969,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 69658330,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "macos",
@@ -326,12 +326,12 @@
      "format": "dmg",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-MacOS-AppStore.dmg",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-MacOS-AppStore.dmg",
      "name": "Hiddify-MacOS-AppStore.dmg",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 204920659,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 220028000,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "macos",
@@ -339,12 +339,12 @@
      "format": "pkg",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-MacOS-AppStore.pkg",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-MacOS-AppStore.pkg",
      "name": "Hiddify-MacOS-AppStore.pkg",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 183002960,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 196749005,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "macos",
@@ -352,12 +352,12 @@
      "format": "pkg",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-MacOS-Installer.pkg",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-MacOS-Installer.pkg",
      "name": "Hiddify-MacOS-Installer.pkg",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 115025854,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 116495839,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "macos",
@@ -365,12 +365,12 @@
      "format": "dmg",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-MacOS.dmg",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-MacOS.dmg",
      "name": "Hiddify-MacOS.dmg",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 114756351,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 116207403,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "windows",
@@ -378,12 +378,12 @@
      "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Windows-Portable-x64.zip",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Windows-Portable-x64.zip",
      "name": "Hiddify-Windows-Portable-x64.zip",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 65708922,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 66517396,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "windows",
@@ -391,12 +391,12 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Windows-Setup-x64.exe",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Windows-Setup-x64.exe",
      "name": "Hiddify-Windows-Setup-x64.exe",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 48152632,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 48769184,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "windows",
@@ -404,12 +404,12 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.0/Hiddify-Windows-Setup-x64.Msix",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.1/Hiddify-Windows-Setup-x64.Msix",
      "name": "Hiddify-Windows-Setup-x64.Msix",
-     "version": "v5.5.0",
+     "version": "v5.5.1",
      "prerelease": true,
-     "size": 66954241,
-     "published": "2026-11-03T17:06:35Z"
+     "size": 67769112,
+     "published": "2026-11-03T18:05:11Z"
     },
     {
      "platform": "android",
