@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T22:24:23.385Z",
+ "generated": "2026-11-04T17:29:30.281Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -2078,7 +2078,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_arm64-v8a.apk",
      "name": "v2rayNG_2.3.15-fdroid_arm64-v8a.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 32462388,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2091,7 +2091,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_armeabi-v7a.apk",
      "name": "v2rayNG_2.3.15-fdroid_armeabi-v7a.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 33004234,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2104,7 +2104,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_universal.apk",
      "name": "v2rayNG_2.3.15-fdroid_universal.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 71869421,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2117,7 +2117,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_x86.apk",
      "name": "v2rayNG_2.3.15-fdroid_x86.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 34031118,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2130,7 +2130,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_x86_64.apk",
      "name": "v2rayNG_2.3.15-fdroid_x86_64.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 33514211,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2143,7 +2143,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_arm64-v8a.apk",
      "name": "v2rayNG_2.3.15_arm64-v8a.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 32462468,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2156,7 +2156,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_armeabi-v7a.apk",
      "name": "v2rayNG_2.3.15_armeabi-v7a.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 33004314,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2169,7 +2169,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_universal.apk",
      "name": "v2rayNG_2.3.15_universal.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 71869497,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2182,7 +2182,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_x86.apk",
      "name": "v2rayNG_2.3.15_x86.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 34031194,
      "published": "2026-11-01T06:59:32Z"
     },
@@ -2195,7 +2195,7 @@
      "url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15_x86_64.apk",
      "name": "v2rayNG_2.3.15_x86_64.apk",
      "version": "2.3.15",
-     "prerelease": true,
+     "prerelease": false,
      "size": 33514283,
      "published": "2026-11-01T06:59:32Z"
     },
