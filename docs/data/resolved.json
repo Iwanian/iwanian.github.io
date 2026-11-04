@@ -1,5 +1,5 @@
 {
- "t": "2026-11-04T17:29:30.281Z",
+ "t": "2026-11-04T22:46:09.681Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -11,10 +11,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-arm64.apk",
     "name": "Hiddify-Android-arm64.apk",
-    "size": 63768666,
+    "size": 63989614,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -25,10 +25,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-arm7.apk",
     "name": "Hiddify-Android-arm7.apk",
-    "size": 61868740,
+    "size": 62068520,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -39,10 +39,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-universal.apk",
     "name": "Hiddify-Android-universal.apk",
-    "size": 177379947,
+    "size": 178026791,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -53,10 +53,10 @@
     "fmt": "apk",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Android-x86_64.apk",
     "name": "Hiddify-Android-x86_64.apk",
-    "size": 66932605,
+    "size": 67160493,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -67,10 +67,10 @@
     "fmt": "deb",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Debian-x64.deb",
     "name": "Hiddify-Debian-x64.deb",
-    "size": 55160260,
+    "size": 55355070,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -81,10 +81,10 @@
     "fmt": "ipa",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-iOS.ipa",
     "name": "Hiddify-iOS.ipa",
-    "size": 104314413,
+    "size": 104704837,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -95,10 +95,10 @@
     "fmt": "appimage",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-x64-AppImage.AppImage",
     "name": "Hiddify-Linux-x64-AppImage.AppImage",
-    "size": 70199800,
+    "size": 70400504,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -109,10 +109,10 @@
     "fmt": "archive",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-x64-AppImage.tar.gz",
     "name": "Hiddify-Linux-x64-AppImage.tar.gz",
-    "size": 69658330,
+    "size": 69858849,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -123,10 +123,10 @@
     "fmt": "dmg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS-AppStore.dmg",
     "name": "Hiddify-MacOS-AppStore.dmg",
-    "size": 220028000,
+    "size": 222575498,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -137,10 +137,10 @@
     "fmt": "pkg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS-AppStore.pkg",
     "name": "Hiddify-MacOS-AppStore.pkg",
-    "size": 196749005,
+    "size": 197593864,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -151,10 +151,10 @@
     "fmt": "pkg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS-Installer.pkg",
     "name": "Hiddify-MacOS-Installer.pkg",
-    "size": 116495839,
+    "size": 116982391,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -165,10 +165,10 @@
     "fmt": "dmg",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-MacOS.dmg",
     "name": "Hiddify-MacOS.dmg",
-    "size": 116207403,
+    "size": 116685795,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -179,10 +179,10 @@
     "fmt": "portable",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Portable-x64.zip",
     "name": "Hiddify-Windows-Portable-x64.zip",
-    "size": 66517396,
+    "size": 66721622,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -193,10 +193,10 @@
     "fmt": "installer",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Setup-x64.exe",
     "name": "Hiddify-Windows-Setup-x64.exe",
-    "size": 48769184,
+    "size": 48917072,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
@@ -207,15 +207,225 @@
     "fmt": "installer",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Windows-Setup-x64.Msix",
     "name": "Hiddify-Windows-Setup-x64.Msix",
-    "size": 67769112,
+    "size": 67981674,
     "tag": "draft",
     "pre": true,
-    "date": "2026-11-03T18:06:16Z"
+    "date": "2026-11-04T21:07:51Z"
    },
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
     "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Android-arm64.apk",
+    "name": "Hiddify-Android-arm64.apk",
+    "size": 63989614,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "android",
+    "arch": "",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Android-arm7.apk",
+    "name": "Hiddify-Android-arm7.apk",
+    "size": 62068520,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Android-universal.apk",
+    "name": "Hiddify-Android-universal.apk",
+    "size": 178026791,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Android-x86_64.apk",
+    "name": "Hiddify-Android-x86_64.apk",
+    "size": 67160493,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "deb",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Debian-x64.deb",
+    "name": "Hiddify-Debian-x64.deb",
+    "size": 55355070,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "ios",
+    "arch": "",
+    "fmt": "ipa",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-iOS.ipa",
+    "name": "Hiddify-iOS.ipa",
+    "size": 104704837,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "appimage",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Linux-x64-AppImage.AppImage",
+    "name": "Hiddify-Linux-x64-AppImage.AppImage",
+    "size": 70400504,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Linux-x64-AppImage.tar.gz",
+    "name": "Hiddify-Linux-x64-AppImage.tar.gz",
+    "size": 69858849,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS-AppStore.dmg",
+    "name": "Hiddify-MacOS-AppStore.dmg",
+    "size": 222575498,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "pkg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS-AppStore.pkg",
+    "name": "Hiddify-MacOS-AppStore.pkg",
+    "size": 197593864,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "pkg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS-Installer.pkg",
+    "name": "Hiddify-MacOS-Installer.pkg",
+    "size": 116982391,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "macos",
+    "arch": "",
+    "fmt": "dmg",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS.dmg",
+    "name": "Hiddify-MacOS.dmg",
+    "size": 116685795,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Windows-Portable-x64.zip",
+    "name": "Hiddify-Windows-Portable-x64.zip",
+    "size": 66721622,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Windows-Setup-x64.exe",
+    "name": "Hiddify-Windows-Setup-x64.exe",
+    "size": 48917072,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 1,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-Windows-Setup-x64.Msix",
+    "name": "Hiddify-Windows-Setup-x64.Msix",
+    "size": 67989058,
+    "tag": "v5.5.5",
+    "pre": false,
+    "date": "2026-11-04T21:06:14Z"
+   },
+   {
+    "kind": "asset",
+    "src": "hiddify/hiddify-app",
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -229,7 +439,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -243,7 +453,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -257,7 +467,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -271,7 +481,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -285,7 +495,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -299,7 +509,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -313,7 +523,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -327,7 +537,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -341,7 +551,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -355,7 +565,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -369,7 +579,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -383,7 +593,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -397,7 +607,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -411,7 +621,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -425,7 +635,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -439,7 +649,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -453,7 +663,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -467,7 +677,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -481,7 +691,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -495,7 +705,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -509,7 +719,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -523,7 +733,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -537,7 +747,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -551,7 +761,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -565,7 +775,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -579,7 +789,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -593,7 +803,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -607,7 +817,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -621,7 +831,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -635,7 +845,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -649,7 +859,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -663,7 +873,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -677,7 +887,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -691,7 +901,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -705,7 +915,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -719,7 +929,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -733,7 +943,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -747,7 +957,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -761,7 +971,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -775,7 +985,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -789,7 +999,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -803,7 +1013,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -817,7 +1027,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -831,7 +1041,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -845,7 +1055,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -859,7 +1069,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -873,7 +1083,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -887,7 +1097,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -901,7 +1111,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -915,7 +1125,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -929,7 +1139,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -943,7 +1153,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -957,7 +1167,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -971,7 +1181,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -985,7 +1195,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -999,7 +1209,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1013,7 +1223,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1027,7 +1237,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1041,7 +1251,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1055,7 +1265,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1069,7 +1279,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1083,7 +1293,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1097,7 +1307,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1111,7 +1321,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1125,7 +1335,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -1139,7 +1349,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1153,7 +1363,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -1167,7 +1377,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1181,7 +1391,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1195,7 +1405,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1209,7 +1419,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1223,7 +1433,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1237,7 +1447,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1251,7 +1461,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1265,7 +1475,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1279,7 +1489,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1293,7 +1503,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1307,7 +1517,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1321,7 +1531,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1335,7 +1545,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1349,7 +1559,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -1363,7 +1573,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1377,7 +1587,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1391,7 +1601,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1405,7 +1615,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1419,7 +1629,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1433,7 +1643,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1447,7 +1657,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1461,7 +1671,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1475,7 +1685,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1489,7 +1699,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1503,7 +1713,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -1517,7 +1727,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1531,7 +1741,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1545,7 +1755,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1559,7 +1769,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1573,7 +1783,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1587,7 +1797,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1601,7 +1811,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1615,7 +1825,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1629,7 +1839,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1643,7 +1853,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1657,7 +1867,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1671,7 +1881,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1685,7 +1895,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1699,7 +1909,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1713,7 +1923,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1727,7 +1937,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1741,7 +1951,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -1755,7 +1965,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "",
     "fmt": "apk",
@@ -1769,7 +1979,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -1783,7 +1993,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -1797,7 +2007,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1811,7 +2021,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1825,7 +2035,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1839,7 +2049,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1853,7 +2063,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1867,7 +2077,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -1881,7 +2091,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1895,7 +2105,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -1909,7 +2119,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -1923,7 +2133,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "ios",
     "arch": "",
     "fmt": "ipa",
@@ -1937,7 +2147,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -1951,7 +2161,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "",
     "fmt": "pkg",
@@ -1965,7 +2175,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "",
     "fmt": "dmg",
@@ -1979,7 +2189,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -1993,7 +2203,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -2007,7 +2217,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -2021,7 +2231,7 @@
    {
     "kind": "asset",
     "src": "hiddify/hiddify-app",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -2031,132 +2241,6 @@
     "tag": "v2.3.0",
     "pre": true,
     "date": "2024-09-02T03:57:09Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "deb",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-Debian-x64.deb",
-    "name": "Hiddify-Debian-x64.deb",
-    "size": 28037160,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "ios",
-    "arch": "",
-    "fmt": "ipa",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-iOS.ipa",
-    "name": "Hiddify-iOS.ipa",
-    "size": 56506573,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "appimage",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-Linux-x64.AppImage",
-    "name": "Hiddify-Linux-x64.AppImage",
-    "size": 36144320,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "",
-    "fmt": "pkg",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-MacOS-Installer.pkg",
-    "name": "Hiddify-MacOS-Installer.pkg",
-    "size": 59916896,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "",
-    "fmt": "dmg",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-MacOS.dmg",
-    "name": "Hiddify-MacOS.dmg",
-    "size": 59710765,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "rpm",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-rpm-x64.rpm",
-    "name": "Hiddify-rpm-x64.rpm",
-    "size": 34593341,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-Windows-Portable-x64.zip",
-    "name": "Hiddify-Windows-Portable-x64.zip",
-    "size": 36441954,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "installer",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-Windows-Setup-x64.exe",
-    "name": "Hiddify-Windows-Setup-x64.exe",
-    "size": 27641680,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
-   },
-   {
-    "kind": "asset",
-    "src": "hiddify/hiddify-app",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "installer",
-    "href": "https://github.com/hiddify/hiddify-app/releases/download/v2.2.0/Hiddify-Windows-Setup-x64.msix",
-    "name": "Hiddify-Windows-Setup-x64.msix",
-    "size": 38018739,
-    "tag": "v2.2.0",
-    "pre": true,
-    "date": "2024-08-21T04:12:03Z"
    }
   ],
   "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone": [
@@ -10591,6 +10675,160 @@
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-linux-amd64.AppImage",
+    "name": "WhiteDNS-Desktop-1.4.10-linux-amd64.AppImage",
+    "size": 103721464,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "deb",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-linux-amd64.deb",
+    "name": "WhiteDNS-Desktop-1.4.10-linux-amd64.deb",
+    "size": 28196058,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "rpm",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-linux-amd64.rpm",
+    "name": "WhiteDNS-Desktop-1.4.10-linux-amd64.rpm",
+    "size": 36883590,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-linux-amd64.tar.gz",
+    "name": "WhiteDNS-Desktop-1.4.10-linux-amd64.tar.gz",
+    "size": 37218914,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "deb",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-linux-arm64.deb",
+    "name": "WhiteDNS-Desktop-1.4.10-linux-arm64.deb",
+    "size": 25400140,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "rpm",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-linux-arm64.rpm",
+    "name": "WhiteDNS-Desktop-1.4.10-linux-arm64.rpm",
+    "size": 33899403,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-linux-arm64.tar.gz",
+    "name": "WhiteDNS-Desktop-1.4.10-linux-arm64.tar.gz",
+    "size": 34160793,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "zip",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-macos-amd64.zip",
+    "name": "WhiteDNS-Desktop-1.4.10-macos-amd64.zip",
+    "size": 36707039,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "zip",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-macos-arm64.zip",
+    "name": "WhiteDNS-Desktop-1.4.10-macos-arm64.zip",
+    "size": 34997905,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-windows-arm64-windows-on-arm.zip",
+    "name": "WhiteDNS-Desktop-1.4.10-windows-arm64-windows-on-arm.zip",
+    "size": 34045483,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.10/WhiteDNS-Desktop-1.4.10-windows-x64.zip",
+    "name": "WhiteDNS-Desktop-1.4.10-windows-x64.zip",
+    "size": 37461123,
+    "tag": "desktop-v1.4.10",
+    "pre": false,
+    "date": "2026-11-04T22:35:55Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Desktop",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "appimage",
     "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.4.9/WhiteDNS-Desktop-1.4.9-linux-amd64.AppImage",
     "name": "WhiteDNS-Desktop-1.4.9-linux-amd64.AppImage",
     "size": 103713272,
@@ -10601,7 +10839,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10615,7 +10853,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10629,7 +10867,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10643,7 +10881,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10657,7 +10895,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10671,7 +10909,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10685,7 +10923,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10699,7 +10937,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10713,7 +10951,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10727,7 +10965,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10741,7 +10979,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -10755,7 +10993,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10769,7 +11007,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10783,7 +11021,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10797,7 +11035,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10811,7 +11049,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10825,7 +11063,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10839,7 +11077,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10853,7 +11091,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10867,7 +11105,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10881,7 +11119,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10895,7 +11133,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -10909,7 +11147,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10923,7 +11161,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10937,7 +11175,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10951,7 +11189,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10965,7 +11203,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10979,7 +11217,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10993,7 +11231,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11007,7 +11245,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11021,7 +11259,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11035,7 +11273,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11049,7 +11287,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11063,7 +11301,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11077,7 +11315,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11091,7 +11329,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11105,7 +11343,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11119,7 +11357,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11133,7 +11371,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11147,7 +11385,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11161,7 +11399,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11175,7 +11413,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11189,7 +11427,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11203,7 +11441,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11217,7 +11455,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11231,7 +11469,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11245,7 +11483,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11259,7 +11497,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11273,7 +11511,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11287,7 +11525,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11301,7 +11539,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11315,7 +11553,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11329,7 +11567,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11343,7 +11581,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11357,7 +11595,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11371,7 +11609,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11385,7 +11623,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11399,7 +11637,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11413,7 +11651,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11427,7 +11665,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11441,7 +11679,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11455,7 +11693,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11469,7 +11707,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11483,7 +11721,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11497,7 +11735,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11511,7 +11749,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11525,7 +11763,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11539,7 +11777,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11553,7 +11791,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11567,7 +11805,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11581,7 +11819,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11595,7 +11833,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11609,7 +11847,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11623,7 +11861,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11637,7 +11875,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11651,7 +11889,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11665,7 +11903,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11679,7 +11917,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11693,7 +11931,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11707,7 +11945,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11721,7 +11959,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11735,7 +11973,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11749,7 +11987,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11763,7 +12001,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11777,7 +12015,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11791,7 +12029,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11805,7 +12043,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11819,7 +12057,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11833,7 +12071,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11847,7 +12085,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11861,7 +12099,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11875,7 +12113,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11889,7 +12127,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11903,7 +12141,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11917,7 +12155,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11931,7 +12169,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11945,7 +12183,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11959,7 +12197,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11973,7 +12211,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -11987,7 +12225,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -12001,7 +12239,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -12015,7 +12253,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -12029,7 +12267,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -12043,7 +12281,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -12057,7 +12295,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -12071,7 +12309,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -12085,7 +12323,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -12099,7 +12337,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -12113,7 +12351,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -12127,7 +12365,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "appimage",
@@ -12141,7 +12379,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -12155,7 +12393,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -12169,7 +12407,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -12183,7 +12421,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -12197,7 +12435,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -12211,7 +12449,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -12225,7 +12463,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -12239,7 +12477,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -12253,7 +12491,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -12267,7 +12505,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -12277,160 +12515,6 @@
     "tag": "desktop-v1.3.1",
     "pre": false,
     "date": "2026-10-18T16:44:58Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "appimage",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-linux-amd64.AppImage",
-    "name": "WhiteDNS-Desktop-1.2.5-linux-amd64.AppImage",
-    "size": 99985912,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "deb",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-linux-amd64.deb",
-    "name": "WhiteDNS-Desktop-1.2.5-linux-amd64.deb",
-    "size": 24919026,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "rpm",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-linux-amd64.rpm",
-    "name": "WhiteDNS-Desktop-1.2.5-linux-amd64.rpm",
-    "size": 32789347,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "archive",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-linux-amd64.tar.gz",
-    "name": "WhiteDNS-Desktop-1.2.5-linux-amd64.tar.gz",
-    "size": 33084202,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "deb",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-linux-arm64.deb",
-    "name": "WhiteDNS-Desktop-1.2.5-linux-arm64.deb",
-    "size": 22134736,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "rpm",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-linux-arm64.rpm",
-    "name": "WhiteDNS-Desktop-1.2.5-linux-arm64.rpm",
-    "size": 30255578,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "archive",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-linux-arm64.tar.gz",
-    "name": "WhiteDNS-Desktop-1.2.5-linux-arm64.tar.gz",
-    "size": 30494050,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "x64",
-    "fmt": "zip",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-macos-amd64.zip",
-    "name": "WhiteDNS-Desktop-1.2.5-macos-amd64.zip",
-    "size": 32524102,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "arm64",
-    "fmt": "zip",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-macos-arm64.zip",
-    "name": "WhiteDNS-Desktop-1.2.5-macos-arm64.zip",
-    "size": 31128947,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "arm64",
-    "fmt": "portable",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-windows-arm64-windows-on-arm.zip",
-    "name": "WhiteDNS-Desktop-1.2.5-windows-arm64-windows-on-arm.zip",
-    "size": 30376368,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Desktop",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases/download/desktop-v1.2.5/WhiteDNS-Desktop-1.2.5-windows-x64.zip",
-    "name": "WhiteDNS-Desktop-1.2.5-windows-x64.zip",
-    "size": 33292716,
-    "tag": "desktop-v1.2.5",
-    "pre": false,
-    "date": "2026-10-08T18:23:38Z"
    }
   ],
   "https://github.com/WhiteDNS/WhiteDNS-Android/releases/": [
@@ -12438,6 +12522,76 @@
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
     "ri": 0,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-arm64-v8a.apk",
+    "name": "WhiteDNS-1.6.16-arm64-v8a.apk",
+    "size": 12954775,
+    "tag": "1.6.16",
+    "pre": false,
+    "date": "2026-11-04T18:30:12Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-armeabi-v7a.apk",
+    "name": "WhiteDNS-1.6.16-armeabi-v7a.apk",
+    "size": 13233313,
+    "tag": "1.6.16",
+    "pre": false,
+    "date": "2026-11-04T18:30:12Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-universal.apk",
+    "name": "WhiteDNS-1.6.16-universal.apk",
+    "size": 47640877,
+    "tag": "1.6.16",
+    "pre": false,
+    "date": "2026-11-04T18:30:12Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x86",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-x86.apk",
+    "name": "WhiteDNS-1.6.16-x86.apk",
+    "size": 14408825,
+    "tag": "1.6.16",
+    "pre": false,
+    "date": "2026-11-04T18:30:12Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-x86_64.apk",
+    "name": "WhiteDNS-1.6.16-x86_64.apk",
+    "size": 14003336,
+    "tag": "1.6.16",
+    "pre": false,
+    "date": "2026-11-04T18:30:12Z"
+   },
+   {
+    "kind": "asset",
+    "src": "WhiteDNS/WhiteDNS-Android",
+    "ri": 1,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12451,7 +12605,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12465,7 +12619,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12479,7 +12633,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12493,7 +12647,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12507,7 +12661,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12521,7 +12675,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12535,7 +12689,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12549,7 +12703,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12563,7 +12717,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12577,7 +12731,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12591,7 +12745,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12605,7 +12759,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12619,7 +12773,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12633,7 +12787,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12647,7 +12801,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12661,7 +12815,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12675,7 +12829,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12689,7 +12843,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12703,7 +12857,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12717,7 +12871,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12731,7 +12885,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12745,7 +12899,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12759,7 +12913,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12773,7 +12927,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12787,7 +12941,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12801,7 +12955,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12815,7 +12969,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12829,7 +12983,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12843,7 +12997,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12857,7 +13011,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12871,7 +13025,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12885,7 +13039,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12899,7 +13053,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12913,7 +13067,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12927,7 +13081,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -12941,7 +13095,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -12955,7 +13109,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -12969,7 +13123,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -12983,7 +13137,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -12997,7 +13151,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -13011,7 +13165,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -13025,7 +13179,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -13039,7 +13193,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -13053,7 +13207,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -13067,7 +13221,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -13081,7 +13235,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -13095,7 +13249,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -13109,7 +13263,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -13123,7 +13277,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -13137,7 +13291,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -13151,7 +13305,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -13165,7 +13319,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -13179,7 +13333,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x86",
     "fmt": "apk",
@@ -13193,7 +13347,7 @@
    {
     "kind": "asset",
     "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -13203,76 +13357,6 @@
     "tag": "1.6.7",
     "pre": false,
     "date": "2026-10-18T11:25:55Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.7-beta2/WhiteDNS-1.6.7-beta2-arm64-v8a.apk",
-    "name": "WhiteDNS-1.6.7-beta2-arm64-v8a.apk",
-    "size": 12020097,
-    "tag": "1.6.7-beta2",
-    "pre": true,
-    "date": "2026-10-18T07:48:15Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.7-beta2/WhiteDNS-1.6.7-beta2-armeabi-v7a.apk",
-    "name": "WhiteDNS-1.6.7-beta2-armeabi-v7a.apk",
-    "size": 12233099,
-    "tag": "1.6.7-beta2",
-    "pre": true,
-    "date": "2026-10-18T07:48:15Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.7-beta2/WhiteDNS-1.6.7-beta2-universal.apk",
-    "name": "WhiteDNS-1.6.7-beta2-universal.apk",
-    "size": 43789847,
-    "tag": "1.6.7-beta2",
-    "pre": true,
-    "date": "2026-10-18T07:48:15Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x86",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.7-beta2/WhiteDNS-1.6.7-beta2-x86.apk",
-    "name": "WhiteDNS-1.6.7-beta2-x86.apk",
-    "size": 13351267,
-    "tag": "1.6.7-beta2",
-    "pre": true,
-    "date": "2026-10-18T07:48:15Z"
-   },
-   {
-    "kind": "asset",
-    "src": "WhiteDNS/WhiteDNS-Android",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.7-beta2/WhiteDNS-1.6.7-beta2-x86_64.apk",
-    "name": "WhiteDNS-1.6.7-beta2-x86_64.apk",
-    "size": 12974450,
-    "tag": "1.6.7-beta2",
-    "pre": true,
-    "date": "2026-10-18T07:48:15Z"
    }
   ],
   "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box": [
