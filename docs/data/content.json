@@ -1,5 +1,5 @@
 {
-  "rev": 3,
+  "rev": 4,
   "sections": [
     {
       "id": "vpn",
@@ -205,6 +205,8 @@
         "align": "center",
         "fill": true
       },
+      "home": "https://github.com/WhiteDNS/WhiteDNS-Desktop/",
+      "guideUrl": "",
       "kind": "DNS",
       "desc": "مناسب دوران قطعی",
       "steps": [],
@@ -219,9 +221,7 @@
           "file": "",
           "os": "android"
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     },
     {
       "id": "ab0nwmg",
