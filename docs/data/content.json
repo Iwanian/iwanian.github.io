@@ -1,5 +1,5 @@
 {
-  "rev": 2,
+  "rev": 3,
   "sections": [
     {
       "id": "vpn",
@@ -118,6 +118,8 @@
         "align": "start",
         "fill": true
       },
+      "home": "https://github.com/2dust/v2rayNG/",
+      "guideUrl": "",
       "kind": "کلاینت Xray/V2Ray",
       "desc": "کلاینت پرکاربرد و سبک برای Android با هستهٔ Xray.",
       "steps": [
@@ -132,9 +134,7 @@
           "file": "",
           "os": "android"
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     },
     {
       "id": "aciritu",
