@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T18:43:25.995Z",
+ "generated": "2026-11-08T18:43:50.341Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -9530,7 +9530,7 @@
    "description": "کلاینت رسمی sing-box",
    "icon": "https://iwanian.github.io/icons/i-bk0bhn9s.webp",
    "page": "https://iwanian.github.io/#apps",
-   "homepage": "",
+   "homepage": "https://github.com/SagerNet/sing-box/",
    "guide_url": "",
    "guide_steps": [
     "برنامه را نصب کنید.",
