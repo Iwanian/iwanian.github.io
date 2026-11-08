@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T18:43:50.341Z",
+ "generated": "2026-11-08T18:44:46.340Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -29780,7 +29780,7 @@
    "description": "",
    "icon": "https://iwanian.github.io/icons/i-wynkdej0.webp",
    "page": "https://iwanian.github.io/#apps",
-   "homepage": "",
+   "homepage": "https://github.com/getlantern/lantern/",
    "guide_url": "",
    "guide_steps": [],
    "version": "v10.0.5-beta.1",
