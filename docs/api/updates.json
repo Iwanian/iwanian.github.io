@@ -1,7 +1,88 @@
 {
- "generated": "2026-11-04T22:46:09.681Z",
- "seq": 163,
+ "generated": "2026-11-08T20:46:45.120Z",
+ "seq": 172,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v5.5.5",
+   "previous": "v5.5.5",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 172
+  },
+  {
+   "app": "v2rayng",
+   "name": "v2rayNG",
+   "type": "update",
+   "version": "2.3.15",
+   "previous": "2.3.15",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 171
+  },
+  {
+   "app": "aciritu",
+   "name": "SHIROKHORSHID",
+   "type": "update",
+   "version": "v2026.10.14-2c71930",
+   "previous": "v2026.10.14-2c71930",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 170
+  },
+  {
+   "app": "v2rayn",
+   "name": "v2rayN",
+   "type": "update",
+   "version": "7.25.6",
+   "previous": "7.25.6",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 169
+  },
+  {
+   "app": "a7lmtvl",
+   "name": "WHITE DNS",
+   "type": "update",
+   "version": "1.6.16",
+   "previous": "1.6.16",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 168
+  },
+  {
+   "app": "singbox",
+   "name": "sing-box",
+   "type": "update",
+   "version": "v1.14.4",
+   "previous": "v1.15.0-alpha.13",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 167
+  },
+  {
+   "app": "ab128fb",
+   "name": "LANTERN",
+   "type": "update",
+   "version": "v10.0.5",
+   "previous": "v10.0.5-beta.1",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 166
+  },
+  {
+   "app": "a5vuzzw",
+   "name": "DEFYX VPN",
+   "type": "update",
+   "version": "v5.13.0",
+   "previous": "v5.13.0",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 165
+  },
+  {
+   "app": "atz0tg7",
+   "name": "AETHER",
+   "type": "update",
+   "version": "v2.4.0",
+   "previous": "v2.4.0",
+   "t": "2026-11-08T20:46:45.120Z",
+   "id": 164
+  },
   {
    "app": "hiddify",
    "name": "Hiddify",
@@ -820,87 +901,6 @@
    "previous": "v10.0.3-beta-3",
    "t": "2026-10-14T23:29:09.962Z",
    "id": 73
-  },
-  {
-   "app": "aciritu",
-   "name": "SHIROKHORSHID",
-   "type": "update",
-   "version": "v2026.10.14-2c71930",
-   "previous": "v2026.05.24-a3b91cf",
-   "t": "2026-10-14T20:48:44.055Z",
-   "id": 72
-  },
-  {
-   "app": "ab128fb",
-   "name": "LANTERN",
-   "type": "update",
-   "version": "v10.0.3-beta-3",
-   "previous": "v10.0.3-beta-2",
-   "t": "2026-10-14T20:48:44.055Z",
-   "id": 71
-  },
-  {
-   "app": "atz0tg7",
-   "name": "AETHER",
-   "type": "new",
-   "version": "v2.3.0",
-   "previous": "",
-   "t": "2026-10-14T15:07:30.242Z",
-   "id": 70
-  },
-  {
-   "app": "azwtdad",
-   "name": "BETTERNET UNLIMITED VPN",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-14T13:05:37.434Z",
-   "id": 69
-  },
-  {
-   "app": "a2ag89w",
-   "name": "X VPN",
-   "type": "update",
-   "version": "79.0.0",
-   "previous": "78.2.0",
-   "t": "2026-10-14T10:39:50.416Z",
-   "id": 68
-  },
-  {
-   "app": "a8zl5km",
-   "name": "LANTERN",
-   "type": "new",
-   "version": "v10.0.3-beta-2",
-   "previous": "",
-   "t": "2026-10-14T10:39:50.416Z",
-   "id": 67
-  },
-  {
-   "app": "ab128fb",
-   "name": "LANTERN",
-   "type": "new",
-   "version": "v10.0.3-beta-2",
-   "previous": "",
-   "t": "2026-10-14T10:39:50.416Z",
-   "id": 66
-  },
-  {
-   "app": "a5vuzzw",
-   "name": "DEFYX VPN",
-   "type": "update",
-   "version": "v5.12.4",
-   "previous": "v5.12.2",
-   "t": "2026-10-14T09:10:52.464Z",
-   "id": 65
-  },
-  {
-   "app": "ahv3fio",
-   "name": "NPV TUNNEL",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-13T22:30:21.342Z",
-   "id": 64
   }
  ]
 }
