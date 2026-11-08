@@ -1,5 +1,5 @@
 {
-  "rev": 11,
+  "rev": 12,
   "sections": [
     {
       "id": "vpn",
@@ -18,32 +18,6 @@
     }
   ],
   "projects": [
-    {
-      "id": "p3nqejx",
-      "title": "Iwana Proxy",
-      "icon": "icons/i-u5ai19lt.webp",
-      "layout": {
-        "mode": "grid",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "desc": "پروکسی یاب تلگرام، متناسب با اینترنت شما!",
-      "tags": [
-        "پروکسی"
-      ],
-      "links": [
-        {
-          "label": "نسخه اندروید",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
-        },
-        {
-          "label": "سیستم های دیگه",
-          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/tag/v1.0.0"
-        }
-      ],
-      "sample": true
-    },
     {
       "id": "ppz3jts",
       "title": "Iwana VPN",
@@ -70,6 +44,32 @@
         {
           "label": "لینوکس",
           "url": "https://github.com/Iwanian/Iwana-VPN/releases/latest/download/IwanaVPN-Linux.AppImage"
+        }
+      ],
+      "sample": true
+    },
+    {
+      "id": "p3nqejx",
+      "title": "Iwana Proxy",
+      "icon": "icons/i-u5ai19lt.webp",
+      "layout": {
+        "mode": "grid",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "desc": "پروکسی یاب تلگرام، متناسب با اینترنت شما!",
+      "tags": [
+        "پروکسی"
+      ],
+      "links": [
+        {
+          "label": "نسخه اندروید",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/download/v1.0.0/Iwana-Proxy-Android.apk"
+        },
+        {
+          "label": "سیستم های دیگه",
+          "url": "https://github.com/Iwanian/Iwana-Proxy/releases/tag/v1.0.0"
         }
       ],
       "sample": true
