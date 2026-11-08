@@ -1,5 +1,5 @@
 {
-  "rev": 12,
+  "rev": 13,
   "sections": [
     {
       "id": "vpn",
@@ -38,12 +38,8 @@
           "url": "https://github.com/Iwanian/Iwana-VPN/releases/latest/download/IwanaVPN-android-Universal.apk"
         },
         {
-          "label": "ویندوز",
+          "label": "سیستم های دیگه",
           "url": "https://github.com/Iwanian/Iwana-VPN/releases"
-        },
-        {
-          "label": "لینوکس",
-          "url": "https://github.com/Iwanian/Iwana-VPN/releases/latest/download/IwanaVPN-Linux.AppImage"
         }
       ],
       "sample": true
