@@ -1,5 +1,5 @@
 {
-  "rev": 7,
+  "rev": 8,
   "sections": [
     {
       "id": "vpn",
@@ -844,6 +844,8 @@
         "align": "center",
         "fill": true
       },
+      "home": "https://github.com/paranoideveloper",
+      "guideUrl": "",
       "kind": "DNS & VPN",
       "desc": "کلاینت white dns برای ios.",
       "steps": [],
@@ -853,9 +855,7 @@
           "file": "",
           "os": "ios"
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     },
     {
       "id": "azwtdad",
