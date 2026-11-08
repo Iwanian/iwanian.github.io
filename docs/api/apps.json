@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T18:42:47.048Z",
+ "generated": "2026-11-08T18:43:25.995Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -6937,7 +6937,7 @@
    "description": "مناسب دوران قطعی",
    "icon": "https://iwanian.github.io/icons/i-8cj0ih57.webp",
    "page": "https://iwanian.github.io/#apps",
-   "homepage": "",
+   "homepage": "https://github.com/WhiteDNS/WhiteDNS-Desktop/",
    "guide_url": "",
    "guide_steps": [],
    "version": "1.6.16",
