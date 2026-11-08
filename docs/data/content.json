@@ -1,5 +1,5 @@
 {
-  "rev": 10,
+  "rev": 11,
   "sections": [
     {
       "id": "vpn",
@@ -45,28 +45,6 @@
       "sample": true
     },
     {
-      "id": "pj7a4sw",
-      "title": "Iwana Bot",
-      "icon": "icons/i-3dn9ffq3.webp",
-      "layout": {
-        "mode": "row",
-        "cols": 2,
-        "align": "center",
-        "fill": true
-      },
-      "desc": "این ربات تا اینترنت آزاد همراهته!",
-      "tags": [
-        "ربات"
-      ],
-      "links": [
-        {
-          "label": "ورود به ربات",
-          "url": "https://t.me/I_w_a_n_a_bot"
-        }
-      ],
-      "sample": true
-    },
-    {
       "id": "ppz3jts",
       "title": "Iwana VPN",
       "icon": "icons/i-ch44ugdo.webp",
@@ -92,6 +70,28 @@
         {
           "label": "لینوکس",
           "url": "https://github.com/Iwanian/Iwana-VPN/releases/latest/download/IwanaVPN-Linux.AppImage"
+        }
+      ],
+      "sample": true
+    },
+    {
+      "id": "pj7a4sw",
+      "title": "Iwana Bot",
+      "icon": "icons/i-3dn9ffq3.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "center",
+        "fill": true
+      },
+      "desc": "این ربات تا اینترنت آزاد همراهته!",
+      "tags": [
+        "ربات"
+      ],
+      "links": [
+        {
+          "label": "ورود به ربات",
+          "url": "https://t.me/I_w_a_n_a_bot"
         }
       ],
       "sample": true
