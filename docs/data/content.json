@@ -1,5 +1,5 @@
 {
-  "rev": 4,
+  "rev": 5,
   "sections": [
     {
       "id": "vpn",
@@ -292,6 +292,8 @@
         "align": "start",
         "fill": true
       },
+      "home": "https://github.com/SagerNet/sing-box/",
+      "guideUrl": "",
       "kind": "هستهٔ جهانی و کلاینت رسمی",
       "desc": "کلاینت رسمی sing-box",
       "steps": [
@@ -310,9 +312,7 @@
           "file": "",
           "os": ""
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     },
     {
       "id": "outline",
