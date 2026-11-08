@@ -1,5 +1,5 @@
 {
-  "rev": 9,
+  "rev": 10,
   "sections": [
     {
       "id": "vpn",
@@ -62,6 +62,36 @@
         {
           "label": "ورود به ربات",
           "url": "https://t.me/I_w_a_n_a_bot"
+        }
+      ],
+      "sample": true
+    },
+    {
+      "id": "ppz3jts",
+      "title": "Iwana VPN",
+      "icon": "icons/i-ch44ugdo.webp",
+      "layout": {
+        "mode": "row",
+        "cols": 2,
+        "align": "start",
+        "fill": true
+      },
+      "desc": "فیلترشکن ساده و همه چیز تمام!",
+      "tags": [
+        "VPN"
+      ],
+      "links": [
+        {
+          "label": "اندروید",
+          "url": "https://github.com/Iwanian/Iwana-VPN/releases/latest/download/IwanaVPN-android-Universal.apk"
+        },
+        {
+          "label": "ویندوز",
+          "url": "https://github.com/Iwanian/Iwana-VPN/releases"
+        },
+        {
+          "label": "لینوکس",
+          "url": "https://github.com/Iwanian/Iwana-VPN/releases/latest/download/IwanaVPN-Linux.AppImage"
         }
       ],
       "sample": true
