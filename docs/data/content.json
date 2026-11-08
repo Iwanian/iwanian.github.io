@@ -1,5 +1,5 @@
 {
-  "rev": 5,
+  "rev": 6,
   "sections": [
     {
       "id": "vpn",
@@ -564,6 +564,8 @@
         "align": "start",
         "fill": true
       },
+      "home": "https://github.com/getlantern/lantern/",
+      "guideUrl": "",
       "kind": "VPN",
       "desc": "",
       "steps": [],
@@ -578,9 +580,7 @@
           "file": "",
           "os": "ios"
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     },
     {
       "id": "a5vuzzw",
