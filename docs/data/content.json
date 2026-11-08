@@ -1,5 +1,5 @@
 {
-  "rev": 8,
+  "rev": 9,
   "sections": [
     {
       "id": "vpn",
@@ -897,6 +897,8 @@
         "align": "center",
         "fill": true
       },
+      "home": "https://github.com/CluvexStudio/",
+      "guideUrl": "",
       "kind": "کلاینت چندپروتکلی",
       "desc": "یک کلاینت دور زدن سانسور اینترنت برای شبکه‌های به‌شدت محدود و فیلترشده",
       "steps": [
@@ -908,9 +910,7 @@
           "file": "",
           "os": ""
         }
-      ],
-      "home": "",
-      "guideUrl": ""
+      ]
     }
   ],
   "support": {
