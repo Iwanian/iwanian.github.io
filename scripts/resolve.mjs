@@ -94,6 +94,18 @@ export function baseUrl(content, env = process.env) {
 
 const bestVer = ds => ds.reduce((m, d) => (d.version && (!m || D.cmpVer({ ver: d.version }, { ver: m }) > 0) ? d.version : m), '');
 
+const PLAT_ORDER = ['android', 'ios', 'windows', 'macos', 'linux', 'chrome', 'edge', 'firefox', 'opera', 'safari'];
+/* one file per platform+CPU+format: the newest release only (stable beats pre-release); sorted by platform */
+export function latestOnly(downloads) {
+  const best = new Map();
+  for (const d of downloads) {
+    const k = [d.platform, d.arch, d.format, d.kind].join('|'), b = best.get(k);
+    if (!b || (b.prerelease && !d.prerelease) || (b.prerelease === d.prerelease && d._rank < b._rank)) best.set(k, d);
+  }
+  const out = [...best.values()].sort((x, y) => (PLAT_ORDER.indexOf(x.platform) + 1 || 99) - (PLAT_ORDER.indexOf(y.platform) + 1 || 99) || String(x.arch).localeCompare(String(y.arch)));
+  return out.map(({ _rank, ...d }) => d);
+}
+
 export function buildApps(content, links, base, t) {
   const abs = p => (p ? base + p : '');
   const apps = (content.apps || []).map(a => {
@@ -105,13 +117,14 @@ export function buildApps(content, links, base, t) {
         if (!c.href || seen.has(c.href)) continue;
         if (l.os && c.plat && l.os !== c.plat && !(['edge', 'opera'].includes(l.os) && c.plat === 'chrome')) continue;
         seen.add(c.href);
-        downloads.push({ platform: c.plat || l.os || '', arch: c.arch || '', format: c.fmt || '', kind: c.kind === 'store' ? 'store' : 'file', store: c.store || '', url: c.href, name: c.name || '', version: c.tag || c.ver || '', prerelease: !!c.pre, size: c.size || 0, published: c.date || '' });
+        downloads.push({ platform: c.plat || l.os || '', arch: c.arch || '', format: c.fmt || '', kind: c.kind === 'store' ? 'store' : 'file', store: c.store || '', url: c.href, name: c.name || '', version: c.tag || c.ver || '', prerelease: !!c.pre, size: c.size || 0, published: c.date || '', _rank: c.ri == null ? 0 : c.ri });
       }
     }
+    const kept = latestOnly(downloads);
     return {
       id: a.id, name: a.name, category: a.category, kind: a.kind || '', description: a.desc || '',
       icon: a.icon ? abs(a.icon) : '', page: base + '#apps', homepage: a.home || '', guide_url: a.guideUrl || '', guide_steps: a.steps || [],
-      version: bestVer(downloads), downloads,
+      version: bestVer(kept), published: kept.reduce((m, d) => (d.published > m ? d.published : m), ''), downloads: kept,
     };
   });
   return { generated: t, site: base, count: apps.length, apps };
@@ -136,14 +149,20 @@ export function diffUpdates(prevApps, apps, prevUpdates, t) {
   return { events, file: { generated: t, seq, updates: all.map((e, i) => ({ ...e, id: seq - i })) } };
 }
 
+const TG_PLAT = { android: 'Android', ios: 'iOS', windows: 'Windows', macos: 'macOS', linux: 'Linux', chrome: 'Chrome', edge: 'Edge', firefox: 'Firefox', opera: 'Opera', safari: 'Safari' };
+export function tgButtons(downloads) {   // compact URL buttons, two per row, e.g. "Windows · x64"
+  const btns = downloads.filter(d => /^https:\/\//.test(d.url)).slice(0, 12).map(d => ({ text: (TG_PLAT[d.platform] || d.platform) + (d.arch && d.arch !== 'universal' ? ' · ' + d.arch : '') + (d.kind === 'store' ? ' · ' + (d.store || 'Store') : ''), url: d.url }));
+  const rows = []; for (let i = 0; i < btns.length; i += 2) rows.push(btns.slice(i, i + 2));
+  return rows;
+}
 async function telegram(events, apps, base) {
   const tok = process.env.TELEGRAM_BOT_TOKEN, chat = process.env.TELEGRAM_CHAT_ID;
   if (!tok || !chat || !events.length) return;
   for (const e of events) {
     const a = apps.apps.find(x => x.id === e.app);
-    const lines = [(e.type === 'new' ? '🆕 ' : '🔄 ') + e.name + (e.version ? ' — ' + e.version : '')];
-    for (const d of (a && a.downloads || []).slice(0, 6)) lines.push(`• ${d.platform}${d.arch ? ' ' + d.arch : ''}${d.format ? ' .' + d.format : ''}: ${d.url}`);
-    try { await fetch(`https://api.telegram.org/bot${tok}/sendMessage`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ chat_id: chat, text: lines.join('\n'), disable_web_page_preview: true }) }); } catch (e2) { console.log('telegram failed', String(e2.message || e2)); }
+    const text = (e.type === 'new' ? '🆕 ' : '🔄 ') + e.name + (e.version ? ' — ' + e.version : '');
+    const reply_markup = { inline_keyboard: tgButtons(a && a.downloads || []) };
+    try { await fetch(`https://api.telegram.org/bot${tok}/sendMessage`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ chat_id: chat, text, reply_markup, disable_web_page_preview: true }) }); } catch (e2) { console.log('telegram failed', String(e2.message || e2)); }
   }
 }
 
