@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T02:09:12.174Z",
+ "generated": "2026-11-09T20:08:36.825Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -20,7 +20,7 @@
     "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
    ],
    "version": "v5.5.5",
-   "published": "2026-11-04T21:06:14Z",
+   "published": "2026-11-09T16:08:37Z",
    "downloads": [
     {
      "platform": "android",
@@ -142,19 +142,6 @@
     {
      "platform": "macos",
      "arch": "",
-     "format": "dmg",
-     "kind": "file",
-     "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS-AppStore.dmg",
-     "name": "Hiddify-MacOS-AppStore.dmg",
-     "version": "v5.5.5",
-     "prerelease": false,
-     "size": 222575498,
-     "published": "2026-11-04T21:06:14Z"
-    },
-    {
-     "platform": "macos",
-     "arch": "",
      "format": "pkg",
      "kind": "file",
      "store": "",
@@ -163,6 +150,19 @@
      "version": "v5.5.5",
      "prerelease": false,
      "size": 197593864,
+     "published": "2026-11-04T21:06:14Z"
+    },
+    {
+     "platform": "macos",
+     "arch": "",
+     "format": "dmg",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/v5.5.5/Hiddify-MacOS-AppStore.dmg",
+     "name": "Hiddify-MacOS-AppStore.dmg",
+     "version": "v5.5.5",
+     "prerelease": false,
+     "size": 222575498,
      "published": "2026-11-04T21:06:14Z"
     },
     {
@@ -210,12 +210,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-rpm-x64.rpm",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-rpm-x64.rpm",
      "name": "Hiddify-rpm-x64.rpm",
-     "version": "v2.5.7",
+     "version": "draft",
      "prerelease": true,
-     "size": 35248648,
-     "published": "2024-10-03T23:09:37Z"
+     "size": 65382629,
+     "published": "2026-11-09T16:08:37Z"
     }
    ]
   },

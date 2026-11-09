@@ -1,7 +1,16 @@
 {
- "generated": "2026-11-09T02:09:12.174Z",
- "seq": 173,
+ "generated": "2026-11-09T20:08:36.825Z",
+ "seq": 174,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v5.5.5",
+   "previous": "v5.5.5",
+   "t": "2026-11-09T20:08:36.825Z",
+   "id": 174
+  },
   {
    "app": "a2ag89w",
    "name": "X VPN",
@@ -892,15 +901,6 @@
    "previous": "v1.15.0-alpha.12",
    "t": "2026-10-15T15:07:52.467Z",
    "id": 75
-  },
-  {
-   "app": "atz0tg7",
-   "name": "AETHER",
-   "type": "update",
-   "version": "v2.3.0",
-   "previous": "v2.3.0",
-   "t": "2026-10-15T15:07:52.467Z",
-   "id": 74
   }
  ]
 }
