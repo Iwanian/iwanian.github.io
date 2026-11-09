@@ -1,5 +1,5 @@
 {
- "t": "2026-11-06T17:24:30.560Z",
+ "t": "2026-11-09T02:09:12.174Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -59232,9 +59232,9 @@
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
-    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_78.3.0_6402_6ea88f025_arm64_2026-10-28-10-53-45.dmg",
-    "name": "X-VPN_78.3.0_6402_6ea88f025_arm64_2026-10-28-10-53-45.dmg",
-    "ver": "78.3.0"
+    "href": "https://z3d9.com/6ays8gw3vw/X-VPN_78.3.1_6441_844da841c_arm64_2026-11-04-09-05-52.dmg",
+    "name": "X-VPN_78.3.1_6441_844da841c_arm64_2026-11-04-09-05-52.dmg",
+    "ver": "78.3.1"
    }
   ],
   "https://z3d9.com/6ays8gw3vw/X-VPN_77.5.4_5765_0c8712af_2026-07-10-10-15-05.dmg": [
