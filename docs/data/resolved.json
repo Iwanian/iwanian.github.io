@@ -1,5 +1,5 @@
 {
- "t": "2026-11-09T20:08:36.825Z",
+ "t": "2026-11-10T02:40:52.809Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -57871,6 +57871,132 @@
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Android-arm64-v8a.apk",
+    "name": "DefyxVPN-Android-arm64-v8a.apk",
+    "size": 112438412,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Android-armeabi-v7a.apk",
+    "name": "DefyxVPN-Android-armeabi-v7a.apk",
+    "size": 105676018,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Android-universal.apk",
+    "name": "DefyxVPN-Android-universal.apk",
+    "size": 307046287,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Android-x86_64.apk",
+    "name": "DefyxVPN-Android-x86_64.apk",
+    "size": 119661717,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "appimage",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Linux.AppImage",
+    "name": "DefyxVPN-Linux.AppImage",
+    "size": 51796472,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Linux.deb",
+    "name": "DefyxVPN-Linux.deb",
+    "size": 55278134,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Linux.rpm",
+    "name": "DefyxVPN-Linux.rpm",
+    "size": 55313334,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Windows-Installer-x64.exe",
+    "name": "DefyxVPN-Windows-Installer-x64.exe",
+    "size": 50516575,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Windows-Portable-x64.zip",
+    "name": "DefyxVPN-Windows-Portable-x64.zip",
+    "size": 44028520,
+    "tag": "v5.13.2",
+    "pre": false,
+    "date": "2026-11-09T22:31:44Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
     "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Android-arm64-v8a.apk",
     "name": "DefyxVPN-Android-arm64-v8a.apk",
     "size": 112569824,
@@ -57881,7 +58007,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -57895,7 +58021,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -57909,7 +58035,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -57923,7 +58049,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -57937,7 +58063,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -57951,7 +58077,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -57965,7 +58091,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -57979,7 +58105,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -57993,7 +58119,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58007,7 +58133,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58021,7 +58147,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58035,7 +58161,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58049,7 +58175,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58063,7 +58189,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58077,7 +58203,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58091,7 +58217,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -58105,7 +58231,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -58119,7 +58245,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58133,7 +58259,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58147,7 +58273,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58161,7 +58287,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58175,7 +58301,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58189,7 +58315,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58203,7 +58329,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58217,7 +58343,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -58231,7 +58357,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -58245,7 +58371,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58259,7 +58385,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58273,7 +58399,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58287,7 +58413,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58301,7 +58427,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58315,7 +58441,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58329,7 +58455,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58343,7 +58469,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -58357,7 +58483,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -58371,7 +58497,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58385,7 +58511,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58399,7 +58525,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58413,7 +58539,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58427,7 +58553,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58441,7 +58567,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58455,7 +58581,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58469,7 +58595,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -58483,7 +58609,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -58497,7 +58623,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58511,7 +58637,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58525,7 +58651,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58539,7 +58665,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58553,7 +58679,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58567,7 +58693,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58581,7 +58707,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58595,7 +58721,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -58609,7 +58735,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -58623,7 +58749,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58637,7 +58763,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58651,7 +58777,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58665,7 +58791,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58679,7 +58805,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58693,7 +58819,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58707,7 +58833,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58721,7 +58847,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -58735,7 +58861,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58749,7 +58875,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58763,7 +58889,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58777,7 +58903,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58791,7 +58917,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58805,7 +58931,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58819,7 +58945,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58833,7 +58959,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -58847,7 +58973,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58861,7 +58987,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58875,7 +59001,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58889,7 +59015,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58903,7 +59029,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58917,7 +59043,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58931,7 +59057,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58945,7 +59071,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -58959,7 +59085,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -58973,7 +59099,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58987,7 +59113,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59001,7 +59127,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59015,7 +59141,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59029,7 +59155,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59043,7 +59169,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59057,7 +59183,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59071,7 +59197,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59085,7 +59211,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59099,7 +59225,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59113,7 +59239,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59127,7 +59253,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59137,118 +59263,6 @@
     "tag": "v5.7.2",
     "pre": false,
     "date": "2026-07-08T21:46:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.1/DefyxVPN-Android-arm64-v8a.apk",
-    "name": "DefyxVPN-Android-arm64-v8a.apk",
-    "size": 88535097,
-    "tag": "v5.7.1",
-    "pre": true,
-    "date": "2026-06-28T21:48:26Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.1/DefyxVPN-Android-armeabi-v7a.apk",
-    "name": "DefyxVPN-Android-armeabi-v7a.apk",
-    "size": 83350041,
-    "tag": "v5.7.1",
-    "pre": true,
-    "date": "2026-06-28T21:48:26Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.1/DefyxVPN-Android-universal.apk",
-    "name": "DefyxVPN-Android-universal.apk",
-    "size": 237471575,
-    "tag": "v5.7.1",
-    "pre": true,
-    "date": "2026-06-28T21:48:26Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.1/DefyxVPN-Android-x86_64.apk",
-    "name": "DefyxVPN-Android-x86_64.apk",
-    "size": 93979885,
-    "tag": "v5.7.1",
-    "pre": true,
-    "date": "2026-06-28T21:48:26Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "appimage",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.1/DefyxVPN-Linux.AppImage",
-    "name": "DefyxVPN-Linux.AppImage",
-    "size": 43350520,
-    "tag": "v5.7.1",
-    "pre": true,
-    "date": "2026-06-28T21:48:26Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "deb",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.1/DefyxVPN-Linux.deb",
-    "name": "DefyxVPN-Linux.deb",
-    "size": 52645092,
-    "tag": "v5.7.1",
-    "pre": true,
-    "date": "2026-06-28T21:48:26Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.1/DefyxVPN-Linux.rpm",
-    "name": "DefyxVPN-Linux.rpm",
-    "size": 58258135,
-    "tag": "v5.7.1",
-    "pre": true,
-    "date": "2026-06-28T21:48:26Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.1/DefyxVPN-Windows-Portable-x64.zip",
-    "name": "DefyxVPN-Windows-Portable-x64.zip",
-    "size": 36835624,
-    "tag": "v5.7.1",
-    "pre": true,
-    "date": "2026-06-28T21:48:26Z"
    }
   ],
   "https://play.google.com/store/apps/details?id=de.unboundtech.defyxvpn": [

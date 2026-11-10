@@ -1,7 +1,16 @@
 {
- "generated": "2026-11-09T20:08:36.825Z",
- "seq": 174,
+ "generated": "2026-11-10T02:40:52.809Z",
+ "seq": 175,
  "updates": [
+  {
+   "app": "a5vuzzw",
+   "name": "DEFYX VPN",
+   "type": "update",
+   "version": "v5.13.2",
+   "previous": "v5.13.0",
+   "t": "2026-11-10T02:40:52.809Z",
+   "id": 175
+  },
   {
    "app": "hiddify",
    "name": "Hiddify",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-15T21:56:30.169Z",
    "id": 76
-  },
-  {
-   "app": "singbox",
-   "name": "sing-box",
-   "type": "update",
-   "version": "v1.15.0-alpha.12",
-   "previous": "v1.15.0-alpha.12",
-   "t": "2026-10-15T15:07:52.467Z",
-   "id": 75
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:08:36.825Z",
+ "generated": "2026-11-10T02:40:52.809Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -1837,8 +1837,8 @@
    "homepage": "https://github.com/UnboundTechCo/defyxVPN/",
    "guide_url": "",
    "guide_steps": [],
-   "version": "v5.13.0",
-   "published": "2026-11-02T20:37:35Z",
+   "version": "v5.13.2",
+   "published": "2026-11-09T22:31:44Z",
    "downloads": [
     {
      "platform": "android",
@@ -1859,12 +1859,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Android-arm64-v8a.apk",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Android-arm64-v8a.apk",
      "name": "DefyxVPN-Android-arm64-v8a.apk",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 112569824,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 112438412,
+     "published": "2026-11-09T22:31:44Z"
     },
     {
      "platform": "android",
@@ -1872,12 +1872,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Android-armeabi-v7a.apk",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Android-armeabi-v7a.apk",
      "name": "DefyxVPN-Android-armeabi-v7a.apk",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 105840182,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 105676018,
+     "published": "2026-11-09T22:31:44Z"
     },
     {
      "platform": "android",
@@ -1885,12 +1885,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Android-universal.apk",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Android-universal.apk",
      "name": "DefyxVPN-Android-universal.apk",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 307472579,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 307046287,
+     "published": "2026-11-09T22:31:44Z"
     },
     {
      "platform": "android",
@@ -1898,12 +1898,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Android-x86_64.apk",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Android-x86_64.apk",
      "name": "DefyxVPN-Android-x86_64.apk",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 119793097,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 119661717,
+     "published": "2026-11-09T22:31:44Z"
     },
     {
      "platform": "ios",
@@ -1924,12 +1924,12 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Windows-Installer-x64.exe",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Windows-Installer-x64.exe",
      "name": "DefyxVPN-Windows-Installer-x64.exe",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 50871788,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 50516575,
+     "published": "2026-11-09T22:31:44Z"
     },
     {
      "platform": "windows",
@@ -1937,12 +1937,12 @@
      "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Windows-Portable-x64.zip",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Windows-Portable-x64.zip",
      "name": "DefyxVPN-Windows-Portable-x64.zip",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 44387057,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 44028520,
+     "published": "2026-11-09T22:31:44Z"
     },
     {
      "platform": "linux",
@@ -1950,12 +1950,12 @@
      "format": "appimage",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Linux.AppImage",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Linux.AppImage",
      "name": "DefyxVPN-Linux.AppImage",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 52152824,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 51796472,
+     "published": "2026-11-09T22:31:44Z"
     },
     {
      "platform": "linux",
@@ -1963,12 +1963,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Linux.deb",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Linux.deb",
      "name": "DefyxVPN-Linux.deb",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 56007318,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 55278134,
+     "published": "2026-11-09T22:31:44Z"
     },
     {
      "platform": "linux",
@@ -1976,12 +1976,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.0/DefyxVPN-Linux.rpm",
+     "url": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.13.2/DefyxVPN-Linux.rpm",
      "name": "DefyxVPN-Linux.rpm",
-     "version": "v5.13.0",
+     "version": "v5.13.2",
      "prerelease": false,
-     "size": 56057521,
-     "published": "2026-11-02T20:37:35Z"
+     "size": 55313334,
+     "published": "2026-11-09T22:31:44Z"
     }
    ]
   },
