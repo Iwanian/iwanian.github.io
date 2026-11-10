@@ -1,7 +1,16 @@
 {
- "generated": "2026-11-10T02:40:52.809Z",
- "seq": 175,
+ "generated": "2026-11-10T10:27:59.142Z",
+ "seq": 176,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v5.5.5",
+   "previous": "v5.5.5",
+   "t": "2026-11-10T10:27:59.142Z",
+   "id": 176
+  },
   {
    "app": "a5vuzzw",
    "name": "DEFYX VPN",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-15T21:56:30.169Z",
    "id": 77
-  },
-  {
-   "app": "wireguard",
-   "name": "WireGuard",
-   "type": "update",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-15T21:56:30.169Z",
-   "id": 76
   }
  ]
 }
