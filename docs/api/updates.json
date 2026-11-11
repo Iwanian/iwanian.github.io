@@ -1,7 +1,16 @@
 {
- "generated": "2026-11-10T10:27:59.142Z",
- "seq": 176,
+ "generated": "2026-11-11T23:40:03.506Z",
+ "seq": 177,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v5.5.5",
+   "previous": "v5.5.5",
+   "t": "2026-11-11T23:40:03.506Z",
+   "id": 177
+  },
   {
    "app": "hiddify",
    "name": "Hiddify",
@@ -892,15 +901,6 @@
    "previous": "",
    "t": "2026-10-15T21:56:30.169Z",
    "id": 78
-  },
-  {
-   "app": "psiphon",
-   "name": "Psiphon",
-   "type": "new",
-   "version": "",
-   "previous": "",
-   "t": "2026-10-15T21:56:30.169Z",
-   "id": 77
   }
  ]
 }

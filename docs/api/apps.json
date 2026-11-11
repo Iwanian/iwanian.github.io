@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T10:27:59.142Z",
+ "generated": "2026-11-11T23:40:03.506Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -20,7 +20,7 @@
     "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
    ],
    "version": "v5.5.5",
-   "published": "2026-11-10T08:39:07Z",
+   "published": "2026-11-11T23:09:28Z",
    "downloads": [
     {
      "platform": "android",
@@ -175,8 +175,8 @@
      "name": "Hiddify-Debian-arm64.deb",
      "version": "draft",
      "prerelease": true,
-     "size": 52456330,
-     "published": "2026-11-10T08:39:07Z"
+     "size": 53409006,
+     "published": "2026-11-11T23:09:28Z"
     },
     {
      "platform": "linux",
@@ -184,12 +184,12 @@
      "format": "appimage",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-arm64-AppImage.AppImage",
-     "name": "Hiddify-Linux-arm64-AppImage.AppImage",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-arm64.AppImage",
+     "name": "Hiddify-Linux-arm64.AppImage",
      "version": "draft",
      "prerelease": true,
-     "size": 67082760,
-     "published": "2026-11-10T08:39:07Z"
+     "size": 68336136,
+     "published": "2026-11-11T23:09:28Z"
     },
     {
      "platform": "linux",
@@ -197,12 +197,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-arm64-AppImage.tar.gz",
-     "name": "Hiddify-Linux-arm64-AppImage.tar.gz",
+     "url": "https://github.com/hiddify/hiddify-app/releases/download/draft/Hiddify-Linux-arm64.AppImage.tar.gz",
+     "name": "Hiddify-Linux-arm64.AppImage.tar.gz",
      "version": "draft",
      "prerelease": true,
-     "size": 66542844,
-     "published": "2026-11-10T08:39:07Z"
+     "size": 67770863,
+     "published": "2026-11-11T23:09:28Z"
     },
     {
      "platform": "linux",
@@ -214,8 +214,8 @@
      "name": "Hiddify-rpm-arm64.rpm",
      "version": "draft",
      "prerelease": true,
-     "size": 61962660,
-     "published": "2026-11-10T08:39:07Z"
+     "size": 63447891,
+     "published": "2026-11-11T23:09:28Z"
     },
     {
      "platform": "linux",
@@ -266,8 +266,8 @@
      "name": "Hiddify-rpm-x64.rpm",
      "version": "draft",
      "prerelease": true,
-     "size": 65413077,
-     "published": "2026-11-10T08:39:07Z"
+     "size": 66862123,
+     "published": "2026-11-11T23:09:28Z"
     }
    ]
   },
