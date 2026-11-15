@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T23:30:12.392Z",
+ "generated": "2026-11-15T17:12:06.268Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -20,7 +20,7 @@
     "اگر وصل نشد، حالت اتصال (پراکسی یا VPN) را عوض کنید."
    ],
    "version": "v5.5.5",
-   "published": "2026-11-14T23:21:28Z",
+   "published": "2026-11-15T16:02:07Z",
    "downloads": [
     {
      "platform": "android",
@@ -175,8 +175,8 @@
      "name": "Hiddify-Debian-arm64.deb",
      "version": "draft",
      "prerelease": true,
-     "size": 53757338,
-     "published": "2026-11-14T23:21:28Z"
+     "size": 53715442,
+     "published": "2026-11-15T16:02:07Z"
     },
     {
      "platform": "linux",
@@ -188,8 +188,8 @@
      "name": "Hiddify-Linux-arm64.AppImage",
      "version": "draft",
      "prerelease": true,
-     "size": 68676104,
-     "published": "2026-11-14T23:21:28Z"
+     "size": 68721160,
+     "published": "2026-11-15T16:02:07Z"
     },
     {
      "platform": "linux",
@@ -201,8 +201,8 @@
      "name": "Hiddify-Linux-arm64.AppImage.tar.gz",
      "version": "draft",
      "prerelease": true,
-     "size": 68110221,
-     "published": "2026-11-14T23:21:28Z"
+     "size": 68158820,
+     "published": "2026-11-15T16:02:07Z"
     },
     {
      "platform": "linux",
@@ -214,8 +214,8 @@
      "name": "Hiddify-rpm-arm64.rpm",
      "version": "draft",
      "prerelease": true,
-     "size": 63807879,
-     "published": "2026-11-14T23:21:28Z"
+     "size": 63849567,
+     "published": "2026-11-15T16:02:07Z"
     },
     {
      "platform": "linux",
@@ -266,8 +266,8 @@
      "name": "Hiddify-rpm-x64.rpm",
      "version": "draft",
      "prerelease": true,
-     "size": 67238131,
-     "published": "2026-11-14T23:21:28Z"
+     "size": 67268684,
+     "published": "2026-11-15T16:02:07Z"
     }
    ]
   },
