@@ -1,5 +1,5 @@
 {
- "t": "2026-11-19T21:47:55.745Z",
+ "t": "2026-11-20T18:41:14.087Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -249,7 +249,7 @@
     "fmt": "installer",
     "href": "https://github.com/hiddify/hiddify-app/releases/download/v5.9.15/Hiddify-Windows-Setup-x64.Msix",
     "name": "Hiddify-Windows-Setup-x64.Msix",
-    "size": 71778545,
+    "size": 71786050,
     "tag": "v5.9.15",
     "pre": true,
     "date": "2026-11-19T07:44:59Z"
