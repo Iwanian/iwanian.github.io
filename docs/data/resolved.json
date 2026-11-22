@@ -1,5 +1,5 @@
 {
- "t": "2026-11-22T07:31:53.668Z",
+ "t": "2026-11-22T15:36:44.240Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -4581,6 +4581,678 @@
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64-aot.zip",
+    "name": "v2rayN-linux-64-aot.zip",
+    "size": 120226139,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64-WebAPI-update.zip",
+    "name": "v2rayN-linux-64-WebAPI-update.zip",
+    "size": 49832470,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64-WebAPI.zip",
+    "name": "v2rayN-linux-64-WebAPI.zip",
+    "size": 131051676,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64.deb",
+    "name": "v2rayN-linux-64.deb",
+    "size": 88131448,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64.zip",
+    "name": "v2rayN-linux-64.zip",
+    "size": 143920384,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-86.deb",
+    "name": "v2rayN-linux-86.deb",
+    "size": 72190988,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64-aot.zip",
+    "name": "v2rayN-linux-arm64-aot.zip",
+    "size": 112185067,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64-WebAPI-update.zip",
+    "name": "v2rayN-linux-arm64-WebAPI-update.zip",
+    "size": 47587446,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64-WebAPI.zip",
+    "name": "v2rayN-linux-arm64-WebAPI.zip",
+    "size": 122933251,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64.deb",
+    "name": "v2rayN-linux-arm64.deb",
+    "size": 79190308,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64.zip",
+    "name": "v2rayN-linux-arm64.zip",
+    "size": 135325733,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-loong64-WebAPI-update.zip",
+    "name": "v2rayN-linux-loong64-WebAPI-update.zip",
+    "size": 44674788,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-loong64-WebAPI.zip",
+    "name": "v2rayN-linux-loong64-WebAPI.zip",
+    "size": 118493307,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-loong64.deb",
+    "name": "v2rayN-linux-loong64.deb",
+    "size": 144398696,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-ppc64le.deb",
+    "name": "v2rayN-linux-ppc64le.deb",
+    "size": 69662212,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-64.rpm",
+    "name": "v2rayN-linux-rhel-64.rpm",
+    "size": 97321993,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-86.rpm",
+    "name": "v2rayN-linux-rhel-86.rpm",
+    "size": 72566004,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-arm64.rpm",
+    "name": "v2rayN-linux-rhel-arm64.rpm",
+    "size": 91074310,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-loong64.rpm",
+    "name": "v2rayN-linux-rhel-loong64.rpm",
+    "size": 87714154,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-ppc64le.rpm",
+    "name": "v2rayN-linux-rhel-ppc64le.rpm",
+    "size": 71624047,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-riscv64.rpm",
+    "name": "v2rayN-linux-rhel-riscv64.rpm",
+    "size": 90164133,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-riscv64-WebAPI-update.zip",
+    "name": "v2rayN-linux-riscv64-WebAPI-update.zip",
+    "size": 134983272,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-riscv64-WebAPI.zip",
+    "name": "v2rayN-linux-riscv64-WebAPI.zip",
+    "size": 208139034,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-riscv64.deb",
+    "name": "v2rayN-linux-riscv64.deb",
+    "size": 148923516,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "zip",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-64-aot.zip",
+    "name": "v2rayN-macos-64-aot.zip",
+    "size": 119989840,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "dmg",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-64.dmg",
+    "name": "v2rayN-macos-64.dmg",
+    "size": 143853240,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "zip",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-64.zip",
+    "name": "v2rayN-macos-64.zip",
+    "size": 146138848,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "zip",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-arm64-aot.zip",
+    "name": "v2rayN-macos-arm64-aot.zip",
+    "size": 113021567,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "dmg",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-arm64.dmg",
+    "name": "v2rayN-macos-arm64.dmg",
+    "size": 136701107,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "zip",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-arm64.zip",
+    "name": "v2rayN-macos-arm64.zip",
+    "size": 138685208,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-desktop-aot.zip",
+    "name": "v2rayN-windows-64-desktop-aot.zip",
+    "size": 119552640,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-desktop.exe",
+    "name": "v2rayN-windows-64-desktop.exe",
+    "size": 128019331,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-desktop.zip",
+    "name": "v2rayN-windows-64-desktop.zip",
+    "size": 145862974,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-WebAPI-update.zip",
+    "name": "v2rayN-windows-64-WebAPI-update.zip",
+    "size": 56897500,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-WebAPI.zip",
+    "name": "v2rayN-windows-64-WebAPI.zip",
+    "size": 140075614,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64.exe",
+    "name": "v2rayN-windows-64.exe",
+    "size": 127057387,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64.zip",
+    "name": "v2rayN-windows-64.zip",
+    "size": 169220115,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86-desktop.exe",
+    "name": "v2rayN-windows-86-desktop.exe",
+    "size": 118617279,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86-desktop.zip",
+    "name": "v2rayN-windows-86-desktop.zip",
+    "size": 146484036,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86.exe",
+    "name": "v2rayN-windows-86.exe",
+    "size": 116983695,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86.zip",
+    "name": "v2rayN-windows-86.zip",
+    "size": 141539925,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-desktop-aot.zip",
+    "name": "v2rayN-windows-arm64-desktop-aot.zip",
+    "size": 110437648,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-desktop.exe",
+    "name": "v2rayN-windows-arm64-desktop.exe",
+    "size": 120391781,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-desktop.zip",
+    "name": "v2rayN-windows-arm64-desktop.zip",
+    "size": 136231395,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-WebAPI-update.zip",
+    "name": "v2rayN-windows-arm64-WebAPI-update.zip",
+    "size": 54506844,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-WebAPI.zip",
+    "name": "v2rayN-windows-arm64-WebAPI.zip",
+    "size": 130570925,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64.exe",
+    "name": "v2rayN-windows-arm64.exe",
+    "size": 115602537,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64.zip",
+    "name": "v2rayN-windows-arm64.zip",
+    "size": 156533515,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
     "href": "https://github.com/2dust/v2rayN/releases/download/8.0.0/v2rayN-linux-64-aot.zip",
     "name": "v2rayN-linux-64-aot.zip",
     "size": 120233533,
@@ -4591,7 +5263,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -4605,7 +5277,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -4619,7 +5291,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -4633,7 +5305,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -4647,7 +5319,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -4661,7 +5333,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -4675,7 +5347,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -4689,7 +5361,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -4703,7 +5375,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -4717,7 +5389,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -4731,7 +5403,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "archive",
@@ -4745,7 +5417,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "archive",
@@ -4759,7 +5431,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -4773,7 +5445,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -4787,7 +5459,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -4801,7 +5473,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -4815,7 +5487,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -4829,7 +5501,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -4843,7 +5515,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -4857,7 +5529,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -4871,7 +5543,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "archive",
@@ -4885,7 +5557,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "archive",
@@ -4899,7 +5571,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -4913,7 +5585,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -4927,7 +5599,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -4941,7 +5613,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -4955,7 +5627,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -4969,7 +5641,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -4983,7 +5655,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -4997,7 +5669,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5011,7 +5683,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5025,7 +5697,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5039,7 +5711,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5053,7 +5725,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5067,7 +5739,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -5081,7 +5753,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -5095,7 +5767,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5109,7 +5781,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5123,7 +5795,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5137,7 +5809,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5151,7 +5823,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5165,7 +5837,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -5179,7 +5851,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -5193,7 +5865,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -5207,7 +5879,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -5221,7 +5893,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -5235,7 +5907,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -5249,7 +5921,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -5263,7 +5935,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -5277,7 +5949,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -5291,7 +5963,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -5305,7 +5977,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -5319,7 +5991,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -5333,7 +6005,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -5347,7 +6019,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -5361,7 +6033,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5375,7 +6047,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5389,7 +6061,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -5403,7 +6075,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -5417,7 +6089,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5431,7 +6103,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5445,7 +6117,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -5459,7 +6131,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -5473,7 +6145,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -5487,7 +6159,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -5501,7 +6173,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -5515,7 +6187,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -5529,7 +6201,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -5543,7 +6215,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -5557,7 +6229,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -5571,7 +6243,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -5585,7 +6257,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -5599,7 +6271,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -5613,7 +6285,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -5627,7 +6299,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -5641,7 +6313,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5655,7 +6327,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5669,7 +6341,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -5683,7 +6355,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -5697,7 +6369,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5711,7 +6383,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5725,7 +6397,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -5739,7 +6411,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -5753,7 +6425,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -5767,7 +6439,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -5781,7 +6453,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -5795,7 +6467,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -5809,7 +6481,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -5823,7 +6495,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -5837,7 +6509,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -5851,7 +6523,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -5865,7 +6537,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -5879,7 +6551,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -5893,7 +6565,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -5907,7 +6579,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -5921,7 +6593,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5935,7 +6607,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -5949,7 +6621,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -5963,7 +6635,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -5977,7 +6649,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -5991,7 +6663,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -6005,7 +6677,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -6019,7 +6691,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -6033,7 +6705,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -6047,7 +6719,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -6061,7 +6733,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -6075,7 +6747,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -6089,7 +6761,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -6103,7 +6775,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -6117,7 +6789,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -6131,7 +6803,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -6145,7 +6817,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -6159,7 +6831,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -6173,7 +6845,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -6187,7 +6859,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -6201,7 +6873,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -6215,7 +6887,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -6229,7 +6901,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -6243,7 +6915,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -6257,7 +6929,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -6271,7 +6943,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -6285,7 +6957,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -6299,7 +6971,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -6313,7 +6985,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -6327,7 +6999,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -6341,7 +7013,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -6355,7 +7027,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -6369,7 +7041,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -6383,7 +7055,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -6397,7 +7069,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -6411,7 +7083,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -6425,7 +7097,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -6439,7 +7111,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -6453,7 +7125,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -6467,7 +7139,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -6481,7 +7153,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -6495,7 +7167,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -6509,7 +7181,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -6523,7 +7195,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -6537,7 +7209,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -6551,7 +7223,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -6565,7 +7237,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -6579,7 +7251,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -6593,7 +7265,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -6607,7 +7279,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -6621,7 +7293,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -6635,7 +7307,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -6649,7 +7321,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -6663,7 +7335,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -6677,7 +7349,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -6691,7 +7363,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -6705,7 +7377,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -6719,7 +7391,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -6733,7 +7405,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -6747,7 +7419,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -6761,7 +7433,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -6775,7 +7447,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -6789,7 +7461,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -6803,7 +7475,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -6817,7 +7489,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -6831,7 +7503,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -6845,7 +7517,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -6859,7 +7531,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -6873,7 +7545,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -6887,7 +7559,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -6901,7 +7573,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -6915,7 +7587,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -6929,7 +7601,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -6943,7 +7615,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -6957,7 +7629,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -6971,7 +7643,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -6985,7 +7657,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -6999,7 +7671,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -7013,7 +7685,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -7027,7 +7699,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -7041,7 +7713,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -7055,7 +7727,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -7069,7 +7741,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -7083,7 +7755,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -7097,7 +7769,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -7111,7 +7783,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -7125,7 +7797,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -7139,7 +7811,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -7153,7 +7825,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -7167,7 +7839,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -7181,7 +7853,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -7195,7 +7867,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -7209,7 +7881,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -7223,7 +7895,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -7237,7 +7909,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -7251,7 +7923,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -7265,7 +7937,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -7279,7 +7951,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -7293,7 +7965,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -7307,7 +7979,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -7321,7 +7993,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -7335,7 +8007,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -7349,7 +8021,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -7363,7 +8035,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -7377,7 +8049,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -7391,7 +8063,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -7405,7 +8077,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -7419,7 +8091,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -7433,7 +8105,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -7447,7 +8119,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -7461,7 +8133,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -7475,7 +8147,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -7489,7 +8161,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -7503,7 +8175,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -7517,7 +8189,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -7531,7 +8203,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -7545,7 +8217,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -7559,7 +8231,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -7573,7 +8245,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -7587,7 +8259,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -7601,7 +8273,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -7615,7 +8287,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -7629,7 +8301,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -7643,7 +8315,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -7657,7 +8329,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -7671,7 +8343,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -7685,7 +8357,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -7699,7 +8371,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -7713,7 +8385,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -7727,7 +8399,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -7741,7 +8413,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -7755,7 +8427,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -7769,7 +8441,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -7783,7 +8455,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -7797,7 +8469,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -7811,7 +8483,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -7825,7 +8497,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -7839,7 +8511,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -7853,7 +8525,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -7867,7 +8539,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -7881,7 +8553,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -7891,286 +8563,6 @@
     "tag": "7.24.7",
     "pre": true,
     "date": "2026-08-15T02:21:15Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "deb",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-64.deb",
-    "name": "v2rayN-linux-64.deb",
-    "size": 79913968,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "archive",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-64.zip",
-    "name": "v2rayN-linux-64.zip",
-    "size": 133884013,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "deb",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-arm64.deb",
-    "name": "v2rayN-linux-arm64.deb",
-    "size": 72905624,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "archive",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-arm64.zip",
-    "name": "v2rayN-linux-arm64.zip",
-    "size": 126147012,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "deb",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-loong64.deb",
-    "name": "v2rayN-linux-loong64.deb",
-    "size": 68046036,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "rpm",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-rhel-64.rpm",
-    "name": "v2rayN-linux-rhel-64.rpm",
-    "size": 88967176,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "rpm",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-rhel-arm64.rpm",
-    "name": "v2rayN-linux-rhel-arm64.rpm",
-    "size": 83413389,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-rhel-loong64.rpm",
-    "name": "v2rayN-linux-rhel-loong64.rpm",
-    "size": 78701111,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-rhel-riscv64.rpm",
-    "name": "v2rayN-linux-rhel-riscv64.rpm",
-    "size": 81905435,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "deb",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-riscv64.deb",
-    "name": "v2rayN-linux-riscv64.deb",
-    "size": 140322996,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "x64",
-    "fmt": "dmg",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-macos-64.dmg",
-    "name": "v2rayN-macos-64.dmg",
-    "size": 130590420,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "x64",
-    "fmt": "zip",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-macos-64.zip",
-    "name": "v2rayN-macos-64.zip",
-    "size": 132749224,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "arm64",
-    "fmt": "dmg",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-macos-arm64.dmg",
-    "name": "v2rayN-macos-arm64.dmg",
-    "size": 124106630,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "arm64",
-    "fmt": "zip",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-macos-arm64.zip",
-    "name": "v2rayN-macos-arm64.zip",
-    "size": 125984484,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-64-desktop.zip",
-    "name": "v2rayN-windows-64-desktop.zip",
-    "size": 132001276,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-64.zip",
-    "name": "v2rayN-windows-64.zip",
-    "size": 155982861,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-86-desktop.zip",
-    "name": "v2rayN-windows-86-desktop.zip",
-    "size": 133199130,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-86.zip",
-    "name": "v2rayN-windows-86.zip",
-    "size": 128910308,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "arm64",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-arm64-desktop.zip",
-    "name": "v2rayN-windows-arm64-desktop.zip",
-    "size": 123673284,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "arm64",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-arm64.zip",
-    "name": "v2rayN-windows-arm64.zip",
-    "size": 144611257,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
    }
   ],
   "https://github.com/2dust/v2rayN/releases/tag/7.25.4": [
@@ -8181,6 +8573,678 @@
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64-aot.zip",
+    "name": "v2rayN-linux-64-aot.zip",
+    "size": 120226139,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64-WebAPI-update.zip",
+    "name": "v2rayN-linux-64-WebAPI-update.zip",
+    "size": 49832470,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64-WebAPI.zip",
+    "name": "v2rayN-linux-64-WebAPI.zip",
+    "size": 131051676,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64.deb",
+    "name": "v2rayN-linux-64.deb",
+    "size": 88131448,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-64.zip",
+    "name": "v2rayN-linux-64.zip",
+    "size": 143920384,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-86.deb",
+    "name": "v2rayN-linux-86.deb",
+    "size": 72190988,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64-aot.zip",
+    "name": "v2rayN-linux-arm64-aot.zip",
+    "size": 112185067,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64-WebAPI-update.zip",
+    "name": "v2rayN-linux-arm64-WebAPI-update.zip",
+    "size": 47587446,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64-WebAPI.zip",
+    "name": "v2rayN-linux-arm64-WebAPI.zip",
+    "size": 122933251,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64.deb",
+    "name": "v2rayN-linux-arm64.deb",
+    "size": 79190308,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-arm64.zip",
+    "name": "v2rayN-linux-arm64.zip",
+    "size": 135325733,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-loong64-WebAPI-update.zip",
+    "name": "v2rayN-linux-loong64-WebAPI-update.zip",
+    "size": 44674788,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-loong64-WebAPI.zip",
+    "name": "v2rayN-linux-loong64-WebAPI.zip",
+    "size": 118493307,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-loong64.deb",
+    "name": "v2rayN-linux-loong64.deb",
+    "size": 144398696,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-ppc64le.deb",
+    "name": "v2rayN-linux-ppc64le.deb",
+    "size": 69662212,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-64.rpm",
+    "name": "v2rayN-linux-rhel-64.rpm",
+    "size": 97321993,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-86.rpm",
+    "name": "v2rayN-linux-rhel-86.rpm",
+    "size": 72566004,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "arm64",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-arm64.rpm",
+    "name": "v2rayN-linux-rhel-arm64.rpm",
+    "size": 91074310,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-loong64.rpm",
+    "name": "v2rayN-linux-rhel-loong64.rpm",
+    "size": 87714154,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-ppc64le.rpm",
+    "name": "v2rayN-linux-rhel-ppc64le.rpm",
+    "size": 71624047,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-rhel-riscv64.rpm",
+    "name": "v2rayN-linux-rhel-riscv64.rpm",
+    "size": 90164133,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-riscv64-WebAPI-update.zip",
+    "name": "v2rayN-linux-riscv64-WebAPI-update.zip",
+    "size": 134983272,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "archive",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-riscv64-WebAPI.zip",
+    "name": "v2rayN-linux-riscv64-WebAPI.zip",
+    "size": 208139034,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-riscv64.deb",
+    "name": "v2rayN-linux-riscv64.deb",
+    "size": 148923516,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "zip",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-64-aot.zip",
+    "name": "v2rayN-macos-64-aot.zip",
+    "size": 119989840,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "dmg",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-64.dmg",
+    "name": "v2rayN-macos-64.dmg",
+    "size": 143853240,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "x64",
+    "fmt": "zip",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-64.zip",
+    "name": "v2rayN-macos-64.zip",
+    "size": 146138848,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "zip",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-arm64-aot.zip",
+    "name": "v2rayN-macos-arm64-aot.zip",
+    "size": 113021567,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "dmg",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-arm64.dmg",
+    "name": "v2rayN-macos-arm64.dmg",
+    "size": 136701107,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "macos",
+    "arch": "arm64",
+    "fmt": "zip",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-macos-arm64.zip",
+    "name": "v2rayN-macos-arm64.zip",
+    "size": 138685208,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-desktop-aot.zip",
+    "name": "v2rayN-windows-64-desktop-aot.zip",
+    "size": 119552640,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-desktop.exe",
+    "name": "v2rayN-windows-64-desktop.exe",
+    "size": 128019331,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-desktop.zip",
+    "name": "v2rayN-windows-64-desktop.zip",
+    "size": 145862974,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-WebAPI-update.zip",
+    "name": "v2rayN-windows-64-WebAPI-update.zip",
+    "size": 56897500,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-WebAPI.zip",
+    "name": "v2rayN-windows-64-WebAPI.zip",
+    "size": 140075614,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64.exe",
+    "name": "v2rayN-windows-64.exe",
+    "size": 127057387,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64.zip",
+    "name": "v2rayN-windows-64.zip",
+    "size": 169220115,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86-desktop.exe",
+    "name": "v2rayN-windows-86-desktop.exe",
+    "size": 118617279,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86-desktop.zip",
+    "name": "v2rayN-windows-86-desktop.zip",
+    "size": 146484036,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86.exe",
+    "name": "v2rayN-windows-86.exe",
+    "size": 116983695,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86.zip",
+    "name": "v2rayN-windows-86.zip",
+    "size": 141539925,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-desktop-aot.zip",
+    "name": "v2rayN-windows-arm64-desktop-aot.zip",
+    "size": 110437648,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-desktop.exe",
+    "name": "v2rayN-windows-arm64-desktop.exe",
+    "size": 120391781,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-desktop.zip",
+    "name": "v2rayN-windows-arm64-desktop.zip",
+    "size": 136231395,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-WebAPI-update.zip",
+    "name": "v2rayN-windows-arm64-WebAPI-update.zip",
+    "size": 54506844,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-WebAPI.zip",
+    "name": "v2rayN-windows-arm64-WebAPI.zip",
+    "size": 130570925,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "installer",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64.exe",
+    "name": "v2rayN-windows-arm64.exe",
+    "size": 115602537,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "arm64",
+    "fmt": "portable",
+    "href": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64.zip",
+    "name": "v2rayN-windows-arm64.zip",
+    "size": 156533515,
+    "tag": "8.0.1",
+    "pre": true,
+    "date": "2026-11-22T10:48:58Z"
+   },
+   {
+    "kind": "asset",
+    "src": "2dust/v2rayN",
+    "ri": 1,
+    "plat": "linux",
+    "arch": "x64",
+    "fmt": "archive",
     "href": "https://github.com/2dust/v2rayN/releases/download/8.0.0/v2rayN-linux-64-aot.zip",
     "name": "v2rayN-linux-64-aot.zip",
     "size": 120233533,
@@ -8191,7 +9255,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -8205,7 +9269,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -8219,7 +9283,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -8233,7 +9297,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -8247,7 +9311,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -8261,7 +9325,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -8275,7 +9339,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -8289,7 +9353,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -8303,7 +9367,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -8317,7 +9381,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -8331,7 +9395,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "archive",
@@ -8345,7 +9409,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "archive",
@@ -8359,7 +9423,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -8373,7 +9437,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -8387,7 +9451,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -8401,7 +9465,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -8415,7 +9479,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -8429,7 +9493,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -8443,7 +9507,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -8457,7 +9521,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -8471,7 +9535,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "archive",
@@ -8485,7 +9549,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "archive",
@@ -8499,7 +9563,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -8513,7 +9577,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -8527,7 +9591,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -8541,7 +9605,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -8555,7 +9619,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -8569,7 +9633,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -8583,7 +9647,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -8597,7 +9661,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -8611,7 +9675,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -8625,7 +9689,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -8639,7 +9703,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -8653,7 +9717,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -8667,7 +9731,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -8681,7 +9745,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -8695,7 +9759,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -8709,7 +9773,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -8723,7 +9787,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -8737,7 +9801,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -8751,7 +9815,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -8765,7 +9829,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -8779,7 +9843,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -8793,7 +9857,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -8807,7 +9871,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -8821,7 +9885,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -8835,7 +9899,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -8849,7 +9913,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -8863,7 +9927,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -8877,7 +9941,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -8891,7 +9955,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -8905,7 +9969,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -8919,7 +9983,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -8933,7 +9997,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -8947,7 +10011,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -8961,7 +10025,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -8975,7 +10039,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -8989,7 +10053,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -9003,7 +10067,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -9017,7 +10081,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -9031,7 +10095,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -9045,7 +10109,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -9059,7 +10123,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -9073,7 +10137,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -9087,7 +10151,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -9101,7 +10165,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -9115,7 +10179,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -9129,7 +10193,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -9143,7 +10207,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -9157,7 +10221,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -9171,7 +10235,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -9185,7 +10249,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -9199,7 +10263,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -9213,7 +10277,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -9227,7 +10291,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -9241,7 +10305,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -9255,7 +10319,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -9269,7 +10333,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -9283,7 +10347,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -9297,7 +10361,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -9311,7 +10375,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -9325,7 +10389,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -9339,7 +10403,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -9353,7 +10417,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -9367,7 +10431,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -9381,7 +10445,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -9395,7 +10459,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -9409,7 +10473,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -9423,7 +10487,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -9437,7 +10501,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -9451,7 +10515,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -9465,7 +10529,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -9479,7 +10543,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -9493,7 +10557,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -9507,7 +10571,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -9521,7 +10585,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -9535,7 +10599,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -9549,7 +10613,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -9563,7 +10627,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -9577,7 +10641,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -9591,7 +10655,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -9605,7 +10669,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -9619,7 +10683,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -9633,7 +10697,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -9647,7 +10711,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -9661,7 +10725,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -9675,7 +10739,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -9689,7 +10753,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -9703,7 +10767,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -9717,7 +10781,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -9731,7 +10795,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -9745,7 +10809,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -9759,7 +10823,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -9773,7 +10837,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -9787,7 +10851,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -9801,7 +10865,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -9815,7 +10879,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -9829,7 +10893,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -9843,7 +10907,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -9857,7 +10921,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -9871,7 +10935,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -9885,7 +10949,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -9899,7 +10963,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -9913,7 +10977,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -9927,7 +10991,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -9941,7 +11005,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -9955,7 +11019,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -9969,7 +11033,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -9983,7 +11047,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -9997,7 +11061,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -10011,7 +11075,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10025,7 +11089,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10039,7 +11103,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10053,7 +11117,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -10067,7 +11131,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -10081,7 +11145,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10095,7 +11159,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10109,7 +11173,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10123,7 +11187,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10137,7 +11201,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10151,7 +11215,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10165,7 +11229,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -10179,7 +11243,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10193,7 +11257,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10207,7 +11271,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -10221,7 +11285,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -10235,7 +11299,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -10249,7 +11313,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -10263,7 +11327,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10277,7 +11341,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -10291,7 +11355,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10305,7 +11369,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10319,7 +11383,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10333,7 +11397,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -10347,7 +11411,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -10361,7 +11425,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10375,7 +11439,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10389,7 +11453,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10403,7 +11467,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10417,7 +11481,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10431,7 +11495,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10445,7 +11509,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -10459,7 +11523,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10473,7 +11537,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10487,7 +11551,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -10501,7 +11565,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -10515,7 +11579,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -10529,7 +11593,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -10543,7 +11607,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10557,7 +11621,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -10571,7 +11635,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10585,7 +11649,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10599,7 +11663,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10613,7 +11677,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -10627,7 +11691,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -10641,7 +11705,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10655,7 +11719,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10669,7 +11733,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10683,7 +11747,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10697,7 +11761,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10711,7 +11775,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10725,7 +11789,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -10739,7 +11803,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -10753,7 +11817,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -10767,7 +11831,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -10781,7 +11845,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -10795,7 +11859,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -10809,7 +11873,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -10823,7 +11887,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -10837,7 +11901,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -10851,7 +11915,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10865,7 +11929,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -10879,7 +11943,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -10893,7 +11957,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -10907,7 +11971,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10921,7 +11985,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -10935,7 +11999,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -10949,7 +12013,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -10963,7 +12027,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -10977,7 +12041,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -10991,7 +12055,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -11005,7 +12069,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11019,7 +12083,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11033,7 +12097,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -11047,7 +12111,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -11061,7 +12125,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -11075,7 +12139,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -11089,7 +12153,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11103,7 +12167,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -11117,7 +12181,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11131,7 +12195,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11145,7 +12209,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11159,7 +12223,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -11173,7 +12237,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -11187,7 +12251,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11201,7 +12265,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11215,7 +12279,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "deb",
@@ -11229,7 +12293,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "archive",
@@ -11243,7 +12307,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "deb",
@@ -11257,7 +12321,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "archive",
@@ -11271,7 +12335,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -11285,7 +12349,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "x64",
     "fmt": "rpm",
@@ -11299,7 +12363,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "arm64",
     "fmt": "rpm",
@@ -11313,7 +12377,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -11327,7 +12391,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -11341,7 +12405,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -11355,7 +12419,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "x64",
     "fmt": "dmg",
@@ -11369,7 +12433,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "x64",
     "fmt": "zip",
@@ -11383,7 +12447,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "dmg",
@@ -11397,7 +12461,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "macos",
     "arch": "arm64",
     "fmt": "zip",
@@ -11411,7 +12475,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11425,7 +12489,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -11439,7 +12503,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -11453,7 +12517,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "",
     "fmt": "portable",
@@ -11467,7 +12531,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11481,7 +12545,7 @@
    {
     "kind": "asset",
     "src": "2dust/v2rayN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "arm64",
     "fmt": "portable",
@@ -11491,286 +12555,6 @@
     "tag": "7.24.7",
     "pre": true,
     "date": "2026-08-15T02:21:15Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "deb",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-64.deb",
-    "name": "v2rayN-linux-64.deb",
-    "size": 79913968,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "archive",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-64.zip",
-    "name": "v2rayN-linux-64.zip",
-    "size": 133884013,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "deb",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-arm64.deb",
-    "name": "v2rayN-linux-arm64.deb",
-    "size": 72905624,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "archive",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-arm64.zip",
-    "name": "v2rayN-linux-arm64.zip",
-    "size": 126147012,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "deb",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-loong64.deb",
-    "name": "v2rayN-linux-loong64.deb",
-    "size": 68046036,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "x64",
-    "fmt": "rpm",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-rhel-64.rpm",
-    "name": "v2rayN-linux-rhel-64.rpm",
-    "size": 88967176,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "arm64",
-    "fmt": "rpm",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-rhel-arm64.rpm",
-    "name": "v2rayN-linux-rhel-arm64.rpm",
-    "size": 83413389,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-rhel-loong64.rpm",
-    "name": "v2rayN-linux-rhel-loong64.rpm",
-    "size": 78701111,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-rhel-riscv64.rpm",
-    "name": "v2rayN-linux-rhel-riscv64.rpm",
-    "size": 81905435,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "deb",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-linux-riscv64.deb",
-    "name": "v2rayN-linux-riscv64.deb",
-    "size": 140322996,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "x64",
-    "fmt": "dmg",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-macos-64.dmg",
-    "name": "v2rayN-macos-64.dmg",
-    "size": 130590420,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "x64",
-    "fmt": "zip",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-macos-64.zip",
-    "name": "v2rayN-macos-64.zip",
-    "size": 132749224,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "arm64",
-    "fmt": "dmg",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-macos-arm64.dmg",
-    "name": "v2rayN-macos-arm64.dmg",
-    "size": 124106630,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "macos",
-    "arch": "arm64",
-    "fmt": "zip",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-macos-arm64.zip",
-    "name": "v2rayN-macos-arm64.zip",
-    "size": 125984484,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-64-desktop.zip",
-    "name": "v2rayN-windows-64-desktop.zip",
-    "size": 132001276,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-64.zip",
-    "name": "v2rayN-windows-64.zip",
-    "size": 155982861,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-86-desktop.zip",
-    "name": "v2rayN-windows-86-desktop.zip",
-    "size": 133199130,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-86.zip",
-    "name": "v2rayN-windows-86.zip",
-    "size": 128910308,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "arm64",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-arm64-desktop.zip",
-    "name": "v2rayN-windows-arm64-desktop.zip",
-    "size": 123673284,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
-   },
-   {
-    "kind": "asset",
-    "src": "2dust/v2rayN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "arm64",
-    "fmt": "portable",
-    "href": "https://github.com/2dust/v2rayN/releases/download/7.24.6/v2rayN-windows-arm64.zip",
-    "name": "v2rayN-windows-arm64.zip",
-    "size": 144611257,
-    "tag": "7.24.6",
-    "pre": true,
-    "date": "2026-08-08T12:38:57Z"
    }
   ],
   "https://github.com/WhiteDNS/WhiteDNS-Desktop/releases": [
@@ -58893,6 +59677,132 @@
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Android-arm64-v8a.apk",
+    "name": "DefyxVPN-Android-arm64-v8a.apk",
+    "size": 100723332,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "android",
+    "arch": "armv7",
+    "fmt": "apk",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Android-armeabi-v7a.apk",
+    "name": "DefyxVPN-Android-armeabi-v7a.apk",
+    "size": 95572910,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "android",
+    "arch": "universal",
+    "fmt": "apk",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Android-universal.apk",
+    "name": "DefyxVPN-Android-universal.apk",
+    "size": 289959855,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "android",
+    "arch": "x64",
+    "fmt": "apk",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Android-x86_64.apk",
+    "name": "DefyxVPN-Android-x86_64.apk",
+    "size": 108080309,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "appimage",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Linux.AppImage",
+    "name": "DefyxVPN-Linux.AppImage",
+    "size": 48921080,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "deb",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Linux.deb",
+    "name": "DefyxVPN-Linux.deb",
+    "size": 54862668,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "linux",
+    "arch": "",
+    "fmt": "rpm",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Linux.rpm",
+    "name": "DefyxVPN-Linux.rpm",
+    "size": 69624955,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "installer",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Windows-Installer-x64.exe",
+    "name": "DefyxVPN-Windows-Installer-x64.exe",
+    "size": 50454198,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 0,
+    "plat": "windows",
+    "arch": "x64",
+    "fmt": "portable",
+    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.15.2/DefyxVPN-Windows-Portable-x64.zip",
+    "name": "DefyxVPN-Windows-Portable-x64.zip",
+    "size": 43275255,
+    "tag": "v5.15.2",
+    "pre": true,
+    "date": "2026-11-22T13:46:22Z"
+   },
+   {
+    "kind": "asset",
+    "src": "UnboundTechCo/defyxVPN",
+    "ri": 1,
+    "plat": "android",
+    "arch": "arm64",
+    "fmt": "apk",
     "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.14.1/DefyxVPN-Android-arm64-v8a.apk",
     "name": "DefyxVPN-Android-arm64-v8a.apk",
     "size": 100749852,
@@ -58903,7 +59813,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -58917,7 +59827,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -58931,7 +59841,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -58945,7 +59855,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -58959,7 +59869,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -58973,7 +59883,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -58987,7 +59897,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -59001,7 +59911,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 0,
+    "ri": 1,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59015,7 +59925,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59029,7 +59939,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59043,7 +59953,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59057,7 +59967,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59071,7 +59981,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59085,7 +59995,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59099,7 +60009,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59113,7 +60023,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -59127,7 +60037,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 1,
+    "ri": 2,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59141,7 +60051,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59155,7 +60065,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59169,7 +60079,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59183,7 +60093,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59197,7 +60107,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59211,7 +60121,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59225,7 +60135,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59239,7 +60149,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -59253,7 +60163,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 2,
+    "ri": 3,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59267,7 +60177,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59281,7 +60191,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59295,7 +60205,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59309,7 +60219,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59323,7 +60233,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59337,7 +60247,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59351,7 +60261,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59365,7 +60275,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -59379,7 +60289,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 3,
+    "ri": 4,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59393,7 +60303,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59407,7 +60317,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59421,7 +60331,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59435,7 +60345,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59449,7 +60359,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59463,7 +60373,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59477,7 +60387,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59491,7 +60401,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -59505,7 +60415,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 4,
+    "ri": 5,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59519,7 +60429,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59533,7 +60443,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59547,7 +60457,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59561,7 +60471,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59575,7 +60485,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59589,7 +60499,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59603,7 +60513,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59617,7 +60527,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -59631,7 +60541,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 5,
+    "ri": 6,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59645,7 +60555,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59659,7 +60569,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59673,7 +60583,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59687,7 +60597,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59701,7 +60611,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59715,7 +60625,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59729,7 +60639,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59743,7 +60653,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -59757,7 +60667,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 6,
+    "ri": 7,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59771,7 +60681,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59785,7 +60695,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59799,7 +60709,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59813,7 +60723,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59827,7 +60737,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59841,7 +60751,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59855,7 +60765,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59869,7 +60779,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "installer",
@@ -59883,7 +60793,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 7,
+    "ri": 8,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -59897,7 +60807,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -59911,7 +60821,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -59925,7 +60835,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -59939,7 +60849,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -59953,7 +60863,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -59967,7 +60877,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -59981,7 +60891,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -59995,7 +60905,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 8,
+    "ri": 9,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60009,7 +60919,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -60023,7 +60933,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -60037,7 +60947,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -60051,7 +60961,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -60065,7 +60975,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -60079,7 +60989,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -60093,7 +61003,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -60107,7 +61017,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 9,
+    "ri": 10,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60121,7 +61031,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "arm64",
     "fmt": "apk",
@@ -60135,7 +61045,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "armv7",
     "fmt": "apk",
@@ -60149,7 +61059,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "universal",
     "fmt": "apk",
@@ -60163,7 +61073,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "android",
     "arch": "x64",
     "fmt": "apk",
@@ -60177,7 +61087,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "appimage",
@@ -60191,7 +61101,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "deb",
@@ -60205,7 +61115,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "linux",
     "arch": "",
     "fmt": "rpm",
@@ -60219,7 +61129,7 @@
    {
     "kind": "asset",
     "src": "UnboundTechCo/defyxVPN",
-    "ri": 10,
+    "ri": 11,
     "plat": "windows",
     "arch": "x64",
     "fmt": "portable",
@@ -60229,118 +61139,6 @@
     "tag": "v5.8.0",
     "pre": false,
     "date": "2026-07-27T21:08:21Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "android",
-    "arch": "arm64",
-    "fmt": "apk",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.5/DefyxVPN-Android-arm64-v8a.apk",
-    "name": "DefyxVPN-Android-arm64-v8a.apk",
-    "size": 88320121,
-    "tag": "v5.7.5",
-    "pre": false,
-    "date": "2026-07-21T17:30:04Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "android",
-    "arch": "armv7",
-    "fmt": "apk",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.5/DefyxVPN-Android-armeabi-v7a.apk",
-    "name": "DefyxVPN-Android-armeabi-v7a.apk",
-    "size": 83134249,
-    "tag": "v5.7.5",
-    "pre": false,
-    "date": "2026-07-21T17:30:04Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "android",
-    "arch": "universal",
-    "fmt": "apk",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.5/DefyxVPN-Android-universal.apk",
-    "name": "DefyxVPN-Android-universal.apk",
-    "size": 236895863,
-    "tag": "v5.7.5",
-    "pre": false,
-    "date": "2026-07-21T17:30:04Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "android",
-    "arch": "x64",
-    "fmt": "apk",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.5/DefyxVPN-Android-x86_64.apk",
-    "name": "DefyxVPN-Android-x86_64.apk",
-    "size": 93830161,
-    "tag": "v5.7.5",
-    "pre": false,
-    "date": "2026-07-21T17:30:04Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "appimage",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.5/DefyxVPN-Linux.AppImage",
-    "name": "DefyxVPN-Linux.AppImage",
-    "size": 42891768,
-    "tag": "v5.7.5",
-    "pre": false,
-    "date": "2026-07-21T17:30:04Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "deb",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.5/DefyxVPN-Linux.deb",
-    "name": "DefyxVPN-Linux.deb",
-    "size": 51678782,
-    "tag": "v5.7.5",
-    "pre": false,
-    "date": "2026-07-21T17:30:04Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "linux",
-    "arch": "",
-    "fmt": "rpm",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.5/DefyxVPN-Linux.rpm",
-    "name": "DefyxVPN-Linux.rpm",
-    "size": 57322114,
-    "tag": "v5.7.5",
-    "pre": false,
-    "date": "2026-07-21T17:30:04Z"
-   },
-   {
-    "kind": "asset",
-    "src": "UnboundTechCo/defyxVPN",
-    "ri": 11,
-    "plat": "windows",
-    "arch": "x64",
-    "fmt": "portable",
-    "href": "https://github.com/UnboundTechCo/defyxVPN/releases/download/v5.7.5/DefyxVPN-Windows-Portable-x64.zip",
-    "name": "DefyxVPN-Windows-Portable-x64.zip",
-    "size": 36392325,
-    "tag": "v5.7.5",
-    "pre": false,
-    "date": "2026-07-21T17:30:04Z"
    }
   ],
   "https://play.google.com/store/apps/details?id=de.unboundtech.defyxvpn": [
