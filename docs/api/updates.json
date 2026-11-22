@@ -1,7 +1,16 @@
 {
- "generated": "2026-11-22T15:36:44.240Z",
- "seq": 180,
+ "generated": "2026-11-22T21:13:01.567Z",
+ "seq": 181,
  "updates": [
+  {
+   "app": "hiddify",
+   "name": "Hiddify",
+   "type": "update",
+   "version": "v5.9.15",
+   "previous": "v5.9.15",
+   "t": "2026-11-22T21:13:01.567Z",
+   "id": 181
+  },
   {
    "app": "v2rayn",
    "name": "v2rayN",
@@ -892,15 +901,6 @@
    "previous": "v4.1.1",
    "t": "2026-10-15T21:56:30.169Z",
    "id": 82
-  },
-  {
-   "app": "v2rayn",
-   "name": "v2rayN",
-   "type": "update",
-   "version": "7.25.6",
-   "previous": "7.25.6",
-   "t": "2026-10-15T21:56:30.169Z",
-   "id": 81
   }
  ]
 }

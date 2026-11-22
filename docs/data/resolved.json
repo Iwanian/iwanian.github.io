@@ -1,5 +1,5 @@
 {
- "t": "2026-11-22T15:36:44.240Z",
+ "t": "2026-11-22T21:13:01.567Z",
  "links": {
   "https://github.com/hiddify/hiddify-app/releases": [
    {
@@ -13,7 +13,7 @@
     "name": "Hiddify-Android-arm64.apk",
     "size": 67260345,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -27,7 +27,7 @@
     "name": "Hiddify-Android-arm7.apk",
     "size": 65520115,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -41,7 +41,7 @@
     "name": "Hiddify-Android-universal.apk",
     "size": 187973042,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -55,7 +55,7 @@
     "name": "Hiddify-Android-x86_64.apk",
     "size": 70429596,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -69,7 +69,7 @@
     "name": "Hiddify-Debian-arm64.deb",
     "size": 54700510,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -83,7 +83,7 @@
     "name": "Hiddify-Debian-x64.deb",
     "size": 57827856,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -97,7 +97,7 @@
     "name": "Hiddify-iOS.ipa",
     "size": 117699653,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -111,7 +111,7 @@
     "name": "Hiddify-Linux-arm64.AppImage",
     "size": 69876232,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -125,7 +125,7 @@
     "name": "Hiddify-Linux-arm64.AppImage.tar.gz",
     "size": 69307104,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -139,7 +139,7 @@
     "name": "Hiddify-Linux-x64.AppImage",
     "size": 73644536,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -153,7 +153,7 @@
     "name": "Hiddify-Linux-x64.AppImage.tar.gz",
     "size": 73069200,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -167,7 +167,7 @@
     "name": "Hiddify-MacOS-Installer.pkg",
     "size": 125540614,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -181,7 +181,7 @@
     "name": "Hiddify-MacOS.dmg",
     "size": 125188029,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -195,7 +195,7 @@
     "name": "Hiddify-rpm-arm64.rpm",
     "size": 65180452,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -209,7 +209,7 @@
     "name": "Hiddify-rpm-x64.rpm",
     "size": 68637690,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -223,7 +223,7 @@
     "name": "Hiddify-Windows-Portable-x64.zip",
     "size": 70480719,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -237,7 +237,7 @@
     "name": "Hiddify-Windows-Setup-x64.exe",
     "size": 51208848,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
@@ -251,7 +251,7 @@
     "name": "Hiddify-Windows-Setup-x64.Msix",
     "size": 71786050,
     "tag": "v5.9.15",
-    "pre": true,
+    "pre": false,
     "date": "2026-11-19T07:44:59Z"
    },
    {
