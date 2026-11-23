@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T01:43:38.551Z",
+ "generated": "2026-11-23T21:43:07.284Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -1808,8 +1808,8 @@
    "homepage": "https://github.com/getlantern/lantern/",
    "guide_url": "",
    "guide_steps": [],
-   "version": "v10.0.5",
-   "published": "2026-11-02T20:19:12Z",
+   "version": "v11.0.0",
+   "published": "2026-11-23T15:10:55Z",
    "downloads": [
     {
      "platform": "android",
@@ -1817,12 +1817,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer.apk",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer.apk",
      "name": "lantern-installer.apk",
-     "version": "v10.0.5",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 49278029,
-     "published": "2026-11-02T20:19:12Z"
+     "size": 55189095,
+     "published": "2026-11-23T15:10:55Z"
     },
     {
      "platform": "android",
@@ -1830,12 +1830,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer-armv7.apk",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer-armv7.apk",
      "name": "lantern-installer-armv7.apk",
-     "version": "v10.0.5",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 49208065,
-     "published": "2026-11-02T20:19:12Z"
+     "size": 55196545,
+     "published": "2026-11-23T15:10:55Z"
     },
     {
      "platform": "ios",
@@ -1843,12 +1843,12 @@
      "format": "ipa",
      "kind": "file",
      "store": "",
-     "url": "https://s3.amazonaws.com/lantern.io/releases/beta/latest/lantern-installer-beta.ipa",
-     "name": "lantern-installer-beta.ipa",
-     "version": "",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer.ipa",
+     "name": "lantern-installer.ipa",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 0,
-     "published": ""
+     "size": 104375016,
+     "published": "2026-11-23T15:10:55Z"
     },
     {
      "platform": "windows",
@@ -1856,12 +1856,12 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer.exe",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer.exe",
      "name": "lantern-installer.exe",
-     "version": "v10.0.5",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 121475856,
-     "published": "2026-11-02T20:19:12Z"
+     "size": 140381672,
+     "published": "2026-11-23T15:10:55Z"
     },
     {
      "platform": "macos",
@@ -1869,12 +1869,12 @@
      "format": "dmg",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer.dmg",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer.dmg",
      "name": "lantern-installer.dmg",
-     "version": "v10.0.5",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 131938920,
-     "published": "2026-11-02T20:19:12Z"
+     "size": 155590360,
+     "published": "2026-11-23T15:10:55Z"
     },
     {
      "platform": "linux",
@@ -1882,12 +1882,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer.deb",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer.deb",
      "name": "lantern-installer.deb",
-     "version": "v10.0.5",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 96758434,
-     "published": "2026-11-02T20:19:12Z"
+     "size": 114372330,
+     "published": "2026-11-23T15:10:55Z"
     },
     {
      "platform": "linux",
@@ -1895,12 +1895,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer.rpm",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer.rpm",
      "name": "lantern-installer.rpm",
-     "version": "v10.0.5",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 100406177,
-     "published": "2026-11-02T20:19:12Z"
+     "size": 118310047,
+     "published": "2026-11-23T15:10:55Z"
     },
     {
      "platform": "linux",
@@ -1908,12 +1908,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer-arm64.deb",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer-arm64.deb",
      "name": "lantern-installer-arm64.deb",
-     "version": "v10.0.5",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 90794344,
-     "published": "2026-11-02T20:19:12Z"
+     "size": 107510798,
+     "published": "2026-11-23T15:10:55Z"
     },
     {
      "platform": "linux",
@@ -1921,12 +1921,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/getlantern/lantern/releases/download/v10.0.5/lantern-installer-arm64.rpm",
+     "url": "https://github.com/getlantern/lantern/releases/download/v11.0.0/lantern-installer-arm64.rpm",
      "name": "lantern-installer-arm64.rpm",
-     "version": "v10.0.5",
+     "version": "v11.0.0",
      "prerelease": false,
-     "size": 93735299,
-     "published": "2026-11-02T20:19:12Z"
+     "size": 110911241,
+     "published": "2026-11-23T15:10:55Z"
     }
    ]
   },
