@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T21:13:01.567Z",
+ "generated": "2026-11-23T01:43:38.551Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -2164,7 +2164,7 @@
    "homepage": "",
    "guide_url": "",
    "guide_steps": [],
-   "version": "79.1.0",
+   "version": "79.1.1",
    "published": "",
    "downloads": [
     {
@@ -2199,9 +2199,9 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://z3d9.com/6ays8gw3vw/X-VPN_79.1.0_6434_67fc7183d_2026-11-03-06-55-54.exe",
-     "name": "X-VPN_79.1.0_6434_67fc7183d_2026-11-03-06-55-54.exe",
-     "version": "79.1.0",
+     "url": "https://z3d9.com/6ays8gw3vw/X-VPN_79.1.1_6533_213594dab_2026-11-20-10-11-16.exe",
+     "name": "X-VPN_79.1.1_6533_213594dab_2026-11-20-10-11-16.exe",
+     "version": "79.1.1",
      "prerelease": false,
      "size": 0,
      "published": ""
