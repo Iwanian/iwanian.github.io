@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T21:43:07.284Z",
+ "generated": "2026-11-24T05:32:45.625Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -665,8 +665,8 @@
    "homepage": "https://github.com/WhiteDNS/WhiteDNS-Desktop/",
    "guide_url": "",
    "guide_steps": [],
-   "version": "1.6.16",
-   "published": "2026-11-04T22:35:55Z",
+   "version": "1.6.17",
+   "published": "2026-11-24T02:17:32Z",
    "downloads": [
     {
      "platform": "android",
@@ -674,12 +674,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-arm64-v8a.apk",
-     "name": "WhiteDNS-1.6.16-arm64-v8a.apk",
-     "version": "1.6.16",
+     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.17/WhiteDNS-1.6.17-arm64-v8a.apk",
+     "name": "WhiteDNS-1.6.17-arm64-v8a.apk",
+     "version": "1.6.17",
      "prerelease": false,
      "size": 12954775,
-     "published": "2026-11-04T18:30:12Z"
+     "published": "2026-11-24T02:17:32Z"
     },
     {
      "platform": "android",
@@ -687,12 +687,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-armeabi-v7a.apk",
-     "name": "WhiteDNS-1.6.16-armeabi-v7a.apk",
-     "version": "1.6.16",
+     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.17/WhiteDNS-1.6.17-armeabi-v7a.apk",
+     "name": "WhiteDNS-1.6.17-armeabi-v7a.apk",
+     "version": "1.6.17",
      "prerelease": false,
      "size": 13233313,
-     "published": "2026-11-04T18:30:12Z"
+     "published": "2026-11-24T02:17:32Z"
     },
     {
      "platform": "android",
@@ -700,12 +700,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-universal.apk",
-     "name": "WhiteDNS-1.6.16-universal.apk",
-     "version": "1.6.16",
+     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.17/WhiteDNS-1.6.17-universal.apk",
+     "name": "WhiteDNS-1.6.17-universal.apk",
+     "version": "1.6.17",
      "prerelease": false,
      "size": 47640877,
-     "published": "2026-11-04T18:30:12Z"
+     "published": "2026-11-24T02:17:32Z"
     },
     {
      "platform": "android",
@@ -713,12 +713,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-x86_64.apk",
-     "name": "WhiteDNS-1.6.16-x86_64.apk",
-     "version": "1.6.16",
+     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.17/WhiteDNS-1.6.17-x86_64.apk",
+     "name": "WhiteDNS-1.6.17-x86_64.apk",
+     "version": "1.6.17",
      "prerelease": false,
      "size": 14003336,
-     "published": "2026-11-04T18:30:12Z"
+     "published": "2026-11-24T02:17:32Z"
     },
     {
      "platform": "android",
@@ -726,12 +726,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.16/WhiteDNS-1.6.16-x86.apk",
-     "name": "WhiteDNS-1.6.16-x86.apk",
-     "version": "1.6.16",
+     "url": "https://github.com/WhiteDNS/WhiteDNS-Android/releases/download/1.6.17/WhiteDNS-1.6.17-x86.apk",
+     "name": "WhiteDNS-1.6.17-x86.apk",
+     "version": "1.6.17",
      "prerelease": false,
      "size": 14408825,
-     "published": "2026-11-04T18:30:12Z"
+     "published": "2026-11-24T02:17:32Z"
     },
     {
      "platform": "windows",
