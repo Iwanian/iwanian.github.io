@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T05:32:45.625Z",
+ "generated": "2026-11-27T02:29:56.610Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -402,60 +402,60 @@
     "در نوار پایین، System proxy را روی «Set system proxy» بگذارید.",
     "برای حالت VPN، Enable Tun را روشن کنید (نیاز به اجرا با دسترسی ادمین)."
    ],
-   "version": "8.0.1",
-   "published": "2026-11-22T10:48:58Z",
+   "version": "8.0.2",
+   "published": "2026-11-27T02:12:24Z",
    "downloads": [
     {
      "platform": "windows",
      "arch": "",
-     "format": "installer",
+     "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-86-desktop.exe",
-     "name": "v2rayN-windows-86-desktop.exe",
-     "version": "8.0.1",
-     "prerelease": true,
-     "size": 118617279,
-     "published": "2026-11-22T10:48:58Z"
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-86.zip",
+     "name": "v2rayN-windows-86.zip",
+     "version": "7.25.6",
+     "prerelease": false,
+     "size": 141128830,
+     "published": "2026-10-11T05:59:58Z"
     },
     {
      "platform": "windows",
      "arch": "",
-     "format": "portable",
-     "kind": "file",
-     "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-86-desktop.zip",
-     "name": "v2rayN-windows-86-desktop.zip",
-     "version": "7.25.6",
-     "prerelease": false,
-     "size": 145408272,
-     "published": "2026-10-11T05:59:58Z"
-    },
-    {
-     "platform": "windows",
-     "arch": "arm64",
-     "format": "portable",
-     "kind": "file",
-     "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-arm64-desktop.zip",
-     "name": "v2rayN-windows-arm64-desktop.zip",
-     "version": "7.25.6",
-     "prerelease": false,
-     "size": 134940538,
-     "published": "2026-10-11T05:59:58Z"
-    },
-    {
-     "platform": "windows",
-     "arch": "arm64",
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-arm64-desktop.exe",
-     "name": "v2rayN-windows-arm64-desktop.exe",
-     "version": "8.0.1",
+     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.2/v2rayN-windows-86-desktop.exe",
+     "name": "v2rayN-windows-86-desktop.exe",
+     "version": "8.0.2",
      "prerelease": true,
-     "size": 120391781,
-     "published": "2026-11-22T10:48:58Z"
+     "size": 118712591,
+     "published": "2026-11-27T02:12:24Z"
+    },
+    {
+     "platform": "windows",
+     "arch": "arm64",
+     "format": "portable",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-arm64.zip",
+     "name": "v2rayN-windows-arm64.zip",
+     "version": "7.25.6",
+     "prerelease": false,
+     "size": 155862162,
+     "published": "2026-10-11T05:59:58Z"
+    },
+    {
+     "platform": "windows",
+     "arch": "arm64",
+     "format": "installer",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.2/v2rayN-windows-arm64.exe",
+     "name": "v2rayN-windows-arm64.exe",
+     "version": "8.0.2",
+     "prerelease": true,
+     "size": 115505973,
+     "published": "2026-11-27T02:12:24Z"
     },
     {
      "platform": "windows",
@@ -463,11 +463,11 @@
      "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-64-desktop.zip",
-     "name": "v2rayN-windows-64-desktop.zip",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-64.zip",
+     "name": "v2rayN-windows-64.zip",
      "version": "7.25.6",
      "prerelease": false,
-     "size": 144735873,
+     "size": 168730000,
      "published": "2026-10-11T05:59:58Z"
     },
     {
@@ -476,12 +476,12 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-windows-64-desktop.exe",
+     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.2/v2rayN-windows-64-desktop.exe",
      "name": "v2rayN-windows-64-desktop.exe",
-     "version": "8.0.1",
+     "version": "8.0.2",
      "prerelease": true,
-     "size": 128019331,
-     "published": "2026-11-22T10:48:58Z"
+     "size": 128206591,
+     "published": "2026-11-27T02:12:24Z"
     },
     {
      "platform": "macos",
@@ -541,11 +541,24 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-loong64.deb",
-     "name": "v2rayN-linux-loong64.deb",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-riscv64.deb",
+     "name": "v2rayN-linux-riscv64.deb",
      "version": "7.25.6",
      "prerelease": false,
-     "size": 74266148,
+     "size": 147686188,
+     "published": "2026-10-11T05:59:58Z"
+    },
+    {
+     "platform": "linux",
+     "arch": "",
+     "format": "rpm",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-rhel-riscv64.rpm",
+     "name": "v2rayN-linux-rhel-riscv64.rpm",
+     "version": "7.25.6",
+     "prerelease": false,
+     "size": 88744588,
      "published": "2026-10-11T05:59:58Z"
     },
     {
@@ -554,25 +567,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-loong64-WebAPI-update.zip",
-     "name": "v2rayN-linux-loong64-WebAPI-update.zip",
+     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-riscv64-WebAPI.zip",
+     "name": "v2rayN-linux-riscv64-WebAPI.zip",
      "version": "8.0.1",
      "prerelease": true,
-     "size": 44674788,
+     "size": 208139034,
      "published": "2026-11-22T10:48:58Z"
-    },
-    {
-     "platform": "linux",
-     "arch": "",
-     "format": "rpm",
-     "kind": "file",
-     "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-rhel-loong64.rpm",
-     "name": "v2rayN-linux-rhel-loong64.rpm",
-     "version": "7.25.6",
-     "prerelease": false,
-     "size": 85261781,
-     "published": "2026-10-11T05:59:58Z"
     },
     {
      "platform": "linux",
@@ -977,8 +977,8 @@
     "یک پروفایل جدید بسازید و کانفیگ را از لینک یا فایل وارد کنید.",
     "پروفایل را فعال و سرویس را روشن کنید."
    ],
-   "version": "v1.14.4",
-   "published": "2026-10-24T01:04:25Z",
+   "version": "v1.14.5",
+   "published": "2026-11-27T00:38:38Z",
    "downloads": [
     {
      "platform": "android",
@@ -986,12 +986,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-android-386.tar.gz",
-     "name": "sing-box-1.14.4-android-386.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-android-386.tar.gz",
+     "name": "sing-box-1.14.5-android-386.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 28444277,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 28047468,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -999,12 +999,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box_1.14.4_linux_loongarch64.apk",
-     "name": "sing-box_1.14.4_linux_loongarch64.apk",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box_1.14.5_linux_loongarch64.apk",
+     "name": "sing-box_1.14.5_linux_loongarch64.apk",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 31144565,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 30851873,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -1012,12 +1012,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-arm64-v8a.apk",
-     "name": "SFA-1.14.4-arm64-v8a.apk",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFA-1.14.5-arm64-v8a.apk",
+     "name": "SFA-1.14.5-arm64-v8a.apk",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 36665679,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 36524723,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -1025,12 +1025,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-android-arm64.tar.gz",
-     "name": "sing-box-1.14.4-android-arm64.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-android-arm64.tar.gz",
+     "name": "sing-box-1.14.5-android-arm64.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 25614079,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 25202965,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -1038,12 +1038,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-armeabi-v7a.apk",
-     "name": "SFA-1.14.4-armeabi-v7a.apk",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFA-1.14.5-armeabi-v7a.apk",
+     "name": "SFA-1.14.5-armeabi-v7a.apk",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 36545037,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 36474053,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -1051,12 +1051,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-android-arm.tar.gz",
-     "name": "sing-box-1.14.4-android-arm.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-android-arm.tar.gz",
+     "name": "sing-box-1.14.5-android-arm.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 26140101,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 25788904,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -1064,12 +1064,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-legacy-android-5-universal.apk",
-     "name": "SFA-1.14.4-legacy-android-5-universal.apk",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFA-1.14.5-legacy-android-5-universal.apk",
+     "name": "SFA-1.14.5-legacy-android-5-universal.apk",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 106884356,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 105723002,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -1077,12 +1077,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-legacy-android-5-x86_64.apk",
-     "name": "SFA-1.14.4-legacy-android-5-x86_64.apk",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFA-1.14.5-legacy-android-5-x86_64.apk",
+     "name": "SFA-1.14.5-legacy-android-5-x86_64.apk",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 33001189,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 32731642,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -1090,12 +1090,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-android-amd64.tar.gz",
-     "name": "sing-box-1.14.4-android-amd64.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-android-amd64.tar.gz",
+     "name": "sing-box-1.14.5-android-amd64.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 27527825,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 27144973,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "android",
@@ -1103,12 +1103,12 @@
      "format": "apk",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFA-1.14.4-legacy-android-5-x86.apk",
-     "name": "SFA-1.14.4-legacy-android-5-x86.apk",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFA-1.14.5-legacy-android-5-x86.apk",
+     "name": "SFA-1.14.5-legacy-android-5-x86.apk",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 33775085,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 33513205,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "windows",
@@ -1116,12 +1116,12 @@
      "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-windows-386-legacy-windows-7.zip",
-     "name": "sing-box-1.14.4-windows-386-legacy-windows-7.zip",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-windows-386-legacy-windows-7.zip",
+     "name": "sing-box-1.14.5-windows-386-legacy-windows-7.zip",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 25948343,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 25588590,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "windows",
@@ -1129,12 +1129,12 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFW-1.14.4-arm64.exe",
-     "name": "SFW-1.14.4-arm64.exe",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFW-1.14.5-arm64.exe",
+     "name": "SFW-1.14.5-arm64.exe",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 118460272,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 118409808,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "windows",
@@ -1142,12 +1142,12 @@
      "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-windows-arm64.zip",
-     "name": "sing-box-1.14.4-windows-arm64.zip",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-windows-arm64.zip",
+     "name": "sing-box-1.14.5-windows-arm64.zip",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 29455776,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 29172556,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "windows",
@@ -1155,12 +1155,12 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFW-1.14.4-x64.exe",
-     "name": "SFW-1.14.4-x64.exe",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFW-1.14.5-x64.exe",
+     "name": "SFW-1.14.5-x64.exe",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 115346760,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 115332152,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "windows",
@@ -1168,12 +1168,12 @@
      "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-windows-amd64-legacy-windows-7.zip",
-     "name": "sing-box-1.14.4-windows-amd64-legacy-windows-7.zip",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-windows-amd64-legacy-windows-7.zip",
+     "name": "sing-box-1.14.5-windows-amd64-legacy-windows-7.zip",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 27010034,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 26585470,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "windows",
@@ -1181,12 +1181,12 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFW-1.14.4-x86.exe",
-     "name": "SFW-1.14.4-x86.exe",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFW-1.14.5-x86.exe",
+     "name": "SFW-1.14.5-x86.exe",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 99327896,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 99212448,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "macos",
@@ -1194,12 +1194,12 @@
      "format": "pkg",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFM-1.14.4-Apple.pkg",
-     "name": "SFM-1.14.4-Apple.pkg",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFM-1.14.5-Apple.pkg",
+     "name": "SFM-1.14.5-Apple.pkg",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 48262186,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 48139940,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "macos",
@@ -1207,12 +1207,12 @@
      "format": "zip",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-darwin-arm64.tar.gz",
-     "name": "sing-box-1.14.4-darwin-arm64.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-darwin-arm64.tar.gz",
+     "name": "sing-box-1.14.5-darwin-arm64.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 29186204,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 28897640,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "macos",
@@ -1220,12 +1220,12 @@
      "format": "pkg",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFM-1.14.4-Universal.pkg",
-     "name": "SFM-1.14.4-Universal.pkg",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFM-1.14.5-Universal.pkg",
+     "name": "SFM-1.14.5-Universal.pkg",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 103541311,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 103413001,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "macos",
@@ -1233,12 +1233,12 @@
      "format": "pkg",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFM-1.14.4-Intel.pkg",
-     "name": "SFM-1.14.4-Intel.pkg",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFM-1.14.5-Intel.pkg",
+     "name": "SFM-1.14.5-Intel.pkg",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 56731831,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 56702566,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "macos",
@@ -1246,12 +1246,12 @@
      "format": "zip",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-darwin-amd64-legacy-macos-10.13.tar.gz",
-     "name": "sing-box-1.14.4-darwin-amd64-legacy-macos-10.13.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-darwin-amd64-legacy-macos-10.13.tar.gz",
+     "name": "sing-box-1.14.5-darwin-amd64-legacy-macos-10.13.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 26154953,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 25753660,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1259,12 +1259,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-386-glibc.tar.gz",
-     "name": "sing-box-1.14.4-linux-386-glibc.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-linux-386-glibc.tar.gz",
+     "name": "sing-box-1.14.5-linux-386-glibc.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 31175934,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 31006614,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1272,12 +1272,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box_1.14.4_linux_armel.deb",
-     "name": "sing-box_1.14.4_linux_armel.deb",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box_1.14.5_linux_armel.deb",
+     "name": "sing-box_1.14.5_linux_armel.deb",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 25171438,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 24834610,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1285,12 +1285,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box_1.14.4_linux_loongarch64.rpm",
-     "name": "sing-box_1.14.4_linux_loongarch64.rpm",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box_1.14.5_linux_loongarch64.rpm",
+     "name": "sing-box_1.14.5_linux_loongarch64.rpm",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 31151760,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 30858046,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1298,12 +1298,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFI-1.14.4-iphoneos-arm64.deb",
-     "name": "SFI-1.14.4-iphoneos-arm64.deb",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFI-1.14.5-iphoneos-arm64.deb",
+     "name": "SFI-1.14.5-iphoneos-arm64.deb",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 30054404,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 29935960,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1311,12 +1311,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFL-1.14.4-aarch64.rpm",
-     "name": "SFL-1.14.4-aarch64.rpm",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFL-1.14.5-aarch64.rpm",
+     "name": "SFL-1.14.5-aarch64.rpm",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 104454277,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 104411989,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1324,12 +1324,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-arm64-glibc.tar.gz",
-     "name": "sing-box-1.14.4-linux-arm64-glibc.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-linux-arm64-glibc.tar.gz",
+     "name": "sing-box-1.14.5-linux-arm64-glibc.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 29724217,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 29464006,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1337,12 +1337,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFL-1.14.4-armv7l.deb",
-     "name": "SFL-1.14.4-armv7l.deb",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFL-1.14.5-armv7l.deb",
+     "name": "SFL-1.14.5-armv7l.deb",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 109412554,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 109378446,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1350,12 +1350,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFL-1.14.4-armv7l.rpm",
-     "name": "SFL-1.14.4-armv7l.rpm",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFL-1.14.5-armv7l.rpm",
+     "name": "SFL-1.14.5-armv7l.rpm",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 109412257,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 109400637,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1363,12 +1363,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-armv6.tar.gz",
-     "name": "sing-box-1.14.4-linux-armv6.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-linux-armv6.tar.gz",
+     "name": "sing-box-1.14.5-linux-armv6.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 25360135,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 25019289,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1376,12 +1376,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFL-1.14.4-amd64.deb",
-     "name": "SFL-1.14.4-amd64.deb",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFL-1.14.5-amd64.deb",
+     "name": "SFL-1.14.5-amd64.deb",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 112735634,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 112719410,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1389,12 +1389,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/SFL-1.14.4-x86_64.rpm",
-     "name": "SFL-1.14.4-x86_64.rpm",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/SFL-1.14.5-x86_64.rpm",
+     "name": "SFL-1.14.5-x86_64.rpm",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 112728757,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 112715493,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1402,12 +1402,12 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-amd64-glibc.tar.gz",
-     "name": "sing-box-1.14.4-linux-amd64-glibc.tar.gz",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box-1.14.5-linux-amd64-glibc.tar.gz",
+     "name": "sing-box-1.14.5-linux-amd64-glibc.tar.gz",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 32527188,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 32294215,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1415,12 +1415,12 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box_1.14.4_linux_i386.deb",
-     "name": "sing-box_1.14.4_linux_i386.deb",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box_1.14.5_linux_i386.deb",
+     "name": "sing-box_1.14.5_linux_i386.deb",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 30975018,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 30812850,
+     "published": "2026-11-27T00:38:38Z"
     },
     {
      "platform": "linux",
@@ -1428,12 +1428,12 @@
      "format": "rpm",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box_1.14.4_linux_i386.rpm",
-     "name": "sing-box_1.14.4_linux_i386.rpm",
-     "version": "v1.14.4",
+     "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.5/sing-box_1.14.5_linux_i386.rpm",
+     "name": "sing-box_1.14.5_linux_i386.rpm",
+     "version": "v1.14.5",
      "prerelease": false,
-     "size": 30891729,
-     "published": "2026-10-24T01:04:25Z"
+     "size": 30743531,
+     "published": "2026-11-27T00:38:38Z"
     }
    ]
   },
