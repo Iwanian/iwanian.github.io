@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T02:29:56.610Z",
+ "generated": "2026-11-27T11:13:13.708Z",
  "site": "https://iwanian.github.io/",
  "count": 25,
  "apps": [
@@ -408,19 +408,6 @@
     {
      "platform": "windows",
      "arch": "",
-     "format": "portable",
-     "kind": "file",
-     "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-86.zip",
-     "name": "v2rayN-windows-86.zip",
-     "version": "7.25.6",
-     "prerelease": false,
-     "size": 141128830,
-     "published": "2026-10-11T05:59:58Z"
-    },
-    {
-     "platform": "windows",
-     "arch": "",
      "format": "installer",
      "kind": "file",
      "store": "",
@@ -433,15 +420,28 @@
     },
     {
      "platform": "windows",
+     "arch": "",
+     "format": "portable",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-86-desktop.zip",
+     "name": "v2rayN-windows-86-desktop.zip",
+     "version": "7.25.6",
+     "prerelease": false,
+     "size": 145408272,
+     "published": "2026-10-11T05:59:58Z"
+    },
+    {
+     "platform": "windows",
      "arch": "arm64",
      "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-arm64.zip",
-     "name": "v2rayN-windows-arm64.zip",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-arm64-desktop.zip",
+     "name": "v2rayN-windows-arm64-desktop.zip",
      "version": "7.25.6",
      "prerelease": false,
-     "size": 155862162,
+     "size": 134940538,
      "published": "2026-10-11T05:59:58Z"
     },
     {
@@ -450,11 +450,11 @@
      "format": "installer",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.2/v2rayN-windows-arm64.exe",
-     "name": "v2rayN-windows-arm64.exe",
+     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.2/v2rayN-windows-arm64-desktop.exe",
+     "name": "v2rayN-windows-arm64-desktop.exe",
      "version": "8.0.2",
      "prerelease": true,
-     "size": 115505973,
+     "size": 120438685,
      "published": "2026-11-27T02:12:24Z"
     },
     {
@@ -463,11 +463,11 @@
      "format": "portable",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-64.zip",
-     "name": "v2rayN-windows-64.zip",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-windows-64-desktop.zip",
+     "name": "v2rayN-windows-64-desktop.zip",
      "version": "7.25.6",
      "prerelease": false,
-     "size": 168730000,
+     "size": 144735873,
      "published": "2026-10-11T05:59:58Z"
     },
     {
@@ -541,24 +541,11 @@
      "format": "deb",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-riscv64.deb",
-     "name": "v2rayN-linux-riscv64.deb",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-loong64.deb",
+     "name": "v2rayN-linux-loong64.deb",
      "version": "7.25.6",
      "prerelease": false,
-     "size": 147686188,
-     "published": "2026-10-11T05:59:58Z"
-    },
-    {
-     "platform": "linux",
-     "arch": "",
-     "format": "rpm",
-     "kind": "file",
-     "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-rhel-riscv64.rpm",
-     "name": "v2rayN-linux-rhel-riscv64.rpm",
-     "version": "7.25.6",
-     "prerelease": false,
-     "size": 88744588,
+     "size": 74266148,
      "published": "2026-10-11T05:59:58Z"
     },
     {
@@ -567,12 +554,25 @@
      "format": "archive",
      "kind": "file",
      "store": "",
-     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.1/v2rayN-linux-riscv64-WebAPI.zip",
-     "name": "v2rayN-linux-riscv64-WebAPI.zip",
-     "version": "8.0.1",
+     "url": "https://github.com/2dust/v2rayN/releases/download/8.0.2/v2rayN-linux-loong64-WebAPI-update.zip",
+     "name": "v2rayN-linux-loong64-WebAPI-update.zip",
+     "version": "8.0.2",
      "prerelease": true,
-     "size": 208139034,
-     "published": "2026-11-22T10:48:58Z"
+     "size": 44749447,
+     "published": "2026-11-27T02:12:24Z"
+    },
+    {
+     "platform": "linux",
+     "arch": "",
+     "format": "rpm",
+     "kind": "file",
+     "store": "",
+     "url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-linux-rhel-loong64.rpm",
+     "name": "v2rayN-linux-rhel-loong64.rpm",
+     "version": "7.25.6",
+     "prerelease": false,
+     "size": 85261781,
+     "published": "2026-10-11T05:59:58Z"
     },
     {
      "platform": "linux",
